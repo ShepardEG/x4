@@ -43,7 +43,7 @@ export class StationCalculatorComponent extends ComponentBase implements OnInit 
    }
 
    ngOnInit(): void {
-      this.titleService.setTitle('X4: Foundations - Station Calculator');
+      this.titleService.setTitle('X4: Foundations / Split Vendetta - Station Calculator');
 
       this.route.queryParams
          .pipe(
@@ -63,14 +63,6 @@ export class StationCalculatorComponent extends ComponentBase implements OnInit 
             }
          });
 
-      const current = this.layoutService.getCurrentLayout();
-      if (current) {
-         this.loadLayoutInternal(current);
-         if (current.name != null) {
-            this.layout = current;
-         }
-      }
-
       if (this.modules.length === 0) {
          this.modules.push(new StationModuleModel(this.wareService, this.moduleService));
       }
@@ -80,8 +72,6 @@ export class StationCalculatorComponent extends ComponentBase implements OnInit 
       this.components.forEach(x => {
          x.update();
       });
-
-      this.saveCurrentLayout();
    }
 
    shareLayout() {
@@ -110,6 +100,7 @@ export class StationCalculatorComponent extends ComponentBase implements OnInit 
                   productsPrice: this.summaryComponent.productsPrice,
                   modulesResourcesPrice: this.summaryComponent.modulesResourcesPrice,
                   provideBasicResources: this.summaryComponent.provideBasicResources,
+                  provideAllResources: this.summaryComponent.provideAllResources,
                   isHeadquarters: this.summaryComponent.isHq,
                   config: this.getModuleConfig()
                };
@@ -118,7 +109,6 @@ export class StationCalculatorComponent extends ComponentBase implements OnInit 
                   type: MessageType.success,
                   content: `<strong>${res}</strong> successfully saved.`
                });
-               this.layoutService.saveCurrentLayout(this.layout);
             }
          });
    }
@@ -132,20 +122,24 @@ export class StationCalculatorComponent extends ComponentBase implements OnInit 
          this.layout.productsPrice = this.summaryComponent.productsPrice;
          this.layout.modulesResourcesPrice = this.summaryComponent.modulesResourcesPrice;
          this.layout.provideBasicResources = this.summaryComponent.provideBasicResources;
+         this.layout.provideAllResources = this.summaryComponent.provideAllResources;
          this.layout.isHeadquarters = this.summaryComponent.isHq;
          this.layoutService.saveLayout(this.layout);
          this.messages.push({
             type: MessageType.success,
             content: `<strong>${this.layout.name}</strong> successfully saved.`
          });
-         this.layoutService.saveCurrentLayout(this.layout);
       }
    }
 
    newLayout() {
-      this.layout = null;
-      this.modules = [ new StationModuleModel(this.wareService, this.moduleService) ];
-      this.layoutService.saveCurrentLayout(null);
+      this.layout = {
+         name: null,
+         config: [
+            { moduleId: '', count: 1 }
+         ]
+      };
+      this.loadLayoutInternal(this.layout);
    }
 
    loadLayout() {
@@ -158,7 +152,6 @@ export class StationCalculatorComponent extends ComponentBase implements OnInit 
                   if (data.type == LoadLayoutType.load) {
                      this.layout = layout;
                      this.loadLayoutInternal(layout);
-                     this.layoutService.saveCurrentLayout(layout);
                   } else if (data.type == LoadLayoutType.add) {
                      const existingModules = this.modules.concat([]);
 
@@ -178,29 +171,13 @@ export class StationCalculatorComponent extends ComponentBase implements OnInit 
          });
    }
 
-   saveCurrentLayout() {
-      const current = this.getCurrentLayout();
-      this.layoutService.saveCurrentLayout(current);
-   }
-
-   private getCurrentLayout() {
-      return {
-         name: this.layout == null ? null : this.layout.name,
-         resourcesPrice: this.summaryComponent.resourcesPrice,
-         productsPrice: this.summaryComponent.productsPrice,
-         modulesResourcesPrice: this.summaryComponent.modulesResourcesPrice,
-         provideBasicResources: this.summaryComponent.provideBasicResources,
-         isHeadquarters: this.summaryComponent.isHq,
-         config: this.getModuleConfig()
-      };
-   }
-
-   private loadLayoutInternal(layout) {
+   private loadLayoutInternal(layout: Layout) {
       this.modules = this.getModules(layout.config);
       this.summaryComponent.productsPrice = layout.productsPrice == null ? 50 : layout.productsPrice;
       this.summaryComponent.modulesResourcesPrice = layout.modulesResourcesPrice == null ? 50 : layout.modulesResourcesPrice;
       this.summaryComponent.resourcesPrice = layout.resourcesPrice == null ? 50 : layout.resourcesPrice;
       this.summaryComponent.provideBasicResources = layout.provideBasicResources;
+      this.summaryComponent.provideAllResources = layout.provideAllResources;
       this.summaryComponent.isHq = layout.isHeadquarters;
    }
 

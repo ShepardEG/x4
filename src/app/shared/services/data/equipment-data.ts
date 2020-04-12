@@ -8,6 +8,7 @@ import { Size } from './size-data';
 export const Equipments = [
    {
       id: 'countermeasure_flares_01',
+      version: 0,
       name: 'Flares',
       description: 'A piece of equipment tried and tested over hundreds of years, the modern flare has continued to be a boon for many a combat pilot in recent years. Forcibly ejected from a compartment of a ship, flares then explode so that the sudden heat signature may distract a guided missile from its original target, and before exploding additionally send out a small electro-magnetic signature that can disrupt a target lock before a missile is even fired.',
       type: EquipmentType.countermeasures,
@@ -39,6 +40,7 @@ export const Equipments = [
    },
    {
       id: 'engine_arg_l_allround_01_mk1',
+      version: 0,
       name: 'ARG L All-round Engine Mk1',
       description: 'No information available',
       race: Races.argon,
@@ -47,8 +49,8 @@ export const Equipments = [
       size: Size.large,
       hull: 4033,
       price: { min: 321518, max: 392966, avg: 357242 },
-      owners: [ Factions.argon ],
-      thrust: { forward: 5083, reverse: 5591 },
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.hatikvah ],
+      thrust: { forward: 4206, reverse: 4627 },
       production: [
          {
             time: 20,
@@ -65,6 +67,7 @@ export const Equipments = [
    },
    {
       id: 'engine_arg_l_travel_01_mk1',
+      version: 0,
       name: 'ARG L Travel Engine Mk1',
       description: 'No information available',
       race: Races.argon,
@@ -72,9 +75,9 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.large,
       hull: 4033,
-      price: { min: 589519, max: 720523, avg: 655021 },
-      owners: [ Factions.argon ],
-      thrust: { forward: 4841, reverse: 4357 },
+      price: { min: 337593, max: 412614, avg: 375104 },
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon ],
+      thrust: { forward: 4006, reverse: 3605 },
       production: [
          {
             time: 20,
@@ -82,15 +85,16 @@ export const Equipments = [
             method: 'default',
             name: 'Universal',
             wares: [
-               { ware: 'antimatterconverters', amount: 278 },
-               { ware: 'energycells', amount: 25 },
-               { ware: 'engineparts', amount: 113 },
+               { ware: 'antimatterconverters', amount: 148 },
+               { ware: 'energycells', amount: 37 },
+               { ware: 'engineparts', amount: 76 },
             ],
          },
       ]
    },
    {
       id: 'engine_arg_m_allround_01_mk1',
+      version: 0,
       name: 'ARG M All-round Engine Mk1',
       description: 'No information available',
       race: Races.argon,
@@ -98,8 +102,8 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.medium,
       price: { min: 11767, max: 14382, avg: 13074 },
-      owners: [ Factions.argon ],
-      thrust: { forward: 1094, reverse: 1039 },
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.hatikvah ],
+      thrust: { forward: 1002, reverse: 952 },
       production: [
          {
             time: 15,
@@ -116,6 +120,7 @@ export const Equipments = [
    },
    {
       id: 'engine_arg_m_allround_01_mk2',
+      version: 0,
       name: 'ARG M All-round Engine Mk2',
       description: 'No information available',
       race: Races.argon,
@@ -123,8 +128,8 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.medium,
       price: { min: 58166, max: 71092, avg: 64629 },
-      owners: [ Factions.argon ],
-      thrust: { forward: 1323, reverse: 1341 },
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon ],
+      thrust: { forward: 1212, reverse: 1228 },
       production: [
          {
             time: 15,
@@ -141,6 +146,7 @@ export const Equipments = [
    },
    {
       id: 'engine_arg_m_allround_01_mk3',
+      version: 0,
       name: 'ARG M All-round Engine Mk3',
       description: 'No information available',
       race: Races.argon,
@@ -148,8 +154,8 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.medium,
       price: { min: 287722, max: 351660, avg: 319691 },
-      owners: [ Factions.argon ],
-      thrust: { forward: 1477, reverse: 1542 },
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon ],
+      thrust: { forward: 1353, reverse: 1413 },
       production: [
          {
             time: 15,
@@ -166,6 +172,7 @@ export const Equipments = [
    },
    {
       id: 'engine_arg_m_combat_01_mk1',
+      version: 0,
       name: 'ARG M Combat Engine Mk1',
       description: 'No information available',
       race: Races.argon,
@@ -173,8 +180,8 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.medium,
       price: { min: 14357, max: 17547, avg: 15952 },
-      owners: [ Factions.argon ],
-      thrust: { forward: 1148, reverse: 1206 },
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.hatikvah ],
+      thrust: { forward: 1052, reverse: 1105 },
       production: [
          {
             time: 15,
@@ -191,6 +198,7 @@ export const Equipments = [
    },
    {
       id: 'engine_arg_m_combat_01_mk2',
+      version: 0,
       name: 'ARG M Combat Engine Mk2',
       description: 'No information available',
       race: Races.argon,
@@ -198,8 +206,8 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.medium,
       price: { min: 69711, max: 85202, avg: 77457 },
-      owners: [ Factions.argon ],
-      thrust: { forward: 1390, reverse: 1605 },
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon ],
+      thrust: { forward: 1273, reverse: 1471 },
       production: [
          {
             time: 15,
@@ -216,6 +224,7 @@ export const Equipments = [
    },
    {
       id: 'engine_arg_m_combat_01_mk3',
+      version: 0,
       name: 'ARG M Combat Engine Mk3',
       description: 'No information available',
       race: Races.argon,
@@ -223,8 +232,8 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.medium,
       price: { min: 345444, max: 422209, avg: 383827 },
-      owners: [ Factions.argon ],
-      thrust: { forward: 1550, reverse: 1872 },
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon ],
+      thrust: { forward: 1420, reverse: 1715 },
       production: [
          {
             time: 15,
@@ -241,6 +250,7 @@ export const Equipments = [
    },
    {
       id: 'engine_arg_m_travel_01_mk1',
+      version: 0,
       name: 'ARG M Travel Engine Mk1',
       description: 'No information available',
       race: Races.argon,
@@ -248,8 +258,8 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.medium,
       price: { min: 13062, max: 15964, avg: 14513 },
-      owners: [ Factions.argon ],
-      thrust: { forward: 1094, reverse: 984 },
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.hatikvah ],
+      thrust: { forward: 1002, reverse: 902 },
       production: [
          {
             time: 15,
@@ -266,6 +276,7 @@ export const Equipments = [
    },
    {
       id: 'engine_arg_m_travel_01_mk2',
+      version: 0,
       name: 'ARG M Travel Engine Mk2',
       description: 'No information available',
       race: Races.argon,
@@ -273,8 +284,8 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.medium,
       price: { min: 65234, max: 79730, avg: 72482 },
-      owners: [ Factions.argon ],
-      thrust: { forward: 1323, reverse: 1191 },
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon ],
+      thrust: { forward: 1212, reverse: 1091 },
       production: [
          {
             time: 15,
@@ -291,6 +302,7 @@ export const Equipments = [
    },
    {
       id: 'engine_arg_m_travel_01_mk3',
+      version: 0,
       name: 'ARG M Travel Engine Mk3',
       description: 'No information available',
       race: Races.argon,
@@ -298,8 +310,8 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.medium,
       price: { min: 331013, max: 404572, avg: 367793 },
-      owners: [ Factions.argon ],
-      thrust: { forward: 1477, reverse: 1329 },
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon ],
+      thrust: { forward: 1353, reverse: 1217 },
       production: [
          {
             time: 15,
@@ -316,6 +328,7 @@ export const Equipments = [
    },
    {
       id: 'engine_arg_s_allround_01_mk1',
+      version: 0,
       name: 'ARG S All-round Engine Mk1',
       description: 'No information available',
       race: Races.argon,
@@ -323,7 +336,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.small,
       price: { min: 5526, max: 6754, avg: 6140 },
-      owners: [ Factions.argon ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.hatikvah ],
       thrust: { forward: 396, reverse: 416 },
       production: [
          {
@@ -340,6 +353,7 @@ export const Equipments = [
    },
    {
       id: 'engine_arg_s_allround_01_mk2',
+      version: 0,
       name: 'ARG S All-round Engine Mk2',
       description: 'No information available',
       race: Races.argon,
@@ -347,7 +361,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.small,
       price: { min: 26370, max: 32230, avg: 29300 },
-      owners: [ Factions.argon ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon ],
       thrust: { forward: 479, reverse: 574 },
       production: [
          {
@@ -365,6 +379,7 @@ export const Equipments = [
    },
    {
       id: 'engine_arg_s_allround_01_mk3',
+      version: 0,
       name: 'ARG S All-round Engine Mk3',
       description: 'No information available',
       race: Races.argon,
@@ -372,7 +387,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.small,
       price: { min: 123301, max: 150701, avg: 137001 },
-      owners: [ Factions.argon ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon ],
       thrust: { forward: 535, reverse: 679 },
       production: [
          {
@@ -390,6 +405,7 @@ export const Equipments = [
    },
    {
       id: 'engine_arg_s_combat_01_mk1',
+      version: 0,
       name: 'ARG S Combat Engine Mk1',
       description: 'No information available',
       race: Races.argon,
@@ -397,7 +413,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.small,
       price: { min: 8116, max: 9919, avg: 9017 },
-      owners: [ Factions.argon ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.hatikvah ],
       thrust: { forward: 416, reverse: 499 },
       production: [
          {
@@ -414,6 +430,7 @@ export const Equipments = [
    },
    {
       id: 'engine_arg_s_combat_01_mk2',
+      version: 0,
       name: 'ARG S Combat Engine Mk2',
       description: 'No information available',
       race: Races.argon,
@@ -421,7 +438,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.small,
       price: { min: 40504, max: 49505, avg: 45005 },
-      owners: [ Factions.argon ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon ],
       thrust: { forward: 503, reverse: 710 },
       production: [
          {
@@ -439,6 +456,7 @@ export const Equipments = [
    },
    {
       id: 'engine_arg_s_combat_01_mk3',
+      version: 0,
       name: 'ARG S Combat Engine Mk3',
       description: 'No information available',
       race: Races.argon,
@@ -446,7 +464,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.small,
       price: { min: 181023, max: 221250, avg: 201137 },
-      owners: [ Factions.argon ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon ],
       thrust: { forward: 561, reverse: 850 },
       production: [
          {
@@ -464,6 +482,7 @@ export const Equipments = [
    },
    {
       id: 'engine_arg_s_travel_01_mk1',
+      version: 0,
       name: 'ARG S Travel Engine Mk1',
       description: 'No information available',
       race: Races.argon,
@@ -471,7 +490,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.small,
       price: { min: 6821, max: 8336, avg: 7579 },
-      owners: [ Factions.argon ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.hatikvah ],
       thrust: { forward: 396, reverse: 396 },
       production: [
          {
@@ -488,6 +507,7 @@ export const Equipments = [
    },
    {
       id: 'engine_arg_s_travel_01_mk2',
+      version: 0,
       name: 'ARG S Travel Engine Mk2',
       description: 'No information available',
       race: Races.argon,
@@ -495,7 +515,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.small,
       price: { min: 34732, max: 42450, avg: 38591 },
-      owners: [ Factions.argon ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon ],
       thrust: { forward: 479, reverse: 499 },
       production: [
          {
@@ -513,6 +533,7 @@ export const Equipments = [
    },
    {
       id: 'engine_arg_s_travel_01_mk3',
+      version: 0,
       name: 'ARG S Travel Engine Mk3',
       description: 'No information available',
       race: Races.argon,
@@ -520,7 +541,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.small,
       price: { min: 166592, max: 203613, avg: 185103 },
-      owners: [ Factions.argon ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon ],
       thrust: { forward: 535, reverse: 568 },
       production: [
          {
@@ -538,6 +559,7 @@ export const Equipments = [
    },
    {
       id: 'engine_arg_xl_allround_01_mk1',
+      version: 0,
       name: 'ARG XL All-round Engine Mk1',
       description: 'No information available',
       race: Races.argon,
@@ -546,8 +568,8 @@ export const Equipments = [
       size: Size.extralarge,
       hull: 12193,
       price: { min: 424061, max: 518297, avg: 471179 },
-      owners: [ Factions.argon ],
-      thrust: { forward: 14571, reverse: 16028 },
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon ],
+      thrust: { forward: 11076, reverse: 12184 },
       production: [
          {
             time: 30,
@@ -564,6 +586,7 @@ export const Equipments = [
    },
    {
       id: 'engine_arg_xl_travel_01_mk1',
+      version: 0,
       name: 'ARG XL Travel Engine Mk1',
       description: 'No information available',
       race: Races.argon,
@@ -571,9 +594,9 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.extralarge,
       hull: 9955,
-      price: { min: 748675, max: 915047, avg: 831861 },
-      owners: [ Factions.argon ],
-      thrust: { forward: 13877, reverse: 12490 },
+      price: { min: 445263, max: 544210, avg: 494737 },
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon ],
+      thrust: { forward: 10549, reverse: 9494 },
       production: [
          {
             time: 30,
@@ -581,15 +604,61 @@ export const Equipments = [
             method: 'default',
             name: 'Universal',
             wares: [
-               { ware: 'antimatterconverters', amount: 349 },
+               { ware: 'antimatterconverters', amount: 195 },
                { ware: 'energycells', amount: 50 },
-               { ware: 'engineparts', amount: 148 },
+               { ware: 'engineparts', amount: 101 },
             ],
          },
       ]
    },
    {
+      id: 'engine_kha_m_combat_01_mk1',
+      version: 0,
+      name: 'KHA M Combat Engine Mk1',
+      description: 'No information available',
+      race: Races.khaak,
+      type: EquipmentType.engines,
+      equipmentClass: EquipmentClass.engine,
+      size: Size.medium,
+      price: { min: 1, max: 1, avg: 1 },
+      owners: [ Factions.khaak ],
+      thrust: { forward: 1400, reverse: 1600 },
+      production: [
+      ]
+   },
+   {
+      id: 'engine_kha_m_combat_02_mk1',
+      version: 0,
+      name: 'KHA M Combat Engine Array Mk1',
+      description: 'No information available',
+      race: Races.khaak,
+      type: EquipmentType.engines,
+      equipmentClass: EquipmentClass.engine,
+      size: Size.medium,
+      price: { min: 1, max: 1, avg: 1 },
+      owners: [ Factions.khaak ],
+      thrust: { forward: 1400, reverse: 1662 },
+      production: [
+      ]
+   },
+   {
+      id: 'engine_kha_s_combat_01_mk1',
+      version: 0,
+      name: 'KHA S Combat Engine Mk1',
+      description: 'No information available',
+      race: Races.khaak,
+      type: EquipmentType.engines,
+      equipmentClass: EquipmentClass.engine,
+      size: Size.small,
+      price: { min: 1, max: 1, avg: 1 },
+      owners: [ Factions.khaak ],
+      thrust: { forward: 500, reverse: 770 },
+      production: [
+      ]
+   },
+   {
       id: 'engine_par_l_allround_01_mk1',
+      version: 0,
       name: 'PAR L All-round Engine Mk1',
       description: 'No information available',
       race: Races.paranid,
@@ -597,9 +666,9 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.large,
       hull: 4018,
-      price: { min: 321518, max: 392966, avg: 357242 },
-      owners: [ Factions.paranid ],
-      thrust: { forward: 5235, reverse: 5759 },
+      price: { min: 324732, max: 396895, avg: 360814 },
+      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
+      thrust: { forward: 4332, reverse: 4766 },
       production: [
          {
             time: 20,
@@ -616,6 +685,7 @@ export const Equipments = [
    },
    {
       id: 'engine_par_l_travel_01_mk1',
+      version: 0,
       name: 'PAR L Travel Engine Mk1',
       description: 'No information available',
       race: Races.paranid,
@@ -623,9 +693,9 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.large,
       hull: 4018,
-      price: { min: 589519, max: 720523, avg: 655021 },
-      owners: [ Factions.paranid ],
-      thrust: { forward: 4986, reverse: 4488 },
+      price: { min: 340969, max: 416740, avg: 378855 },
+      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
+      thrust: { forward: 4126, reverse: 3713 },
       production: [
          {
             time: 20,
@@ -633,15 +703,16 @@ export const Equipments = [
             method: 'default',
             name: 'Universal',
             wares: [
-               { ware: 'antimatterconverters', amount: 278 },
-               { ware: 'energycells', amount: 25 },
-               { ware: 'engineparts', amount: 113 },
+               { ware: 'antimatterconverters', amount: 148 },
+               { ware: 'energycells', amount: 37 },
+               { ware: 'engineparts', amount: 76 },
             ],
          },
       ]
    },
    {
       id: 'engine_par_m_allround_01_mk1',
+      version: 0,
       name: 'PAR M All-round Engine Mk1',
       description: 'No information available',
       race: Races.paranid,
@@ -649,8 +720,8 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.medium,
       price: { min: 11767, max: 14382, avg: 13074 },
-      owners: [ Factions.paranid ],
-      thrust: { forward: 1127, reverse: 1070 },
+      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
+      thrust: { forward: 1032, reverse: 980 },
       production: [
          {
             time: 15,
@@ -667,6 +738,7 @@ export const Equipments = [
    },
    {
       id: 'engine_par_m_allround_01_mk2',
+      version: 0,
       name: 'PAR M All-round Engine Mk2',
       description: 'No information available',
       race: Races.paranid,
@@ -674,8 +746,8 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.medium,
       price: { min: 58166, max: 71092, avg: 64629 },
-      owners: [ Factions.paranid ],
-      thrust: { forward: 1363, reverse: 1381 },
+      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
+      thrust: { forward: 1249, reverse: 1265 },
       production: [
          {
             time: 15,
@@ -692,6 +764,7 @@ export const Equipments = [
    },
    {
       id: 'engine_par_m_allround_01_mk3',
+      version: 0,
       name: 'PAR M All-round Engine Mk3',
       description: 'No information available',
       race: Races.paranid,
@@ -699,8 +772,8 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.medium,
       price: { min: 287722, max: 351660, avg: 319691 },
-      owners: [ Factions.paranid ],
-      thrust: { forward: 1521, reverse: 1588 },
+      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
+      thrust: { forward: 1393, reverse: 1455 },
       production: [
          {
             time: 15,
@@ -717,6 +790,7 @@ export const Equipments = [
    },
    {
       id: 'engine_par_m_combat_01_mk1',
+      version: 0,
       name: 'PAR M Combat Engine Mk1',
       description: 'No information available',
       race: Races.paranid,
@@ -724,8 +798,8 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.medium,
       price: { min: 14357, max: 17547, avg: 15952 },
-      owners: [ Factions.paranid ],
-      thrust: { forward: 1183, reverse: 1242 },
+      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
+      thrust: { forward: 1084, reverse: 1138 },
       production: [
          {
             time: 15,
@@ -742,6 +816,7 @@ export const Equipments = [
    },
    {
       id: 'engine_par_m_combat_01_mk2',
+      version: 0,
       name: 'PAR M Combat Engine Mk2',
       description: 'No information available',
       race: Races.paranid,
@@ -749,8 +824,8 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.medium,
       price: { min: 69711, max: 85202, avg: 77457 },
-      owners: [ Factions.paranid ],
-      thrust: { forward: 1431, reverse: 1654 },
+      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
+      thrust: { forward: 1311, reverse: 1515 },
       production: [
          {
             time: 15,
@@ -767,6 +842,7 @@ export const Equipments = [
    },
    {
       id: 'engine_par_m_combat_01_mk3',
+      version: 0,
       name: 'PAR M Combat Engine Mk3',
       description: 'No information available',
       race: Races.paranid,
@@ -774,8 +850,8 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.medium,
       price: { min: 345444, max: 422209, avg: 383827 },
-      owners: [ Factions.paranid ],
-      thrust: { forward: 1597, reverse: 1928 },
+      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
+      thrust: { forward: 1463, reverse: 1766 },
       production: [
          {
             time: 15,
@@ -792,6 +868,7 @@ export const Equipments = [
    },
    {
       id: 'engine_par_m_travel_01_mk1',
+      version: 0,
       name: 'PAR M Travel Engine Mk1',
       description: 'No information available',
       race: Races.paranid,
@@ -799,8 +876,8 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.medium,
       price: { min: 13062, max: 15964, avg: 14513 },
-      owners: [ Factions.paranid ],
-      thrust: { forward: 1127, reverse: 1014 },
+      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
+      thrust: { forward: 1032, reverse: 929 },
       production: [
          {
             time: 15,
@@ -817,6 +894,7 @@ export const Equipments = [
    },
    {
       id: 'engine_par_m_travel_01_mk2',
+      version: 0,
       name: 'PAR M Travel Engine Mk2',
       description: 'No information available',
       race: Races.paranid,
@@ -824,8 +902,8 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.medium,
       price: { min: 65234, max: 79730, avg: 72482 },
-      owners: [ Factions.paranid ],
-      thrust: { forward: 1363, reverse: 1227 },
+      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
+      thrust: { forward: 1249, reverse: 1124 },
       production: [
          {
             time: 15,
@@ -842,6 +920,7 @@ export const Equipments = [
    },
    {
       id: 'engine_par_m_travel_01_mk3',
+      version: 0,
       name: 'PAR M Travel Engine Mk3',
       description: 'No information available',
       race: Races.paranid,
@@ -849,8 +928,8 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.medium,
       price: { min: 331013, max: 404572, avg: 367793 },
-      owners: [ Factions.paranid ],
-      thrust: { forward: 1521, reverse: 1369 },
+      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
+      thrust: { forward: 1393, reverse: 1254 },
       production: [
          {
             time: 15,
@@ -867,6 +946,7 @@ export const Equipments = [
    },
    {
       id: 'engine_par_s_allround_01_mk1',
+      version: 0,
       name: 'PAR S All-round Engine Mk1',
       description: 'No information available',
       race: Races.paranid,
@@ -874,7 +954,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.small,
       price: { min: 5526, max: 6754, avg: 6140 },
-      owners: [ Factions.paranid ],
+      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
       thrust: { forward: 408, reverse: 428 },
       production: [
          {
@@ -891,6 +971,7 @@ export const Equipments = [
    },
    {
       id: 'engine_par_s_allround_01_mk2',
+      version: 0,
       name: 'PAR S All-round Engine Mk2',
       description: 'No information available',
       race: Races.paranid,
@@ -898,7 +979,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.small,
       price: { min: 26370, max: 32230, avg: 29300 },
-      owners: [ Factions.paranid ],
+      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
       thrust: { forward: 494, reverse: 591 },
       production: [
          {
@@ -916,6 +997,7 @@ export const Equipments = [
    },
    {
       id: 'engine_par_s_allround_01_mk3',
+      version: 0,
       name: 'PAR S All-round Engine Mk3',
       description: 'No information available',
       race: Races.paranid,
@@ -923,7 +1005,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.small,
       price: { min: 123301, max: 150701, avg: 137001 },
-      owners: [ Factions.paranid ],
+      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
       thrust: { forward: 551, reverse: 700 },
       production: [
          {
@@ -941,6 +1023,7 @@ export const Equipments = [
    },
    {
       id: 'engine_par_s_combat_01_mk1',
+      version: 0,
       name: 'PAR S Combat Engine Mk1',
       description: 'No information available',
       race: Races.paranid,
@@ -948,7 +1031,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.small,
       price: { min: 8116, max: 9919, avg: 9017 },
-      owners: [ Factions.paranid ],
+      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
       thrust: { forward: 428, reverse: 514 },
       production: [
          {
@@ -965,6 +1048,7 @@ export const Equipments = [
    },
    {
       id: 'engine_par_s_combat_01_mk2',
+      version: 0,
       name: 'PAR S Combat Engine Mk2',
       description: 'No information available',
       race: Races.paranid,
@@ -972,7 +1056,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.small,
       price: { min: 40504, max: 49505, avg: 45005 },
-      owners: [ Factions.paranid ],
+      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
       thrust: { forward: 518, reverse: 731 },
       production: [
          {
@@ -990,6 +1074,7 @@ export const Equipments = [
    },
    {
       id: 'engine_par_s_combat_01_mk3',
+      version: 0,
       name: 'PAR S Combat Engine Mk3',
       description: 'No information available',
       race: Races.paranid,
@@ -997,7 +1082,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.small,
       price: { min: 181023, max: 221250, avg: 201137 },
-      owners: [ Factions.paranid ],
+      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
       thrust: { forward: 578, reverse: 876 },
       production: [
          {
@@ -1015,6 +1100,7 @@ export const Equipments = [
    },
    {
       id: 'engine_par_s_travel_01_mk1',
+      version: 0,
       name: 'PAR S Travel Engine Mk1',
       description: 'No information available',
       race: Races.paranid,
@@ -1022,7 +1108,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.small,
       price: { min: 6821, max: 8336, avg: 7579 },
-      owners: [ Factions.paranid ],
+      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
       thrust: { forward: 408, reverse: 408 },
       production: [
          {
@@ -1039,6 +1125,7 @@ export const Equipments = [
    },
    {
       id: 'engine_par_s_travel_01_mk2',
+      version: 0,
       name: 'PAR S Travel Engine Mk2',
       description: 'No information available',
       race: Races.paranid,
@@ -1046,7 +1133,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.small,
       price: { min: 34732, max: 42450, avg: 38591 },
-      owners: [ Factions.paranid ],
+      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
       thrust: { forward: 494, reverse: 514 },
       production: [
          {
@@ -1064,6 +1151,7 @@ export const Equipments = [
    },
    {
       id: 'engine_par_s_travel_01_mk3',
+      version: 0,
       name: 'PAR S Travel Engine Mk3',
       description: 'No information available',
       race: Races.paranid,
@@ -1071,7 +1159,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.small,
       price: { min: 166592, max: 203613, avg: 185103 },
-      owners: [ Factions.paranid ],
+      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
       thrust: { forward: 551, reverse: 585 },
       production: [
          {
@@ -1089,6 +1177,7 @@ export const Equipments = [
    },
    {
       id: 'engine_par_xl_allround_01_mk1',
+      version: 0,
       name: 'PAR XL All-round Engine Mk1',
       description: 'No information available',
       race: Races.paranid,
@@ -1096,9 +1185,9 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.extralarge,
       hull: 9899,
-      price: { min: 424061, max: 518297, avg: 471179 },
-      owners: [ Factions.paranid ],
-      thrust: { forward: 15008, reverse: 16509 },
+      price: { min: 428301, max: 523479, avg: 475890 },
+      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
+      thrust: { forward: 11408, reverse: 12549 },
       production: [
          {
             time: 30,
@@ -1115,6 +1204,7 @@ export const Equipments = [
    },
    {
       id: 'engine_par_xl_travel_01_mk1',
+      version: 0,
       name: 'PAR XL Travel Engine Mk1',
       description: 'No information available',
       race: Races.paranid,
@@ -1122,9 +1212,9 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.extralarge,
       hull: 9955,
-      price: { min: 748675, max: 915047, avg: 831861 },
-      owners: [ Factions.paranid ],
-      thrust: { forward: 14294, reverse: 12864 },
+      price: { min: 449716, max: 549653, avg: 499685 },
+      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
+      thrust: { forward: 10865, reverse: 9779 },
       production: [
          {
             time: 30,
@@ -1132,15 +1222,16 @@ export const Equipments = [
             method: 'default',
             name: 'Universal',
             wares: [
-               { ware: 'antimatterconverters', amount: 349 },
-               { ware: 'energycells', amount: 50 },
-               { ware: 'engineparts', amount: 148 },
+               { ware: 'antimatterconverters', amount: 205 },
+               { ware: 'energycells', amount: 56 },
+               { ware: 'engineparts', amount: 91 },
             ],
          },
       ]
    },
    {
       id: 'engine_tel_l_allround_01_mk1',
+      version: 0,
       name: 'TEL L All-round Engine Mk1',
       description: 'No information available',
       race: Races.teladi,
@@ -1149,8 +1240,8 @@ export const Equipments = [
       size: Size.large,
       hull: 4018,
       price: { min: 321235, max: 392621, avg: 356928 },
-      owners: [ Factions.teladi ],
-      thrust: { forward: 4930, reverse: 5424 },
+      owners: [ Factions.alliance, Factions.ministry, Factions.scaleplate, Factions.teladi ],
+      thrust: { forward: 4080, reverse: 4488 },
       production: [
          {
             time: 20,
@@ -1167,6 +1258,7 @@ export const Equipments = [
    },
    {
       id: 'engine_tel_l_travel_01_mk1',
+      version: 0,
       name: 'TEL L Travel Engine Mk1',
       description: 'No information available',
       race: Races.teladi,
@@ -1174,9 +1266,9 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.large,
       hull: 4018,
-      price: { min: 588999, max: 719887, avg: 654443 },
-      owners: [ Factions.teladi ],
-      thrust: { forward: 4696, reverse: 4226 },
+      price: { min: 337296, max: 412251, avg: 374774 },
+      owners: [ Factions.alliance, Factions.ministry, Factions.teladi ],
+      thrust: { forward: 3886, reverse: 3497 },
       production: [
          {
             time: 20,
@@ -1184,15 +1276,16 @@ export const Equipments = [
             method: 'default',
             name: 'Universal',
             wares: [
-               { ware: 'antimatterconverters', amount: 278 },
-               { ware: 'energycells', amount: 25 },
-               { ware: 'engineparts', amount: 113 },
+               { ware: 'antimatterconverters', amount: 148 },
+               { ware: 'energycells', amount: 39 },
+               { ware: 'engineparts', amount: 76 },
             ],
          },
       ]
    },
    {
       id: 'engine_tel_m_allround_01_mk1',
+      version: 0,
       name: 'TEL M All-round Engine Mk1',
       description: 'No information available',
       race: Races.teladi,
@@ -1200,8 +1293,8 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.medium,
       price: { min: 11757, max: 14370, avg: 13064 },
-      owners: [ Factions.teladi ],
-      thrust: { forward: 1061, reverse: 1008 },
+      owners: [ Factions.alliance, Factions.ministry, Factions.scaleplate, Factions.teladi ],
+      thrust: { forward: 972, reverse: 923 },
       production: [
          {
             time: 15,
@@ -1218,6 +1311,7 @@ export const Equipments = [
    },
    {
       id: 'engine_tel_m_allround_01_mk2',
+      version: 0,
       name: 'TEL M All-round Engine Mk2',
       description: 'No information available',
       race: Races.teladi,
@@ -1225,8 +1319,8 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.medium,
       price: { min: 58118, max: 71033, avg: 64575 },
-      owners: [ Factions.teladi ],
-      thrust: { forward: 1284, reverse: 1301 },
+      owners: [ Factions.alliance, Factions.ministry, Factions.teladi ],
+      thrust: { forward: 1176, reverse: 1192 },
       production: [
          {
             time: 15,
@@ -1243,6 +1337,7 @@ export const Equipments = [
    },
    {
       id: 'engine_tel_m_allround_01_mk3',
+      version: 0,
       name: 'TEL M All-round Engine Mk3',
       description: 'No information available',
       race: Races.teladi,
@@ -1250,8 +1345,8 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.medium,
       price: { min: 287479, max: 351363, avg: 319421 },
-      owners: [ Factions.teladi ],
-      thrust: { forward: 1432, reverse: 1496 },
+      owners: [ Factions.alliance, Factions.ministry, Factions.teladi ],
+      thrust: { forward: 1312, reverse: 1370 },
       production: [
          {
             time: 15,
@@ -1268,6 +1363,7 @@ export const Equipments = [
    },
    {
       id: 'engine_tel_m_combat_01_mk1',
+      version: 0,
       name: 'TEL M Combat Engine Mk1',
       description: 'No information available',
       race: Races.teladi,
@@ -1275,8 +1371,8 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.medium,
       price: { min: 14345, max: 17533, avg: 15939 },
-      owners: [ Factions.teladi ],
-      thrust: { forward: 1114, reverse: 1170 },
+      owners: [ Factions.alliance, Factions.ministry, Factions.scaleplate, Factions.teladi ],
+      thrust: { forward: 1021, reverse: 1072 },
       production: [
          {
             time: 15,
@@ -1293,6 +1389,7 @@ export const Equipments = [
    },
    {
       id: 'engine_tel_m_combat_01_mk2',
+      version: 0,
       name: 'TEL M Combat Engine Mk2',
       description: 'No information available',
       race: Races.teladi,
@@ -1300,8 +1397,8 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.medium,
       price: { min: 69652, max: 85131, avg: 77391 },
-      owners: [ Factions.teladi ],
-      thrust: { forward: 1348, reverse: 1557 },
+      owners: [ Factions.alliance, Factions.ministry, Factions.scaleplate, Factions.teladi ],
+      thrust: { forward: 1235, reverse: 1427 },
       production: [
          {
             time: 15,
@@ -1318,6 +1415,7 @@ export const Equipments = [
    },
    {
       id: 'engine_tel_m_combat_01_mk3',
+      version: 0,
       name: 'TEL M Combat Engine Mk3',
       description: 'No information available',
       race: Races.teladi,
@@ -1325,8 +1423,8 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.medium,
       price: { min: 345151, max: 421851, avg: 383501 },
-      owners: [ Factions.teladi ],
-      thrust: { forward: 1504, reverse: 1816 },
+      owners: [ Factions.alliance, Factions.ministry, Factions.teladi ],
+      thrust: { forward: 1378, reverse: 1663 },
       production: [
          {
             time: 15,
@@ -1343,6 +1441,7 @@ export const Equipments = [
    },
    {
       id: 'engine_tel_m_travel_01_mk1',
+      version: 0,
       name: 'TEL M Travel Engine Mk1',
       description: 'No information available',
       race: Races.teladi,
@@ -1350,8 +1449,8 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.medium,
       price: { min: 13051, max: 15952, avg: 14501 },
-      owners: [ Factions.teladi ],
-      thrust: { forward: 1061, reverse: 955 },
+      owners: [ Factions.alliance, Factions.ministry, Factions.scaleplate, Factions.teladi ],
+      thrust: { forward: 972, reverse: 875 },
       production: [
          {
             time: 15,
@@ -1368,6 +1467,7 @@ export const Equipments = [
    },
    {
       id: 'engine_tel_m_travel_01_mk2',
+      version: 0,
       name: 'TEL M Travel Engine Mk2',
       description: 'No information available',
       race: Races.teladi,
@@ -1375,8 +1475,8 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.medium,
       price: { min: 65179, max: 79663, avg: 72421 },
-      owners: [ Factions.teladi ],
-      thrust: { forward: 1284, reverse: 1155 },
+      owners: [ Factions.alliance, Factions.ministry, Factions.teladi ],
+      thrust: { forward: 1176, reverse: 1058 },
       production: [
          {
             time: 15,
@@ -1393,6 +1493,7 @@ export const Equipments = [
    },
    {
       id: 'engine_tel_m_travel_01_mk3',
+      version: 0,
       name: 'TEL M Travel Engine Mk3',
       description: 'No information available',
       race: Races.teladi,
@@ -1400,8 +1501,8 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.medium,
       price: { min: 330733, max: 404229, avg: 367481 },
-      owners: [ Factions.teladi ],
-      thrust: { forward: 1432, reverse: 1289 },
+      owners: [ Factions.alliance, Factions.ministry, Factions.teladi ],
+      thrust: { forward: 1312, reverse: 1181 },
       production: [
          {
             time: 15,
@@ -1418,6 +1519,7 @@ export const Equipments = [
    },
    {
       id: 'engine_tel_s_allround_01_mk1',
+      version: 0,
       name: 'TEL S All-round Engine Mk1',
       description: 'No information available',
       race: Races.teladi,
@@ -1425,7 +1527,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.small,
       price: { min: 5522, max: 6749, avg: 6135 },
-      owners: [ Factions.teladi ],
+      owners: [ Factions.alliance, Factions.ministry, Factions.scaleplate, Factions.teladi ],
       thrust: { forward: 384, reverse: 403 },
       production: [
          {
@@ -1442,6 +1544,7 @@ export const Equipments = [
    },
    {
       id: 'engine_tel_s_allround_01_mk2',
+      version: 0,
       name: 'TEL S All-round Engine Mk2',
       description: 'No information available',
       race: Races.teladi,
@@ -1449,7 +1552,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.small,
       price: { min: 26348, max: 32203, avg: 29276 },
-      owners: [ Factions.teladi ],
+      owners: [ Factions.alliance, Factions.ministry, Factions.teladi ],
       thrust: { forward: 465, reverse: 557 },
       production: [
          {
@@ -1467,6 +1570,7 @@ export const Equipments = [
    },
    {
       id: 'engine_tel_s_allround_01_mk3',
+      version: 0,
       name: 'TEL S All-round Engine Mk3',
       description: 'No information available',
       race: Races.teladi,
@@ -1474,7 +1578,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.small,
       price: { min: 123197, max: 150574, avg: 136885 },
-      owners: [ Factions.teladi ],
+      owners: [ Factions.alliance, Factions.ministry, Factions.teladi ],
       thrust: { forward: 519, reverse: 659 },
       production: [
          {
@@ -1492,6 +1596,7 @@ export const Equipments = [
    },
    {
       id: 'engine_tel_s_combat_01_mk1',
+      version: 0,
       name: 'TEL S Combat Engine Mk1',
       description: 'No information available',
       race: Races.teladi,
@@ -1499,7 +1604,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.small,
       price: { min: 8110, max: 9912, avg: 9011 },
-      owners: [ Factions.teladi ],
+      owners: [ Factions.alliance, Factions.ministry, Factions.scaleplate, Factions.teladi ],
       thrust: { forward: 403, reverse: 484 },
       production: [
          {
@@ -1516,6 +1621,7 @@ export const Equipments = [
    },
    {
       id: 'engine_tel_s_combat_01_mk2',
+      version: 0,
       name: 'TEL S Combat Engine Mk2',
       description: 'No information available',
       race: Races.teladi,
@@ -1523,7 +1629,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.small,
       price: { min: 40471, max: 49464, avg: 44967 },
-      owners: [ Factions.teladi ],
+      owners: [ Factions.alliance, Factions.ministry, Factions.scaleplate, Factions.teladi ],
       thrust: { forward: 488, reverse: 688 },
       production: [
          {
@@ -1541,6 +1647,7 @@ export const Equipments = [
    },
    {
       id: 'engine_tel_s_combat_01_mk3',
+      version: 0,
       name: 'TEL S Combat Engine Mk3',
       description: 'No information available',
       race: Races.teladi,
@@ -1548,7 +1655,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.small,
       price: { min: 180869, max: 221062, avg: 200966 },
-      owners: [ Factions.teladi ],
+      owners: [ Factions.alliance, Factions.ministry, Factions.teladi ],
       thrust: { forward: 544, reverse: 825 },
       production: [
          {
@@ -1566,6 +1673,7 @@ export const Equipments = [
    },
    {
       id: 'engine_tel_s_travel_01_mk1',
+      version: 0,
       name: 'TEL S Travel Engine Mk1',
       description: 'No information available',
       race: Races.teladi,
@@ -1573,7 +1681,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.small,
       price: { min: 6816, max: 8330, avg: 7573 },
-      owners: [ Factions.teladi ],
+      owners: [ Factions.alliance, Factions.ministry, Factions.scaleplate, Factions.teladi ],
       thrust: { forward: 384, reverse: 384 },
       production: [
          {
@@ -1590,6 +1698,7 @@ export const Equipments = [
    },
    {
       id: 'engine_tel_s_travel_01_mk2',
+      version: 0,
       name: 'TEL S Travel Engine Mk2',
       description: 'No information available',
       race: Races.teladi,
@@ -1597,7 +1706,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.small,
       price: { min: 34703, max: 42415, avg: 38559 },
-      owners: [ Factions.teladi ],
+      owners: [ Factions.alliance, Factions.ministry, Factions.teladi ],
       thrust: { forward: 465, reverse: 484 },
       production: [
          {
@@ -1615,6 +1724,7 @@ export const Equipments = [
    },
    {
       id: 'engine_tel_s_travel_01_mk3',
+      version: 0,
       name: 'TEL S Travel Engine Mk3',
       description: 'No information available',
       race: Races.teladi,
@@ -1622,7 +1732,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.small,
       price: { min: 166451, max: 203440, avg: 184946 },
-      owners: [ Factions.teladi ],
+      owners: [ Factions.alliance, Factions.ministry, Factions.teladi ],
       thrust: { forward: 519, reverse: 551 },
       production: [
          {
@@ -1640,6 +1750,7 @@ export const Equipments = [
    },
    {
       id: 'engine_tel_xl_allround_01_mk1',
+      version: 0,
       name: 'TEL XL All-round Engine Mk1',
       description: 'No information available',
       race: Races.teladi,
@@ -1648,8 +1759,8 @@ export const Equipments = [
       size: Size.extralarge,
       hull: 9939,
       price: { min: 423689, max: 517843, avg: 470766 },
-      owners: [ Factions.teladi ],
-      thrust: { forward: 14134, reverse: 15547 },
+      owners: [ Factions.alliance, Factions.ministry, Factions.teladi ],
+      thrust: { forward: 10744, reverse: 11818 },
       production: [
          {
             time: 30,
@@ -1666,6 +1777,7 @@ export const Equipments = [
    },
    {
       id: 'engine_tel_xl_travel_01_mk1',
+      version: 0,
       name: 'TEL XL Travel Engine Mk1',
       description: 'No information available',
       race: Races.teladi,
@@ -1673,9 +1785,9 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.extralarge,
       hull: 9955,
-      price: { min: 748015, max: 914241, avg: 831128 },
-      owners: [ Factions.teladi ],
-      thrust: { forward: 14134, reverse: 15547 },
+      price: { min: 444873, max: 543734, avg: 494304 },
+      owners: [ Factions.alliance, Factions.ministry, Factions.teladi ],
+      thrust: { forward: 10232, reverse: 9209 },
       production: [
          {
             time: 30,
@@ -1683,15 +1795,16 @@ export const Equipments = [
             method: 'default',
             name: 'Universal',
             wares: [
-               { ware: 'antimatterconverters', amount: 349 },
+               { ware: 'antimatterconverters', amount: 196 },
                { ware: 'energycells', amount: 50 },
-               { ware: 'engineparts', amount: 148 },
+               { ware: 'engineparts', amount: 100 },
             ],
          },
       ]
    },
    {
       id: 'engine_xen_l_allround_01_mk1',
+      version: 0,
       name: 'XEN L All-round Engine Mk1',
       description: 'No information available',
       race: Races.xenon,
@@ -1701,7 +1814,7 @@ export const Equipments = [
       hull: 4033,
       price: { min: 321322, max: 392726, avg: 357024 },
       owners: [ Factions.xenon ],
-      thrust: { forward: 5083, reverse: 5591 },
+      thrust: { forward: 4206, reverse: 4627 },
       production: [
          {
             time: 8,
@@ -1718,6 +1831,7 @@ export const Equipments = [
    },
    {
       id: 'engine_xen_m_combat_01_mk1',
+      version: 0,
       name: 'XEN M Combat Engine Mk1',
       description: 'No information available',
       race: Races.xenon,
@@ -1726,7 +1840,7 @@ export const Equipments = [
       size: Size.medium,
       price: { min: 15811, max: 19325, avg: 17568 },
       owners: [ Factions.xenon ],
-      thrust: { forward: 1403, reverse: 1662 },
+      thrust: { forward: 1286, reverse: 1486 },
       production: [
          {
             time: 4,
@@ -1743,6 +1857,7 @@ export const Equipments = [
    },
    {
       id: 'engine_xen_m_travel_01_mk1',
+      version: 0,
       name: 'XEN M Travel Engine Mk1',
       description: 'No information available',
       race: Races.xenon,
@@ -1751,7 +1866,7 @@ export const Equipments = [
       size: Size.medium,
       price: { min: 14256, max: 17424, avg: 15840 },
       owners: [ Factions.xenon ],
-      thrust: { forward: 1336, reverse: 1125 },
+      thrust: { forward: 1224, reverse: 1102 },
       production: [
          {
             time: 10,
@@ -1768,6 +1883,7 @@ export const Equipments = [
    },
    {
       id: 'engine_xen_s_combat_01_mk1',
+      version: 0,
       name: 'XEN S Combat Engine Mk1',
       description: 'No information available',
       race: Races.xenon,
@@ -1793,6 +1909,7 @@ export const Equipments = [
    },
    {
       id: 'engine_xen_xl_allround_01_mk1',
+      version: 0,
       name: 'XEN XL All-round Engine Mk1',
       description: 'No information available',
       race: Races.xenon,
@@ -1802,7 +1919,7 @@ export const Equipments = [
       hull: 29561,
       price: { min: 424138, max: 518390, avg: 471264 },
       owners: [ Factions.xenon ],
-      thrust: { forward: 14571, reverse: 16028 },
+      thrust: { forward: 11076, reverse: 12184 },
       production: [
          {
             time: 16,
@@ -1819,12 +1936,13 @@ export const Equipments = [
    },
    {
       id: 'missile_cluster_heavy_mk1',
+      version: 0,
       name: 'Heavy Cluster Missile Mk1',
       description: 'No information available',
       type: EquipmentType.missiles,
       equipmentClass: EquipmentClass.missile,
       explosionDamage: 12141,
-      hull: 913,
+      hull: 2,
       price: { min: 1530, max: 2070, avg: 1800 },
       production: [
          {
@@ -1852,12 +1970,13 @@ export const Equipments = [
    },
    {
       id: 'missile_cluster_light_mk1',
+      version: 0,
       name: 'Light Cluster Missile Mk1',
       description: 'No information available',
       type: EquipmentType.missiles,
       equipmentClass: EquipmentClass.missile,
-      explosionDamage: 6745,
-      hull: 326,
+      explosionDamage: 2361,
+      hull: 1,
       price: { min: 680, max: 920, avg: 800 },
       production: [
          {
@@ -1885,12 +2004,13 @@ export const Equipments = [
    },
    {
       id: 'missile_dumbfire_heavy_mk1',
+      version: 0,
       name: 'Heavy Dumbfire Missile Mk1',
       description: 'No information available',
       type: EquipmentType.missiles,
       equipmentClass: EquipmentClass.missile,
       explosionDamage: 3960,
-      hull: 59,
+      hull: 2,
       price: { min: 451, max: 610, avg: 530 },
       production: [
          {
@@ -1918,12 +2038,13 @@ export const Equipments = [
    },
    {
       id: 'missile_dumbfire_heavy_mk2',
+      version: 0,
       name: 'Heavy Dumbfire Missile Mk2',
       description: 'No information available',
       type: EquipmentType.missiles,
       equipmentClass: EquipmentClass.missile,
       explosionDamage: 4320,
-      hull: 65,
+      hull: 3,
       price: { min: 1539, max: 2082, avg: 1810 },
       production: [
          {
@@ -1951,12 +2072,13 @@ export const Equipments = [
    },
    {
       id: 'missile_dumbfire_light_mk1',
+      version: 0,
       name: 'Light Dumbfire Missile Mk1',
       description: 'No information available',
       type: EquipmentType.missiles,
       equipmentClass: EquipmentClass.missile,
-      explosionDamage: 2200,
-      hull: 21,
+      explosionDamage: 1100,
+      hull: 1,
       price: { min: 213, max: 288, avg: 250 },
       production: [
          {
@@ -1984,12 +2106,13 @@ export const Equipments = [
    },
    {
       id: 'missile_dumbfire_light_mk2',
+      version: 0,
       name: 'Light Dumbfire Missile Mk2',
       description: 'No information available',
       type: EquipmentType.missiles,
       equipmentClass: EquipmentClass.missile,
-      explosionDamage: 2400,
-      hull: 23,
+      explosionDamage: 1200,
+      hull: 1,
       price: { min: 553, max: 748, avg: 650 },
       production: [
          {
@@ -2017,12 +2140,13 @@ export const Equipments = [
    },
    {
       id: 'missile_emp_mk1',
+      version: 0,
       name: 'EMP Missile Mk1',
       description: 'No information available',
       type: EquipmentType.missiles,
       equipmentClass: EquipmentClass.missile,
       explosionDamage: 0,
-      hull: 23,
+      hull: 1,
       price: { min: 808, max: 1093, avg: 950 },
       production: [
          {
@@ -2050,12 +2174,13 @@ export const Equipments = [
    },
    {
       id: 'missile_guided_heavy_mk1',
+      version: 0,
       name: 'Heavy Guided Missile Mk1',
       description: 'No information available',
       type: EquipmentType.missiles,
       equipmentClass: EquipmentClass.missile,
       explosionDamage: 3520,
-      hull: 72,
+      hull: 3,
       price: { min: 1915, max: 2590, avg: 2253 },
       production: [
          {
@@ -2084,12 +2209,13 @@ export const Equipments = [
    },
    {
       id: 'missile_guided_light_mk1',
+      version: 0,
       name: 'Light Guided Missile Mk1',
       description: 'No information available',
       type: EquipmentType.missiles,
       equipmentClass: EquipmentClass.missile,
-      explosionDamage: 1956,
-      hull: 26,
+      explosionDamage: 685,
+      hull: 1,
       price: { min: 729, max: 986, avg: 858 },
       production: [
          {
@@ -2118,12 +2244,13 @@ export const Equipments = [
    },
    {
       id: 'missile_heatseeker_heavy_mk1',
+      version: 0,
       name: 'Heavy Heatseeker Missile Mk1',
       description: 'No information available',
       type: EquipmentType.missiles,
       equipmentClass: EquipmentClass.missile,
       explosionDamage: 3592,
-      hull: 63,
+      hull: 2,
       price: { min: 2178, max: 2947, avg: 2563 },
       production: [
          {
@@ -2152,12 +2279,13 @@ export const Equipments = [
    },
    {
       id: 'missile_heatseeker_light_mk1',
+      version: 0,
       name: 'Light Heatseeker Missile Mk1',
       description: 'No information available',
       type: EquipmentType.missiles,
       equipmentClass: EquipmentClass.missile,
-      explosionDamage: 1995,
-      hull: 23,
+      explosionDamage: 698,
+      hull: 1,
       price: { min: 839, max: 1136, avg: 988 },
       production: [
          {
@@ -2186,12 +2314,13 @@ export const Equipments = [
    },
    {
       id: 'missile_smart_heavy_mk1',
+      version: 0,
       name: 'Heavy Smart Missile Mk1',
       description: 'No information available',
       type: EquipmentType.missiles,
       equipmentClass: EquipmentClass.missile,
       explosionDamage: 3378,
-      hull: 81,
+      hull: 3,
       price: { min: 2465, max: 3335, avg: 2900 },
       production: [
          {
@@ -2220,12 +2349,13 @@ export const Equipments = [
    },
    {
       id: 'missile_smart_light_mk1',
+      version: 0,
       name: 'Light Smart Missile Mk1',
       description: 'No information available',
       type: EquipmentType.missiles,
       equipmentClass: EquipmentClass.missile,
-      explosionDamage: 1877,
-      hull: 29,
+      explosionDamage: 657,
+      hull: 1,
       price: { min: 1211, max: 1639, avg: 1425 },
       production: [
          {
@@ -2254,12 +2384,13 @@ export const Equipments = [
    },
    {
       id: 'missile_swarm_heavy_mk1',
+      version: 0,
       name: 'Heavy Swarm Missile Mk1',
       description: 'No information available',
       type: EquipmentType.missiles,
       equipmentClass: EquipmentClass.missile,
       explosionDamage: 690,
-      hull: 77,
+      hull: 3,
       price: { min: 1934, max: 2616, avg: 2275 },
       production: [
          {
@@ -2288,12 +2419,13 @@ export const Equipments = [
    },
    {
       id: 'missile_swarm_light_mk1',
+      version: 0,
       name: 'Light Swarm Missile Mk1',
       description: 'No information available',
       type: EquipmentType.missiles,
       equipmentClass: EquipmentClass.missile,
-      explosionDamage: 383,
-      hull: 27,
+      explosionDamage: 134,
+      hull: 1,
       price: { min: 967, max: 1308, avg: 1138 },
       production: [
          {
@@ -2322,12 +2454,13 @@ export const Equipments = [
    },
    {
       id: 'missile_torpedo_heavy_mk1',
+      version: 0,
       name: 'Heavy Torpedo Missile Mk1',
       description: 'No information available',
       type: EquipmentType.missiles,
       equipmentClass: EquipmentClass.missile,
       explosionDamage: 17246,
-      hull: 194,
+      hull: 38,
       price: { min: 17563, max: 23762, avg: 20663 },
       production: [
          {
@@ -2356,12 +2489,13 @@ export const Equipments = [
    },
    {
       id: 'missile_torpedo_light_mk1',
+      version: 0,
       name: 'Light Torpedo Missile Mk1',
       description: 'No information available',
       type: EquipmentType.missiles,
       equipmentClass: EquipmentClass.missile,
-      explosionDamage: 9581,
-      hull: 69,
+      explosionDamage: 4791,
+      hull: 8,
       price: { min: 3921, max: 5304, avg: 4613 },
       production: [
          {
@@ -2390,6 +2524,7 @@ export const Equipments = [
    },
    {
       id: 'shield_arg_l_standard_01_mk1',
+      version: 0,
       name: 'ARG L Shield Generator Mk1',
       description: 'No information available',
       race: Races.argon,
@@ -2397,9 +2532,9 @@ export const Equipments = [
       equipmentClass: EquipmentClass.shieldgenerator,
       size: Size.large,
       hull: 2000,
-      recharge: { max: 27769, rate: 262, delay: 27.9 },
+      recharge: { max: 38844, rate: 173, delay: 0 },
       price: { min: 42166, max: 51536, avg: 46851 },
-      owners: [ Factions.argon ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.hatikvah ],
       production: [
          {
             time: 20,
@@ -2416,6 +2551,7 @@ export const Equipments = [
    },
    {
       id: 'shield_arg_l_standard_01_mk2',
+      version: 0,
       name: 'ARG L Shield Generator Mk2',
       description: 'No information available',
       race: Races.argon,
@@ -2423,9 +2559,9 @@ export const Equipments = [
       equipmentClass: EquipmentClass.shieldgenerator,
       size: Size.large,
       hull: 2000,
-      recharge: { max: 33059, rate: 405, delay: 27.9 },
+      recharge: { max: 46282, rate: 268, delay: 0 },
       price: { min: 205644, max: 251343, avg: 228494 },
-      owners: [ Factions.argon ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon ],
       production: [
          {
             time: 20,
@@ -2442,6 +2578,7 @@ export const Equipments = [
    },
    {
       id: 'shield_arg_m_standard_01_mk1',
+      version: 0,
       name: 'ARG M Shield Generator Mk1',
       description: 'No information available',
       race: Races.argon,
@@ -2449,9 +2586,9 @@ export const Equipments = [
       equipmentClass: EquipmentClass.shieldgenerator,
       size: Size.medium,
       hull: 500,
-      recharge: { max: 3680, rate: 47, delay: 23.1 },
+      recharge: { max: 5147, rate: 26, delay: 0.5 },
       price: { min: 12838, max: 15691, avg: 14264 },
-      owners: [ Factions.argon ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.hatikvah ],
       production: [
          {
             time: 10,
@@ -2468,6 +2605,7 @@ export const Equipments = [
    },
    {
       id: 'shield_arg_m_standard_01_mk2',
+      version: 0,
       name: 'ARG M Shield Generator Mk2',
       description: 'No information available',
       race: Races.argon,
@@ -2475,9 +2613,9 @@ export const Equipments = [
       equipmentClass: EquipmentClass.shieldgenerator,
       size: Size.medium,
       hull: 500,
-      recharge: { max: 4381, rate: 73, delay: 23.1 },
+      recharge: { max: 6133, rate: 41, delay: 0.5 },
       price: { min: 62115, max: 75918, avg: 69017 },
-      owners: [ Factions.argon ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon ],
       production: [
          {
             time: 10,
@@ -2494,6 +2632,7 @@ export const Equipments = [
    },
    {
       id: 'shield_arg_m_standard_02_mk1',
+      version: 0,
       name: 'ARG M Shield Generator Mk1',
       description: 'No information available',
       race: Races.argon,
@@ -2501,9 +2640,9 @@ export const Equipments = [
       equipmentClass: EquipmentClass.shieldgenerator,
       size: Size.medium,
       hull: 500,
-      recharge: { max: 3680, rate: 47, delay: 23.1 },
+      recharge: { max: 5147, rate: 26, delay: 0.5 },
       price: { min: 12838, max: 15691, avg: 14264 },
-      owners: [ Factions.argon ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.hatikvah ],
       production: [
          {
             time: 20,
@@ -2520,6 +2659,7 @@ export const Equipments = [
    },
    {
       id: 'shield_arg_m_standard_02_mk2',
+      version: 0,
       name: 'ARG M Shield Generator Mk2',
       description: 'No information available',
       race: Races.argon,
@@ -2527,9 +2667,9 @@ export const Equipments = [
       equipmentClass: EquipmentClass.shieldgenerator,
       size: Size.medium,
       hull: 500,
-      recharge: { max: 4381, rate: 73, delay: 23.1 },
+      recharge: { max: 6133, rate: 41, delay: 0.5 },
       price: { min: 61597, max: 75285, avg: 68441 },
-      owners: [ Factions.argon ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon ],
       production: [
          {
             time: 20,
@@ -2546,6 +2686,7 @@ export const Equipments = [
    },
    {
       id: 'shield_arg_s_standard_01_mk1',
+      version: 0,
       name: 'ARG S Shield Generator Mk1',
       description: 'No information available',
       race: Races.argon,
@@ -2554,7 +2695,7 @@ export const Equipments = [
       size: Size.small,
       recharge: { max: 827, rate: 82, delay: 12.1 },
       price: { min: 1218, max: 1489, avg: 1354 },
-      owners: [ Factions.argon ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.hatikvah ],
       production: [
          {
             time: 10,
@@ -2570,6 +2711,7 @@ export const Equipments = [
    },
    {
       id: 'shield_arg_s_standard_01_mk2',
+      version: 0,
       name: 'ARG S Shield Generator Mk2',
       description: 'No information available',
       race: Races.argon,
@@ -2578,7 +2720,7 @@ export const Equipments = [
       size: Size.small,
       recharge: { max: 988, rate: 128, delay: 12.1 },
       price: { min: 10186, max: 12449, avg: 11318 },
-      owners: [ Factions.argon ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon ],
       production: [
          {
             time: 10,
@@ -2595,6 +2737,7 @@ export const Equipments = [
    },
    {
       id: 'shield_arg_s_standard_01_mk3',
+      version: 0,
       name: 'ARG S Shield Generator Mk3',
       description: 'No information available',
       race: Races.argon,
@@ -2603,7 +2746,7 @@ export const Equipments = [
       size: Size.small,
       recharge: { max: 1411, rate: 219, delay: 12.1 },
       price: { min: 49892, max: 60979, avg: 55436 },
-      owners: [ Factions.argon ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon ],
       production: [
          {
             time: 10,
@@ -2620,6 +2763,7 @@ export const Equipments = [
    },
    {
       id: 'shield_arg_xl_standard_01_mk1',
+      version: 0,
       name: 'ARG XL Shield Generator Mk1',
       description: 'No information available',
       race: Races.argon,
@@ -2627,9 +2771,9 @@ export const Equipments = [
       equipmentClass: EquipmentClass.shieldgenerator,
       size: Size.extralarge,
       hull: 6000,
-      recharge: { max: 92565, rate: 637, delay: 34.5 },
+      recharge: { max: 129481, rate: 492, delay: 0 },
       price: { min: 225671, max: 275820, avg: 250745 },
-      owners: [ Factions.argon ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon ],
       production: [
          {
             time: 20,
@@ -2645,7 +2789,38 @@ export const Equipments = [
       ]
    },
    {
+      id: 'shield_kha_m_standard_01_mk1',
+      version: 0,
+      name: 'KHA S Shield Generator Mk1',
+      description: 'No information available',
+      race: Races.khaak,
+      type: EquipmentType.shields,
+      equipmentClass: EquipmentClass.shieldgenerator,
+      size: Size.small,
+      recharge: { max: 4632, rate: 25, delay: 0.57 },
+      price: { min: 1, max: 1, avg: 1 },
+      owners: [ Factions.khaak ],
+      production: [
+      ]
+   },
+   {
+      id: 'shield_kha_s_standard_01_mk1',
+      version: 0,
+      name: 'KHA M Shield Generator Mk1',
+      description: 'No information available',
+      race: Races.khaak,
+      type: EquipmentType.shields,
+      equipmentClass: EquipmentClass.shieldgenerator,
+      size: Size.small,
+      recharge: { max: 745, rate: 79, delay: 13.9 },
+      price: { min: 1, max: 1, avg: 1 },
+      owners: [ Factions.khaak ],
+      production: [
+      ]
+   },
+   {
       id: 'shield_par_l_standard_01_mk1',
+      version: 0,
       name: 'PAR L Shield Generator Mk1',
       description: 'No information available',
       race: Races.paranid,
@@ -2653,9 +2828,9 @@ export const Equipments = [
       equipmentClass: EquipmentClass.shieldgenerator,
       size: Size.large,
       hull: 2000,
-      recharge: { max: 24992, rate: 277, delay: 23.7 },
+      recharge: { max: 34960, rate: 184, delay: 0 },
       price: { min: 42166, max: 51536, avg: 46851 },
-      owners: [ Factions.paranid ],
+      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
       production: [
          {
             time: 20,
@@ -2672,6 +2847,7 @@ export const Equipments = [
    },
    {
       id: 'shield_par_l_standard_01_mk2',
+      version: 0,
       name: 'PAR L Shield Generator Mk2',
       description: 'No information available',
       race: Races.paranid,
@@ -2679,9 +2855,9 @@ export const Equipments = [
       equipmentClass: EquipmentClass.shieldgenerator,
       size: Size.large,
       hull: 2000,
-      recharge: { max: 29753, rate: 429, delay: 23.7 },
+      recharge: { max: 41654, rate: 284, delay: 0 },
       price: { min: 205644, max: 251343, avg: 228494 },
-      owners: [ Factions.paranid ],
+      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
       production: [
          {
             time: 20,
@@ -2698,6 +2874,7 @@ export const Equipments = [
    },
    {
       id: 'shield_par_m_standard_01_mk1',
+      version: 0,
       name: 'PAR M Shield Generator Mk1',
       description: 'No information available',
       race: Races.paranid,
@@ -2705,9 +2882,9 @@ export const Equipments = [
       equipmentClass: EquipmentClass.shieldgenerator,
       size: Size.medium,
       hull: 500,
-      recharge: { max: 3312, rate: 50, delay: 19.6 },
+      recharge: { max: 4632, rate: 28, delay: 0.42 },
       price: { min: 12838, max: 15691, avg: 14264 },
-      owners: [ Factions.paranid ],
+      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -2724,6 +2901,7 @@ export const Equipments = [
    },
    {
       id: 'shield_par_m_standard_01_mk2',
+      version: 0,
       name: 'PAR M Shield Generator Mk2',
       description: 'No information available',
       race: Races.paranid,
@@ -2731,9 +2909,9 @@ export const Equipments = [
       equipmentClass: EquipmentClass.shieldgenerator,
       size: Size.medium,
       hull: 500,
-      recharge: { max: 3943, rate: 77, delay: 19.6 },
+      recharge: { max: 5520, rate: 43, delay: 0.42 },
       price: { min: 62115, max: 75918, avg: 69017 },
-      owners: [ Factions.paranid ],
+      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -2750,6 +2928,7 @@ export const Equipments = [
    },
    {
       id: 'shield_par_m_standard_02_mk1',
+      version: 0,
       name: 'PAR M Shield Generator Mk1',
       description: 'No information available',
       race: Races.paranid,
@@ -2757,9 +2936,9 @@ export const Equipments = [
       equipmentClass: EquipmentClass.shieldgenerator,
       size: Size.medium,
       hull: 500,
-      recharge: { max: 3312, rate: 50, delay: 19.6 },
+      recharge: { max: 4632, rate: 28, delay: 0.42 },
       price: { min: 12015, max: 14685, avg: 13350 },
-      owners: [ Factions.paranid ],
+      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -2776,6 +2955,7 @@ export const Equipments = [
    },
    {
       id: 'shield_par_m_standard_02_mk2',
+      version: 0,
       name: 'PAR M Shield Generator Mk2',
       description: 'No information available',
       race: Races.paranid,
@@ -2783,9 +2963,9 @@ export const Equipments = [
       equipmentClass: EquipmentClass.shieldgenerator,
       size: Size.medium,
       hull: 500,
-      recharge: { max: 3943, rate: 77, delay: 19.6 },
+      recharge: { max: 5520, rate: 43, delay: 0.42 },
       price: { min: 26058, max: 31849, avg: 28954 },
-      owners: [ Factions.paranid ],
+      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -2802,6 +2982,7 @@ export const Equipments = [
    },
    {
       id: 'shield_par_s_standard_01_mk1',
+      version: 0,
       name: 'PAR S Shield Generator Mk1',
       description: 'No information available',
       race: Races.paranid,
@@ -2810,7 +2991,7 @@ export const Equipments = [
       size: Size.small,
       recharge: { max: 745, rate: 87, delay: 10.2 },
       price: { min: 1218, max: 1489, avg: 1354 },
-      owners: [ Factions.paranid ],
+      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -2826,6 +3007,7 @@ export const Equipments = [
    },
    {
       id: 'shield_par_s_standard_01_mk2',
+      version: 0,
       name: 'PAR S Shield Generator Mk2',
       description: 'No information available',
       race: Races.paranid,
@@ -2834,7 +3016,7 @@ export const Equipments = [
       size: Size.small,
       recharge: { max: 889, rate: 135, delay: 10.2 },
       price: { min: 10186, max: 12449, avg: 11318 },
-      owners: [ Factions.paranid ],
+      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -2851,6 +3033,7 @@ export const Equipments = [
    },
    {
       id: 'shield_par_s_standard_01_mk3',
+      version: 0,
       name: 'PAR S Shield Generator Mk3',
       description: 'No information available',
       race: Races.paranid,
@@ -2859,7 +3042,7 @@ export const Equipments = [
       size: Size.small,
       recharge: { max: 1270, rate: 232, delay: 10.2 },
       price: { min: 49892, max: 60979, avg: 55436 },
-      owners: [ Factions.paranid ],
+      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -2876,6 +3059,7 @@ export const Equipments = [
    },
    {
       id: 'shield_par_xl_standard_01_mk1',
+      version: 0,
       name: 'PAR XL Shield Generator Mk1',
       description: 'No information available',
       race: Races.paranid,
@@ -2883,9 +3067,9 @@ export const Equipments = [
       equipmentClass: EquipmentClass.shieldgenerator,
       size: Size.extralarge,
       hull: 6000,
-      recharge: { max: 83308, rate: 674, delay: 29.3 },
+      recharge: { max: 116532, rate: 521, delay: 0 },
       price: { min: 225671, max: 275820, avg: 250745 },
-      owners: [ Factions.paranid ],
+      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
       production: [
          {
             time: 20,
@@ -2902,6 +3086,7 @@ export const Equipments = [
    },
    {
       id: 'shield_tel_l_standard_01_mk1',
+      version: 0,
       name: 'TEL L Shield Generator Mk1',
       description: 'No information available',
       race: Races.teladi,
@@ -2909,9 +3094,9 @@ export const Equipments = [
       equipmentClass: EquipmentClass.shieldgenerator,
       size: Size.large,
       hull: 2000,
-      recharge: { max: 30546, rate: 250, delay: 41.6 },
+      recharge: { max: 42729, rate: 166, delay: 0 },
       price: { min: 42166, max: 51536, avg: 46851 },
-      owners: [ Factions.teladi ],
+      owners: [ Factions.alliance, Factions.ministry, Factions.scaleplate, Factions.teladi ],
       production: [
          {
             time: 20,
@@ -2928,6 +3113,7 @@ export const Equipments = [
    },
    {
       id: 'shield_tel_l_standard_01_mk2',
+      version: 0,
       name: 'TEL L Shield Generator Mk2',
       description: 'No information available',
       race: Races.teladi,
@@ -2935,9 +3121,9 @@ export const Equipments = [
       equipmentClass: EquipmentClass.shieldgenerator,
       size: Size.large,
       hull: 2000,
-      recharge: { max: 36365, rate: 387, delay: 41.6 },
+      recharge: { max: 50911, rate: 257, delay: 0 },
       price: { min: 205644, max: 251343, avg: 228494 },
-      owners: [ Factions.teladi ],
+      owners: [ Factions.alliance, Factions.ministry, Factions.teladi ],
       production: [
          {
             time: 20,
@@ -2954,6 +3140,7 @@ export const Equipments = [
    },
    {
       id: 'shield_tel_m_standard_01_mk1',
+      version: 0,
       name: 'TEL M Shield Generator Mk1',
       description: 'No information available',
       race: Races.teladi,
@@ -2961,9 +3148,9 @@ export const Equipments = [
       equipmentClass: EquipmentClass.shieldgenerator,
       size: Size.medium,
       hull: 500,
-      recharge: { max: 4048, rate: 45, delay: 26.5 },
+      recharge: { max: 5662, rate: 25, delay: 0.57 },
       price: { min: 12838, max: 15691, avg: 14264 },
-      owners: [ Factions.teladi ],
+      owners: [ Factions.alliance, Factions.ministry, Factions.scaleplate, Factions.teladi ],
       production: [
          {
             time: 10,
@@ -2980,6 +3167,7 @@ export const Equipments = [
    },
    {
       id: 'shield_tel_m_standard_01_mk2',
+      version: 0,
       name: 'TEL M Shield Generator Mk2',
       description: 'No information available',
       race: Races.teladi,
@@ -2987,9 +3175,9 @@ export const Equipments = [
       equipmentClass: EquipmentClass.shieldgenerator,
       size: Size.medium,
       hull: 500,
-      recharge: { max: 4819, rate: 70, delay: 26.5 },
+      recharge: { max: 6746, rate: 39, delay: 0.57 },
       price: { min: 62115, max: 75918, avg: 69017 },
-      owners: [ Factions.teladi ],
+      owners: [ Factions.alliance, Factions.ministry, Factions.teladi ],
       production: [
          {
             time: 10,
@@ -3006,6 +3194,7 @@ export const Equipments = [
    },
    {
       id: 'shield_tel_m_standard_02_mk1',
+      version: 0,
       name: 'TEL M Shield Generator Mk1',
       description: 'No information available',
       race: Races.teladi,
@@ -3013,9 +3202,9 @@ export const Equipments = [
       equipmentClass: EquipmentClass.shieldgenerator,
       size: Size.medium,
       hull: 500,
-      recharge: { max: 4048, rate: 45, delay: 26.5 },
+      recharge: { max: 5662, rate: 25, delay: 0.57 },
       price: { min: 12015, max: 14685, avg: 13350 },
-      owners: [ Factions.teladi ],
+      owners: [ Factions.alliance, Factions.ministry, Factions.scaleplate, Factions.teladi ],
       production: [
          {
             time: 10,
@@ -3032,6 +3221,7 @@ export const Equipments = [
    },
    {
       id: 'shield_tel_m_standard_02_mk2',
+      version: 0,
       name: 'TEL M Shield Generator Mk2',
       description: 'No information available',
       race: Races.teladi,
@@ -3039,9 +3229,9 @@ export const Equipments = [
       equipmentClass: EquipmentClass.shieldgenerator,
       size: Size.medium,
       hull: 500,
-      recharge: { max: 4819, rate: 70, delay: 26.5 },
+      recharge: { max: 6746, rate: 39, delay: 0.57 },
       price: { min: 26058, max: 31849, avg: 28954 },
-      owners: [ Factions.teladi ],
+      owners: [ Factions.alliance, Factions.ministry, Factions.teladi ],
       production: [
          {
             time: 10,
@@ -3058,6 +3248,7 @@ export const Equipments = [
    },
    {
       id: 'shield_tel_s_standard_01_mk1',
+      version: 0,
       name: 'TEL S Shield Generator Mk1',
       description: 'No information available',
       race: Races.teladi,
@@ -3066,7 +3257,7 @@ export const Equipments = [
       size: Size.small,
       recharge: { max: 910, rate: 79, delay: 13.9 },
       price: { min: 1218, max: 1489, avg: 1354 },
-      owners: [ Factions.teladi ],
+      owners: [ Factions.alliance, Factions.ministry, Factions.scaleplate, Factions.teladi ],
       production: [
          {
             time: 10,
@@ -3082,6 +3273,7 @@ export const Equipments = [
    },
    {
       id: 'shield_tel_s_standard_01_mk2',
+      version: 0,
       name: 'TEL S Shield Generator Mk2',
       description: 'No information available',
       race: Races.teladi,
@@ -3090,7 +3282,7 @@ export const Equipments = [
       size: Size.small,
       recharge: { max: 1087, rate: 122, delay: 13.9 },
       price: { min: 10186, max: 12449, avg: 11318 },
-      owners: [ Factions.teladi ],
+      owners: [ Factions.alliance, Factions.ministry, Factions.teladi ],
       production: [
          {
             time: 10,
@@ -3107,6 +3299,7 @@ export const Equipments = [
    },
    {
       id: 'shield_tel_s_standard_01_mk3',
+      version: 0,
       name: 'TEL S Shield Generator Mk3',
       description: 'No information available',
       race: Races.teladi,
@@ -3115,7 +3308,7 @@ export const Equipments = [
       size: Size.small,
       recharge: { max: 1552, rate: 210, delay: 13.9 },
       price: { min: 49892, max: 60979, avg: 55436 },
-      owners: [ Factions.teladi ],
+      owners: [ Factions.alliance, Factions.ministry, Factions.teladi ],
       production: [
          {
             time: 10,
@@ -3132,6 +3325,7 @@ export const Equipments = [
    },
    {
       id: 'shield_tel_xl_standard_01_mk1',
+      version: 0,
       name: 'TEL XL Shield Generator Mk1',
       description: 'No information available',
       race: Races.teladi,
@@ -3139,9 +3333,9 @@ export const Equipments = [
       equipmentClass: EquipmentClass.shieldgenerator,
       size: Size.extralarge,
       hull: 6000,
-      recharge: { max: 101821, rate: 609, delay: 51.6 },
+      recharge: { max: 142429, rate: 470, delay: 0 },
       price: { min: 225671, max: 275820, avg: 250745 },
-      owners: [ Factions.teladi ],
+      owners: [ Factions.alliance, Factions.ministry, Factions.teladi ],
       production: [
          {
             time: 20,
@@ -3158,6 +3352,7 @@ export const Equipments = [
    },
    {
       id: 'shield_xen_l_standard_01_mk1',
+      version: 0,
       name: 'XEN L Shield Generator Mk1',
       description: 'No information available',
       race: Races.xenon,
@@ -3165,7 +3360,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.shieldgenerator,
       size: Size.large,
       hull: 2000,
-      recharge: { max: 23604, rate: 262, delay: 30.8 },
+      recharge: { max: 36902, rate: 194, delay: 0 },
       price: { min: 41386, max: 50582, avg: 45984 },
       owners: [ Factions.xenon ],
       production: [
@@ -3184,6 +3379,7 @@ export const Equipments = [
    },
    {
       id: 'shield_xen_l_standard_01_mk2',
+      version: 0,
       name: 'XEN L Shield Generator Mk2',
       description: 'No information available',
       race: Races.xenon,
@@ -3191,7 +3387,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.shieldgenerator,
       size: Size.large,
       hull: 2000,
-      recharge: { max: 28100, rate: 405, delay: 30.8 },
+      recharge: { max: 43968, rate: 300, delay: 0 },
       price: { min: 110765, max: 135379, avg: 123072 },
       owners: [ Factions.xenon ],
       production: [
@@ -3210,6 +3406,7 @@ export const Equipments = [
    },
    {
       id: 'shield_xen_m_standard_01_mk1',
+      version: 0,
       name: 'XEN M Shield Generator Mk1',
       description: 'No information available',
       race: Races.xenon,
@@ -3217,7 +3414,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.shieldgenerator,
       size: Size.medium,
       hull: 500,
-      recharge: { max: 3128, rate: 47, delay: 25.5 },
+      recharge: { max: 4890, rate: 29, delay: 0.55 },
       price: { min: 13478, max: 16474, avg: 14976 },
       owners: [ Factions.xenon ],
       production: [
@@ -3236,6 +3433,7 @@ export const Equipments = [
    },
    {
       id: 'shield_xen_m_standard_01_mk2',
+      version: 0,
       name: 'XEN M Shield Generator Mk2',
       description: 'No information available',
       race: Races.xenon,
@@ -3243,7 +3441,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.shieldgenerator,
       size: Size.medium,
       hull: 500,
-      recharge: { max: 3723, rate: 73, delay: 19.6 },
+      recharge: { max: 5826, rate: 45, delay: 0.55 },
       price: { min: 27821, max: 34003, avg: 30912 },
       owners: [ Factions.xenon ],
       production: [
@@ -3262,6 +3460,7 @@ export const Equipments = [
    },
    {
       id: 'shield_xen_m_standard_02_mk1',
+      version: 0,
       name: 'XEN M Shield Generator Mk1',
       description: 'No information available',
       race: Races.xenon,
@@ -3269,7 +3468,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.shieldgenerator,
       size: Size.medium,
       hull: 500,
-      recharge: { max: 3128, rate: 47, delay: 25.5 },
+      recharge: { max: 4890, rate: 29, delay: 0.55 },
       price: { min: 13478, max: 16474, avg: 14976 },
       owners: [ Factions.xenon ],
       production: [
@@ -3288,6 +3487,7 @@ export const Equipments = [
    },
    {
       id: 'shield_xen_m_standard_02_mk2',
+      version: 0,
       name: 'XEN M Shield Generator Mk2',
       description: 'No information available',
       race: Races.xenon,
@@ -3295,7 +3495,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.shieldgenerator,
       size: Size.medium,
       hull: 500,
-      recharge: { max: 3723, rate: 73, delay: 25.5 },
+      recharge: { max: 5826, rate: 45, delay: 0.55 },
       price: { min: 27821, max: 34003, avg: 30912 },
       owners: [ Factions.xenon ],
       production: [
@@ -3314,13 +3514,14 @@ export const Equipments = [
    },
    {
       id: 'shield_xen_s_standard_01_mk1',
+      version: 0,
       name: 'XEN S Shield Generator Mk1',
       description: 'No information available',
       race: Races.xenon,
       type: EquipmentType.shields,
       equipmentClass: EquipmentClass.shieldgenerator,
       size: Size.small,
-      recharge: { max: 703, rate: 82, delay: 13.3 },
+      recharge: { max: 786, rate: 92, delay: 13.3 },
       price: { min: 1901, max: 2323, avg: 2112 },
       owners: [ Factions.xenon ],
       production: [
@@ -3339,13 +3540,14 @@ export const Equipments = [
    },
    {
       id: 'shield_xen_s_standard_01_mk2',
+      version: 0,
       name: 'XEN S Shield Generator Mk2',
       description: 'No information available',
       race: Races.xenon,
       type: EquipmentType.shields,
       equipmentClass: EquipmentClass.shieldgenerator,
       size: Size.small,
-      recharge: { max: 840, rate: 128, delay: 13.3 },
+      recharge: { max: 938, rate: 143, delay: 13.3 },
       price: { min: 4579, max: 5597, avg: 5088 },
       owners: [ Factions.xenon ],
       production: [
@@ -3363,14 +3565,42 @@ export const Equipments = [
       ]
    },
    {
+      id: 'shield_xen_xl_standard_01_mk1',
+      version: 0,
+      name: 'XEN XL Shield Generator Mk1',
+      description: 'No information available',
+      race: Races.xenon,
+      type: EquipmentType.shields,
+      equipmentClass: EquipmentClass.shieldgenerator,
+      size: Size.extralarge,
+      hull: 6000,
+      recharge: { max: 123007, rate: 550, delay: 0 },
+      price: { min: 221493, max: 270714, avg: 246104 },
+      owners: [ Factions.xenon ],
+      production: [
+         {
+            time: 20,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'energycells', amount: 77 },
+               { ware: 'ore', amount: 278 },
+               { ware: 'silicon', amount: 278 },
+            ],
+         },
+      ]
+   },
+   {
       id: 'ship_arg_xs_police_01_a',
+      version: 0,
       name: 'Argon Station Security Vessel',
       description: 'No information available',
       type: EquipmentType.drones,
       equipmentClass: EquipmentClass.ship_xs,
       hull: 281,
-      price: { min: 11182, max: 15128, avg: 13155 },
-      owners: [ Factions.argon ],
+      price: { min: 9707, max: 13133, avg: 11420 },
+      owners: [ Factions.antigone, Factions.argon ],
       production: [
          {
             time: 60,
@@ -3387,12 +3617,13 @@ export const Equipments = [
    },
    {
       id: 'ship_gen_s_fightingdrone_01_a',
+      version: 0,
       name: 'Defence Drone',
       description: 'No information available',
       type: EquipmentType.drones,
       equipmentClass: EquipmentClass.ship_s,
       hull: 1900,
-      price: { min: 11902, max: 16103, avg: 14003 },
+      price: { min: 11611, max: 15709, avg: 13660 },
       production: [
          {
             time: 90,
@@ -3420,12 +3651,13 @@ export const Equipments = [
    },
    {
       id: 'ship_gen_s_miningdrone_liquid_01_a',
+      version: 0,
       name: 'Gas Collector Drone',
       description: 'No information available',
       type: EquipmentType.drones,
       equipmentClass: EquipmentClass.ship_s,
       hull: 1700,
-      price: { min: 15326, max: 20735, avg: 18030 },
+      price: { min: 11781, max: 15939, avg: 13860 },
       production: [
          {
             time: 30,
@@ -3436,18 +3668,30 @@ export const Equipments = [
                { ware: 'dronecomponents', amount: 1 },
                { ware: 'energycells', amount: 50 },
                { ware: 'smartchips', amount: 20 },
+            ],
+         },
+         {
+            time: 30,
+            amount: 1,
+            method: 'xenon',
+            name: 'Xenon',
+            wares: [
+               { ware: 'energycells', amount: 40 },
+               { ware: 'ore', amount: 15 },
+               { ware: 'silicon', amount: 10 },
             ],
          },
       ]
    },
    {
       id: 'ship_gen_s_miningdrone_solid_01_a',
+      version: 0,
       name: 'Mining Drone',
       description: 'No information available',
       type: EquipmentType.drones,
       equipmentClass: EquipmentClass.ship_s,
       hull: 1700,
-      price: { min: 15326, max: 20735, avg: 18030 },
+      price: { min: 11781, max: 15939, avg: 13860 },
       production: [
          {
             time: 30,
@@ -3460,16 +3704,28 @@ export const Equipments = [
                { ware: 'smartchips', amount: 20 },
             ],
          },
+         {
+            time: 30,
+            amount: 1,
+            method: 'xenon',
+            name: 'Xenon',
+            wares: [
+               { ware: 'energycells', amount: 40 },
+               { ware: 'ore', amount: 15 },
+               { ware: 'silicon', amount: 10 },
+            ],
+         },
       ]
    },
    {
       id: 'ship_gen_xs_buildingdrone_01_a',
+      version: 0,
       name: 'Building Drone',
       description: 'No information available',
       type: EquipmentType.drones,
       equipmentClass: EquipmentClass.ship_xs,
       hull: 207,
-      price: { min: 9654, max: 13061, avg: 11358 },
+      price: { min: 12980, max: 17561, avg: 15270 },
       production: [
          {
             time: 60,
@@ -3497,12 +3753,13 @@ export const Equipments = [
    },
    {
       id: 'ship_gen_xs_cargodrone_empty_01_a',
+      version: 0,
       name: 'Cargo Drone',
       description: 'No information available',
       type: EquipmentType.drones,
       equipmentClass: EquipmentClass.ship_xs,
       hull: 523,
-      price: { min: 10028, max: 13567, avg: 11798 },
+      price: { min: 13728, max: 18573, avg: 16150 },
       production: [
          {
             time: 60,
@@ -3530,12 +3787,13 @@ export const Equipments = [
    },
    {
       id: 'ship_gen_xs_repairdrone_01_a',
+      version: 0,
       name: 'Repair Drone',
       description: 'No information available',
       type: EquipmentType.drones,
       equipmentClass: EquipmentClass.ship_xs,
       hull: 207,
-      price: { min: 9654, max: 13061, avg: 11358 },
+      price: { min: 12980, max: 17561, avg: 15270 },
       production: [
          {
             time: 60,
@@ -3562,13 +3820,38 @@ export const Equipments = [
       ]
    },
    {
+      id: 'ship_par_xs_police_01_a',
+      version: 0,
+      name: 'Paranid Station Security Vessel',
+      description: 'No information available',
+      type: EquipmentType.drones,
+      equipmentClass: EquipmentClass.ship_xs,
+      hull: 281,
+      price: { min: 9707, max: 13133, avg: 11420 },
+      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
+      production: [
+         {
+            time: 60,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'dronecomponents', amount: 1 },
+               { ware: 'energycells', amount: 50 },
+               { ware: 'smartchips', amount: 10 },
+            ],
+         },
+      ]
+   },
+   {
       id: 'ship_tel_xs_police_01_a',
+      version: 0,
       name: 'Teladi Station Security Vessel A',
       description: 'No information available',
       type: EquipmentType.drones,
       equipmentClass: EquipmentClass.ship_xs,
       hull: 281,
-      price: { min: 11182, max: 15128, avg: 13155 },
+      price: { min: 9707, max: 13133, avg: 11420 },
       owners: [ Factions.ministry, Factions.teladi ],
       production: [
          {
@@ -3586,12 +3869,13 @@ export const Equipments = [
    },
    {
       id: 'ship_tel_xs_police_02_a',
+      version: 0,
       name: 'Teladi Station Security Vessel B',
       description: 'No information available',
       type: EquipmentType.drones,
       equipmentClass: EquipmentClass.ship_xs,
       hull: 281,
-      price: { min: 11182, max: 15128, avg: 13155 },
+      price: { min: 9707, max: 13133, avg: 11420 },
       owners: [ Factions.ministry, Factions.teladi ],
       production: [
          {
@@ -3609,12 +3893,13 @@ export const Equipments = [
    },
    {
       id: 'ship_tel_xs_police_03_a',
+      version: 0,
       name: 'Teladi Station Security Vessel C',
       description: 'No information available',
       type: EquipmentType.drones,
       equipmentClass: EquipmentClass.ship_xs,
       hull: 281,
-      price: { min: 11182, max: 15128, avg: 13155 },
+      price: { min: 9707, max: 13133, avg: 11420 },
       owners: [ Factions.ministry, Factions.teladi ],
       production: [
          {
@@ -3632,6 +3917,7 @@ export const Equipments = [
    },
    {
       id: 'software_dockmk1',
+      version: 0,
       name: 'Docking Computer Mk1',
       description: 'This flight software automates the final stages of the docking procedure.',
       type: EquipmentType.software,
@@ -3649,6 +3935,7 @@ export const Equipments = [
    },
    {
       id: 'software_dockmk2',
+      version: 0,
       name: 'Docking Computer Mk2',
       description: 'This flight software increases the range at which the docking procedure can be automated.',
       type: EquipmentType.software,
@@ -3666,6 +3953,7 @@ export const Equipments = [
    },
    {
       id: 'software_flightassistmk1',
+      version: 0,
       name: 'Flight Assist Software Mk1',
       description: 'This flight software assists a pilot by automatically compensating for drift when changing flight direction.',
       type: EquipmentType.software,
@@ -3683,6 +3971,7 @@ export const Equipments = [
    },
    {
       id: 'software_scannerlongrangemk1',
+      version: 0,
       name: 'Long-range Scanner Software Mk1',
       description: 'This scanning software provides a means to detect objects at great distances.',
       type: EquipmentType.software,
@@ -3701,6 +3990,7 @@ export const Equipments = [
    },
    {
       id: 'software_scannerlongrangemk2',
+      version: 0,
       name: 'Long-range Scanner Software Mk2',
       description: 'This scanning software increases scan resolution, allowing more accurate identification of certain types of objects.',
       type: EquipmentType.software,
@@ -3719,6 +4009,7 @@ export const Equipments = [
    },
    {
       id: 'software_scannerobjectmk1',
+      version: 0,
       name: 'Basic Scanner',
       description: 'This scanning software provides basic identification of nearby objects.',
       type: EquipmentType.software,
@@ -3737,6 +4028,7 @@ export const Equipments = [
    },
    {
       id: 'software_scannerobjectmk2',
+      version: 0,
       name: 'Police Scanner',
       description: 'This scanning software allows a pilot to inspect the contents of the cargo hold of another ship. Its use is illegal unless an appropriate police licence has been obtained.',
       type: EquipmentType.software,
@@ -3755,6 +4047,7 @@ export const Equipments = [
    },
    {
       id: 'software_targetmk1',
+      version: 0,
       name: 'Targeting Computer Extension Mk1',
       description: 'This targeting software allows a ship\'s targeting system to lock on to small objects such as debris and floating containers.',
       type: EquipmentType.software,
@@ -3772,6 +4065,7 @@ export const Equipments = [
    },
    {
       id: 'software_trademk1',
+      version: 0,
       name: 'Trading Computer Extension Mk1',
       description: 'This trading software maintains a link to potential buyers and sellers for a limited time, to provide current trade offer information.',
       type: EquipmentType.software,
@@ -3789,6 +4083,7 @@ export const Equipments = [
    },
    {
       id: 'thruster_gen_l_allround_01_mk1',
+      version: 0,
       name: 'L All-round Thrusters Mk1',
       description: 'No information available',
       type: EquipmentType.thrusters,
@@ -3823,6 +4118,7 @@ export const Equipments = [
    },
    {
       id: 'thruster_gen_l_allround_01_mk2',
+      version: 0,
       name: 'L All-round Thrusters Mk2',
       description: 'No information available',
       type: EquipmentType.thrusters,
@@ -3857,6 +4153,7 @@ export const Equipments = [
    },
    {
       id: 'thruster_gen_l_allround_01_mk3',
+      version: 0,
       name: 'L All-round Thrusters Mk3',
       description: 'No information available',
       type: EquipmentType.thrusters,
@@ -3891,6 +4188,7 @@ export const Equipments = [
    },
    {
       id: 'thruster_gen_m_allround_01_mk1',
+      version: 0,
       name: 'M All-round Thrusters Mk1',
       description: 'No information available',
       type: EquipmentType.thrusters,
@@ -3925,6 +4223,7 @@ export const Equipments = [
    },
    {
       id: 'thruster_gen_m_allround_01_mk2',
+      version: 0,
       name: 'M All-round Thrusters Mk2',
       description: 'No information available',
       type: EquipmentType.thrusters,
@@ -3959,6 +4258,7 @@ export const Equipments = [
    },
    {
       id: 'thruster_gen_m_allround_01_mk3',
+      version: 0,
       name: 'M All-round Thrusters Mk3',
       description: 'No information available',
       type: EquipmentType.thrusters,
@@ -3993,6 +4293,7 @@ export const Equipments = [
    },
    {
       id: 'thruster_gen_m_combat_01_mk1',
+      version: 0,
       name: 'M Combat Thrusters Mk1',
       description: 'No information available',
       type: EquipmentType.thrusters,
@@ -4027,6 +4328,7 @@ export const Equipments = [
    },
    {
       id: 'thruster_gen_m_combat_01_mk2',
+      version: 0,
       name: 'M Combat Thrusters Mk2',
       description: 'No information available',
       type: EquipmentType.thrusters,
@@ -4061,6 +4363,7 @@ export const Equipments = [
    },
    {
       id: 'thruster_gen_m_combat_01_mk3',
+      version: 0,
       name: 'M Combat Thrusters Mk3',
       description: 'No information available',
       type: EquipmentType.thrusters,
@@ -4095,6 +4398,7 @@ export const Equipments = [
    },
    {
       id: 'thruster_gen_s_allround_01_mk1',
+      version: 0,
       name: 'S All-round Thrusters Mk1',
       description: 'No information available',
       type: EquipmentType.thrusters,
@@ -4128,6 +4432,7 @@ export const Equipments = [
    },
    {
       id: 'thruster_gen_s_allround_01_mk2',
+      version: 0,
       name: 'S All-round Thrusters Mk2',
       description: 'No information available',
       type: EquipmentType.thrusters,
@@ -4162,6 +4467,7 @@ export const Equipments = [
    },
    {
       id: 'thruster_gen_s_allround_01_mk3',
+      version: 0,
       name: 'S All-round Thrusters Mk3',
       description: 'No information available',
       type: EquipmentType.thrusters,
@@ -4196,6 +4502,7 @@ export const Equipments = [
    },
    {
       id: 'thruster_gen_s_combat_01_mk1',
+      version: 0,
       name: 'S Combat Thrusters Mk1',
       description: 'No information available',
       type: EquipmentType.thrusters,
@@ -4230,6 +4537,7 @@ export const Equipments = [
    },
    {
       id: 'thruster_gen_s_combat_01_mk2',
+      version: 0,
       name: 'S Combat Thrusters Mk2',
       description: 'No information available',
       type: EquipmentType.thrusters,
@@ -4264,6 +4572,7 @@ export const Equipments = [
    },
    {
       id: 'thruster_gen_s_combat_01_mk3',
+      version: 0,
       name: 'S Combat Thrusters Mk3',
       description: 'No information available',
       type: EquipmentType.thrusters,
@@ -4298,6 +4607,7 @@ export const Equipments = [
    },
    {
       id: 'thruster_gen_xl_allround_01_mk1',
+      version: 0,
       name: 'XL All-round Thrusters Mk1',
       description: 'No information available',
       type: EquipmentType.thrusters,
@@ -4332,6 +4642,7 @@ export const Equipments = [
    },
    {
       id: 'thruster_gen_xl_allround_01_mk2',
+      version: 0,
       name: 'XL All-round Thrusters Mk2',
       description: 'No information available',
       type: EquipmentType.thrusters,
@@ -4366,6 +4677,7 @@ export const Equipments = [
    },
    {
       id: 'thruster_gen_xl_allround_01_mk3',
+      version: 0,
       name: 'XL All-round Thrusters Mk3',
       description: 'No information available',
       type: EquipmentType.thrusters,
@@ -4400,15 +4712,16 @@ export const Equipments = [
    },
    {
       id: 'turret_arg_l_beam_01_mk1',
+      version: 0,
       name: 'ARG L Beam Turret Mk1',
       description: 'No information available',
       race: Races.argon,
       type: EquipmentType.turrets,
       equipmentClass: EquipmentClass.turret,
       size: Size.large,
-      hull: 2394,
+      hull: 2300,
       price: { min: 135464, max: 165567, avg: 150515 },
-      owners: [ Factions.argon ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon ],
       production: [
          {
             time: 10,
@@ -4425,15 +4738,16 @@ export const Equipments = [
    },
    {
       id: 'turret_arg_l_dumbfire_01_mk1',
+      version: 0,
       name: 'ARG L Dumbfire Turret Mk1',
       description: 'No information available',
       race: Races.argon,
       type: EquipmentType.turrets,
       equipmentClass: EquipmentClass.missileturret,
       size: Size.large,
-      hull: 5178,
+      hull: 5000,
       price: { min: 67905, max: 82995, avg: 75450 },
-      owners: [ Factions.argon ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon ],
       production: [
          {
             time: 10,
@@ -4450,15 +4764,16 @@ export const Equipments = [
    },
    {
       id: 'turret_arg_l_guided_01_mk1',
+      version: 0,
       name: 'ARG L Tracking Turret Mk1',
       description: 'No information available',
       race: Races.argon,
       type: EquipmentType.turrets,
       equipmentClass: EquipmentClass.missileturret,
       size: Size.large,
-      hull: 5178,
+      hull: 5000,
       price: { min: 78261, max: 95652, avg: 86957 },
-      owners: [ Factions.argon ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon ],
       production: [
          {
             time: 10,
@@ -4475,15 +4790,16 @@ export const Equipments = [
    },
    {
       id: 'turret_arg_l_laser_01_mk1',
+      version: 0,
       name: 'ARG L Pulse Turret Mk1',
       description: 'No information available',
       race: Races.argon,
       type: EquipmentType.turrets,
       equipmentClass: EquipmentClass.turret,
       size: Size.large,
-      hull: 2394,
+      hull: 2300,
       price: { min: 52289, max: 63909, avg: 58099 },
-      owners: [ Factions.argon ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.hatikvah ],
       production: [
          {
             time: 10,
@@ -4500,15 +4816,16 @@ export const Equipments = [
    },
    {
       id: 'turret_arg_l_mining_01_mk1',
+      version: 0,
       name: 'ARG L Mining Turret Mk1',
       description: 'No information available',
       race: Races.argon,
       type: EquipmentType.turrets,
       equipmentClass: EquipmentClass.turret,
       size: Size.large,
-      hull: 2394,
+      hull: 2300,
       price: { min: 49166, max: 60092, avg: 54629 },
-      owners: [ Factions.argon ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.hatikvah ],
       production: [
          {
             time: 10,
@@ -4525,15 +4842,16 @@ export const Equipments = [
    },
    {
       id: 'turret_arg_l_plasma_01_mk1',
+      version: 0,
       name: 'ARG L Plasma Turret Mk1',
       description: 'No information available',
       race: Races.argon,
       type: EquipmentType.turrets,
       equipmentClass: EquipmentClass.turret,
       size: Size.large,
-      hull: 2394,
+      hull: 2300,
       price: { min: 93055, max: 113734, avg: 103395 },
-      owners: [ Factions.argon ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon ],
       production: [
          {
             time: 10,
@@ -4550,6 +4868,7 @@ export const Equipments = [
    },
    {
       id: 'turret_arg_m_beam_01_mk1',
+      version: 0,
       name: 'ARG M Beam Turret Mk1',
       description: 'Beam Turret',
       race: Races.argon,
@@ -4557,7 +4876,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.turret,
       size: Size.medium,
       price: { min: 45385, max: 55471, avg: 50428 },
-      owners: [ Factions.argon ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon ],
       production: [
          {
             time: 10,
@@ -4574,15 +4893,16 @@ export const Equipments = [
    },
    {
       id: 'turret_arg_m_beam_02_mk1',
+      version: 0,
       name: 'ARG M Beam Turret Mk1',
       description: 'No information available',
       race: Races.argon,
       type: EquipmentType.turrets,
       equipmentClass: EquipmentClass.turret,
       size: Size.medium,
-      hull: 511,
+      hull: 500,
       price: { min: 45385, max: 55471, avg: 50428 },
-      owners: [ Factions.argon ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon ],
       production: [
          {
             time: 10,
@@ -4599,15 +4919,16 @@ export const Equipments = [
    },
    {
       id: 'turret_arg_m_dumbfire_02_mk1',
+      version: 0,
       name: 'ARG M Dumbfire Turret Mk1',
       description: 'No information available',
       race: Races.argon,
       type: EquipmentType.turrets,
       equipmentClass: EquipmentClass.missileturret,
       size: Size.medium,
-      hull: 1105,
+      hull: 1100,
       price: { min: 22865, max: 27946, avg: 25406 },
-      owners: [ Factions.argon ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon ],
       production: [
          {
             time: 10,
@@ -4623,7 +4944,59 @@ export const Equipments = [
       ]
    },
    {
+      id: 'turret_arg_m_flak_01_mk1',
+      version: 0,
+      name: 'ARG M Flak Turret Mk1',
+      description: 'No information available',
+      race: Races.argon,
+      type: EquipmentType.turrets,
+      equipmentClass: EquipmentClass.turret,
+      size: Size.medium,
+      price: { min: 41730, max: 87581, avg: 64655 },
+      owners: [ Factions.alliance, Factions.argon ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'advancedelectronics', amount: 5 },
+               { ware: 'energycells', amount: 18 },
+               { ware: 'turretcomponents', amount: 21 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'turret_arg_m_flak_02_mk1',
+      version: 0,
+      name: 'ARG M Flak Turret Mk1',
+      description: 'No information available',
+      race: Races.argon,
+      type: EquipmentType.turrets,
+      equipmentClass: EquipmentClass.turret,
+      size: Size.medium,
+      hull: 500,
+      price: { min: 41730, max: 87581, avg: 64655 },
+      owners: [ Factions.alliance, Factions.argon ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'advancedelectronics', amount: 5 },
+               { ware: 'energycells', amount: 18 },
+               { ware: 'turretcomponents', amount: 21 },
+            ],
+         },
+      ]
+   },
+   {
       id: 'turret_arg_m_gatling_01_mk1',
+      version: 0,
       name: 'ARG M Bolt Turret Mk1',
       description: 'No information available',
       race: Races.argon,
@@ -4631,7 +5004,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.turret,
       size: Size.medium,
       price: { min: 24665, max: 30147, avg: 27406 },
-      owners: [ Factions.argon ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon ],
       production: [
          {
             time: 10,
@@ -4648,15 +5021,16 @@ export const Equipments = [
    },
    {
       id: 'turret_arg_m_gatling_02_mk1',
+      version: 0,
       name: 'ARG M Bolt Turret Mk1',
       description: 'No information available',
       race: Races.argon,
       type: EquipmentType.turrets,
       equipmentClass: EquipmentClass.turret,
       size: Size.medium,
-      hull: 511,
+      hull: 500,
       price: { min: 22857, max: 27936, avg: 25397 },
-      owners: [ Factions.argon ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon ],
       production: [
          {
             time: 10,
@@ -4673,15 +5047,16 @@ export const Equipments = [
    },
    {
       id: 'turret_arg_m_guided_02_mk1',
+      version: 0,
       name: 'ARG M Tracking Turret Mk1',
       description: 'No information available',
       race: Races.argon,
       type: EquipmentType.turrets,
       equipmentClass: EquipmentClass.missileturret,
       size: Size.medium,
-      hull: 1105,
+      hull: 1100,
       price: { min: 26317, max: 32166, avg: 29242 },
-      owners: [ Factions.argon ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon ],
       production: [
          {
             time: 10,
@@ -4698,6 +5073,7 @@ export const Equipments = [
    },
    {
       id: 'turret_arg_m_laser_01_mk1',
+      version: 0,
       name: 'ARG M Pulse Turret Mk1',
       description: 'No information available',
       race: Races.argon,
@@ -4705,7 +5081,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.turret,
       size: Size.medium,
       price: { min: 21378, max: 26128, avg: 23753 },
-      owners: [ Factions.argon ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.hatikvah ],
       production: [
          {
             time: 10,
@@ -4722,15 +5098,16 @@ export const Equipments = [
    },
    {
       id: 'turret_arg_m_laser_02_mk1',
+      version: 0,
       name: 'ARG M Pulse Turret Mk1',
       description: 'No information available',
       race: Races.argon,
       type: EquipmentType.turrets,
       equipmentClass: EquipmentClass.turret,
       size: Size.medium,
-      hull: 511,
+      hull: 500,
       price: { min: 21378, max: 26128, avg: 23753 },
-      owners: [ Factions.argon ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.hatikvah ],
       production: [
          {
             time: 10,
@@ -4747,6 +5124,7 @@ export const Equipments = [
    },
    {
       id: 'turret_arg_m_mining_01_mk1',
+      version: 0,
       name: 'ARG M Mining Turret Mk1',
       description: 'No information available',
       race: Races.argon,
@@ -4754,7 +5132,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.turret,
       size: Size.medium,
       price: { min: 16446, max: 20101, avg: 18274 },
-      owners: [ Factions.argon ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.hatikvah ],
       production: [
          {
             time: 10,
@@ -4771,15 +5149,16 @@ export const Equipments = [
    },
    {
       id: 'turret_arg_m_mining_02_mk1',
+      version: 0,
       name: 'ARG M Mining Turret Mk1',
       description: 'No information available',
       race: Races.argon,
       type: EquipmentType.turrets,
       equipmentClass: EquipmentClass.turret,
       size: Size.medium,
-      hull: 593,
+      hull: 500,
       price: { min: 16446, max: 20101, avg: 18274 },
-      owners: [ Factions.argon ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.hatikvah ],
       production: [
          {
             time: 10,
@@ -4796,6 +5175,7 @@ export const Equipments = [
    },
    {
       id: 'turret_arg_m_plasma_01_mk1',
+      version: 0,
       name: 'ARG M Plasma Turret Mk1',
       description: 'No information available',
       race: Races.argon,
@@ -4803,7 +5183,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.turret,
       size: Size.medium,
       price: { min: 31249, max: 38193, avg: 34721 },
-      owners: [ Factions.argon ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon ],
       production: [
          {
             time: 10,
@@ -4820,15 +5200,16 @@ export const Equipments = [
    },
    {
       id: 'turret_arg_m_plasma_02_mk1',
+      version: 0,
       name: 'ARG M Plasma Turret Mk1',
       description: 'No information available',
       race: Races.argon,
       type: EquipmentType.turrets,
       equipmentClass: EquipmentClass.turret,
       size: Size.medium,
-      hull: 511,
+      hull: 500,
       price: { min: 31249, max: 38193, avg: 34721 },
-      owners: [ Factions.argon ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon ],
       production: [
          {
             time: 10,
@@ -4845,6 +5226,7 @@ export const Equipments = [
    },
    {
       id: 'turret_arg_m_shotgun_01_mk1',
+      version: 0,
       name: 'ARG M Shard Turret Mk1',
       description: 'No information available',
       race: Races.argon,
@@ -4852,7 +5234,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.turret,
       size: Size.medium,
       price: { min: 22857, max: 27936, avg: 25397 },
-      owners: [ Factions.argon ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon ],
       production: [
          {
             time: 10,
@@ -4869,15 +5251,16 @@ export const Equipments = [
    },
    {
       id: 'turret_arg_m_shotgun_02_mk1',
+      version: 0,
       name: 'ARG M Shard Turret Mk1',
       description: 'No information available',
       race: Races.argon,
       type: EquipmentType.turrets,
       equipmentClass: EquipmentClass.turret,
       size: Size.medium,
-      hull: 511,
+      hull: 500,
       price: { min: 24665, max: 30147, avg: 27406 },
-      owners: [ Factions.argon ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon ],
       production: [
          {
             time: 10,
@@ -4893,16 +5276,32 @@ export const Equipments = [
       ]
    },
    {
+      id: 'turret_kha_m_beam_01_mk1',
+      version: 0,
+      name: 'KHA M Kyon Turret Mk1',
+      description: 'No information available',
+      race: Races.khaak,
+      type: EquipmentType.turrets,
+      equipmentClass: EquipmentClass.turret,
+      size: Size.medium,
+      hull: 500,
+      price: { min: 1, max: 1, avg: 1 },
+      owners: [ Factions.khaak ],
+      production: [
+      ]
+   },
+   {
       id: 'turret_par_l_beam_01_mk1',
+      version: 0,
       name: 'PAR L Beam Turret Mk1',
       description: 'No information available',
       race: Races.paranid,
       type: EquipmentType.turrets,
       equipmentClass: EquipmentClass.turret,
       size: Size.large,
-      hull: 2298,
+      hull: 3450,
       price: { min: 135464, max: 165567, avg: 150515 },
-      owners: [ Factions.paranid ],
+      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -4919,15 +5318,16 @@ export const Equipments = [
    },
    {
       id: 'turret_par_l_dumbfire_01_mk1',
+      version: 0,
       name: 'PAR L Dumbfire Turret Mk1',
       description: 'No information available',
       race: Races.paranid,
       type: EquipmentType.turrets,
       equipmentClass: EquipmentClass.missileturret,
       size: Size.large,
-      hull: 5178,
+      hull: 7500,
       price: { min: 67905, max: 82995, avg: 75450 },
-      owners: [ Factions.paranid ],
+      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -4944,15 +5344,16 @@ export const Equipments = [
    },
    {
       id: 'turret_par_l_guided_01_mk1',
+      version: 0,
       name: 'PAR L Tracking Turret Mk1',
       description: 'No information available',
       race: Races.paranid,
       type: EquipmentType.turrets,
       equipmentClass: EquipmentClass.missileturret,
       size: Size.large,
-      hull: 5178,
+      hull: 7500,
       price: { min: 78261, max: 95652, avg: 86957 },
-      owners: [ Factions.paranid ],
+      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -4969,15 +5370,16 @@ export const Equipments = [
    },
    {
       id: 'turret_par_l_laser_01_mk1',
+      version: 0,
       name: 'PAR L Pulse Turret Mk1',
       description: 'No information available',
       race: Races.paranid,
       type: EquipmentType.turrets,
       equipmentClass: EquipmentClass.turret,
       size: Size.large,
-      hull: 2394,
+      hull: 3450,
       price: { min: 52289, max: 63909, avg: 58099 },
-      owners: [ Factions.paranid ],
+      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -4994,15 +5396,16 @@ export const Equipments = [
    },
    {
       id: 'turret_par_l_mining_01_mk1',
+      version: 0,
       name: 'PAR L Mining Turret Mk1',
       description: 'No information available',
       race: Races.paranid,
       type: EquipmentType.turrets,
       equipmentClass: EquipmentClass.turret,
       size: Size.large,
-      hull: 2394,
+      hull: 3450,
       price: { min: 49166, max: 60092, avg: 54629 },
-      owners: [ Factions.paranid ],
+      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -5019,15 +5422,16 @@ export const Equipments = [
    },
    {
       id: 'turret_par_l_plasma_01_mk1',
+      version: 0,
       name: 'PAR L Plasma Turret Mk1',
       description: 'No information available',
       race: Races.paranid,
       type: EquipmentType.turrets,
       equipmentClass: EquipmentClass.turret,
       size: Size.large,
-      hull: 2394,
+      hull: 3450,
       price: { min: 93055, max: 113734, avg: 103395 },
-      owners: [ Factions.paranid ],
+      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -5044,6 +5448,7 @@ export const Equipments = [
    },
    {
       id: 'turret_par_m_beam_01_mk1',
+      version: 0,
       name: 'PAR M Beam Turret Mk1',
       description: 'No information available',
       race: Races.paranid,
@@ -5051,7 +5456,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.turret,
       size: Size.medium,
       price: { min: 45385, max: 55471, avg: 50428 },
-      owners: [ Factions.paranid ],
+      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -5068,15 +5473,16 @@ export const Equipments = [
    },
    {
       id: 'turret_par_m_beam_02_mk1',
+      version: 0,
       name: 'PAR M Beam Turret Mk1',
       description: 'No information available',
       race: Races.paranid,
       type: EquipmentType.turrets,
       equipmentClass: EquipmentClass.turret,
       size: Size.medium,
-      hull: 511,
+      hull: 750,
       price: { min: 24665, max: 30147, avg: 27406 },
-      owners: [ Factions.paranid ],
+      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -5093,15 +5499,16 @@ export const Equipments = [
    },
    {
       id: 'turret_par_m_dumbfire_02_mk1',
+      version: 0,
       name: 'PAR M Dumbfire Turret Mk1',
       description: 'No information available',
       race: Races.paranid,
       type: EquipmentType.turrets,
       equipmentClass: EquipmentClass.missileturret,
       size: Size.medium,
-      hull: 1105,
+      hull: 1650,
       price: { min: 31249, max: 38193, avg: 34721 },
-      owners: [ Factions.paranid ],
+      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -5118,6 +5525,7 @@ export const Equipments = [
    },
    {
       id: 'turret_par_m_gatling_01_mk1',
+      version: 0,
       name: 'PAR M Bolt Turret Mk1',
       description: 'No information available',
       race: Races.paranid,
@@ -5125,7 +5533,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.turret,
       size: Size.medium,
       price: { min: 24665, max: 30147, avg: 27406 },
-      owners: [ Factions.paranid ],
+      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -5142,15 +5550,16 @@ export const Equipments = [
    },
    {
       id: 'turret_par_m_gatling_02_mk1',
+      version: 0,
       name: 'PAR M Bolt Turret Mk1',
       description: 'No information available',
       race: Races.paranid,
       type: EquipmentType.turrets,
       equipmentClass: EquipmentClass.turret,
       size: Size.medium,
-      hull: 511,
+      hull: 750,
       price: { min: 26317, max: 32166, avg: 29242 },
-      owners: [ Factions.paranid ],
+      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -5167,15 +5576,16 @@ export const Equipments = [
    },
    {
       id: 'turret_par_m_guided_02_mk1',
+      version: 0,
       name: 'PAR M Tracking Turret Mk1',
       description: 'No information available',
       race: Races.paranid,
       type: EquipmentType.turrets,
       equipmentClass: EquipmentClass.missileturret,
       size: Size.medium,
-      hull: 1105,
+      hull: 1650,
       price: { min: 45385, max: 55471, avg: 50428 },
-      owners: [ Factions.paranid ],
+      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -5192,6 +5602,7 @@ export const Equipments = [
    },
    {
       id: 'turret_par_m_laser_01_mk1',
+      version: 0,
       name: 'PAR M Pulse Turret Mk1',
       description: 'No information available',
       race: Races.paranid,
@@ -5199,7 +5610,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.turret,
       size: Size.medium,
       price: { min: 21378, max: 26128, avg: 23753 },
-      owners: [ Factions.paranid ],
+      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -5216,15 +5627,16 @@ export const Equipments = [
    },
    {
       id: 'turret_par_m_laser_02_mk1',
+      version: 0,
       name: 'PAR M Pulse Turret Mk1',
       description: 'No information available',
       race: Races.paranid,
       type: EquipmentType.turrets,
       equipmentClass: EquipmentClass.turret,
       size: Size.medium,
-      hull: 511,
+      hull: 750,
       price: { min: 16446, max: 20101, avg: 18274 },
-      owners: [ Factions.paranid ],
+      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -5241,6 +5653,7 @@ export const Equipments = [
    },
    {
       id: 'turret_par_m_mining_01_mk1',
+      version: 0,
       name: 'PAR M Mining Turret Mk1',
       description: 'No information available',
       race: Races.paranid,
@@ -5248,7 +5661,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.turret,
       size: Size.medium,
       price: { min: 16446, max: 20101, avg: 18274 },
-      owners: [ Factions.paranid ],
+      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -5265,15 +5678,16 @@ export const Equipments = [
    },
    {
       id: 'turret_par_m_mining_02_mk1',
+      version: 0,
       name: 'PAR M Mining Turret Mk1',
       description: 'No information available',
       race: Races.paranid,
       type: EquipmentType.turrets,
       equipmentClass: EquipmentClass.turret,
       size: Size.medium,
-      hull: 511,
+      hull: 750,
       price: { min: 22857, max: 27936, avg: 25397 },
-      owners: [ Factions.paranid ],
+      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -5290,6 +5704,7 @@ export const Equipments = [
    },
    {
       id: 'turret_par_m_plasma_01_mk1',
+      version: 0,
       name: 'PAR M Plasma Turret Mk1',
       description: 'No information available',
       race: Races.paranid,
@@ -5297,7 +5712,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.turret,
       size: Size.medium,
       price: { min: 31249, max: 38193, avg: 34721 },
-      owners: [ Factions.paranid ],
+      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -5314,15 +5729,16 @@ export const Equipments = [
    },
    {
       id: 'turret_par_m_plasma_02_mk1',
+      version: 0,
       name: 'PAR M Plasma Turret Mk1',
       description: 'No information available',
       race: Races.paranid,
       type: EquipmentType.turrets,
       equipmentClass: EquipmentClass.turret,
       size: Size.medium,
-      hull: 511,
+      hull: 750,
       price: { min: 21378, max: 26128, avg: 23753 },
-      owners: [ Factions.paranid ],
+      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -5339,6 +5755,7 @@ export const Equipments = [
    },
    {
       id: 'turret_par_m_shotgun_01_mk1',
+      version: 0,
       name: 'PAR M Shard Turret Mk1',
       description: 'No information available',
       race: Races.paranid,
@@ -5346,7 +5763,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.turret,
       size: Size.medium,
       price: { min: 22857, max: 27936, avg: 25397 },
-      owners: [ Factions.paranid ],
+      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -5363,15 +5780,16 @@ export const Equipments = [
    },
    {
       id: 'turret_par_m_shotgun_02_mk1',
+      version: 0,
       name: 'PAR M Shard Turret Mk1',
       description: 'No information available',
       race: Races.paranid,
       type: EquipmentType.turrets,
       equipmentClass: EquipmentClass.turret,
       size: Size.medium,
-      hull: 511,
+      hull: 750,
       price: { min: 22865, max: 27946, avg: 25406 },
-      owners: [ Factions.paranid ],
+      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -5388,15 +5806,16 @@ export const Equipments = [
    },
    {
       id: 'turret_tel_l_beam_01_mk1',
+      version: 0,
       name: 'TEL L Beam Turret Mk1',
       description: 'No information available',
       race: Races.teladi,
       type: EquipmentType.turrets,
       equipmentClass: EquipmentClass.turret,
       size: Size.large,
-      hull: 2457,
+      hull: 3450,
       price: { min: 135460, max: 165562, avg: 150511 },
-      owners: [ Factions.teladi ],
+      owners: [ Factions.alliance, Factions.ministry, Factions.teladi ],
       production: [
          {
             time: 10,
@@ -5413,15 +5832,16 @@ export const Equipments = [
    },
    {
       id: 'turret_tel_l_dumbfire_01_mk1',
+      version: 0,
       name: 'TEL L Dumbfire Turret Mk1',
       description: 'No information available',
       race: Races.teladi,
       type: EquipmentType.turrets,
       equipmentClass: EquipmentClass.missileturret,
       size: Size.large,
-      hull: 5178,
+      hull: 7500,
       price: { min: 67903, max: 82992, avg: 75447 },
-      owners: [ Factions.teladi ],
+      owners: [ Factions.alliance, Factions.ministry, Factions.teladi ],
       production: [
          {
             time: 10,
@@ -5438,15 +5858,16 @@ export const Equipments = [
    },
    {
       id: 'turret_tel_l_guided_01_mk1',
+      version: 0,
       name: 'TEL L Tracking Turret Mk1',
       description: 'No information available',
       race: Races.teladi,
       type: EquipmentType.turrets,
       equipmentClass: EquipmentClass.missileturret,
       size: Size.large,
-      hull: 5178,
+      hull: 7500,
       price: { min: 78257, max: 95647, avg: 86952 },
-      owners: [ Factions.teladi ],
+      owners: [ Factions.alliance, Factions.ministry, Factions.teladi ],
       production: [
          {
             time: 10,
@@ -5463,15 +5884,16 @@ export const Equipments = [
    },
    {
       id: 'turret_tel_l_laser_01_mk1',
+      version: 0,
       name: 'TEL L Pulse Turret Mk1',
       description: 'No information available',
       race: Races.teladi,
       type: EquipmentType.turrets,
       equipmentClass: EquipmentClass.turret,
       size: Size.large,
-      hull: 2458,
+      hull: 3450,
       price: { min: 52286, max: 63906, avg: 58096 },
-      owners: [ Factions.teladi ],
+      owners: [ Factions.alliance, Factions.ministry, Factions.scaleplate, Factions.teladi ],
       production: [
          {
             time: 10,
@@ -5488,15 +5910,16 @@ export const Equipments = [
    },
    {
       id: 'turret_tel_l_mining_01_mk1',
+      version: 0,
       name: 'TEL L Mining Turret Mk1',
       description: 'No information available',
       race: Races.teladi,
       type: EquipmentType.turrets,
       equipmentClass: EquipmentClass.turret,
       size: Size.large,
-      hull: 2394,
+      hull: 3450,
       price: { min: 49163, max: 60088, avg: 54626 },
-      owners: [ Factions.teladi ],
+      owners: [ Factions.alliance, Factions.ministry, Factions.teladi ],
       production: [
          {
             time: 10,
@@ -5513,15 +5936,16 @@ export const Equipments = [
    },
    {
       id: 'turret_tel_l_plasma_01_mk1',
+      version: 0,
       name: 'TEL L Plasma Turret Mk1',
       description: 'No information available',
       race: Races.teladi,
       type: EquipmentType.turrets,
       equipmentClass: EquipmentClass.turret,
       size: Size.large,
-      hull: 2456,
+      hull: 3450,
       price: { min: 93050, max: 113728, avg: 103389 },
-      owners: [ Factions.teladi ],
+      owners: [ Factions.alliance, Factions.ministry, Factions.teladi ],
       production: [
          {
             time: 10,
@@ -5538,6 +5962,7 @@ export const Equipments = [
    },
    {
       id: 'turret_tel_m_beam_01_mk1',
+      version: 0,
       name: 'TEL M Beam Turret Mk1',
       description: 'No information available',
       race: Races.teladi,
@@ -5545,7 +5970,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.turret,
       size: Size.medium,
       price: { min: 45384, max: 55469, avg: 50426 },
-      owners: [ Factions.teladi ],
+      owners: [ Factions.alliance, Factions.ministry, Factions.teladi ],
       production: [
          {
             time: 10,
@@ -5562,15 +5987,16 @@ export const Equipments = [
    },
    {
       id: 'turret_tel_m_beam_02_mk1',
+      version: 0,
       name: 'TEL M Beam Turret Mk1',
       description: 'No information available',
       race: Races.teladi,
       type: EquipmentType.turrets,
       equipmentClass: EquipmentClass.turret,
       size: Size.medium,
-      hull: 602,
+      hull: 750,
       price: { min: 45384, max: 55469, avg: 50426 },
-      owners: [ Factions.teladi ],
+      owners: [ Factions.alliance, Factions.ministry, Factions.teladi ],
       production: [
          {
             time: 10,
@@ -5587,15 +6013,16 @@ export const Equipments = [
    },
    {
       id: 'turret_tel_m_dumbfire_02_mk1',
+      version: 0,
       name: 'TEL M Dumbfire Turret Mk1',
       description: 'No information available',
       race: Races.teladi,
       type: EquipmentType.turrets,
       equipmentClass: EquipmentClass.missileturret,
       size: Size.medium,
-      hull: 1105,
+      hull: 1650,
       price: { min: 22865, max: 27946, avg: 25405 },
-      owners: [ Factions.teladi ],
+      owners: [ Factions.alliance, Factions.ministry, Factions.teladi ],
       production: [
          {
             time: 10,
@@ -5612,6 +6039,7 @@ export const Equipments = [
    },
    {
       id: 'turret_tel_m_gatling_01_mk1',
+      version: 0,
       name: 'TEL M Bolt Turret Mk1',
       description: 'No information available',
       race: Races.teladi,
@@ -5619,7 +6047,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.turret,
       size: Size.medium,
       price: { min: 24664, max: 30145, avg: 27404 },
-      owners: [ Factions.teladi ],
+      owners: [ Factions.alliance, Factions.ministry, Factions.teladi ],
       production: [
          {
             time: 10,
@@ -5636,15 +6064,16 @@ export const Equipments = [
    },
    {
       id: 'turret_tel_m_gatling_02_mk1',
+      version: 0,
       name: 'TEL M Bolt Turret Mk1',
       description: 'No information available',
       race: Races.teladi,
       type: EquipmentType.turrets,
       equipmentClass: EquipmentClass.turret,
       size: Size.medium,
-      hull: 602,
+      hull: 750,
       price: { min: 22856, max: 27935, avg: 25395 },
-      owners: [ Factions.teladi ],
+      owners: [ Factions.alliance, Factions.ministry, Factions.teladi ],
       production: [
          {
             time: 10,
@@ -5661,15 +6090,16 @@ export const Equipments = [
    },
    {
       id: 'turret_tel_m_guided_02_mk1',
+      version: 0,
       name: 'TEL M Tracking Turret Mk1',
       description: 'No information available',
       race: Races.teladi,
       type: EquipmentType.turrets,
       equipmentClass: EquipmentClass.missileturret,
       size: Size.medium,
-      hull: 1105,
+      hull: 1650,
       price: { min: 26316, max: 32164, avg: 29240 },
-      owners: [ Factions.teladi ],
+      owners: [ Factions.alliance, Factions.ministry, Factions.teladi ],
       production: [
          {
             time: 10,
@@ -5686,6 +6116,7 @@ export const Equipments = [
    },
    {
       id: 'turret_tel_m_laser_01_mk1',
+      version: 0,
       name: 'TEL M Pulse Turret Mk1',
       description: 'No information available',
       race: Races.teladi,
@@ -5693,7 +6124,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.turret,
       size: Size.medium,
       price: { min: 21376, max: 26127, avg: 23752 },
-      owners: [ Factions.teladi ],
+      owners: [ Factions.alliance, Factions.ministry, Factions.scaleplate, Factions.teladi ],
       production: [
          {
             time: 10,
@@ -5710,15 +6141,16 @@ export const Equipments = [
    },
    {
       id: 'turret_tel_m_laser_02_mk1',
+      version: 0,
       name: 'TEL M Pulse Turret Mk1',
       description: 'No information available',
       race: Races.teladi,
       type: EquipmentType.turrets,
       equipmentClass: EquipmentClass.turret,
       size: Size.medium,
-      hull: 602,
+      hull: 750,
       price: { min: 21376, max: 26127, avg: 23752 },
-      owners: [ Factions.teladi ],
+      owners: [ Factions.alliance, Factions.ministry, Factions.scaleplate, Factions.teladi ],
       production: [
          {
             time: 10,
@@ -5735,6 +6167,7 @@ export const Equipments = [
    },
    {
       id: 'turret_tel_m_mining_01_mk1',
+      version: 0,
       name: 'TEL M Mining Turret Mk1',
       description: 'No information available',
       race: Races.teladi,
@@ -5742,7 +6175,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.turret,
       size: Size.medium,
       price: { min: 16445, max: 20100, avg: 18273 },
-      owners: [ Factions.teladi ],
+      owners: [ Factions.alliance, Factions.ministry, Factions.teladi ],
       production: [
          {
             time: 10,
@@ -5759,15 +6192,16 @@ export const Equipments = [
    },
    {
       id: 'turret_tel_m_mining_02_mk1',
+      version: 0,
       name: 'TEL M Mining Turret Mk1',
       description: 'No information available',
       race: Races.teladi,
       type: EquipmentType.turrets,
       equipmentClass: EquipmentClass.turret,
       size: Size.medium,
-      hull: 511,
+      hull: 750,
       price: { min: 16445, max: 20100, avg: 18273 },
-      owners: [ Factions.teladi ],
+      owners: [ Factions.alliance, Factions.ministry, Factions.teladi ],
       production: [
          {
             time: 10,
@@ -5784,6 +6218,7 @@ export const Equipments = [
    },
    {
       id: 'turret_tel_m_plasma_01_mk1',
+      version: 0,
       name: 'TEL M Plasma Turret Mk1',
       description: 'No information available',
       race: Races.teladi,
@@ -5791,7 +6226,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.turret,
       size: Size.medium,
       price: { min: 31247, max: 38191, avg: 34719 },
-      owners: [ Factions.teladi ],
+      owners: [ Factions.alliance, Factions.ministry, Factions.teladi ],
       production: [
          {
             time: 10,
@@ -5808,15 +6243,16 @@ export const Equipments = [
    },
    {
       id: 'turret_tel_m_plasma_02_mk1',
+      version: 0,
       name: 'TEL M Plasma Turret Mk1',
       description: 'No information available',
       race: Races.teladi,
       type: EquipmentType.turrets,
       equipmentClass: EquipmentClass.turret,
       size: Size.medium,
-      hull: 602,
+      hull: 750,
       price: { min: 31247, max: 38191, avg: 34719 },
-      owners: [ Factions.teladi ],
+      owners: [ Factions.alliance, Factions.ministry, Factions.teladi ],
       production: [
          {
             time: 10,
@@ -5833,6 +6269,7 @@ export const Equipments = [
    },
    {
       id: 'turret_tel_m_shotgun_01_mk1',
+      version: 0,
       name: 'TEL M Shard Turret Mk1',
       description: 'No information available',
       race: Races.teladi,
@@ -5840,7 +6277,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.turret,
       size: Size.medium,
       price: { min: 22856, max: 27935, avg: 25395 },
-      owners: [ Factions.teladi ],
+      owners: [ Factions.alliance, Factions.ministry, Factions.teladi ],
       production: [
          {
             time: 10,
@@ -5857,15 +6294,16 @@ export const Equipments = [
    },
    {
       id: 'turret_tel_m_shotgun_02_mk1',
+      version: 0,
       name: 'TEL M Shard Turret Mk1',
       description: 'No information available',
       race: Races.teladi,
       type: EquipmentType.turrets,
       equipmentClass: EquipmentClass.turret,
       size: Size.medium,
-      hull: 602,
+      hull: 750,
       price: { min: 24664, max: 30145, avg: 27404 },
-      owners: [ Factions.teladi ],
+      owners: [ Factions.alliance, Factions.ministry, Factions.teladi ],
       production: [
          {
             time: 10,
@@ -5882,13 +6320,14 @@ export const Equipments = [
    },
    {
       id: 'turret_xen_l_laser_01_mk1',
+      version: 0,
       name: 'XEN L Pulse Turret Mk1',
       description: 'No information available',
       race: Races.xenon,
       type: EquipmentType.turrets,
       equipmentClass: EquipmentClass.turret,
       size: Size.large,
-      hull: 2431,
+      hull: 3500,
       price: { min: 13392, max: 16368, avg: 14880 },
       owners: [ Factions.xenon ],
       production: [
@@ -5907,13 +6346,14 @@ export const Equipments = [
    },
    {
       id: 'turret_xen_m_beam_02_mk1',
+      version: 0,
       name: 'XEN M Beam Turret Mk1',
       description: 'No information available',
       race: Races.xenon,
       type: EquipmentType.turrets,
       equipmentClass: EquipmentClass.turret,
       size: Size.medium,
-      hull: 511,
+      hull: 800,
       price: { min: 23242, max: 28406, avg: 25824 },
       owners: [ Factions.xenon ],
       production: [
@@ -5932,6 +6372,7 @@ export const Equipments = [
    },
    {
       id: 'turret_xen_m_laser_01_mk1',
+      version: 0,
       name: 'XEN M Pulse Turret Mk1',
       description: 'No information available',
       race: Races.xenon,
@@ -5956,13 +6397,14 @@ export const Equipments = [
    },
    {
       id: 'turret_xen_m_laser_02_mk1',
+      version: 0,
       name: 'XEN M Pulse Turret Mk1',
       description: 'No information available',
       race: Races.xenon,
       type: EquipmentType.turrets,
       equipmentClass: EquipmentClass.turret,
       size: Size.medium,
-      hull: 595,
+      hull: 800,
       price: { min: 23242, max: 28406, avg: 25824 },
       owners: [ Factions.xenon ],
       production: [
@@ -5981,6 +6423,7 @@ export const Equipments = [
    },
    {
       id: 'weapon_arg_l_destroyer_01_mk1',
+      version: 0,
       name: 'Behemoth Main Battery',
       description: 'No information available',
       type: EquipmentType.weapons,
@@ -5988,7 +6431,7 @@ export const Equipments = [
       size: Size.large,
       hull: 8000,
       price: { min: 936709, max: 1144866, avg: 1040788 },
-      owners: [ Factions.argon ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon ],
       production: [
          {
             time: 10,
@@ -6005,14 +6448,15 @@ export const Equipments = [
    },
    {
       id: 'weapon_arg_m_ion_01_mk1',
+      version: 0,
       name: 'M Ion Blaster Mk1',
       description: 'No information available',
       type: EquipmentType.weapons,
       equipmentClass: EquipmentClass.weapon,
       size: Size.medium,
       hull: 1001,
-      price: { min: 25550, max: 31228, avg: 28389 },
-      owners: [ Factions.argon ],
+      price: { min: 302254, max: 597081, avg: 449667 },
+      owners: [ Factions.alliance, Factions.argon ],
       production: [
          {
             time: 10,
@@ -6020,23 +6464,24 @@ export const Equipments = [
             method: 'default',
             name: 'Universal',
             wares: [
-               { ware: 'advancedelectronics', amount: 3 },
-               { ware: 'energycells', amount: 5 },
-               { ware: 'weaponcomponents', amount: 7 },
+               { ware: 'advancedelectronics', amount: 56 },
+               { ware: 'energycells', amount: 10 },
+               { ware: 'weaponcomponents', amount: 77 },
             ],
          },
       ]
    },
    {
       id: 'weapon_arg_m_ion_01_mk2',
+      version: 0,
       name: 'M Ion Blaster Mk2',
       description: 'No information available',
       type: EquipmentType.weapons,
       equipmentClass: EquipmentClass.weapon,
       size: Size.medium,
       hull: 1001,
-      price: { min: 127231, max: 155505, avg: 141368 },
-      owners: [ Factions.argon ],
+      price: { min: 931956, max: 1819218, avg: 1375587 },
+      owners: [ Factions.alliance, Factions.argon ],
       production: [
          {
             time: 10,
@@ -6044,23 +6489,24 @@ export const Equipments = [
             method: 'default',
             name: 'Universal',
             wares: [
-               { ware: 'advancedelectronics', amount: 15 },
-               { ware: 'energycells', amount: 10 },
-               { ware: 'weaponcomponents', amount: 35 },
+               { ware: 'advancedelectronics', amount: 184 },
+               { ware: 'energycells', amount: 20 },
+               { ware: 'weaponcomponents', amount: 191 },
             ],
          },
       ]
    },
    {
       id: 'weapon_arg_s_ion_01_mk1',
+      version: 0,
       name: 'S Ion Blaster Mk1',
       description: 'No information available',
       type: EquipmentType.weapons,
       equipmentClass: EquipmentClass.weapon,
       size: Size.small,
       hull: 500,
-      price: { min: 8104, max: 9905, avg: 9005 },
-      owners: [ Factions.argon ],
+      price: { min: 160820, max: 319189, avg: 240004 },
+      owners: [ Factions.alliance, Factions.argon ],
       production: [
          {
             time: 10,
@@ -6068,23 +6514,24 @@ export const Equipments = [
             method: 'default',
             name: 'Universal',
             wares: [
-               { ware: 'advancedelectronics', amount: 1 },
-               { ware: 'energycells', amount: 5 },
-               { ware: 'weaponcomponents', amount: 2 },
+               { ware: 'advancedelectronics', amount: 29 },
+               { ware: 'energycells', amount: 10 },
+               { ware: 'weaponcomponents', amount: 44 },
             ],
          },
       ]
    },
    {
       id: 'weapon_arg_s_ion_01_mk2',
+      version: 0,
       name: 'S Ion Blaster Mk2',
       description: 'No information available',
       type: EquipmentType.weapons,
       equipmentClass: EquipmentClass.weapon,
       size: Size.small,
       hull: 500,
-      price: { min: 40003, max: 48893, avg: 44448 },
-      owners: [ Factions.argon ],
+      price: { min: 777281, max: 1543247, avg: 1160264 },
+      owners: [ Factions.alliance, Factions.argon ],
       production: [
          {
             time: 10,
@@ -6092,15 +6539,16 @@ export const Equipments = [
             method: 'default',
             name: 'Universal',
             wares: [
-               { ware: 'advancedelectronics', amount: 5 },
-               { ware: 'energycells', amount: 10 },
-               { ware: 'weaponcomponents', amount: 10 },
+               { ware: 'advancedelectronics', amount: 140 },
+               { ware: 'energycells', amount: 20 },
+               { ware: 'weaponcomponents', amount: 215 },
             ],
          },
       ]
    },
    {
       id: 'weapon_gen_mine_01',
+      version: 0,
       name: 'Mine',
       description: 'Mines are a commonly-used static combat tool that explode and cause massive hull damage under a number of circumstances. Some explode on contact, some when a target comes within a certain range. Some even track their targets and can be programmed to recognise friend from foe.',
       type: EquipmentType.weapons,
@@ -6119,10 +6567,21 @@ export const Equipments = [
                { ware: 'weaponcomponents', amount: 3 },
             ],
          },
+         {
+            time: 10,
+            amount: 1,
+            method: 'xenon',
+            name: 'Xenon',
+            wares: [
+               { ware: 'energycells', amount: 10 },
+               { ware: 'ore', amount: 1 },
+            ],
+         },
       ]
    },
    {
       id: 'weapon_gen_mine_02',
+      version: 0,
       name: 'Tracker Mine',
       description: 'Tracker Mines are deadly devices that have two phases of operation. In the detection phase, the mine detects a valid target within outer detection range and initiates a limited manoeuvre to intercept the target. When it is deemed close enough to trigger, the second detection phase sees the mine\'s explosive payload detonate. Tracker Mines are less effective at chasing fast and agile targets, but can be incredibly dangerous when used in number or against larger and less agile targets.',
       type: EquipmentType.weapons,
@@ -6142,10 +6601,21 @@ export const Equipments = [
                { ware: 'weaponcomponents', amount: 3 },
             ],
          },
+         {
+            time: 10,
+            amount: 1,
+            method: 'xenon',
+            name: 'Xenon',
+            wares: [
+               { ware: 'energycells', amount: 15 },
+               { ware: 'ore', amount: 2 },
+            ],
+         },
       ]
    },
    {
       id: 'weapon_gen_mine_03',
+      version: 0,
       name: 'Friend/Foe Mine',
       description: 'Friend/Foe Mines are equipped with specialist software that allows the user to program the mine not to respond to friendly targets. This is usually achieved over comm-frequency identification, and friendly targets must stay informed of changes to the frequency as not to accidentally fall foul of the mine\'s dangerous payload - this in of itself is almost always an automated process.',
       type: EquipmentType.weapons,
@@ -6165,10 +6635,22 @@ export const Equipments = [
                { ware: 'weaponcomponents', amount: 3 },
             ],
          },
+         {
+            time: 10,
+            amount: 1,
+            method: 'xenon',
+            name: 'Xenon',
+            wares: [
+               { ware: 'energycells', amount: 20 },
+               { ware: 'ore', amount: 1 },
+               { ware: 'silicon', amount: 1 },
+            ],
+         },
       ]
    },
    {
       id: 'weapon_gen_m_beam_01_mk1',
+      version: 0,
       name: 'M Beam Emitter Mk1',
       description: 'No information available',
       type: EquipmentType.weapons,
@@ -6176,6 +6658,7 @@ export const Equipments = [
       size: Size.medium,
       hull: 1001,
       price: { min: 25530, max: 31203, avg: 28367 },
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -6192,6 +6675,7 @@ export const Equipments = [
    },
    {
       id: 'weapon_gen_m_beam_01_mk2',
+      version: 0,
       name: 'M Beam Emitter Mk2',
       description: 'No information available',
       type: EquipmentType.weapons,
@@ -6199,6 +6683,7 @@ export const Equipments = [
       size: Size.medium,
       hull: 1001,
       price: { min: 127132, max: 155383, avg: 141257 },
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -6215,6 +6700,7 @@ export const Equipments = [
    },
    {
       id: 'weapon_gen_m_dumbfire_01_mk1',
+      version: 0,
       name: 'M Dumbfire Launcher Mk1',
       description: 'No information available',
       type: EquipmentType.weapons,
@@ -6222,6 +6708,7 @@ export const Equipments = [
       size: Size.medium,
       hull: 1001,
       price: { min: 22558, max: 27571, avg: 25064 },
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.hatikvah, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.scaleplate, Factions.teladi, Factions.trinity ],
       production: [
          {
             time: 5,
@@ -6238,6 +6725,7 @@ export const Equipments = [
    },
    {
       id: 'weapon_gen_m_dumbfire_01_mk2',
+      version: 0,
       name: 'M Dumbfire Launcher Mk2',
       description: 'No information available',
       type: EquipmentType.weapons,
@@ -6245,6 +6733,7 @@ export const Equipments = [
       size: Size.medium,
       hull: 1001,
       price: { min: 111753, max: 136587, avg: 124170 },
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
       production: [
          {
             time: 5,
@@ -6261,6 +6750,7 @@ export const Equipments = [
    },
    {
       id: 'weapon_gen_m_gatling_01_mk1',
+      version: 0,
       name: 'M Bolt Repeater Mk1',
       description: 'No information available',
       type: EquipmentType.weapons,
@@ -6268,6 +6758,7 @@ export const Equipments = [
       size: Size.medium,
       hull: 1001,
       price: { min: 23928, max: 29245, avg: 26586 },
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -6284,6 +6775,7 @@ export const Equipments = [
    },
    {
       id: 'weapon_gen_m_gatling_01_mk2',
+      version: 0,
       name: 'M Bolt Repeater Mk2',
       description: 'No information available',
       type: EquipmentType.weapons,
@@ -6291,6 +6783,7 @@ export const Equipments = [
       size: Size.medium,
       hull: 1001,
       price: { min: 119121, max: 145592, avg: 132356 },
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -6307,6 +6800,7 @@ export const Equipments = [
    },
    {
       id: 'weapon_gen_m_guided_01_mk1',
+      version: 0,
       name: 'M Tracking Launcher Mk1',
       description: 'No information available',
       type: EquipmentType.weapons,
@@ -6314,6 +6808,7 @@ export const Equipments = [
       size: Size.medium,
       hull: 1001,
       price: { min: 44770, max: 54719, avg: 49745 },
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
       production: [
          {
             time: 5,
@@ -6330,6 +6825,7 @@ export const Equipments = [
    },
    {
       id: 'weapon_gen_m_guided_01_mk2',
+      version: 0,
       name: 'M Tracking Launcher Mk2',
       description: 'No information available',
       type: EquipmentType.weapons,
@@ -6337,6 +6833,7 @@ export const Equipments = [
       size: Size.medium,
       hull: 1001,
       price: { min: 222815, max: 272330, avg: 247572 },
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
       production: [
          {
             time: 5,
@@ -6353,6 +6850,7 @@ export const Equipments = [
    },
    {
       id: 'weapon_gen_m_laser_01_mk1',
+      version: 0,
       name: 'M Pulse Laser Mk1',
       description: 'No information available',
       type: EquipmentType.weapons,
@@ -6360,6 +6858,7 @@ export const Equipments = [
       size: Size.medium,
       hull: 1001,
       price: { min: 20763, max: 25377, avg: 23070 },
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.hatikvah, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.scaleplate, Factions.teladi, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -6376,6 +6875,7 @@ export const Equipments = [
    },
    {
       id: 'weapon_gen_m_laser_01_mk2',
+      version: 0,
       name: 'M Pulse Laser Mk2',
       description: 'No information available',
       type: EquipmentType.weapons,
@@ -6383,6 +6883,7 @@ export const Equipments = [
       size: Size.medium,
       hull: 1001,
       price: { min: 103297, max: 126252, avg: 114775 },
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -6399,6 +6900,7 @@ export const Equipments = [
    },
    {
       id: 'weapon_gen_m_mining_01_mk1',
+      version: 0,
       name: 'M Mining Drill Mk1',
       description: 'No information available',
       type: EquipmentType.weapons,
@@ -6406,6 +6908,7 @@ export const Equipments = [
       size: Size.medium,
       hull: 1001,
       price: { min: 16016, max: 19575, avg: 17796 },
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.hatikvah, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.scaleplate, Factions.teladi, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -6422,6 +6925,7 @@ export const Equipments = [
    },
    {
       id: 'weapon_gen_m_mining_01_mk2',
+      version: 0,
       name: 'M Mining Drill Mk2',
       description: 'No information available',
       type: EquipmentType.weapons,
@@ -6429,6 +6933,7 @@ export const Equipments = [
       size: Size.medium,
       hull: 1001,
       price: { min: 79562, max: 97243, avg: 88402 },
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -6445,6 +6950,7 @@ export const Equipments = [
    },
    {
       id: 'weapon_gen_m_plasma_01_mk1',
+      version: 0,
       name: 'M Plasma Cannon Mk1',
       description: 'No information available',
       type: EquipmentType.weapons,
@@ -6452,6 +6958,7 @@ export const Equipments = [
       size: Size.medium,
       hull: 1001,
       price: { min: 30277, max: 37005, avg: 33641 },
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -6468,6 +6975,7 @@ export const Equipments = [
    },
    {
       id: 'weapon_gen_m_plasma_01_mk2',
+      version: 0,
       name: 'M Plasma Cannon Mk2',
       description: 'No information available',
       type: EquipmentType.weapons,
@@ -6475,6 +6983,7 @@ export const Equipments = [
       size: Size.medium,
       hull: 1001,
       price: { min: 150867, max: 184393, avg: 167630 },
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -6491,6 +7000,7 @@ export const Equipments = [
    },
    {
       id: 'weapon_gen_m_shotgun_01_mk1',
+      version: 0,
       name: 'M Shard Battery Mk1',
       description: 'No information available',
       type: EquipmentType.weapons,
@@ -6498,6 +7008,7 @@ export const Equipments = [
       size: Size.medium,
       hull: 1001,
       price: { min: 22365, max: 27335, avg: 24850 },
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -6514,6 +7025,7 @@ export const Equipments = [
    },
    {
       id: 'weapon_gen_m_shotgun_01_mk2',
+      version: 0,
       name: 'M Shard Battery Mk2',
       description: 'No information available',
       type: EquipmentType.weapons,
@@ -6521,6 +7033,7 @@ export const Equipments = [
       size: Size.medium,
       hull: 1001,
       price: { min: 111308, max: 136043, avg: 123676 },
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -6537,6 +7050,7 @@ export const Equipments = [
    },
    {
       id: 'weapon_gen_m_torpedo_01_mk1',
+      version: 0,
       name: 'M Torpedo Launcher Mk1',
       description: 'No information available',
       type: EquipmentType.weapons,
@@ -6544,6 +7058,7 @@ export const Equipments = [
       size: Size.medium,
       hull: 1001,
       price: { min: 78039, max: 95381, avg: 86710 },
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
       production: [
          {
             time: 5,
@@ -6560,6 +7075,7 @@ export const Equipments = [
    },
    {
       id: 'weapon_gen_m_torpedo_01_mk2',
+      version: 0,
       name: 'M Torpedo Launcher Mk2',
       description: 'No information available',
       type: EquipmentType.weapons,
@@ -6567,6 +7083,7 @@ export const Equipments = [
       size: Size.medium,
       hull: 1001,
       price: { min: 389160, max: 475640, avg: 432400 },
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
       production: [
          {
             time: 5,
@@ -6583,6 +7100,7 @@ export const Equipments = [
    },
    {
       id: 'weapon_gen_s_beam_01_mk1',
+      version: 0,
       name: 'S Beam Emitter Mk1',
       description: 'No information available',
       type: EquipmentType.weapons,
@@ -6590,6 +7108,7 @@ export const Equipments = [
       size: Size.small,
       hull: 500,
       price: { min: 23948, max: 29269, avg: 26609 },
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -6606,6 +7125,7 @@ export const Equipments = [
    },
    {
       id: 'weapon_gen_s_beam_01_mk2',
+      version: 0,
       name: 'S Beam Emitter Mk2',
       description: 'No information available',
       type: EquipmentType.weapons,
@@ -6613,6 +7133,7 @@ export const Equipments = [
       size: Size.small,
       hull: 500,
       price: { min: 104979, max: 128308, avg: 116643 },
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -6628,7 +7149,106 @@ export const Equipments = [
       ]
    },
    {
+      id: 'weapon_gen_s_burst_01_mk1',
+      version: 0,
+      name: 'S Burst Ray Mk1',
+      description: 'No information available',
+      type: EquipmentType.weapons,
+      equipmentClass: EquipmentClass.weapon,
+      size: Size.small,
+      hull: 500,
+      price: { min: 18582, max: 39398, avg: 28990 },
+      owners: [ Factions.alliance, Factions.paranid, Factions.trinity ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'advancedelectronics', amount: 2 },
+               { ware: 'energycells', amount: 13 },
+               { ware: 'weaponcomponents', amount: 10 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'weapon_gen_s_burst_01_mk2',
+      version: 0,
+      name: 'S Burst Ray Mk2',
+      description: 'No information available',
+      type: EquipmentType.weapons,
+      equipmentClass: EquipmentClass.weapon,
+      size: Size.small,
+      hull: 500,
+      price: { min: 56299, max: 108078, avg: 82188 },
+      owners: [ Factions.alliance, Factions.paranid, Factions.trinity ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'advancedelectronics', amount: 12 },
+               { ware: 'energycells', amount: 16 },
+               { ware: 'weaponcomponents', amount: 7 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'weapon_gen_s_cannon_01_mk1',
+      version: 0,
+      name: 'S Blast Mortar Mk1',
+      description: 'No information available',
+      type: EquipmentType.weapons,
+      equipmentClass: EquipmentClass.weapon,
+      size: Size.small,
+      price: { min: 40538, max: 81008, avg: 60773 },
+      owners: [ Factions.holyorder, Factions.ministry, Factions.trinity ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'advancedelectronics', amount: 7 },
+               { ware: 'energycells', amount: 9 },
+               { ware: 'weaponcomponents', amount: 12 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'weapon_gen_s_cannon_01_mk2',
+      version: 0,
+      name: 'S Blast Mortar Mk2',
+      description: 'No information available',
+      type: EquipmentType.weapons,
+      equipmentClass: EquipmentClass.weapon,
+      size: Size.small,
+      price: { min: 57963, max: 111999, avg: 84981 },
+      owners: [ Factions.holyorder, Factions.ministry, Factions.trinity ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'advancedelectronics', amount: 12 },
+               { ware: 'energycells', amount: 11 },
+               { ware: 'weaponcomponents', amount: 9 },
+            ],
+         },
+      ]
+   },
+   {
       id: 'weapon_gen_s_dumbfire_01_mk1',
+      version: 0,
       name: 'S Dumbfire Launcher Mk1',
       description: 'No information available',
       type: EquipmentType.weapons,
@@ -6636,6 +7256,7 @@ export const Equipments = [
       size: Size.small,
       hull: 500,
       price: { min: 6695, max: 8183, avg: 7439 },
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.hatikvah, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.scaleplate, Factions.teladi, Factions.trinity ],
       production: [
          {
             time: 5,
@@ -6652,6 +7273,7 @@ export const Equipments = [
    },
    {
       id: 'weapon_gen_s_dumbfire_01_mk2',
+      version: 0,
       name: 'S Dumbfire Launcher Mk2',
       description: 'No information available',
       type: EquipmentType.weapons,
@@ -6659,6 +7281,7 @@ export const Equipments = [
       size: Size.small,
       hull: 500,
       price: { min: 13370, max: 16341, avg: 14855 },
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
       production: [
          {
             time: 5,
@@ -6675,6 +7298,7 @@ export const Equipments = [
    },
    {
       id: 'weapon_gen_s_gatling_01_mk1',
+      version: 0,
       name: 'S Bolt Repeater Mk1',
       description: 'No information available',
       type: EquipmentType.weapons,
@@ -6682,6 +7306,7 @@ export const Equipments = [
       size: Size.small,
       hull: 500,
       price: { min: 43055, max: 52623, avg: 47839 },
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -6698,6 +7323,7 @@ export const Equipments = [
    },
    {
       id: 'weapon_gen_s_gatling_01_mk2',
+      version: 0,
       name: 'S Bolt Repeater Mk2',
       description: 'No information available',
       type: EquipmentType.weapons,
@@ -6705,6 +7331,7 @@ export const Equipments = [
       size: Size.small,
       hull: 500,
       price: { min: 214756, max: 262480, avg: 238618 },
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -6721,6 +7348,7 @@ export const Equipments = [
    },
    {
       id: 'weapon_gen_s_guided_01_mk1',
+      version: 0,
       name: 'S Tracking Launcher Mk1',
       description: 'No information available',
       type: EquipmentType.weapons,
@@ -6728,6 +7356,7 @@ export const Equipments = [
       size: Size.small,
       hull: 500,
       price: { min: 8277, max: 10117, avg: 9197 },
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
       production: [
          {
             time: 5,
@@ -6744,6 +7373,7 @@ export const Equipments = [
    },
    {
       id: 'weapon_gen_s_guided_01_mk2',
+      version: 0,
       name: 'S Tracking Launcher Mk2',
       description: 'No information available',
       type: EquipmentType.weapons,
@@ -6751,6 +7381,7 @@ export const Equipments = [
       size: Size.small,
       hull: 500,
       price: { min: 40349, max: 49316, avg: 44832 },
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
       production: [
          {
             time: 5,
@@ -6767,6 +7398,7 @@ export const Equipments = [
    },
    {
       id: 'weapon_gen_s_laser_01_mk1',
+      version: 0,
       name: 'S Pulse Laser Mk1',
       description: 'No information available',
       type: EquipmentType.weapons,
@@ -6774,6 +7406,7 @@ export const Equipments = [
       size: Size.small,
       hull: 500,
       price: { min: 16056, max: 19624, avg: 17840 },
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.hatikvah, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.scaleplate, Factions.teladi, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -6790,6 +7423,7 @@ export const Equipments = [
    },
    {
       id: 'weapon_gen_s_laser_01_mk2',
+      version: 0,
       name: 'S Pulse Laser Mk2',
       description: 'No information available',
       type: EquipmentType.weapons,
@@ -6797,6 +7431,7 @@ export const Equipments = [
       size: Size.small,
       hull: 500,
       price: { min: 79761, max: 97485, avg: 88623 },
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -6813,6 +7448,7 @@ export const Equipments = [
    },
    {
       id: 'weapon_gen_s_mining_01_mk1',
+      version: 0,
       name: 'S Mining Drill Mk1',
       description: 'No information available',
       type: EquipmentType.weapons,
@@ -6820,6 +7456,7 @@ export const Equipments = [
       size: Size.small,
       hull: 500,
       price: { min: 6522, max: 7971, avg: 7247 },
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -6836,6 +7473,7 @@ export const Equipments = [
    },
    {
       id: 'weapon_gen_s_mining_01_mk2',
+      version: 0,
       name: 'S Mining Drill Mk2',
       description: 'No information available',
       type: EquipmentType.weapons,
@@ -6843,6 +7481,7 @@ export const Equipments = [
       size: Size.small,
       hull: 500,
       price: { min: 32092, max: 39223, avg: 35658 },
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -6859,6 +7498,7 @@ export const Equipments = [
    },
    {
       id: 'weapon_gen_s_plasma_01_mk1',
+      version: 0,
       name: 'S Plasma Cannon Mk1',
       description: 'No information available',
       type: EquipmentType.weapons,
@@ -6866,6 +7506,7 @@ export const Equipments = [
       size: Size.small,
       hull: 500,
       price: { min: 12851, max: 15707, avg: 14279 },
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -6882,6 +7523,7 @@ export const Equipments = [
    },
    {
       id: 'weapon_gen_s_plasma_01_mk2',
+      version: 0,
       name: 'S Plasma Cannon Mk2',
       description: 'No information available',
       type: EquipmentType.weapons,
@@ -6889,6 +7531,7 @@ export const Equipments = [
       size: Size.small,
       hull: 500,
       price: { min: 55827, max: 68233, avg: 62030 },
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -6905,6 +7548,7 @@ export const Equipments = [
    },
    {
       id: 'weapon_gen_s_shotgun_01_mk1',
+      version: 0,
       name: 'S Shard Battery Mk1',
       description: 'No information available',
       type: EquipmentType.weapons,
@@ -6912,6 +7556,7 @@ export const Equipments = [
       size: Size.small,
       hull: 500,
       price: { min: 27152, max: 33186, avg: 30169 },
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -6928,6 +7573,7 @@ export const Equipments = [
    },
    {
       id: 'weapon_gen_s_shotgun_01_mk2',
+      version: 0,
       name: 'S Shard Battery Mk2',
       description: 'No information available',
       type: EquipmentType.weapons,
@@ -6935,6 +7581,7 @@ export const Equipments = [
       size: Size.small,
       hull: 500,
       price: { min: 135242, max: 165296, avg: 150269 },
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -6951,6 +7598,7 @@ export const Equipments = [
    },
    {
       id: 'weapon_gen_s_torpedo_01_mk1',
+      version: 0,
       name: 'S Torpedo Launcher Mk1',
       description: 'No information available',
       type: EquipmentType.weapons,
@@ -6958,6 +7606,7 @@ export const Equipments = [
       size: Size.small,
       hull: 500,
       price: { min: 22558, max: 27571, avg: 25064 },
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
       production: [
          {
             time: 5,
@@ -6974,6 +7623,7 @@ export const Equipments = [
    },
    {
       id: 'weapon_gen_s_torpedo_01_mk2',
+      version: 0,
       name: 'S Torpedo Launcher Mk2',
       description: 'No information available',
       type: EquipmentType.weapons,
@@ -6981,6 +7631,7 @@ export const Equipments = [
       size: Size.small,
       hull: 500,
       price: { min: 111753, max: 136587, avg: 124170 },
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
       production: [
          {
             time: 5,
@@ -6996,7 +7647,38 @@ export const Equipments = [
       ]
    },
    {
+      id: 'weapon_kha_m_laser_01_mk1',
+      version: 0,
+      name: 'M Kyon Emitter Mk1',
+      description: 'No information available',
+      race: Races.khaak,
+      type: EquipmentType.weapons,
+      equipmentClass: EquipmentClass.weapon,
+      size: Size.medium,
+      hull: 1000,
+      price: { min: 1, max: 1, avg: 1 },
+      owners: [ Factions.khaak ],
+      production: [
+      ]
+   },
+   {
+      id: 'weapon_kha_s_laser_01_mk1',
+      version: 0,
+      name: 'S Kyon Emitter Mk1',
+      description: 'No information available',
+      race: Races.khaak,
+      type: EquipmentType.weapons,
+      equipmentClass: EquipmentClass.weapon,
+      size: Size.small,
+      hull: 500,
+      price: { min: 1, max: 1, avg: 1 },
+      owners: [ Factions.khaak ],
+      production: [
+      ]
+   },
+   {
       id: 'weapon_par_l_destroyer_01_mk1',
+      version: 0,
       name: 'Odysseus Main Battery',
       description: 'No information available',
       type: EquipmentType.weapons,
@@ -7004,7 +7686,7 @@ export const Equipments = [
       size: Size.large,
       hull: 8000,
       price: { min: 1000201, max: 1222468, avg: 1111335 },
-      owners: [ Factions.paranid ],
+      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -7020,7 +7702,108 @@ export const Equipments = [
       ]
    },
    {
+      id: 'weapon_par_m_railgun_01_mk1',
+      version: 0,
+      name: 'M Mass Driver Mk1',
+      description: 'No information available',
+      type: EquipmentType.weapons,
+      equipmentClass: EquipmentClass.weapon,
+      size: Size.medium,
+      hull: 1001,
+      price: { min: 304352, max: 600045, avg: 452198 },
+      owners: [ Factions.alliance, Factions.paranid, Factions.trinity ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'advancedelectronics', amount: 57 },
+               { ware: 'energycells', amount: 10 },
+               { ware: 'weaponcomponents', amount: 75 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'weapon_par_m_railgun_01_mk2',
+      version: 0,
+      name: 'M Mass Driver Mk2',
+      description: 'No information available',
+      type: EquipmentType.weapons,
+      equipmentClass: EquipmentClass.weapon,
+      size: Size.medium,
+      hull: 1001,
+      price: { min: 1188194, max: 2380428, avg: 1784311 },
+      owners: [ Factions.alliance, Factions.paranid, Factions.trinity ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'advancedelectronics', amount: 203 },
+               { ware: 'energycells', amount: 20 },
+               { ware: 'weaponcomponents', amount: 375 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'weapon_par_s_railgun_01_mk1',
+      version: 0,
+      name: 'S Mass Driver Mk1',
+      description: 'No information available',
+      type: EquipmentType.weapons,
+      equipmentClass: EquipmentClass.weapon,
+      size: Size.small,
+      hull: 500,
+      price: { min: 163448, max: 329181, avg: 246314 },
+      owners: [ Factions.alliance, Factions.paranid, Factions.trinity ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'advancedelectronics', amount: 27 },
+               { ware: 'energycells', amount: 10 },
+               { ware: 'weaponcomponents', amount: 55 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'weapon_par_s_railgun_01_mk2',
+      version: 0,
+      name: 'S Mass Driver Mk2',
+      description: 'No information available',
+      type: EquipmentType.weapons,
+      equipmentClass: EquipmentClass.weapon,
+      size: Size.small,
+      hull: 500,
+      price: { min: 860045, max: 1724780, avg: 1292412 },
+      owners: [ Factions.alliance, Factions.paranid, Factions.trinity ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'advancedelectronics', amount: 146 },
+               { ware: 'energycells', amount: 20 },
+               { ware: 'weaponcomponents', amount: 275 },
+            ],
+         },
+      ]
+   },
+   {
       id: 'weapon_tel_l_destroyer_01_mk1',
+      version: 0,
       name: 'Phoenix Main Battery',
       description: 'No information available',
       type: EquipmentType.weapons,
@@ -7028,7 +7811,7 @@ export const Equipments = [
       size: Size.large,
       hull: 8000,
       price: { min: 873217, max: 1067265, avg: 970241 },
-      owners: [ Factions.teladi ],
+      owners: [ Factions.alliance, Factions.ministry, Factions.teladi ],
       production: [
          {
             time: 10,
@@ -7044,7 +7827,108 @@ export const Equipments = [
       ]
    },
    {
+      id: 'weapon_tel_m_charge_01_mk1',
+      version: 0,
+      name: 'M Muon Charger Mk1',
+      description: 'No information available',
+      type: EquipmentType.weapons,
+      equipmentClass: EquipmentClass.weapon,
+      size: Size.medium,
+      hull: 1001,
+      price: { min: 17978, max: 39980, avg: 28979 },
+      owners: [ Factions.alliance, Factions.teladi ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'advancedelectronics', amount: 1 },
+               { ware: 'energycells', amount: 5 },
+               { ware: 'weaponcomponents', amount: 14 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'weapon_tel_m_charge_01_mk2',
+      version: 0,
+      name: 'M Muon Charger Mk2',
+      description: 'No information available',
+      type: EquipmentType.weapons,
+      equipmentClass: EquipmentClass.weapon,
+      size: Size.medium,
+      hull: 1001,
+      price: { min: 89034, max: 198018, avg: 143526 },
+      owners: [ Factions.alliance, Factions.teladi ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'advancedelectronics', amount: 5 },
+               { ware: 'energycells', amount: 10 },
+               { ware: 'weaponcomponents', amount: 70 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'weapon_tel_s_charge_01_mk1',
+      version: 0,
+      name: 'S Muon Charger Mk1',
+      description: 'No information available',
+      type: EquipmentType.weapons,
+      equipmentClass: EquipmentClass.weapon,
+      size: Size.small,
+      hull: 500,
+      price: { min: 7256, max: 14963, avg: 11109 },
+      owners: [ Factions.alliance, Factions.teladi ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'advancedelectronics', amount: 1 },
+               { ware: 'energycells', amount: 5 },
+               { ware: 'weaponcomponents', amount: 3 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'weapon_tel_s_charge_01_mk2',
+      version: 0,
+      name: 'S Muon Charger Mk2',
+      description: 'No information available',
+      type: EquipmentType.weapons,
+      equipmentClass: EquipmentClass.weapon,
+      size: Size.small,
+      hull: 500,
+      price: { min: 35426, max: 72932, avg: 54179 },
+      owners: [ Factions.alliance, Factions.teladi ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'advancedelectronics', amount: 15 },
+               { ware: 'energycells', amount: 10 },
+               { ware: 'weaponcomponents', amount: 5 },
+            ],
+         },
+      ]
+   },
+   {
       id: 'weapon_xen_m_laser_01_mk1',
+      version: 0,
       name: 'M Pulse Laser Mk1',
       description: 'No information available',
       race: Races.xenon,
@@ -7070,6 +7954,7 @@ export const Equipments = [
    },
    {
       id: 'weapon_xen_m_mining_01_mk1',
+      version: 0,
       name: 'M Mining Drill Mk1',
       description: 'No information available',
       race: Races.xenon,
@@ -7094,8 +7979,10 @@ export const Equipments = [
    },
    {
       id: 'weapon_xen_s_laser_01_mk1',
-      name: 'Pulse Laser',
+      version: 0,
+      name: 'S Pulse Laser Mk1',
       description: 'No information available',
+      race: Races.xenon,
       type: EquipmentType.weapons,
       equipmentClass: EquipmentClass.weapon,
       size: Size.small,
@@ -7110,6 +7997,1597 @@ export const Equipments = [
             wares: [
                { ware: 'energycells', amount: 5 },
                { ware: 'ore', amount: 2 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'engine_spl_l_allround_01_mk1',
+      version: 1,
+      name: 'SPL L All-round Engine Mk1',
+      description: 'No information available',
+      race: Races.split,
+      type: EquipmentType.engines,
+      equipmentClass: EquipmentClass.engine,
+      size: Size.large,
+      hull: 4018,
+      price: { min: 258153, max: 480054, avg: 368448 },
+      owners: [ Factions.court, Factions.freesplit, Factions.split ],
+      thrust: { forward: 5678, reverse: 6246 },
+      production: [
+         {
+            time: 20,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'antimatterconverters', amount: 129 },
+               { ware: 'energycells', amount: 37 },
+               { ware: 'engineparts', amount: 101 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'engine_spl_l_travel_01_mk1',
+      version: 1,
+      name: 'SPL L Travel Engine Mk1',
+      description: 'No information available',
+      race: Races.split,
+      type: EquipmentType.engines,
+      equipmentClass: EquipmentClass.engine,
+      size: Size.large,
+      hull: 4018,
+      price: { min: 266600, max: 496641, avg: 380897 },
+      owners: [ Factions.court, Factions.freesplit, Factions.split ],
+      thrust: { forward: 5408, reverse: 4867 },
+      production: [
+         {
+            time: 20,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'antimatterconverters', amount: 111 },
+               { ware: 'energycells', amount: 94 },
+               { ware: 'engineparts', amount: 143 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'engine_spl_m_allround_01_mk1',
+      version: 1,
+      name: 'SPL M All-round Engine Mk1',
+      description: 'No information available',
+      race: Races.split,
+      type: EquipmentType.engines,
+      equipmentClass: EquipmentClass.engine,
+      size: Size.medium,
+      price: { min: 8721, max: 16644, avg: 12654 },
+      owners: [ Factions.court, Factions.freesplit, Factions.split ],
+      thrust: { forward: 1353, reverse: 1285 },
+      production: [
+         {
+            time: 15,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'energycells', amount: 25 },
+               { ware: 'engineparts', amount: 10 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'engine_spl_m_allround_01_mk2',
+      version: 1,
+      name: 'SPL M All-round Engine Mk2',
+      description: 'No information available',
+      race: Races.split,
+      type: EquipmentType.engines,
+      equipmentClass: EquipmentClass.engine,
+      size: Size.medium,
+      price: { min: 43115, max: 81054, avg: 61948 },
+      owners: [ Factions.court, Factions.freesplit, Factions.split ],
+      thrust: { forward: 1637, reverse: 1658 },
+      production: [
+         {
+            time: 15,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'antimatterconverters', amount: 7 },
+               { ware: 'energycells', amount: 58 },
+               { ware: 'engineparts', amount: 41 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'engine_spl_m_allround_01_mk3',
+      version: 1,
+      name: 'SPL M All-round Engine Mk3',
+      description: 'No information available',
+      race: Races.split,
+      type: EquipmentType.engines,
+      equipmentClass: EquipmentClass.engine,
+      size: Size.medium,
+      price: { min: 210854, max: 392833, avg: 301234 },
+      owners: [ Factions.court, Factions.freesplit, Factions.split ],
+      thrust: { forward: 1826, reverse: 1907 },
+      production: [
+         {
+            time: 15,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'antimatterconverters', amount: 73 },
+               { ware: 'energycells', amount: 84 },
+               { ware: 'engineparts', amount: 141 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'engine_spl_m_combat_01_mk1',
+      version: 1,
+      name: 'SPL M Combat Engine Mk1',
+      description: 'No information available',
+      race: Races.split,
+      type: EquipmentType.engines,
+      equipmentClass: EquipmentClass.engine,
+      size: Size.medium,
+      price: { min: 10078, max: 19374, avg: 14695 },
+      owners: [ Factions.court, Factions.freesplit, Factions.split ],
+      thrust: { forward: 1420, reverse: 1491 },
+      production: [
+         {
+            time: 15,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'energycells', amount: 36 },
+               { ware: 'engineparts', amount: 11 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'engine_spl_m_combat_01_mk2',
+      version: 1,
+      name: 'SPL M Combat Engine Mk2',
+      description: 'No information available',
+      race: Races.split,
+      type: EquipmentType.engines,
+      equipmentClass: EquipmentClass.engine,
+      size: Size.medium,
+      price: { min: 51756, max: 96917, avg: 74180 },
+      owners: [ Factions.court, Factions.freesplit, Factions.split ],
+      thrust: { forward: 1719, reverse: 1986 },
+      production: [
+         {
+            time: 15,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'antimatterconverters', amount: 13 },
+               { ware: 'energycells', amount: 48 },
+               { ware: 'engineparts', amount: 42 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'engine_spl_m_combat_01_mk3',
+      version: 1,
+      name: 'SPL M Combat Engine Mk3',
+      description: 'No information available',
+      race: Races.split,
+      type: EquipmentType.engines,
+      equipmentClass: EquipmentClass.engine,
+      size: Size.medium,
+      price: { min: 253468, max: 472712, avg: 362360 },
+      owners: [ Factions.court, Factions.freesplit, Factions.split ],
+      thrust: { forward: 1917, reverse: 2315 },
+      production: [
+         {
+            time: 15,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'antimatterconverters', amount: 87 },
+               { ware: 'energycells', amount: 126 },
+               { ware: 'engineparts', amount: 169 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'engine_spl_m_combat_01_mk4',
+      version: 1,
+      name: 'SPL M Combat Engine Mk4',
+      description: 'No information available',
+      race: Races.split,
+      type: EquipmentType.engines,
+      equipmentClass: EquipmentClass.engine,
+      size: Size.medium,
+      price: { min: 1267862, max: 2363619, avg: 1811825 },
+      owners: [ Factions.court, Factions.split ],
+      thrust: { forward: 2017, reverse: 2480 },
+      production: [
+         {
+            time: 15,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'antimatterconverters', amount: 335 },
+               { ware: 'energycells', amount: 636 },
+               { ware: 'engineparts', amount: 1039 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'engine_spl_m_travel_01_mk1',
+      version: 1,
+      name: 'SPL M Travel Engine Mk1',
+      description: 'No information available',
+      race: Races.split,
+      type: EquipmentType.engines,
+      equipmentClass: EquipmentClass.engine,
+      size: Size.medium,
+      price: { min: 9348, max: 18023, avg: 13657 },
+      owners: [ Factions.court, Factions.freesplit, Factions.split ],
+      thrust: { forward: 1353, reverse: 1217 },
+      production: [
+         {
+            time: 15,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'energycells', amount: 36 },
+               { ware: 'engineparts', amount: 10 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'engine_spl_m_travel_01_mk2',
+      version: 1,
+      name: 'SPL M Travel Engine Mk2',
+      description: 'No information available',
+      race: Races.split,
+      type: EquipmentType.engines,
+      equipmentClass: EquipmentClass.engine,
+      size: Size.medium,
+      price: { min: 48165, max: 90288, avg: 69084 },
+      owners: [ Factions.court, Factions.freesplit, Factions.split ],
+      thrust: { forward: 1637, reverse: 1473 },
+      production: [
+         {
+            time: 15,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'antimatterconverters', amount: 13 },
+               { ware: 'energycells', amount: 49 },
+               { ware: 'engineparts', amount: 37 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'engine_spl_m_travel_01_mk3',
+      version: 1,
+      name: 'SPL M Travel Engine Mk3',
+      description: 'No information available',
+      race: Races.split,
+      type: EquipmentType.engines,
+      equipmentClass: EquipmentClass.engine,
+      size: Size.medium,
+      price: { min: 243287, max: 452449, avg: 347073 },
+      owners: [ Factions.court, Factions.freesplit, Factions.split ],
+      thrust: { forward: 1826, reverse: 1644 },
+      production: [
+         {
+            time: 15,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'antimatterconverters', amount: 52 },
+               { ware: 'energycells', amount: 73 },
+               { ware: 'engineparts', amount: 227 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'engine_spl_s_allround_01_mk1',
+      version: 1,
+      name: 'SPL S All-round Engine Mk1',
+      description: 'No information available',
+      race: Races.split,
+      type: EquipmentType.engines,
+      equipmentClass: EquipmentClass.engine,
+      size: Size.small,
+      price: { min: 3443, max: 6812, avg: 5119 },
+      owners: [ Factions.court, Factions.freesplit, Factions.split ],
+      thrust: { forward: 535, reverse: 561 },
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'energycells', amount: 22 },
+               { ware: 'engineparts', amount: 3 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'engine_spl_s_allround_01_mk2',
+      version: 1,
+      name: 'SPL S All-round Engine Mk2',
+      description: 'No information available',
+      race: Races.split,
+      type: EquipmentType.engines,
+      equipmentClass: EquipmentClass.engine,
+      size: Size.small,
+      price: { min: 19551, max: 37244, avg: 28340 },
+      owners: [ Factions.court, Factions.freesplit, Factions.split ],
+      thrust: { forward: 647, reverse: 775 },
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'antimatterconverters', amount: 3 },
+               { ware: 'energycells', amount: 51 },
+               { ware: 'engineparts', amount: 17 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'engine_spl_s_allround_01_mk3',
+      version: 1,
+      name: 'SPL S All-round Engine Mk3',
+      description: 'No information available',
+      race: Races.split,
+      type: EquipmentType.engines,
+      equipmentClass: EquipmentClass.engine,
+      size: Size.small,
+      price: { min: 91360, max: 171342, avg: 131077 },
+      owners: [ Factions.court, Factions.freesplit, Factions.split ],
+      thrust: { forward: 722, reverse: 917 },
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'antimatterconverters', amount: 23 },
+               { ware: 'energycells', amount: 98 },
+               { ware: 'engineparts', amount: 73 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'engine_spl_s_combat_01_mk1',
+      version: 1,
+      name: 'SPL S Combat Engine Mk1',
+      description: 'No information available',
+      race: Races.split,
+      type: EquipmentType.engines,
+      equipmentClass: EquipmentClass.engine,
+      size: Size.small,
+      price: { min: 4902, max: 9513, avg: 7193 },
+      owners: [ Factions.court, Factions.freesplit, Factions.split ],
+      thrust: { forward: 561, reverse: 674 },
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'energycells', amount: 22 },
+               { ware: 'engineparts', amount: 5 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'engine_spl_s_combat_01_mk2',
+      version: 1,
+      name: 'SPL S Combat Engine Mk2',
+      description: 'No information available',
+      race: Races.split,
+      type: EquipmentType.engines,
+      equipmentClass: EquipmentClass.engine,
+      size: Size.small,
+      price: { min: 29617, max: 55883, avg: 42659 },
+      owners: [ Factions.court, Factions.freesplit, Factions.split ],
+      thrust: { forward: 679, reverse: 958 },
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'antimatterconverters', amount: 5 },
+               { ware: 'energycells', amount: 50 },
+               { ware: 'engineparts', amount: 27 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'engine_spl_s_combat_01_mk3',
+      version: 1,
+      name: 'SPL S Combat Engine Mk3',
+      description: 'No information available',
+      race: Races.split,
+      type: EquipmentType.engines,
+      equipmentClass: EquipmentClass.engine,
+      size: Size.small,
+      price: { min: 134474, max: 250800, avg: 192227 },
+      owners: [ Factions.court, Factions.freesplit, Factions.split ],
+      thrust: { forward: 758, reverse: 1148 },
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'antimatterconverters', amount: 37 },
+               { ware: 'energycells', amount: 72 },
+               { ware: 'engineparts', amount: 107 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'engine_spl_s_combat_01_mk4',
+      version: 1,
+      name: 'SPL S Combat Engine Mk4',
+      description: 'No information available',
+      race: Races.split,
+      type: EquipmentType.engines,
+      equipmentClass: EquipmentClass.engine,
+      size: Size.small,
+      price: { min: 672885, max: 1254040, avg: 961168 },
+      owners: [ Factions.court, Factions.split ],
+      thrust: { forward: 797, reverse: 1243 },
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'antimatterconverters', amount: 95 },
+               { ware: 'energycells', amount: 361 },
+               { ware: 'engineparts', amount: 710 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'engine_spl_s_travel_01_mk1',
+      version: 1,
+      name: 'SPL S Travel Engine Mk1',
+      description: 'No information available',
+      race: Races.split,
+      type: EquipmentType.engines,
+      equipmentClass: EquipmentClass.engine,
+      size: Size.small,
+      price: { min: 4172, max: 8162, avg: 6156 },
+      owners: [ Factions.court, Factions.freesplit, Factions.split ],
+      thrust: { forward: 535, reverse: 535 },
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'energycells', amount: 22 },
+               { ware: 'engineparts', amount: 4 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'engine_spl_s_travel_01_mk2',
+      version: 1,
+      name: 'SPL S Travel Engine Mk2',
+      description: 'No information available',
+      race: Races.split,
+      type: EquipmentType.engines,
+      equipmentClass: EquipmentClass.engine,
+      size: Size.small,
+      price: { min: 25342, max: 47977, avg: 36583 },
+      owners: [ Factions.court, Factions.freesplit, Factions.split ],
+      thrust: { forward: 647, reverse: 674 },
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'antimatterconverters', amount: 4 },
+               { ware: 'energycells', amount: 51 },
+               { ware: 'engineparts', amount: 23 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'engine_spl_s_travel_01_mk3',
+      version: 1,
+      name: 'SPL S Travel Engine Mk3',
+      description: 'No information available',
+      race: Races.split,
+      type: EquipmentType.engines,
+      equipmentClass: EquipmentClass.engine,
+      size: Size.small,
+      price: { min: 123724, max: 230850, avg: 176882 },
+      owners: [ Factions.court, Factions.freesplit, Factions.split ],
+      thrust: { forward: 722, reverse: 767 },
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'antimatterconverters', amount: 23 },
+               { ware: 'energycells', amount: 77 },
+               { ware: 'engineparts', amount: 119 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'engine_spl_xl_allround_01_mk1',
+      version: 1,
+      name: 'SPL XL All-round Engine Mk1',
+      description: 'No information available',
+      race: Races.split,
+      type: EquipmentType.engines,
+      equipmentClass: EquipmentClass.engine,
+      size: Size.extralarge,
+      hull: 9899,
+      price: { min: 340974, max: 633834, avg: 486335 },
+      owners: [ Factions.court, Factions.freesplit, Factions.split ],
+      thrust: { forward: 14953, reverse: 16448 },
+      production: [
+         {
+            time: 30,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'antimatterconverters', amount: 92 },
+               { ware: 'energycells', amount: 78 },
+               { ware: 'engineparts', amount: 283 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'engine_spl_xl_travel_01_mk1',
+      version: 1,
+      name: 'SPL XL Travel Engine Mk1',
+      description: 'No information available',
+      race: Races.split,
+      type: EquipmentType.engines,
+      equipmentClass: EquipmentClass.engine,
+      size: Size.extralarge,
+      hull: 9955,
+      price: { min: 352716, max: 656275, avg: 503356 },
+      owners: [ Factions.court, Factions.freesplit, Factions.split ],
+      thrust: { forward: 14241, reverse: 12817 },
+      production: [
+         {
+            time: 30,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'antimatterconverters', amount: 79 },
+               { ware: 'energycells', amount: 120 },
+               { ware: 'engineparts', amount: 321 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'missile_disruptor_light_mk1',
+      version: 1,
+      name: 'Light Disruptor Missile Mk1',
+      description: 'No information available',
+      type: EquipmentType.missiles,
+      equipmentClass: EquipmentClass.missile,
+      explosionDamage: 896,
+      hull: 1,
+      price: { min: 1387, max: 1877, avg: 1632 },
+      owners: [ Factions.court, Factions.freesplit, Factions.split ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'energycells', amount: 15 },
+               { ware: 'missilecomponents', amount: 3 },
+               { ware: 'smartchips', amount: 2 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'missile_interceptor_light_mk1',
+      version: 1,
+      name: 'Light Interceptor Missile Mk1',
+      description: 'No information available',
+      type: EquipmentType.missiles,
+      equipmentClass: EquipmentClass.missile,
+      explosionDamage: 100,
+      hull: 1,
+      price: { min: 1267, max: 1714, avg: 1490 },
+      owners: [ Factions.court, Factions.freesplit, Factions.split ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'energycells', amount: 12 },
+               { ware: 'missilecomponents', amount: 11 },
+               { ware: 'smartchips', amount: 1 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'missile_scatter_heavy_mk1',
+      version: 1,
+      name: 'Heavy Scatter Missile Mk1',
+      description: 'No information available',
+      type: EquipmentType.missiles,
+      equipmentClass: EquipmentClass.missile,
+      explosionDamage: 400,
+      hull: 20,
+      price: { min: 1078, max: 1458, avg: 1268 },
+      owners: [ Factions.court, Factions.freesplit, Factions.split ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'energycells', amount: 5 },
+               { ware: 'missilecomponents', amount: 24 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'missile_starburst_heavy_mk1',
+      version: 1,
+      name: 'Heavy Starburst Missile Mk1',
+      description: 'No information available',
+      type: EquipmentType.missiles,
+      equipmentClass: EquipmentClass.missile,
+      explosionDamage: 3800,
+      hull: 3,
+      price: { min: 1700, max: 2300, avg: 2000 },
+      owners: [ Factions.court, Factions.freesplit, Factions.split ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'energycells', amount: 17 },
+               { ware: 'missilecomponents', amount: 9 },
+               { ware: 'smartchips', amount: 2 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'shield_spl_l_standard_01_mk1',
+      version: 1,
+      name: 'SPL L Shield Generator Mk1',
+      description: 'No information available',
+      race: Races.split,
+      type: EquipmentType.shields,
+      equipmentClass: EquipmentClass.shieldgenerator,
+      size: Size.large,
+      hull: 3000,
+      recharge: { max: 33018, rate: 140, delay: 0 },
+      price: { min: 27782, max: 64068, avg: 45874 },
+      owners: [ Factions.court, Factions.freesplit, Factions.split ],
+      production: [
+         {
+            time: 20,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'energycells', amount: 104 },
+               { ware: 'fieldcoils', amount: 5 },
+               { ware: 'shieldcomponents', amount: 23 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'shield_spl_l_standard_01_mk2',
+      version: 1,
+      name: 'SPL L Shield Generator Mk2',
+      description: 'No information available',
+      race: Races.split,
+      type: EquipmentType.shields,
+      equipmentClass: EquipmentClass.shieldgenerator,
+      size: Size.large,
+      hull: 3000,
+      recharge: { max: 39340, rate: 217, delay: 0 },
+      price: { min: 136139, max: 316589, avg: 226085 },
+      owners: [ Factions.court, Factions.split ],
+      production: [
+         {
+            time: 20,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'energycells', amount: 165 },
+               { ware: 'fieldcoils', amount: 31 },
+               { ware: 'shieldcomponents', amount: 129 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'shield_spl_m_standard_01_mk1',
+      version: 1,
+      name: 'SPL M Shield Generator Mk1',
+      description: 'No information available',
+      race: Races.split,
+      type: EquipmentType.shields,
+      equipmentClass: EquipmentClass.shieldgenerator,
+      size: Size.medium,
+      hull: 500,
+      recharge: { max: 4375, rate: 21, delay: 0.36 },
+      price: { min: 8653, max: 19836, avg: 14227 },
+      owners: [ Factions.court, Factions.freesplit, Factions.split ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'energycells', amount: 48 },
+               { ware: 'fieldcoils', amount: 1 },
+               { ware: 'shieldcomponents', amount: 7 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'shield_spl_m_standard_01_mk2',
+      version: 1,
+      name: 'SPL M Shield Generator Mk2',
+      description: 'No information available',
+      race: Races.split,
+      type: EquipmentType.shields,
+      equipmentClass: EquipmentClass.shieldgenerator,
+      size: Size.medium,
+      hull: 500,
+      recharge: { max: 5213, rate: 33, delay: 0.36 },
+      price: { min: 39644, max: 91930, avg: 65687 },
+      owners: [ Factions.court, Factions.split ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'energycells', amount: 84 },
+               { ware: 'fieldcoils', amount: 6 },
+               { ware: 'shieldcomponents', amount: 41 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'shield_spl_m_standard_02_mk1',
+      version: 1,
+      name: 'SPL M Shield Generator Mk1',
+      description: 'No information available',
+      race: Races.split,
+      type: EquipmentType.shields,
+      equipmentClass: EquipmentClass.shieldgenerator,
+      size: Size.medium,
+      hull: 500,
+      recharge: { max: 4375, rate: 21, delay: 0.36 },
+      price: { min: 8653, max: 19836, avg: 14227 },
+      owners: [ Factions.court, Factions.freesplit, Factions.split ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'energycells', amount: 48 },
+               { ware: 'fieldcoils', amount: 1 },
+               { ware: 'shieldcomponents', amount: 7 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'shield_spl_m_standard_02_mk2',
+      version: 1,
+      name: 'SPL M Shield Generator Mk2',
+      description: 'No information available',
+      race: Races.split,
+      type: EquipmentType.shields,
+      equipmentClass: EquipmentClass.shieldgenerator,
+      size: Size.medium,
+      hull: 500,
+      recharge: { max: 5213, rate: 33, delay: 0.36 },
+      price: { min: 39644, max: 91930, avg: 65687 },
+      owners: [ Factions.court, Factions.split ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'energycells', amount: 84 },
+               { ware: 'fieldcoils', amount: 6 },
+               { ware: 'shieldcomponents', amount: 41 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'shield_spl_s_standard_01_mk1',
+      version: 1,
+      name: 'SPL S Shield Generator Mk1',
+      description: 'No information available',
+      race: Races.split,
+      type: EquipmentType.shields,
+      equipmentClass: EquipmentClass.shieldgenerator,
+      size: Size.small,
+      recharge: { max: 703, rate: 67, delay: 8.9 },
+      price: { min: 929, max: 2132, avg: 1528 },
+      owners: [ Factions.court, Factions.freesplit, Factions.split ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'energycells', amount: 5 },
+               { ware: 'shieldcomponents', amount: 1 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'shield_spl_s_standard_01_mk2',
+      version: 1,
+      name: 'SPL S Shield Generator Mk2',
+      description: 'No information available',
+      race: Races.split,
+      type: EquipmentType.shields,
+      equipmentClass: EquipmentClass.shieldgenerator,
+      size: Size.small,
+      recharge: { max: 840, rate: 103, delay: 8.9 },
+      price: { min: 6658, max: 15447, avg: 11035 },
+      owners: [ Factions.court, Factions.freesplit, Factions.split ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'energycells', amount: 13 },
+               { ware: 'fieldcoils', amount: 1 },
+               { ware: 'shieldcomponents', amount: 7 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'shield_spl_s_standard_01_mk3',
+      version: 1,
+      name: 'SPL S Shield Generator Mk3',
+      description: 'No information available',
+      race: Races.split,
+      type: EquipmentType.shields,
+      equipmentClass: EquipmentClass.shieldgenerator,
+      size: Size.small,
+      recharge: { max: 1200, rate: 177, delay: 8.9 },
+      price: { min: 31475, max: 73051, avg: 52166 },
+      owners: [ Factions.court, Factions.split ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'energycells', amount: 60 },
+               { ware: 'fieldcoils', amount: 3 },
+               { ware: 'shieldcomponents', amount: 37 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'shield_spl_xl_standard_01_mk1',
+      version: 1,
+      name: 'SPL XL Shield Generator Mk1',
+      description: 'No information available',
+      race: Races.split,
+      type: EquipmentType.shields,
+      equipmentClass: EquipmentClass.shieldgenerator,
+      size: Size.extralarge,
+      hull: 9000,
+      recharge: { max: 110058, rate: 398, delay: 0 },
+      price: { min: 143572, max: 333746, avg: 238442 },
+      owners: [ Factions.court, Factions.freesplit, Factions.split ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'energycells', amount: 184 },
+               { ware: 'fieldcoils', amount: 41 },
+               { ware: 'shieldcomponents', amount: 117 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'ship_spl_xs_police_01_a',
+      version: 1,
+      name: 'Split Station Security Vessel',
+      description: 'No information available',
+      type: EquipmentType.drones,
+      equipmentClass: EquipmentClass.ship_xs,
+      hull: 281,
+      price: { min: 7999, max: 10822, avg: 9410 },
+      owners: [ Factions.court, Factions.freesplit, Factions.split ],
+      production: [
+         {
+            time: 60,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'dronecomponents', amount: 1 },
+               { ware: 'energycells', amount: 50 },
+               { ware: 'smartchips', amount: 10 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'turret_spl_l_beam_01_mk1',
+      version: 1,
+      name: 'SPL L Beam Turret Mk1',
+      description: 'No information available',
+      race: Races.split,
+      type: EquipmentType.turrets,
+      equipmentClass: EquipmentClass.turret,
+      size: Size.large,
+      hull: 2000,
+      price: { min: 98006, max: 203353, avg: 150548 },
+      owners: [ Factions.court, Factions.freesplit, Factions.split ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'advancedelectronics', amount: 13 },
+               { ware: 'energycells', amount: 42 },
+               { ware: 'turretcomponents', amount: 46 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'turret_spl_l_dumbfire_01_mk1',
+      version: 1,
+      name: 'SPL L Dumbfire Turret Mk1',
+      description: 'No information available',
+      race: Races.split,
+      type: EquipmentType.turrets,
+      equipmentClass: EquipmentClass.missileturret,
+      size: Size.large,
+      hull: 4250,
+      price: { min: 49955, max: 102822, avg: 76329 },
+      owners: [ Factions.court, Factions.freesplit, Factions.split ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'advancedelectronics', amount: 7 },
+               { ware: 'energycells', amount: 35 },
+               { ware: 'turretcomponents', amount: 21 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'turret_spl_l_guided_01_mk1',
+      version: 1,
+      name: 'SPL L Tracking Turret Mk1',
+      description: 'No information available',
+      race: Races.split,
+      type: EquipmentType.turrets,
+      equipmentClass: EquipmentClass.missileturret,
+      size: Size.large,
+      hull: 4250,
+      price: { min: 51277, max: 113573, avg: 82314 },
+      owners: [ Factions.court, Factions.freesplit, Factions.split ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'advancedelectronics', amount: 3 },
+               { ware: 'energycells', amount: 47 },
+               { ware: 'turretcomponents', amount: 39 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'turret_spl_l_laser_01_mk1',
+      version: 1,
+      name: 'SPL L Pulse Turret Mk1',
+      description: 'No information available',
+      race: Races.split,
+      type: EquipmentType.turrets,
+      equipmentClass: EquipmentClass.turret,
+      size: Size.large,
+      hull: 2000,
+      price: { min: 33835, max: 76716, avg: 55193 },
+      owners: [ Factions.court, Factions.freesplit, Factions.split ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'advancedelectronics', amount: 1 },
+               { ware: 'energycells', amount: 47 },
+               { ware: 'turretcomponents', amount: 29 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'turret_spl_l_mining_01_mk1',
+      version: 1,
+      name: 'SPL L Mining Turret Mk1',
+      description: 'No information available',
+      race: Races.split,
+      type: EquipmentType.turrets,
+      equipmentClass: EquipmentClass.turret,
+      size: Size.large,
+      hull: 2000,
+      price: { min: 30723, max: 71387, avg: 50969 },
+      owners: [ Factions.court, Factions.freesplit, Factions.split ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'energycells', amount: 47 },
+               { ware: 'turretcomponents', amount: 30 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'turret_spl_l_plasma_01_mk1',
+      version: 1,
+      name: 'SPL L Plasma Turret Mk1',
+      description: 'No information available',
+      race: Races.split,
+      type: EquipmentType.turrets,
+      equipmentClass: EquipmentClass.turret,
+      size: Size.large,
+      hull: 2000,
+      price: { min: 59861, max: 132964, avg: 96290 },
+      owners: [ Factions.court, Factions.freesplit, Factions.split ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'advancedelectronics', amount: 3 },
+               { ware: 'energycells', amount: 132 },
+               { ware: 'turretcomponents', amount: 43 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'turret_spl_m_beam_01_mk1',
+      version: 1,
+      name: 'SPL M Beam Turret Mk1',
+      description: 'No information available',
+      race: Races.split,
+      type: EquipmentType.turrets,
+      equipmentClass: EquipmentClass.turret,
+      size: Size.medium,
+      price: { min: 32650, max: 69808, avg: 51180 },
+      owners: [ Factions.court, Factions.freesplit, Factions.split ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'advancedelectronics', amount: 3 },
+               { ware: 'energycells', amount: 81 },
+               { ware: 'turretcomponents', amount: 17 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'turret_spl_m_beam_02_mk1',
+      version: 1,
+      name: 'SPL M Beam Turret Mk1',
+      description: 'No information available',
+      race: Races.split,
+      type: EquipmentType.turrets,
+      equipmentClass: EquipmentClass.turret,
+      size: Size.medium,
+      hull: 425,
+      price: { min: 32650, max: 69808, avg: 51180 },
+      owners: [ Factions.court, Factions.freesplit, Factions.split ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'advancedelectronics', amount: 3 },
+               { ware: 'energycells', amount: 81 },
+               { ware: 'turretcomponents', amount: 17 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'turret_spl_m_dumbfire_02_mk1',
+      version: 1,
+      name: 'SPL M Dumbfire Turret Mk1',
+      description: 'No information available',
+      race: Races.split,
+      type: EquipmentType.turrets,
+      equipmentClass: EquipmentClass.missileturret,
+      size: Size.medium,
+      hull: 1000,
+      price: { min: 15800, max: 36406, avg: 26066 },
+      owners: [ Factions.court, Factions.freesplit, Factions.split ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'energycells', amount: 64 },
+               { ware: 'turretcomponents', amount: 13 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'turret_spl_m_flak_01_mk1',
+      version: 1,
+      name: 'SPL M Flak Turret Mk1',
+      description: 'No information available',
+      race: Races.split,
+      type: EquipmentType.turrets,
+      equipmentClass: EquipmentClass.turret,
+      size: Size.medium,
+      price: { min: 41023, max: 89587, avg: 65305 },
+      owners: [ Factions.court, Factions.freesplit ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'advancedelectronics', amount: 3 },
+               { ware: 'energycells', amount: 45 },
+               { ware: 'turretcomponents', amount: 27 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'turret_spl_m_flak_02_mk1',
+      version: 1,
+      name: 'SPL M Flak Turret Mk1',
+      description: 'No information available',
+      race: Races.split,
+      type: EquipmentType.turrets,
+      equipmentClass: EquipmentClass.turret,
+      size: Size.medium,
+      hull: 425,
+      price: { min: 41023, max: 89587, avg: 65305 },
+      owners: [ Factions.court, Factions.freesplit ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'advancedelectronics', amount: 3 },
+               { ware: 'energycells', amount: 45 },
+               { ware: 'turretcomponents', amount: 27 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'turret_spl_m_gatling_01_mk1',
+      version: 1,
+      name: 'SPL M Bolt Turret Mk1',
+      description: 'No information available',
+      race: Races.split,
+      type: EquipmentType.turrets,
+      equipmentClass: EquipmentClass.turret,
+      size: Size.medium,
+      price: { min: 15116, max: 34901, avg: 24972 },
+      owners: [ Factions.court, Factions.freesplit, Factions.split ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'energycells', amount: 52 },
+               { ware: 'turretcomponents', amount: 13 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'turret_spl_m_gatling_02_mk1',
+      version: 1,
+      name: 'SPL M Bolt Turret Mk1',
+      description: 'No information available',
+      race: Races.split,
+      type: EquipmentType.turrets,
+      equipmentClass: EquipmentClass.turret,
+      size: Size.medium,
+      hull: 425,
+      price: { min: 15116, max: 34901, avg: 24972 },
+      owners: [ Factions.court, Factions.freesplit, Factions.split ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'energycells', amount: 52 },
+               { ware: 'turretcomponents', amount: 13 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'turret_spl_m_guided_02_mk1',
+      version: 1,
+      name: 'SPL M Tracking Turret Mk1',
+      description: 'No information available',
+      race: Races.split,
+      type: EquipmentType.turrets,
+      equipmentClass: EquipmentClass.missileturret,
+      size: Size.medium,
+      hull: 1000,
+      price: { min: 17066, max: 37546, avg: 27275 },
+      owners: [ Factions.court, Factions.freesplit, Factions.split ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'advancedelectronics', amount: 1 },
+               { ware: 'energycells', amount: 48 },
+               { ware: 'turretcomponents', amount: 11 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'turret_spl_m_laser_01_mk1',
+      version: 1,
+      name: 'SPL M Pulse Turret Mk1',
+      description: 'No information available',
+      race: Races.split,
+      type: EquipmentType.turrets,
+      equipmentClass: EquipmentClass.turret,
+      size: Size.medium,
+      price: { min: 13247, max: 30535, avg: 21860 },
+      owners: [ Factions.court, Factions.freesplit, Factions.split ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'energycells', amount: 52 },
+               { ware: 'turretcomponents', amount: 11 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'turret_spl_m_laser_02_mk1',
+      version: 1,
+      name: 'SPL M Pulse Turret Mk1',
+      description: 'No information available',
+      race: Races.split,
+      type: EquipmentType.turrets,
+      equipmentClass: EquipmentClass.turret,
+      size: Size.medium,
+      hull: 425,
+      price: { min: 13247, max: 30535, avg: 21860 },
+      owners: [ Factions.court, Factions.freesplit, Factions.split ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'energycells', amount: 52 },
+               { ware: 'turretcomponents', amount: 11 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'turret_spl_m_mining_01_mk1',
+      version: 1,
+      name: 'SPL M Mining Turret Mk1',
+      description: 'No information available',
+      race: Races.split,
+      type: EquipmentType.turrets,
+      equipmentClass: EquipmentClass.turret,
+      size: Size.medium,
+      price: { min: 10374, max: 24088, avg: 17203 },
+      owners: [ Factions.court, Factions.freesplit, Factions.split ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'energycells', amount: 18 },
+               { ware: 'turretcomponents', amount: 10 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'turret_spl_m_mining_02_mk1',
+      version: 1,
+      name: 'SPL M Mining Turret Mk1',
+      description: 'No information available',
+      race: Races.split,
+      type: EquipmentType.turrets,
+      equipmentClass: EquipmentClass.turret,
+      size: Size.medium,
+      hull: 425,
+      price: { min: 10374, max: 24088, avg: 17203 },
+      owners: [ Factions.court, Factions.freesplit, Factions.split ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'energycells', amount: 18 },
+               { ware: 'turretcomponents', amount: 10 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'turret_spl_m_plasma_01_mk1',
+      version: 1,
+      name: 'SPL M Plasma Turret Mk1',
+      description: 'No information available',
+      race: Races.split,
+      type: EquipmentType.turrets,
+      equipmentClass: EquipmentClass.turret,
+      size: Size.medium,
+      price: { min: 20258, max: 45201, avg: 32684 },
+      owners: [ Factions.court, Factions.freesplit, Factions.split ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'advancedelectronics', amount: 1 },
+               { ware: 'energycells', amount: 22 },
+               { ware: 'turretcomponents', amount: 16 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'turret_spl_m_plasma_02_mk1',
+      version: 1,
+      name: 'SPL M Plasma Turret Mk1',
+      description: 'No information available',
+      race: Races.split,
+      type: EquipmentType.turrets,
+      equipmentClass: EquipmentClass.turret,
+      size: Size.medium,
+      hull: 425,
+      price: { min: 20258, max: 45201, avg: 32684 },
+      owners: [ Factions.court, Factions.freesplit, Factions.split ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'advancedelectronics', amount: 1 },
+               { ware: 'energycells', amount: 22 },
+               { ware: 'turretcomponents', amount: 16 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'turret_spl_m_shotgun_01_mk1',
+      version: 1,
+      name: 'SPL M Shard Turret Mk1',
+      description: 'No information available',
+      race: Races.split,
+      type: EquipmentType.turrets,
+      equipmentClass: EquipmentClass.turret,
+      size: Size.medium,
+      price: { min: 14797, max: 34325, avg: 24521 },
+      owners: [ Factions.court, Factions.freesplit, Factions.split ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'energycells', amount: 30 },
+               { ware: 'turretcomponents', amount: 14 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'turret_spl_m_shotgun_02_mk1',
+      version: 1,
+      name: 'SPL M Shard Turret Mk1',
+      description: 'No information available',
+      race: Races.split,
+      type: EquipmentType.turrets,
+      equipmentClass: EquipmentClass.turret,
+      size: Size.medium,
+      hull: 425,
+      price: { min: 14797, max: 34325, avg: 24521 },
+      owners: [ Factions.court, Factions.freesplit, Factions.split ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'energycells', amount: 30 },
+               { ware: 'turretcomponents', amount: 14 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'weapon_spl_l_destroyer_01_mk1',
+      version: 1,
+      name: 'Rattlesnake Main Battery',
+      description: 'No information available',
+      type: EquipmentType.weapons,
+      equipmentClass: EquipmentClass.weapon,
+      size: Size.large,
+      hull: 8000,
+      price: { min: 727725, max: 1444922, avg: 1086323 },
+      owners: [ Factions.court, Factions.freesplit, Factions.split ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'advancedelectronics', amount: 131 },
+               { ware: 'energycells', amount: 29 },
+               { ware: 'weaponcomponents', amount: 201 },
             ],
          },
       ]
