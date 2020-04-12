@@ -2,7 +2,7 @@
   <div class="col-md-12">
     <div class="card shadow" *ngIf="entity">
       <div class="card-header shadow-sm">
-        <a routerLink="/modules">Station Modules</a> - {{ entity.name }}
+        <a routerLink="/x4calc/modules">Station Modules</a> - {{ entity.name }}
       </div>
       <div class="card-body small" *ngIf="entity">
         <div class="form-group row" *ngIf="entity.description != 'No information available'">
@@ -14,7 +14,7 @@
               <dt class="col-5">Race</dt>
               <dd class="col-7">
             <span *ngIf="entity.makerRace">
-              <a [routerLink]="['/races', entity.makerRace.id]">{{ entity.makerRace.name }}</a>
+              <a [routerLink]="['/x4calc/races', entity.makerRace.id]">{{ entity.makerRace.name }}</a>
             </span>
                 <span *ngIf="!entity.makerRace"> - </span>
               </dd>
@@ -28,7 +28,7 @@
               <dt class="col-5">Product</dt>
               <dd class="col-7">
                 <span *ngIf="entity.product">
-                  <a [routerLink]="['/wares/', entity.product.id ]">{{ entity.product.name }}</a>
+                  <a [routerLink]="['/x4calc/wares/', entity.product.id ]">{{ entity.product.name }}</a>
                 </span>
                 <span *ngIf="!entity.product"> - </span>
               </dd>
@@ -61,7 +61,7 @@
               <dd class="col-7">
                 <ul class="list-unstyled">
                   <li *ngFor="let item of entity.owners">
-                    <a [routerLink]="['/factions/', item.id ]">{{ item.name }}</a>
+                    <a [routerLink]="['/x4calc/factions/', item.id ]">{{ item.name }}</a>
                   </li>
                 </ul>
               </dd>
@@ -101,7 +101,7 @@
                       <tbody>
                       <tr *ngFor="let item of production.wares">
                         <td>
-                          {{ item.amount }} x <a [routerLink]="['/wares/', item.ware.id ]">{{ item.ware.name }}</a>
+                          {{ item.amount }} x <a [routerLink]="['/x4calc/wares/', item.ware.id ]">{{ item.ware.name }}</a>
                         </td>
                         <td class="text-right">{{ item.amount * item.ware.price.min | number }}</td>
                         <td class="text-right">{{ item.amount * item.ware.price.max | number }}</td>
