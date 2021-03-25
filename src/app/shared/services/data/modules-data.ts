@@ -12,6 +12,7 @@ export const Modules = {
       id: 'module_arg_conn_base_01',
       version: 0,
       name: 'Argon Base Connection Structure 01',
+      macro: 'struct_arg_base_01_macro',
       description: 'No information available',
       type: ModuleTypes.connectionmodule,
       hull: 237000,
@@ -23,7 +24,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 103,
+            time: 59,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -39,6 +40,7 @@ export const Modules = {
       id: 'module_arg_conn_base_02',
       version: 0,
       name: 'Argon Base Connection Structure 02',
+      macro: 'struct_arg_base_02_macro',
       description: 'No information available',
       type: ModuleTypes.connectionmodule,
       hull: 150000,
@@ -50,7 +52,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 82,
+            time: 53,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -66,6 +68,7 @@ export const Modules = {
       id: 'module_arg_conn_base_03',
       version: 0,
       name: 'Argon Base Connection Structure 03',
+      macro: 'struct_arg_base_03_macro',
       description: 'No information available',
       type: ModuleTypes.connectionmodule,
       hull: 280000,
@@ -77,7 +80,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 112,
+            time: 72,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -93,6 +96,7 @@ export const Modules = {
       id: 'module_arg_conn_cross_01',
       version: 0,
       name: 'Argon Cross Connection Structure 01',
+      macro: 'struct_arg_cross_01_macro',
       description: 'No information available',
       type: ModuleTypes.connectionmodule,
       hull: 120000,
@@ -104,7 +108,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 73,
+            time: 47,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -120,6 +124,7 @@ export const Modules = {
       id: 'module_arg_conn_vertical_01',
       version: 0,
       name: 'Argon Vertical Connection Structure 01',
+      macro: 'struct_arg_vertical_01_macro',
       description: 'No information available',
       type: ModuleTypes.connectionmodule,
       hull: 79000,
@@ -131,7 +136,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 59,
+            time: 38,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -147,6 +152,7 @@ export const Modules = {
       id: 'module_arg_conn_vertical_02',
       version: 0,
       name: 'Argon Vertical Connection Structure 02',
+      macro: 'struct_arg_vertical_02_macro',
       description: 'No information available',
       type: ModuleTypes.connectionmodule,
       hull: 143000,
@@ -158,7 +164,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 80,
+            time: 52,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -174,6 +180,7 @@ export const Modules = {
       id: 'module_arg_def_claim_01',
       version: 0,
       name: 'Argon Administrative Centre',
+      macro: 'defence_arg_claim_01_macro',
       description: 'No information available',
       type: ModuleTypes.defencemodule,
       hull: 512000,
@@ -185,7 +192,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 826,
+            time: 536,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -201,6 +208,7 @@ export const Modules = {
       id: 'module_arg_def_disc_01',
       version: 0,
       name: 'Argon Disc Defence Platform',
+      macro: 'defence_arg_disc_01_macro',
       description: 'No information available',
       type: ModuleTypes.defencemodule,
       explosionDamage: 12000,
@@ -249,7 +257,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 592,
+            time: 384,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -260,7 +268,7 @@ export const Modules = {
             ],
          },
          {
-            time: 592,
+            time: 384,
             amount: 1,
             method: 'xenon',
             name: 'Xenon',
@@ -276,6 +284,7 @@ export const Modules = {
       id: 'module_arg_def_tube_01',
       version: 0,
       name: 'Argon Bridge Defence Platform',
+      macro: 'defence_arg_tube_01_macro',
       description: 'No information available',
       type: ModuleTypes.defencemodule,
       explosionDamage: 12000,
@@ -314,7 +323,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 514,
+            time: 334,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -325,7 +334,7 @@ export const Modules = {
             ],
          },
          {
-            time: 514,
+            time: 334,
             amount: 1,
             method: 'xenon',
             name: 'Xenon',
@@ -341,6 +350,7 @@ export const Modules = {
       id: 'module_arg_dock_m_01',
       version: 0,
       name: '1M6S Standard Dock Area',
+      macro: 'dockarea_arg_m_station_01_macro',
       description: 'No information available',
       type: ModuleTypes.dockarea,
       explosionDamage: 10000,
@@ -353,14 +363,17 @@ export const Modules = {
          Factions.paranid,
          Factions.teladi,
          Factions.trinity,
+         Factions.freesplit,
+         Factions.split,
       ],
       docks: [
          { capacity: 10, size: Size.medium },
          { capacity: 40, size: Size.small },
+         { capacity: 10, size: Size.extrasmall },
       ],
       production: [
          {
-            time: 653,
+            time: 424,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -376,6 +389,7 @@ export const Modules = {
       id: 'module_arg_dock_m_01_hightech',
       version: 0,
       name: '1M6S Luxury Dock Area',
+      macro: 'dockarea_arg_m_station_01_hightech_macro',
       description: 'No information available',
       type: ModuleTypes.dockarea,
       explosionDamage: 10000,
@@ -388,14 +402,17 @@ export const Modules = {
          Factions.paranid,
          Factions.teladi,
          Factions.trinity,
+         Factions.freesplit,
+         Factions.split,
       ],
       docks: [
          { capacity: 10, size: Size.medium },
          { capacity: 40, size: Size.small },
+         { capacity: 10, size: Size.extrasmall },
       ],
       production: [
          {
-            time: 699,
+            time: 454,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -411,6 +428,7 @@ export const Modules = {
       id: 'module_arg_dock_m_01_lowtech',
       version: 0,
       name: '1M6S Basic Dock Area',
+      macro: 'dockarea_arg_m_station_01_lowtech_macro',
       description: 'No information available',
       type: ModuleTypes.dockarea,
       explosionDamage: 10000,
@@ -423,14 +441,17 @@ export const Modules = {
          Factions.paranid,
          Factions.teladi,
          Factions.trinity,
+         Factions.freesplit,
+         Factions.split,
       ],
       docks: [
          { capacity: 10, size: Size.medium },
          { capacity: 40, size: Size.small },
+         { capacity: 10, size: Size.extrasmall },
       ],
       production: [
          {
-            time: 611,
+            time: 397,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -446,6 +467,7 @@ export const Modules = {
       id: 'module_arg_dock_m_02',
       version: 0,
       name: '3M6S Standard Dock Area',
+      macro: 'dockarea_arg_m_station_02_macro',
       description: 'No information available',
       type: ModuleTypes.dockarea,
       explosionDamage: 10000,
@@ -458,14 +480,17 @@ export const Modules = {
          Factions.paranid,
          Factions.teladi,
          Factions.trinity,
+         Factions.freesplit,
+         Factions.split,
       ],
       docks: [
          { capacity: 10, size: Size.medium },
          { capacity: 40, size: Size.small },
+         { capacity: 10, size: Size.extrasmall },
       ],
       production: [
          {
-            time: 938,
+            time: 609,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -481,6 +506,7 @@ export const Modules = {
       id: 'module_arg_dock_m_02_hightech',
       version: 0,
       name: '3M6S Luxury Dock Area',
+      macro: 'dockarea_arg_m_station_02_hightech_macro',
       description: 'No information available',
       type: ModuleTypes.dockarea,
       explosionDamage: 10000,
@@ -493,14 +519,17 @@ export const Modules = {
          Factions.paranid,
          Factions.teladi,
          Factions.trinity,
+         Factions.freesplit,
+         Factions.split,
       ],
       docks: [
          { capacity: 10, size: Size.medium },
          { capacity: 40, size: Size.small },
+         { capacity: 10, size: Size.extrasmall },
       ],
       production: [
          {
-            time: 971,
+            time: 631,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -516,6 +545,7 @@ export const Modules = {
       id: 'module_arg_dock_m_02_lowtech',
       version: 0,
       name: '3M6S Basic Dock Area',
+      macro: 'dockarea_arg_m_station_02_lowtech_macro',
       description: 'No information available',
       type: ModuleTypes.dockarea,
       explosionDamage: 100000,
@@ -528,14 +558,17 @@ export const Modules = {
          Factions.paranid,
          Factions.teladi,
          Factions.trinity,
+         Factions.freesplit,
+         Factions.split,
       ],
       docks: [
          { capacity: 10, size: Size.medium },
          { capacity: 40, size: Size.small },
+         { capacity: 10, size: Size.extrasmall },
       ],
       production: [
          {
-            time: 904,
+            time: 587,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -551,6 +584,7 @@ export const Modules = {
       id: 'module_arg_dock_tradestation_02',
       version: 0,
       name: '8M Standard Dock Area',
+      macro: 'dockarea_arg_m_02_tradestation_01_macro',
       description: 'No information available',
       type: ModuleTypes.dockarea,
       explosionDamage: 0,
@@ -560,9 +594,13 @@ export const Modules = {
          Factions.antigone,
          Factions.argon,
       ],
+      docks: [
+         { capacity: 10, size: Size.medium },
+         { capacity: 10, size: Size.extrasmall },
+      ],
       production: [
          {
-            time: 1398,
+            time: 908,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -578,6 +616,7 @@ export const Modules = {
       id: 'module_arg_hab_l_01',
       version: 0,
       name: 'Argon L Habitat',
+      macro: 'hab_arg_l_01_macro',
       description: 'No information available',
       type: ModuleTypes.habitation,
       explosionDamage: 100000,
@@ -594,7 +633,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 1155,
+            time: 750,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -610,6 +649,7 @@ export const Modules = {
       id: 'module_arg_hab_m_01',
       version: 0,
       name: 'Argon M Habitat',
+      macro: 'hab_arg_m_01_macro',
       description: 'No information available',
       type: ModuleTypes.habitation,
       explosionDamage: 100000,
@@ -626,7 +666,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 816,
+            time: 530,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -642,6 +682,7 @@ export const Modules = {
       id: 'module_arg_hab_s_01',
       version: 0,
       name: 'Argon S Habitat',
+      macro: 'hab_arg_s_01_macro',
       description: 'No information available',
       type: ModuleTypes.habitation,
       explosionDamage: 100000,
@@ -658,7 +699,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 566,
+            time: 367,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -674,6 +715,7 @@ export const Modules = {
       id: 'module_arg_pier_l_01',
       version: 0,
       name: 'Argon 3-Dock T Pier',
+      macro: 'pier_arg_harbor_01_macro',
       description: 'No information available',
       type: ModuleTypes.pier,
       explosionDamage: 10000,
@@ -685,7 +727,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 1155,
+            time: 750,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -701,6 +743,7 @@ export const Modules = {
       id: 'module_arg_pier_l_02',
       version: 0,
       name: 'Argon 1-Dock Pier',
+      macro: 'pier_arg_harbor_02_macro',
       description: 'No information available',
       type: ModuleTypes.pier,
       explosionDamage: 10000,
@@ -713,7 +756,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 667,
+            time: 433,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -729,6 +772,7 @@ export const Modules = {
       id: 'module_arg_pier_l_03',
       version: 0,
       name: 'Argon 3-Dock E Pier',
+      macro: 'pier_arg_harbor_03_macro',
       description: 'No information available',
       type: ModuleTypes.pier,
       explosionDamage: 100000,
@@ -740,7 +784,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 1333,
+            time: 866,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -756,6 +800,7 @@ export const Modules = {
       id: 'module_arg_prod_foodrations_01',
       version: 0,
       name: 'Food Ration Production',
+      macro: 'prod_arg_foodrations_macro',
       description: 'No information available',
       type: ModuleTypes.production,
       product: Wares.foodrations,
@@ -794,7 +839,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 1166,
+            time: 757,
             amount: 1,
             method: 'default',
             name: 'Argon',
@@ -810,6 +855,7 @@ export const Modules = {
       id: 'module_arg_prod_meat_01',
       version: 0,
       name: 'Meat Production',
+      macro: 'prod_arg_meat_macro',
       description: 'No information available',
       type: ModuleTypes.production,
       product: Wares.meat,
@@ -848,7 +894,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 1155,
+            time: 750,
             amount: 1,
             method: 'default',
             name: 'Argon',
@@ -864,6 +910,7 @@ export const Modules = {
       id: 'module_arg_prod_medicalsupplies_01',
       version: 0,
       name: 'Argon Medical Supply Production',
+      macro: 'prod_arg_medicalsupplies_macro',
       description: 'No information available',
       type: ModuleTypes.production,
       product: Wares.medicalsupplies,
@@ -898,7 +945,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 1137,
+            time: 739,
             amount: 1,
             method: 'default',
             name: 'Argon',
@@ -914,6 +961,7 @@ export const Modules = {
       id: 'module_arg_prod_spacefuel_01',
       version: 0,
       name: 'Spacefuel Production',
+      macro: 'prod_arg_spacefuel_macro',
       description: 'No information available',
       type: ModuleTypes.production,
       product: Wares.spacefuel,
@@ -921,7 +969,7 @@ export const Modules = {
       hull: 148000,
       makerRace: Races.argon,
       workForce: {
-         max: 150
+         max: 225
       },
       price: { min: 1735171, max: 2347585, avg: 2041378 },
       owners: [
@@ -951,7 +999,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 1203,
+            time: 781,
             amount: 1,
             method: 'default',
             name: 'Argon',
@@ -967,6 +1015,7 @@ export const Modules = {
       id: 'module_arg_prod_wheat_01',
       version: 0,
       name: 'Wheat Production',
+      macro: 'prod_arg_wheat_macro',
       description: 'No information available',
       type: ModuleTypes.production,
       product: Wares.wheat,
@@ -1005,7 +1054,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 1189,
+            time: 772,
             amount: 1,
             method: 'default',
             name: 'Argon',
@@ -1021,6 +1070,7 @@ export const Modules = {
       id: 'module_arg_stor_container_l_01',
       version: 0,
       name: 'Argon L Container Storage',
+      macro: 'storage_arg_l_container_01_macro',
       description: 'No information available',
       type: ModuleTypes.storage,
       explosionDamage: 10000,
@@ -1062,7 +1112,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 896,
+            time: 582,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -1078,6 +1128,7 @@ export const Modules = {
       id: 'module_arg_stor_container_m_01',
       version: 0,
       name: 'Argon M Container Storage',
+      macro: 'storage_arg_m_container_01_macro',
       description: 'No information available',
       type: ModuleTypes.storage,
       explosionDamage: 8000,
@@ -1107,7 +1158,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 637,
+            time: 414,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -1123,6 +1174,7 @@ export const Modules = {
       id: 'module_arg_stor_container_s_01',
       version: 0,
       name: 'Argon S Container Storage',
+      macro: 'storage_arg_s_container_01_macro',
       description: 'No information available',
       type: ModuleTypes.storage,
       explosionDamage: 5000,
@@ -1149,7 +1201,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 403,
+            time: 261,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -1165,6 +1217,7 @@ export const Modules = {
       id: 'module_arg_stor_liquid_l_01',
       version: 0,
       name: 'Argon L Liquid Storage',
+      macro: 'storage_arg_l_liquid_01_macro',
       description: 'No information available',
       type: ModuleTypes.storage,
       explosionDamage: 10000,
@@ -1206,7 +1259,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 896,
+            time: 582,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -1222,6 +1275,7 @@ export const Modules = {
       id: 'module_arg_stor_liquid_m_01',
       version: 0,
       name: 'Argon M Liquid Storage',
+      macro: 'storage_arg_m_liquid_01_macro',
       description: 'No information available',
       type: ModuleTypes.storage,
       explosionDamage: 8000,
@@ -1251,7 +1305,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 637,
+            time: 414,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -1267,6 +1321,7 @@ export const Modules = {
       id: 'module_arg_stor_liquid_s_01',
       version: 0,
       name: 'Argon S Liquid Storage',
+      macro: 'storage_arg_s_liquid_01_macro',
       description: 'No information available',
       type: ModuleTypes.storage,
       explosionDamage: 5000,
@@ -1290,7 +1345,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 403,
+            time: 261,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -1306,6 +1361,7 @@ export const Modules = {
       id: 'module_arg_stor_solid_l_01',
       version: 0,
       name: 'Argon L Solid Storage',
+      macro: 'storage_arg_l_solid_01_macro',
       description: 'No information available',
       type: ModuleTypes.storage,
       explosionDamage: 10000,
@@ -1347,7 +1403,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 896,
+            time: 582,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -1363,6 +1419,7 @@ export const Modules = {
       id: 'module_arg_stor_solid_m_01',
       version: 0,
       name: 'Argon M Solid Storage',
+      macro: 'storage_arg_m_solid_01_macro',
       description: 'No information available',
       type: ModuleTypes.storage,
       explosionDamage: 8000,
@@ -1392,7 +1449,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 637,
+            time: 414,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -1408,6 +1465,7 @@ export const Modules = {
       id: 'module_arg_stor_solid_s_01',
       version: 0,
       name: 'Argon S Solid Storage',
+      macro: 'storage_arg_s_solid_01_macro',
       description: 'No information available',
       type: ModuleTypes.storage,
       explosionDamage: 5000,
@@ -1434,7 +1492,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 403,
+            time: 261,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -1450,6 +1508,7 @@ export const Modules = {
       id: 'module_gen_build_dockarea_m_01',
       version: 0,
       name: 'S/M Ship Fabrication Bay',
+      macro: 'buildmodule_gen_ships_m_dockarea_01_macro',
       description: 'No information available',
       type: ModuleTypes.buildmodule,
       explosionDamage: 100000,
@@ -1466,14 +1525,17 @@ export const Modules = {
          Factions.teladi,
          Factions.trinity,
          Factions.xenon,
+         Factions.freesplit,
+         Factions.split,
       ],
       docks: [
          { capacity: 30, size: Size.medium },
          { capacity: 100, size: Size.small },
+         { capacity: 10, size: Size.extrasmall },
       ],
       production: [
          {
-            time: 1997,
+            time: 1298,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -1484,7 +1546,7 @@ export const Modules = {
             ],
          },
          {
-            time: 830,
+            time: 539,
             amount: 1,
             method: 'xenon',
             name: 'Xenon',
@@ -1500,6 +1562,7 @@ export const Modules = {
       id: 'module_gen_build_l_01',
       version: 0,
       name: 'L Ship Fabrication Bay',
+      macro: 'buildmodule_gen_ships_l_macro',
       description: 'No information available',
       type: ModuleTypes.buildmodule,
       explosionDamage: 100000,
@@ -1515,10 +1578,12 @@ export const Modules = {
          Factions.paranid,
          Factions.teladi,
          Factions.trinity,
+         Factions.freesplit,
+         Factions.split,
       ],
       production: [
          {
-            time: 1126,
+            time: 731,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -1534,6 +1599,7 @@ export const Modules = {
       id: 'module_gen_build_xl_01',
       version: 0,
       name: 'XL Ship Fabrication Bay',
+      macro: 'buildmodule_gen_ships_xl_macro',
       description: 'No information available',
       type: ModuleTypes.buildmodule,
       explosionDamage: 100000,
@@ -1549,10 +1615,12 @@ export const Modules = {
          Factions.paranid,
          Factions.teladi,
          Factions.trinity,
+         Factions.freesplit,
+         Factions.split,
       ],
       production: [
          {
-            time: 1468,
+            time: 954,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -1568,6 +1636,7 @@ export const Modules = {
       id: 'module_gen_equip_dockarea_m_01',
       version: 0,
       name: 'S/M Ship Maintenance Bay',
+      macro: 'buildmodule_gen_equip_m_dockarea_01_macro',
       description: 'No information available',
       type: ModuleTypes.buildmodule,
       explosionDamage: 100000,
@@ -1583,14 +1652,17 @@ export const Modules = {
          Factions.paranid,
          Factions.teladi,
          Factions.trinity,
+         Factions.freesplit,
+         Factions.split,
       ],
       docks: [
          { capacity: 30, size: Size.medium },
          { capacity: 100, size: Size.small },
+         { capacity: 10, size: Size.extrasmall },
       ],
       production: [
          {
-            time: 1000,
+            time: 650,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -1606,6 +1678,7 @@ export const Modules = {
       id: 'module_gen_equip_l_01',
       version: 0,
       name: 'L Ship Maintenance Bay',
+      macro: 'buildmodule_gen_equip_l_macro',
       description: 'No information available',
       type: ModuleTypes.buildmodule,
       explosionDamage: 100000,
@@ -1621,10 +1694,12 @@ export const Modules = {
          Factions.paranid,
          Factions.teladi,
          Factions.trinity,
+         Factions.freesplit,
+         Factions.split,
       ],
       production: [
          {
-            time: 560,
+            time: 364,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -1640,6 +1715,7 @@ export const Modules = {
       id: 'module_gen_equip_xl_01',
       version: 0,
       name: 'XL Ship Maintenance Bay',
+      macro: 'buildmodule_gen_equip_xl_macro',
       description: 'No information available',
       type: ModuleTypes.buildmodule,
       explosionDamage: 100000,
@@ -1655,10 +1731,12 @@ export const Modules = {
          Factions.paranid,
          Factions.teladi,
          Factions.trinity,
+         Factions.freesplit,
+         Factions.split,
       ],
       production: [
          {
-            time: 734,
+            time: 477,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -1674,13 +1752,14 @@ export const Modules = {
       id: 'module_gen_prod_advancedcomposites_01',
       version: 0,
       name: 'Advanced Composite Production',
+      macro: 'prod_gen_advancedcomposites_macro',
       description: 'No information available',
       type: ModuleTypes.production,
       product: Wares.advancedcomposites,
       explosionDamage: 10000,
       hull: 197000,
       workForce: {
-         max: 210
+         max: 315
       },
       price: { min: 3524906, max: 4768990, avg: 4146948 },
       owners: [
@@ -1690,6 +1769,8 @@ export const Modules = {
          Factions.paranid,
          Factions.teladi,
          Factions.trinity,
+         Factions.freesplit,
+         Factions.split,
       ],
       shields: [
          { group: 'top_01', size: Size.medium, hittable: true },
@@ -1715,7 +1796,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 1337,
+            time: 869,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -1731,13 +1812,14 @@ export const Modules = {
       id: 'module_gen_prod_advancedelectronics_01',
       version: 0,
       name: 'Advanced Electronics Production',
+      macro: 'prod_gen_advancedelectronics_macro',
       description: 'No information available',
       type: ModuleTypes.production,
       product: Wares.advancedelectronics,
       explosionDamage: 10000,
       hull: 160000,
       workForce: {
-         max: 360
+         max: 540
       },
       price: { min: 2622767, max: 3548449, avg: 3085608 },
       owners: [
@@ -1747,6 +1829,8 @@ export const Modules = {
          Factions.paranid,
          Factions.teladi,
          Factions.trinity,
+         Factions.freesplit,
+         Factions.split,
       ],
       shields: [
          { group: 'top_01', size: Size.medium, hittable: true },
@@ -1772,7 +1856,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 1281,
+            time: 832,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -1788,13 +1872,14 @@ export const Modules = {
       id: 'module_gen_prod_antimattercells_01',
       version: 0,
       name: 'Antimatter Cell Production',
+      macro: 'prod_gen_antimattercells_macro',
       description: 'No information available',
       type: ModuleTypes.production,
       product: Wares.antimattercells,
       explosionDamage: 10000,
       hull: 251000,
       workForce: {
-         max: 120
+         max: 180
       },
       price: { min: 375477, max: 507999, avg: 441738 },
       owners: [
@@ -1804,6 +1889,8 @@ export const Modules = {
          Factions.paranid,
          Factions.teladi,
          Factions.trinity,
+         Factions.freesplit,
+         Factions.split,
       ],
       shields: [
          { group: 'top_01', size: Size.medium, hittable: true },
@@ -1829,7 +1916,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 913,
+            time: 593,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -1845,13 +1932,14 @@ export const Modules = {
       id: 'module_gen_prod_antimatterconverters_01',
       version: 0,
       name: 'Antimatter Converter Production',
+      macro: 'prod_gen_antimatterconverters_macro',
       description: 'No information available',
       type: ModuleTypes.production,
       product: Wares.antimatterconverters,
       explosionDamage: 10000,
       hull: 216000,
       workForce: {
-         max: 720
+         max: 1080
       },
       price: { min: 9681548, max: 13098564, avg: 11390056 },
       owners: [
@@ -1861,6 +1949,8 @@ export const Modules = {
          Factions.paranid,
          Factions.teladi,
          Factions.trinity,
+         Factions.freesplit,
+         Factions.split,
       ],
       shields: [
          { group: 'top_01', size: Size.medium, hittable: true },
@@ -1886,7 +1976,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 1528,
+            time: 993,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -1902,13 +1992,14 @@ export const Modules = {
       id: 'module_gen_prod_claytronics_01',
       version: 0,
       name: 'Claytronics Production',
+      macro: 'prod_gen_claytronics_macro',
       description: 'No information available',
       type: ModuleTypes.production,
       product: Wares.claytronics,
       explosionDamage: 10000,
       hull: 195000,
       workForce: {
-         max: 810
+         max: 1215
       },
       price: { min: 15347532, max: 20764308, avg: 18055920 },
       owners: [
@@ -1917,6 +2008,8 @@ export const Modules = {
          Factions.holyorder,
          Factions.teladi,
          Factions.trinity,
+         Factions.freesplit,
+         Factions.split,
       ],
       shields: [
          { group: 'top_01', size: Size.medium, hittable: true },
@@ -1942,7 +2035,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 1615,
+            time: 1049,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -1958,13 +2051,14 @@ export const Modules = {
       id: 'module_gen_prod_dronecomponents_01',
       version: 0,
       name: 'Drone Component Production',
+      macro: 'prod_gen_dronecomponents_macro',
       description: 'No information available',
       type: ModuleTypes.production,
       product: Wares.dronecomponents,
       explosionDamage: 10000,
       hull: 174000,
       workForce: {
-         max: 450
+         max: 675
       },
       price: { min: 6662268, max: 9013656, avg: 7837962 },
       owners: [
@@ -1972,6 +2066,8 @@ export const Modules = {
          Factions.holyorder,
          Factions.ministry,
          Factions.trinity,
+         Factions.freesplit,
+         Factions.split,
       ],
       shields: [
          { group: 'top_01', size: Size.medium, hittable: true },
@@ -1997,7 +2093,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 1457,
+            time: 947,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -2013,13 +2109,14 @@ export const Modules = {
       id: 'module_gen_prod_energycells_01',
       version: 0,
       name: 'Energy Cell Production',
+      macro: 'prod_gen_energycells_macro',
       description: 'No information available',
       type: ModuleTypes.production,
       product: Wares.energycells,
       explosionDamage: 10000,
       hull: 217000,
       workForce: {
-         max: 60
+         max: 90
       },
       price: { min: 1413819, max: 1912813, avg: 1663316 },
       owners: [
@@ -2029,6 +2126,8 @@ export const Modules = {
          Factions.paranid,
          Factions.teladi,
          Factions.trinity,
+         Factions.freesplit,
+         Factions.split,
       ],
       shields: [
          { group: 'top_01', size: Size.medium, hittable: true },
@@ -2042,7 +2141,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 1164,
+            time: 756,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -2058,13 +2157,14 @@ export const Modules = {
       id: 'module_gen_prod_engineparts_01',
       version: 0,
       name: 'Engine Part Production',
+      macro: 'prod_gen_engineparts_macro',
       description: 'No information available',
       type: ModuleTypes.production,
       product: Wares.engineparts,
       explosionDamage: 10000,
       hull: 120000,
       workForce: {
-         max: 150
+         max: 225
       },
       price: { min: 2116689, max: 2863755, avg: 2490222 },
       owners: [
@@ -2073,6 +2173,8 @@ export const Modules = {
          Factions.paranid,
          Factions.teladi,
          Factions.trinity,
+         Factions.freesplit,
+         Factions.split,
       ],
       shields: [
          { group: 'top_01', size: Size.medium, hittable: true },
@@ -2098,7 +2200,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 1240,
+            time: 806,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -2114,13 +2216,14 @@ export const Modules = {
       id: 'module_gen_prod_fieldcoils_01',
       version: 0,
       name: 'Field Coil Production',
+      macro: 'prod_gen_fieldcoils_macro',
       description: 'No information available',
       type: ModuleTypes.production,
       product: Wares.fieldcoils,
       explosionDamage: 10000,
       hull: 149000,
       workForce: {
-         max: 540
+         max: 810
       },
       price: { min: 9436671, max: 12767261, avg: 11101966 },
       owners: [
@@ -2128,6 +2231,8 @@ export const Modules = {
          Factions.paranid,
          Factions.teladi,
          Factions.trinity,
+         Factions.freesplit,
+         Factions.split,
       ],
       shields: [
          { group: 'top_01', size: Size.medium, hittable: true },
@@ -2148,7 +2253,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 1523,
+            time: 989,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -2164,13 +2269,14 @@ export const Modules = {
       id: 'module_gen_prod_graphene_01',
       version: 0,
       name: 'Graphene Production',
+      macro: 'prod_gen_graphene_macro',
       description: 'No information available',
       type: ModuleTypes.production,
       product: Wares.graphene,
       explosionDamage: 10000,
       hull: 190000,
       workForce: {
-         max: 120
+         max: 180
       },
       price: { min: 152966, max: 206954, avg: 179960 },
       owners: [
@@ -2180,6 +2286,8 @@ export const Modules = {
          Factions.paranid,
          Factions.teladi,
          Factions.trinity,
+         Factions.freesplit,
+         Factions.split,
       ],
       shields: [
          { group: 'top_01', size: Size.medium, hittable: true },
@@ -2205,7 +2313,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 743,
+            time: 482,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -2221,13 +2329,14 @@ export const Modules = {
       id: 'module_gen_prod_hullparts_01',
       version: 0,
       name: 'Hull Part Production',
+      macro: 'prod_gen_hullparts_macro',
       description: 'No information available',
       type: ModuleTypes.production,
       product: Wares.hullparts,
       explosionDamage: 10000,
       hull: 146000,
       workForce: {
-         max: 180
+         max: 270
       },
       price: { min: 3340194, max: 4519086, avg: 3929640 },
       owners: [
@@ -2237,6 +2346,8 @@ export const Modules = {
          Factions.paranid,
          Factions.teladi,
          Factions.trinity,
+         Factions.freesplit,
+         Factions.split,
       ],
       shields: [
          { group: 'top_01', size: Size.medium, hittable: true },
@@ -2262,7 +2373,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 1327,
+            time: 862,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -2278,13 +2389,14 @@ export const Modules = {
       id: 'module_gen_prod_microchips_01',
       version: 0,
       name: 'Microchip Production',
+      macro: 'prod_gen_microchips_macro',
       description: 'No information available',
       type: ModuleTypes.production,
       product: Wares.microchips,
       explosionDamage: 10000,
       hull: 199000,
       workForce: {
-         max: 300
+         max: 450
       },
       price: { min: 4122469, max: 5577459, avg: 4849964 },
       owners: [
@@ -2294,6 +2406,8 @@ export const Modules = {
          Factions.paranid,
          Factions.teladi,
          Factions.trinity,
+         Factions.freesplit,
+         Factions.split,
       ],
       shields: [
          { group: 'top_01', size: Size.medium, hittable: true },
@@ -2319,7 +2433,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 1367,
+            time: 888,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -2335,13 +2449,14 @@ export const Modules = {
       id: 'module_gen_prod_missilecomponents_01',
       version: 0,
       name: 'Missile Component Production',
+      macro: 'prod_gen_missilecomponents_macro',
       description: 'No information available',
       type: ModuleTypes.production,
       product: Wares.missilecomponents,
       explosionDamage: 10000,
       hull: 159000,
       workForce: {
-         max: 15
+         max: 22
       },
       price: { min: 191643, max: 259281, avg: 225462 },
       owners: [
@@ -2350,6 +2465,8 @@ export const Modules = {
          Factions.ministry,
          Factions.paranid,
          Factions.trinity,
+         Factions.freesplit,
+         Factions.split,
       ],
       shields: [
          { group: 'top_01', size: Size.medium, hittable: true },
@@ -2375,7 +2492,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 786,
+            time: 510,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -2391,13 +2508,14 @@ export const Modules = {
       id: 'module_gen_prod_plasmaconductors_01',
       version: 0,
       name: 'Plasma Conductor Production',
+      macro: 'prod_gen_plasmaconductors_macro',
       description: 'No information available',
       type: ModuleTypes.production,
       product: Wares.plasmaconductors,
       explosionDamage: 10000,
       hull: 181000,
       workForce: {
-         max: 150
+         max: 225
       },
       price: { min: 2572901, max: 3480983, avg: 3026942 },
       owners: [
@@ -2407,6 +2525,8 @@ export const Modules = {
          Factions.paranid,
          Factions.teladi,
          Factions.trinity,
+         Factions.freesplit,
+         Factions.split,
       ],
       shields: [
          { group: 'top_01', size: Size.medium, hittable: true },
@@ -2432,7 +2552,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 1277,
+            time: 830,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -2448,13 +2568,14 @@ export const Modules = {
       id: 'module_gen_prod_quantumtubes_01',
       version: 0,
       name: 'Quantum Tube Production',
+      macro: 'prod_gen_quantumtubes_macro',
       description: 'No information available',
       type: ModuleTypes.production,
       product: Wares.quantumtubes,
       explosionDamage: 10000,
       hull: 148000,
       workForce: {
-         max: 150
+         max: 225
       },
       price: { min: 2068152, max: 2798088, avg: 2433120 },
       owners: [
@@ -2464,6 +2585,8 @@ export const Modules = {
          Factions.paranid,
          Factions.teladi,
          Factions.trinity,
+         Factions.freesplit,
+         Factions.split,
       ],
       shields: [
          { group: 'top_01', size: Size.medium, hittable: true },
@@ -2483,7 +2606,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 1236,
+            time: 803,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -2499,13 +2622,14 @@ export const Modules = {
       id: 'module_gen_prod_refinedmetals_01',
       version: 0,
       name: 'Refined Metal Production',
+      macro: 'prod_gen_refinedmetals_macro',
       description: 'No information available',
       type: ModuleTypes.production,
       product: Wares.refinedmetals,
       explosionDamage: 10000,
       hull: 210000,
       workForce: {
-         max: 150
+         max: 225
       },
       price: { min: 197231, max: 266841, avg: 232036 },
       owners: [
@@ -2515,6 +2639,8 @@ export const Modules = {
          Factions.paranid,
          Factions.teladi,
          Factions.trinity,
+         Factions.freesplit,
+         Factions.split,
       ],
       shields: [
          { group: 'top_01', size: Size.medium, hittable: true },
@@ -2540,7 +2666,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 791,
+            time: 514,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -2556,13 +2682,14 @@ export const Modules = {
       id: 'module_gen_prod_scanningarrays_01',
       version: 0,
       name: 'Scanning Array Production',
+      macro: 'prod_gen_scanningarrays_macro',
       description: 'No information available',
       type: ModuleTypes.production,
       product: Wares.scanningarrays,
       explosionDamage: 10000,
       hull: 169000,
       workForce: {
-         max: 210
+         max: 315
       },
       price: { min: 3422258, max: 4630114, avg: 4026186 },
       owners: [
@@ -2572,6 +2699,8 @@ export const Modules = {
          Factions.paranid,
          Factions.teladi,
          Factions.trinity,
+         Factions.freesplit,
+         Factions.split,
       ],
       shields: [
          { group: 'top_01', size: Size.medium, hittable: true },
@@ -2597,7 +2726,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 1331,
+            time: 865,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -2613,13 +2742,14 @@ export const Modules = {
       id: 'module_gen_prod_shieldcomponents_01',
       version: 0,
       name: 'Shield Component Production',
+      macro: 'prod_gen_shieldcomponents_macro',
       description: 'No information available',
       type: ModuleTypes.production,
       product: Wares.shieldcomponents,
       explosionDamage: 10000,
       hull: 191000,
       workForce: {
-         max: 150
+         max: 225
       },
       price: { min: 2350389, max: 3179939, avg: 2765164 },
       owners: [
@@ -2629,6 +2759,8 @@ export const Modules = {
          Factions.paranid,
          Factions.teladi,
          Factions.trinity,
+         Factions.freesplit,
+         Factions.split,
       ],
       shields: [
          { group: 'top_01', size: Size.medium, hittable: true },
@@ -2654,7 +2786,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 1260,
+            time: 819,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -2670,13 +2802,14 @@ export const Modules = {
       id: 'module_gen_prod_siliconwafers_01',
       version: 0,
       name: 'Silicon Wafer Production',
+      macro: 'prod_gen_siliconwafers_macro',
       description: 'No information available',
       type: ModuleTypes.production,
       product: Wares.siliconwafers,
       explosionDamage: 10000,
       hull: 186000,
       workForce: {
-         max: 150
+         max: 225
       },
       price: { min: 403430, max: 545818, avg: 474624 },
       owners: [
@@ -2686,6 +2819,8 @@ export const Modules = {
          Factions.paranid,
          Factions.teladi,
          Factions.trinity,
+         Factions.freesplit,
+         Factions.split,
       ],
       shields: [
          { group: 'top_01', size: Size.medium, hittable: true },
@@ -2707,7 +2842,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 927,
+            time: 602,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -2723,13 +2858,14 @@ export const Modules = {
       id: 'module_gen_prod_smartchips_01',
       version: 0,
       name: 'Smart Chip Production',
+      macro: 'prod_gen_smartchips_macro',
       description: 'No information available',
       type: ModuleTypes.production,
       product: Wares.smartchips,
       explosionDamage: 10000,
       hull: 104000,
       workForce: {
-         max: 40
+         max: 60
       },
       price: { min: 686545, max: 928855, avg: 807700 },
       owners: [
@@ -2737,6 +2873,8 @@ export const Modules = {
          Factions.paranid,
          Factions.teladi,
          Factions.trinity,
+         Factions.freesplit,
+         Factions.split,
       ],
       shields: [
          { group: 'left_01', size: Size.medium, hittable: true },
@@ -2756,7 +2894,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 1027,
+            time: 667,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -2772,6 +2910,7 @@ export const Modules = {
       id: 'module_gen_prod_spices_01',
       version: 0,
       name: 'Spice Production',
+      macro: 'prod_gen_spices_macro',
       description: 'No information available',
       type: ModuleTypes.production,
       product: Wares.spices,
@@ -2788,6 +2927,8 @@ export const Modules = {
          Factions.paranid,
          Factions.teladi,
          Factions.trinity,
+         Factions.freesplit,
+         Factions.split,
       ],
       shields: [
          { group: 'top_01', size: Size.medium, hittable: true },
@@ -2810,7 +2951,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 1046,
+            time: 679,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -2826,13 +2967,14 @@ export const Modules = {
       id: 'module_gen_prod_superfluidcoolant_01',
       version: 0,
       name: 'Superfluid Coolant Production',
+      macro: 'prod_gen_superfluidcoolant_macro',
       description: 'No information available',
       type: ModuleTypes.production,
       product: Wares.superfluidcoolant,
       explosionDamage: 10000,
       hull: 177000,
       workForce: {
-         max: 120
+         max: 180
       },
       price: { min: 137080, max: 185461, avg: 161270 },
       owners: [
@@ -2842,6 +2984,8 @@ export const Modules = {
          Factions.paranid,
          Factions.teladi,
          Factions.trinity,
+         Factions.freesplit,
+         Factions.split,
       ],
       shields: [
          { group: 'down_01', size: Size.medium, hittable: true },
@@ -2864,7 +3008,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 722,
+            time: 469,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -2880,13 +3024,14 @@ export const Modules = {
       id: 'module_gen_prod_turretcomponents_01',
       version: 0,
       name: 'Turret Component Production',
+      macro: 'prod_gen_turretcomponents_macro',
       description: 'No information available',
       type: ModuleTypes.production,
       product: Wares.turretcomponents,
       explosionDamage: 10000,
       hull: 155000,
       workForce: {
-         max: 150
+         max: 225
       },
       price: { min: 2584529, max: 3496715, avg: 3040622 },
       owners: [
@@ -2894,6 +3039,8 @@ export const Modules = {
          Factions.ministry,
          Factions.paranid,
          Factions.trinity,
+         Factions.freesplit,
+         Factions.split,
       ],
       shields: [
          { group: 'top_01', size: Size.medium, hittable: true },
@@ -2916,7 +3063,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 1278,
+            time: 830,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -2932,13 +3079,14 @@ export const Modules = {
       id: 'module_gen_prod_water_01',
       version: 0,
       name: 'Water Production',
+      macro: 'prod_gen_water_macro',
       description: 'No information available',
       type: ModuleTypes.production,
       product: Wares.water,
       explosionDamage: 10000,
       hull: 203000,
       workForce: {
-         max: 120
+         max: 180
       },
       price: { min: 195901, max: 265043, avg: 230472 },
       owners: [
@@ -2948,6 +3096,8 @@ export const Modules = {
          Factions.paranid,
          Factions.teladi,
          Factions.trinity,
+         Factions.freesplit,
+         Factions.split,
       ],
       shields: [
          { group: 'top_01', size: Size.medium, hittable: true },
@@ -2973,7 +3123,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 790,
+            time: 513,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -2989,13 +3139,14 @@ export const Modules = {
       id: 'module_gen_prod_weaponcomponents_01',
       version: 0,
       name: 'Weapon Component Production',
+      macro: 'prod_gen_weaponcomponents_macro',
       description: 'No information available',
       type: ModuleTypes.production,
       product: Wares.weaponcomponents,
       explosionDamage: 10000,
       hull: 208000,
       workForce: {
-         max: 150
+         max: 225
       },
       price: { min: 2154927, max: 2915489, avg: 2535208 },
       owners: [
@@ -3003,6 +3154,8 @@ export const Modules = {
          Factions.holyorder,
          Factions.ministry,
          Factions.trinity,
+         Factions.freesplit,
+         Factions.split,
       ],
       shields: [
          { group: 'top_01', size: Size.medium, hittable: true },
@@ -3028,7 +3181,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 1244,
+            time: 808,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -3044,6 +3197,7 @@ export const Modules = {
       id: 'module_par_conn_base_01',
       version: 0,
       name: 'Paranid Base Connection Structure 01',
+      macro: 'struct_par_base_01_macro',
       description: 'No information available',
       type: ModuleTypes.connectionmodule,
       hull: 110000,
@@ -3056,7 +3210,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 70,
+            time: 45,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -3072,6 +3226,7 @@ export const Modules = {
       id: 'module_par_conn_base_02',
       version: 0,
       name: 'Paranid Base Connection Structure 02',
+      macro: 'struct_par_base_02_macro',
       description: 'No information available',
       type: ModuleTypes.connectionmodule,
       hull: 230000,
@@ -3084,7 +3239,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 101,
+            time: 59,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -3100,6 +3255,7 @@ export const Modules = {
       id: 'module_par_conn_base_03',
       version: 0,
       name: 'Paranid Base Connection Structure 03',
+      macro: 'struct_par_base_03_macro',
       description: 'No information available',
       type: ModuleTypes.connectionmodule,
       hull: 370000,
@@ -3112,7 +3268,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 128,
+            time: 83,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -3128,6 +3284,7 @@ export const Modules = {
       id: 'module_par_conn_cross_01',
       version: 0,
       name: 'Paranid Cross Connection Structure 01',
+      macro: 'struct_par_cross_01_macro',
       description: 'No information available',
       type: ModuleTypes.connectionmodule,
       hull: 90000,
@@ -3140,7 +3297,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 63,
+            time: 40,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -3156,6 +3313,7 @@ export const Modules = {
       id: 'module_par_conn_cross_02',
       version: 0,
       name: 'Paranid Cross Connection Structure 02',
+      macro: 'struct_par_cross_02_macro',
       description: 'No information available',
       type: ModuleTypes.connectionmodule,
       hull: 370000,
@@ -3168,7 +3326,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 128,
+            time: 83,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -3184,6 +3342,7 @@ export const Modules = {
       id: 'module_par_conn_cross_03',
       version: 0,
       name: 'Paranid Cross Connection Structure 03',
+      macro: 'struct_par_cross_03_macro',
       description: 'No information available',
       type: ModuleTypes.connectionmodule,
       hull: 230000,
@@ -3196,7 +3355,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 101,
+            time: 59,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -3212,6 +3371,7 @@ export const Modules = {
       id: 'module_par_conn_vertical_01',
       version: 0,
       name: 'Paranid Vertical Connection Structure 01',
+      macro: 'struct_par_vertical_01_macro',
       description: 'No information available',
       type: ModuleTypes.connectionmodule,
       hull: 79000,
@@ -3224,7 +3384,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 59,
+            time: 38,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -3240,6 +3400,7 @@ export const Modules = {
       id: 'module_par_conn_vertical_02',
       version: 0,
       name: 'Paranid Vertical Connection Structure 02',
+      macro: 'struct_par_vertical_02_macro',
       description: 'No information available',
       type: ModuleTypes.connectionmodule,
       hull: 143000,
@@ -3252,7 +3413,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 80,
+            time: 52,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -3268,6 +3429,7 @@ export const Modules = {
       id: 'module_par_def_claim_01',
       version: 0,
       name: 'Paranid Administrative Centre',
+      macro: 'defence_par_claim_01_macro',
       description: 'No information available',
       type: ModuleTypes.defencemodule,
       hull: 532000,
@@ -3280,7 +3442,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 842,
+            time: 547,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -3296,6 +3458,7 @@ export const Modules = {
       id: 'module_par_def_disc_01',
       version: 0,
       name: 'Paranid Disc Defence Platform',
+      macro: 'defence_par_disc_01_macro',
       description: 'No information available',
       type: ModuleTypes.defencemodule,
       explosionDamage: 12000,
@@ -3341,7 +3504,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 592,
+            time: 384,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -3357,6 +3520,7 @@ export const Modules = {
       id: 'module_par_def_tube_01',
       version: 0,
       name: 'Paranid Bridge Defence Platform',
+      macro: 'defence_par_tube_01_macro',
       description: 'No information available',
       type: ModuleTypes.defencemodule,
       explosionDamage: 12000,
@@ -3396,7 +3560,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 514,
+            time: 334,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -3412,6 +3576,7 @@ export const Modules = {
       id: 'module_par_hab_l_01',
       version: 0,
       name: 'Paranid L Dome',
+      macro: 'hab_par_l_01_macro',
       description: 'No information available',
       type: ModuleTypes.habitation,
       explosionDamage: 100000,
@@ -3429,7 +3594,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 1265,
+            time: 822,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -3445,6 +3610,7 @@ export const Modules = {
       id: 'module_par_hab_m_01',
       version: 0,
       name: 'Paranid M Dome',
+      macro: 'hab_par_m_01_macro',
       description: 'No information available',
       type: ModuleTypes.habitation,
       explosionDamage: 100000,
@@ -3462,7 +3628,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 816,
+            time: 530,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -3478,6 +3644,7 @@ export const Modules = {
       id: 'module_par_hab_s_01',
       version: 0,
       name: 'Paranid S Dome',
+      macro: 'hab_par_s_01_macro',
       description: 'No information available',
       type: ModuleTypes.habitation,
       explosionDamage: 100000,
@@ -3495,7 +3662,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 566,
+            time: 367,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -3511,6 +3678,7 @@ export const Modules = {
       id: 'module_par_pier_l_01',
       version: 0,
       name: 'Paranid 3-Dock T Pier',
+      macro: 'pier_par_harbor_01_macro',
       description: 'No information available',
       type: ModuleTypes.pier,
       explosionDamage: 10000,
@@ -3523,7 +3691,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 1200,
+            time: 780,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -3539,6 +3707,7 @@ export const Modules = {
       id: 'module_par_pier_l_02',
       version: 0,
       name: 'Paranid 1-Dock Pier',
+      macro: 'pier_par_harbor_02_macro',
       description: 'No information available',
       type: ModuleTypes.pier,
       explosionDamage: 10000,
@@ -3552,7 +3721,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 693,
+            time: 450,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -3568,6 +3737,7 @@ export const Modules = {
       id: 'module_par_pier_l_03',
       version: 0,
       name: 'Paranid 3-Dock E Pier',
+      macro: 'pier_par_harbor_03_macro',
       description: 'No information available',
       type: ModuleTypes.pier,
       explosionDamage: 10000,
@@ -3580,7 +3750,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 1386,
+            time: 900,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -3596,6 +3766,7 @@ export const Modules = {
       id: 'module_par_prod_majadust_01',
       version: 0,
       name: 'Maja Dust Production',
+      macro: 'prod_par_majadust_macro',
       description: 'No information available',
       type: ModuleTypes.production,
       product: Wares.majadust,
@@ -3628,7 +3799,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 1232,
+            time: 800,
             amount: 1,
             method: 'default',
             name: 'Paranid',
@@ -3644,6 +3815,7 @@ export const Modules = {
       id: 'module_par_prod_majasnails_01',
       version: 0,
       name: 'Maja Snail Production',
+      macro: 'prod_par_majasnails_macro',
       description: 'No information available',
       type: ModuleTypes.production,
       product: Wares.majasnails,
@@ -3651,7 +3823,7 @@ export const Modules = {
       hull: 236000,
       makerRace: Races.paranid,
       workForce: {
-         max: 78
+         max: 175
       },
       price: { min: 1349848, max: 1826264, avg: 1588056 },
       owners: [
@@ -3677,7 +3849,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 1155,
+            time: 750,
             amount: 1,
             method: 'default',
             name: 'Paranid',
@@ -3693,6 +3865,7 @@ export const Modules = {
       id: 'module_par_prod_medicalsupplies_01',
       version: 0,
       name: 'Paranid Medical Supply Production',
+      macro: 'prod_par_medicalsupplies_macro',
       description: 'No information available',
       type: ModuleTypes.production,
       product: Wares.medicalsupplies,
@@ -3729,7 +3902,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 1138,
+            time: 739,
             amount: 1,
             method: 'default',
             name: 'Paranid',
@@ -3745,6 +3918,7 @@ export const Modules = {
       id: 'module_par_prod_sojabeans_01',
       version: 0,
       name: 'Soja Bean Production',
+      macro: 'prod_par_sojabeans_macro',
       description: 'No information available',
       type: ModuleTypes.production,
       product: Wares.sojabeans,
@@ -3752,7 +3926,7 @@ export const Modules = {
       hull: 259000,
       makerRace: Races.paranid,
       workForce: {
-         max: 78
+         max: 175
       },
       price: { min: 1610158, max: 2178450, avg: 1894304 },
       owners: [
@@ -3784,7 +3958,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 1189,
+            time: 772,
             amount: 1,
             method: 'default',
             name: 'Paranid',
@@ -3800,6 +3974,7 @@ export const Modules = {
       id: 'module_par_prod_sojahusk_01',
       version: 0,
       name: 'Soja Husk Production',
+      macro: 'prod_par_sojahusk_macro',
       description: 'No information available',
       type: ModuleTypes.production,
       product: Wares.sojahusk,
@@ -3836,7 +4011,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 1201,
+            time: 780,
             amount: 1,
             method: 'default',
             name: 'Paranid',
@@ -3852,6 +4027,7 @@ export const Modules = {
       id: 'module_par_stor_container_l_01',
       version: 0,
       name: 'Paranid L Container Storage',
+      macro: 'storage_par_l_container_01_macro',
       description: 'No information available',
       type: ModuleTypes.storage,
       explosionDamage: 10000,
@@ -3882,7 +4058,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 964,
+            time: 626,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -3898,6 +4074,7 @@ export const Modules = {
       id: 'module_par_stor_container_m_01',
       version: 0,
       name: 'Paranid M Container Storage',
+      macro: 'storage_par_m_container_01_macro',
       description: 'No information available',
       type: ModuleTypes.storage,
       explosionDamage: 8000,
@@ -3928,7 +4105,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 658,
+            time: 427,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -3944,6 +4121,7 @@ export const Modules = {
       id: 'module_par_stor_container_s_01',
       version: 0,
       name: 'Paranid S Container Storage',
+      macro: 'storage_par_s_container_01_macro',
       description: 'No information available',
       type: ModuleTypes.storage,
       hull: 133000,
@@ -3973,7 +4151,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 435,
+            time: 282,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -3989,6 +4167,7 @@ export const Modules = {
       id: 'module_par_stor_liquid_l_01',
       version: 0,
       name: 'Paranid L Liquid Storage',
+      macro: 'storage_par_l_liquid_01_macro',
       description: 'No information available',
       type: ModuleTypes.storage,
       hull: 653000,
@@ -4018,7 +4197,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 964,
+            time: 626,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -4034,6 +4213,7 @@ export const Modules = {
       id: 'module_par_stor_liquid_m_01',
       version: 0,
       name: 'Paranid M Liquid Storage',
+      macro: 'storage_par_m_liquid_01_macro',
       description: 'No information available',
       type: ModuleTypes.storage,
       hull: 304000,
@@ -4063,7 +4243,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 658,
+            time: 427,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -4079,6 +4259,7 @@ export const Modules = {
       id: 'module_par_stor_liquid_s_01',
       version: 0,
       name: 'Paranid S Liquid Storage',
+      macro: 'storage_par_s_liquid_01_macro',
       description: 'No information available',
       type: ModuleTypes.storage,
       hull: 133000,
@@ -4108,7 +4289,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 435,
+            time: 282,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -4124,6 +4305,7 @@ export const Modules = {
       id: 'module_par_stor_solid_l_01',
       version: 0,
       name: 'Paranid L Solid Storage',
+      macro: 'storage_par_l_solid_01_macro',
       description: 'No information available',
       type: ModuleTypes.storage,
       explosionDamage: 10000,
@@ -4154,7 +4336,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 964,
+            time: 683,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -4170,6 +4352,7 @@ export const Modules = {
       id: 'module_par_stor_solid_m_01',
       version: 0,
       name: 'Paranid M Solid Storage',
+      macro: 'storage_par_m_solid_01_macro',
       description: 'No information available',
       type: ModuleTypes.storage,
       explosionDamage: 8000,
@@ -4200,7 +4383,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 658,
+            time: 427,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -4216,6 +4399,7 @@ export const Modules = {
       id: 'module_par_stor_solid_s_01',
       version: 0,
       name: 'Paranid S Solid Storage',
+      macro: 'storage_par_s_solid_01_macro',
       description: 'No information available',
       type: ModuleTypes.storage,
       explosionDamage: 5000,
@@ -4246,7 +4430,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 435,
+            time: 282,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -4262,6 +4446,7 @@ export const Modules = {
       id: 'module_tel_conn_base_01',
       version: 0,
       name: 'Teladi Base Connection Structure 01',
+      macro: 'struct_tel_base_01_macro',
       description: 'No information available',
       type: ModuleTypes.connectionmodule,
       hull: 238000,
@@ -4272,7 +4457,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 103,
+            time: 59,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -4288,6 +4473,7 @@ export const Modules = {
       id: 'module_tel_conn_base_02',
       version: 0,
       name: 'Teladi Base Connection Structure 02',
+      macro: 'struct_tel_base_02_macro',
       description: 'No information available',
       type: ModuleTypes.connectionmodule,
       hull: 150000,
@@ -4298,7 +4484,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 82,
+            time: 53,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -4314,6 +4500,7 @@ export const Modules = {
       id: 'module_tel_conn_base_03',
       version: 0,
       name: 'Teladi Base Connection Structure 03',
+      macro: 'struct_tel_base_03_macro',
       description: 'No information available',
       type: ModuleTypes.connectionmodule,
       hull: 280000,
@@ -4324,7 +4511,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 112,
+            time: 72,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -4340,6 +4527,7 @@ export const Modules = {
       id: 'module_tel_conn_cross_01',
       version: 0,
       name: 'Teladi Cross Connection Structure 01',
+      macro: 'struct_tel_cross_01_macro',
       description: 'No information available',
       type: ModuleTypes.connectionmodule,
       hull: 120000,
@@ -4350,7 +4538,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 73,
+            time: 47,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -4366,6 +4554,7 @@ export const Modules = {
       id: 'module_tel_conn_vertical_01',
       version: 0,
       name: 'Teladi Vertical Connection Structure 01',
+      macro: 'struct_tel_vertical_01_macro',
       description: 'No information available',
       type: ModuleTypes.connectionmodule,
       hull: 79000,
@@ -4376,7 +4565,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 59,
+            time: 38,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -4392,6 +4581,7 @@ export const Modules = {
       id: 'module_tel_conn_vertical_02',
       version: 0,
       name: 'Teladi Vertical Connection Structure 02',
+      macro: 'struct_tel_vertical_02_macro',
       description: 'No information available',
       type: ModuleTypes.connectionmodule,
       hull: 143000,
@@ -4402,7 +4592,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 80,
+            time: 52,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -4418,6 +4608,7 @@ export const Modules = {
       id: 'module_tel_def_claim_01',
       version: 0,
       name: 'Teladi Administrative Centre',
+      macro: 'defence_tel_claim_01_macro',
       description: 'No information available',
       type: ModuleTypes.defencemodule,
       hull: 516000,
@@ -4429,7 +4620,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 829,
+            time: 538,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -4445,6 +4636,7 @@ export const Modules = {
       id: 'module_tel_def_disc_01',
       version: 0,
       name: 'Teladi Disc Defence Platform',
+      macro: 'defence_tel_disc_01_macro',
       description: 'No information available',
       type: ModuleTypes.defencemodule,
       explosionDamage: 12000,
@@ -4487,7 +4679,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 592,
+            time: 384,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -4503,6 +4695,7 @@ export const Modules = {
       id: 'module_tel_def_tube_01',
       version: 0,
       name: 'Teladi Bridge Defence Platform',
+      macro: 'defence_tel_tube_01_macro',
       description: 'No information available',
       type: ModuleTypes.defencemodule,
       explosionDamage: 12000,
@@ -4541,7 +4734,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 514,
+            time: 334,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -4557,6 +4750,7 @@ export const Modules = {
       id: 'module_tel_hab_l_01',
       version: 0,
       name: 'Teladi L Biome',
+      macro: 'hab_tel_l_01_macro',
       description: 'No information available',
       type: ModuleTypes.habitation,
       explosionDamage: 100000,
@@ -4572,7 +4766,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 1095,
+            time: 711,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -4588,6 +4782,7 @@ export const Modules = {
       id: 'module_tel_hab_m_01',
       version: 0,
       name: 'Teladi M Biome',
+      macro: 'hab_tel_m_01_macro',
       description: 'No information available',
       type: ModuleTypes.habitation,
       explosionDamage: 100000,
@@ -4603,7 +4798,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 730,
+            time: 474,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -4619,6 +4814,7 @@ export const Modules = {
       id: 'module_tel_hab_s_01',
       version: 0,
       name: 'Teladi S Biome',
+      macro: 'hab_tel_s_01_macro',
       description: 'No information available',
       type: ModuleTypes.habitation,
       explosionDamage: 100000,
@@ -4634,7 +4830,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 516,
+            time: 335,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -4650,6 +4846,7 @@ export const Modules = {
       id: 'module_tel_pier_l_01',
       version: 0,
       name: 'Teladi 3-Dock T Pier',
+      macro: 'pier_tel_harbor_01_macro',
       description: 'No information available',
       type: ModuleTypes.pier,
       explosionDamage: 10000,
@@ -4662,7 +4859,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 1155,
+            time: 750,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -4678,6 +4875,7 @@ export const Modules = {
       id: 'module_tel_pier_l_02',
       version: 0,
       name: 'Teladi 1-Dock Pier',
+      macro: 'pier_tel_harbor_02_macro',
       description: 'No information available',
       type: ModuleTypes.pier,
       explosionDamage: 10000,
@@ -4690,7 +4888,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 667,
+            time: 433,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -4706,6 +4904,7 @@ export const Modules = {
       id: 'module_tel_pier_l_03',
       version: 0,
       name: 'Teladi 3-Dock E Pier',
+      macro: 'pier_tel_harbor_03_macro',
       description: 'No information available',
       type: ModuleTypes.pier,
       explosionDamage: 10000,
@@ -4718,7 +4917,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 1333,
+            time: 866,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -4734,6 +4933,7 @@ export const Modules = {
       id: 'module_tel_prod_advancedcomposites_01',
       version: 0,
       name: 'Teladi Advanced Composite Production',
+      macro: 'prod_tel_advancedcomposites_macro',
       description: 'No information available',
       type: ModuleTypes.production,
       product: Wares.advancedcomposites,
@@ -4741,7 +4941,7 @@ export const Modules = {
       hull: 197000,
       makerRace: Races.teladi,
       workForce: {
-         max: 210
+         max: 315
       },
       price: { min: 3416014, max: 4621666, avg: 4018840 },
       owners: [
@@ -4771,7 +4971,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 1329,
+            time: 863,
             amount: 1,
             method: 'default',
             name: 'Teladi',
@@ -4787,6 +4987,7 @@ export const Modules = {
       id: 'module_tel_prod_engineparts_01',
       version: 0,
       name: 'Teladi Engine Part Production',
+      macro: 'prod_tel_engineparts_macro',
       description: 'No information available',
       type: ModuleTypes.production,
       product: Wares.engineparts,
@@ -4794,7 +4995,7 @@ export const Modules = {
       hull: 120000,
       makerRace: Races.teladi,
       workForce: {
-         max: 150
+         max: 225
       },
       price: { min: 2143163, max: 2899573, avg: 2521368 },
       owners: [
@@ -4824,7 +5025,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 1241,
+            time: 806,
             amount: 1,
             method: 'default',
             name: 'Teladi',
@@ -4840,6 +5041,7 @@ export const Modules = {
       id: 'module_tel_prod_hullparts_01',
       version: 0,
       name: 'Teladi Hull Part Production',
+      macro: 'prod_tel_hullparts_macro',
       description: 'No information available',
       type: ModuleTypes.production,
       product: Wares.hullparts,
@@ -4847,7 +5049,7 @@ export const Modules = {
       hull: 146000,
       makerRace: Races.teladi,
       workForce: {
-         max: 180
+         max: 270
       },
       price: { min: 3339976, max: 4518792, avg: 3929384 },
       owners: [
@@ -4877,7 +5079,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 1325,
+            time: 861,
             amount: 1,
             method: 'default',
             name: 'Teladi',
@@ -4893,6 +5095,7 @@ export const Modules = {
       id: 'module_tel_prod_medicalsupplies_01',
       version: 0,
       name: 'Teladi Medical Supply Production',
+      macro: 'prod_tel_medicalsupplies_macro',
       description: 'No information available',
       type: ModuleTypes.production,
       product: Wares.medicalsupplies,
@@ -4927,7 +5130,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 1136,
+            time: 738,
             amount: 1,
             method: 'default',
             name: 'Teladi',
@@ -4943,6 +5146,7 @@ export const Modules = {
       id: 'module_tel_prod_nostropoil_01',
       version: 0,
       name: 'Nostrop Oil Production',
+      macro: 'prod_tel_nostropoil_macro',
       description: 'No information available',
       type: ModuleTypes.production,
       product: Wares.nostropoil,
@@ -4980,7 +5184,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 1184,
+            time: 769,
             amount: 1,
             method: 'default',
             name: 'Teladi',
@@ -4996,6 +5200,7 @@ export const Modules = {
       id: 'module_tel_prod_scanningarrays_01',
       version: 0,
       name: 'Teladi Scanning Array Production',
+      macro: 'prod_tel_scanningarrays_macro',
       description: 'No information available',
       type: ModuleTypes.production,
       product: Wares.scanningarrays,
@@ -5003,7 +5208,7 @@ export const Modules = {
       hull: 169000,
       makerRace: Races.teladi,
       workForce: {
-         max: 210
+         max: 315
       },
       price: { min: 3464989, max: 4687927, avg: 4076458 },
       owners: [
@@ -5033,7 +5238,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 1332,
+            time: 865,
             amount: 1,
             method: 'default',
             name: 'Teladi',
@@ -5049,6 +5254,7 @@ export const Modules = {
       id: 'module_tel_prod_spaceweed_01',
       version: 0,
       name: 'Spaceweed Production',
+      macro: 'prod_tel_spaceweed_macro',
       description: 'No information available',
       type: ModuleTypes.production,
       product: Wares.spaceweed,
@@ -5082,7 +5288,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 1334,
+            time: 867,
             amount: 1,
             method: 'default',
             name: 'Teladi',
@@ -5098,6 +5304,7 @@ export const Modules = {
       id: 'module_tel_prod_sunriseflowers_01',
       version: 0,
       name: 'Sunrise Flower Production',
+      macro: 'prod_tel_sunriseflowers_macro',
       description: 'No information available',
       type: ModuleTypes.production,
       product: Wares.sunriseflowers,
@@ -5105,7 +5312,7 @@ export const Modules = {
       hull: 235000,
       makerRace: Races.teladi,
       workForce: {
-         max: 75
+         max: 50
       },
       price: { min: 1611474, max: 2180230, avg: 1895852 },
       owners: [
@@ -5129,7 +5336,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 1189,
+            time: 772,
             amount: 1,
             method: 'default',
             name: 'Teladi',
@@ -5145,6 +5352,7 @@ export const Modules = {
       id: 'module_tel_prod_swampplant_01',
       version: 0,
       name: 'Swamp Plant Production',
+      macro: 'prod_tel_swampplant_macro',
       description: 'No information available',
       type: ModuleTypes.production,
       product: Wares.swampplant,
@@ -5152,7 +5360,7 @@ export const Modules = {
       hull: 287000,
       makerRace: Races.teladi,
       workForce: {
-         max: 75
+         max: 50
       },
       price: { min: 3475040, max: 4701524, avg: 4088282 },
       owners: [
@@ -5182,7 +5390,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 1334,
+            time: 867,
             amount: 1,
             method: 'default',
             name: 'Teladi',
@@ -5198,6 +5406,7 @@ export const Modules = {
       id: 'module_tel_prod_teladianium_01',
       version: 0,
       name: 'Teladianium Production',
+      macro: 'prod_tel_teladianium_macro',
       description: 'No information available',
       type: ModuleTypes.production,
       product: Wares.teladianium,
@@ -5205,7 +5414,7 @@ export const Modules = {
       hull: 226000,
       makerRace: Races.teladi,
       workForce: {
-         max: 180
+         max: 225
       },
       price: { min: 272830, max: 369122, avg: 320976 },
       owners: [
@@ -5232,7 +5441,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 853,
+            time: 554,
             amount: 1,
             method: 'default',
             name: 'Teladi',
@@ -5248,6 +5457,7 @@ export const Modules = {
       id: 'module_tel_stor_container_l_01',
       version: 0,
       name: 'Teladi L Container Storage',
+      macro: 'storage_tel_l_container_01_macro',
       description: 'No information available',
       type: ModuleTypes.storage,
       explosionDamage: 10000,
@@ -5288,7 +5498,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 869,
+            time: 564,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -5304,6 +5514,7 @@ export const Modules = {
       id: 'module_tel_stor_container_m_01',
       version: 0,
       name: 'Teladi M Container Storage',
+      macro: 'storage_tel_m_container_01_macro',
       description: 'No information available',
       type: ModuleTypes.storage,
       explosionDamage: 8000,
@@ -5338,7 +5549,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 607,
+            time: 394,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -5354,6 +5565,7 @@ export const Modules = {
       id: 'module_tel_stor_container_s_01',
       version: 0,
       name: 'Teladi S Container Storage',
+      macro: 'storage_tel_s_container_01_macro',
       description: 'No information available',
       type: ModuleTypes.storage,
       explosionDamage: 5000,
@@ -5385,7 +5597,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 397,
+            time: 258,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -5401,6 +5613,7 @@ export const Modules = {
       id: 'module_tel_stor_liquid_l_01',
       version: 0,
       name: 'Teladi L Liquid Storage',
+      macro: 'storage_tel_l_liquid_01_macro',
       description: 'No information available',
       type: ModuleTypes.storage,
       explosionDamage: 10000,
@@ -5441,7 +5654,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 869,
+            time: 564,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -5457,6 +5670,7 @@ export const Modules = {
       id: 'module_tel_stor_liquid_m_01',
       version: 0,
       name: 'Teladi M Liquid Storage',
+      macro: 'storage_tel_m_liquid_01_macro',
       description: 'No information available',
       type: ModuleTypes.storage,
       explosionDamage: 8000,
@@ -5491,7 +5705,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 607,
+            time: 394,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -5507,6 +5721,7 @@ export const Modules = {
       id: 'module_tel_stor_liquid_s_01',
       version: 0,
       name: 'Teladi S Liquid Storage',
+      macro: 'storage_tel_s_liquid_01_macro',
       description: 'No information available',
       type: ModuleTypes.storage,
       explosionDamage: 5000,
@@ -5538,7 +5753,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 397,
+            time: 258,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -5554,6 +5769,7 @@ export const Modules = {
       id: 'module_tel_stor_solid_l_01',
       version: 0,
       name: 'Teladi L Solid Storage',
+      macro: 'storage_tel_l_solid_01_macro',
       description: 'No information available',
       type: ModuleTypes.storage,
       explosionDamage: 10000,
@@ -5594,7 +5810,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 869,
+            time: 564,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -5610,6 +5826,7 @@ export const Modules = {
       id: 'module_tel_stor_solid_m_01',
       version: 0,
       name: 'Teladi M Solid Storage',
+      macro: 'storage_tel_m_solid_01_macro',
       description: 'No information available',
       type: ModuleTypes.storage,
       explosionDamage: 8000,
@@ -5644,7 +5861,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 607,
+            time: 394,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -5660,6 +5877,7 @@ export const Modules = {
       id: 'module_tel_stor_solid_s_01',
       version: 0,
       name: 'Teladi S Solid Storage',
+      macro: 'storage_tel_s_solid_01_macro',
       description: 'No information available',
       type: ModuleTypes.storage,
       explosionDamage: 5000,
@@ -5691,7 +5909,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 397,
+            time: 258,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -5707,6 +5925,7 @@ export const Modules = {
       id: 'module_spl_conn_base_01',
       version: 1,
       name: 'Split Base Connection Structure 01',
+      macro: 'struct_spl_base_01_macro',
       description: 'No information available',
       type: ModuleTypes.connectionmodule,
       hull: 237000,
@@ -5718,7 +5937,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 103,
+            time: 59,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -5734,6 +5953,7 @@ export const Modules = {
       id: 'module_spl_conn_base_02',
       version: 1,
       name: 'Split Base Connection Structure 02',
+      macro: 'struct_spl_base_02_macro',
       description: 'No information available',
       type: ModuleTypes.connectionmodule,
       hull: 150000,
@@ -5745,7 +5965,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 82,
+            time: 53,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -5761,6 +5981,7 @@ export const Modules = {
       id: 'module_spl_conn_base_03',
       version: 1,
       name: 'Split Base Connection Structure 03',
+      macro: 'struct_spl_base_03_macro',
       description: 'No information available',
       type: ModuleTypes.connectionmodule,
       hull: 280000,
@@ -5772,7 +5993,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 112,
+            time: 72,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -5788,6 +6009,7 @@ export const Modules = {
       id: 'module_spl_conn_cross_01',
       version: 1,
       name: 'Split Cross Connection Structure 01',
+      macro: 'struct_spl_cross_01_macro',
       description: 'No information available',
       type: ModuleTypes.connectionmodule,
       hull: 120000,
@@ -5799,7 +6021,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 73,
+            time: 47,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -5815,6 +6037,7 @@ export const Modules = {
       id: 'module_spl_conn_vertical_01',
       version: 1,
       name: 'Split Vertical Connection Structure 01',
+      macro: 'struct_spl_vertical_01_macro',
       description: 'No information available',
       type: ModuleTypes.connectionmodule,
       hull: 79000,
@@ -5826,7 +6049,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 59,
+            time: 38,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -5842,6 +6065,7 @@ export const Modules = {
       id: 'module_spl_conn_vertical_02',
       version: 1,
       name: 'Split Vertical Connection Structure 02',
+      macro: 'struct_spl_vertical_02_macro',
       description: 'No information available',
       type: ModuleTypes.connectionmodule,
       hull: 143000,
@@ -5853,7 +6077,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 80,
+            time: 52,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -5869,6 +6093,7 @@ export const Modules = {
       id: 'module_spl_def_claim_01',
       version: 1,
       name: 'Split Administrative Centre',
+      macro: 'defence_spl_claim_01_macro',
       description: 'No information available',
       type: ModuleTypes.defencemodule,
       hull: 520000,
@@ -5880,7 +6105,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 833,
+            time: 541,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -5896,6 +6121,7 @@ export const Modules = {
       id: 'module_spl_def_disc_01',
       version: 1,
       name: 'Split Disc Defence Platform',
+      macro: 'defence_spl_disc_01_macro',
       description: 'No information available',
       type: ModuleTypes.defencemodule,
       explosionDamage: 12000,
@@ -5948,7 +6174,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 632,
+            time: 410,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -5964,6 +6190,7 @@ export const Modules = {
       id: 'module_spl_def_tube_01',
       version: 1,
       name: 'Split Bridge Defence Platform',
+      macro: 'defence_spl_tube_01_macro',
       description: 'No information available',
       type: ModuleTypes.defencemodule,
       explosionDamage: 12000,
@@ -6004,7 +6231,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 632,
+            time: 410,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -6020,6 +6247,7 @@ export const Modules = {
       id: 'module_spl_hab_l_01',
       version: 1,
       name: 'Split L Parlour',
+      macro: 'hab_spl_l_01_macro',
       description: 'No information available',
       type: ModuleTypes.habitation,
       hull: 178582,
@@ -6035,7 +6263,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 1155,
+            time: 750,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -6051,6 +6279,7 @@ export const Modules = {
       id: 'module_spl_hab_m_01',
       version: 1,
       name: 'Split M Parlour',
+      macro: 'hab_spl_m_01_macro',
       description: 'No information available',
       type: ModuleTypes.habitation,
       hull: 183126,
@@ -6066,7 +6295,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 816,
+            time: 530,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -6082,6 +6311,7 @@ export const Modules = {
       id: 'module_spl_hab_s_01',
       version: 1,
       name: 'Split S Parlour',
+      macro: 'hab_spl_s_01_macro',
       description: 'No information available',
       type: ModuleTypes.habitation,
       hull: 148471,
@@ -6097,7 +6327,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 566,
+            time: 367,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -6113,8 +6343,10 @@ export const Modules = {
       id: 'module_spl_pier_l_01',
       version: 1,
       name: 'Split 4-Dock T Pier',
+      macro: 'pier_spl_harbor_01_macro',
       description: 'No information available',
       type: ModuleTypes.pier,
+      explosionDamage: 10000,
       hull: 750000,
       makerRace: Races.split,
       price: { min: 2946171, max: 3985997, avg: 3466084 },
@@ -6124,7 +6356,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 1155,
+            time: 750,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -6140,8 +6372,10 @@ export const Modules = {
       id: 'module_spl_pier_l_02',
       version: 1,
       name: 'Split 1-Dock Pier',
+      macro: 'pier_spl_harbor_02_macro',
       description: 'No information available',
       type: ModuleTypes.pier,
+      explosionDamage: 10000,
       hull: 250000,
       makerRace: Races.split,
       price: { min: 1701192, max: 2301612, avg: 2001402 },
@@ -6151,7 +6385,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 667,
+            time: 433,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -6167,8 +6401,10 @@ export const Modules = {
       id: 'module_spl_pier_l_03',
       version: 1,
       name: 'Split 3-Dock E Pier',
+      macro: 'pier_spl_harbor_03_macro',
       description: 'No information available',
       type: ModuleTypes.pier,
+      explosionDamage: 10000,
       hull: 1000000,
       makerRace: Races.split,
       price: { min: 3399016, max: 4598668, avg: 3998842 },
@@ -6178,7 +6414,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 1333,
+            time: 866,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -6194,6 +6430,7 @@ export const Modules = {
       id: 'module_spl_prod_cheltmeat_01',
       version: 1,
       name: 'Chelt Production',
+      macro: 'prod_spl_cheltmeat_macro',
       description: 'No information available',
       type: ModuleTypes.production,
       product: Wares.cheltmeat,
@@ -6232,7 +6469,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 774,
+            time: 503,
             amount: 1,
             method: 'default',
             name: 'Split',
@@ -6248,6 +6485,7 @@ export const Modules = {
       id: 'module_spl_prod_medicalsupplies_01',
       version: 1,
       name: 'Split Medical Supply Production',
+      macro: 'prod_spl_medicalsupplies_macro',
       description: 'No information available',
       type: ModuleTypes.production,
       product: Wares.medicalsupplies,
@@ -6282,7 +6520,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 1138,
+            time: 739,
             amount: 1,
             method: 'default',
             name: 'Split',
@@ -6298,6 +6536,7 @@ export const Modules = {
       id: 'module_spl_prod_scruffinfruits_01',
       version: 1,
       name: 'Scruffin Production',
+      macro: 'prod_spl_scruffinfruit_macro',
       description: 'No information available',
       type: ModuleTypes.production,
       product: Wares.scruffinfruits,
@@ -6336,7 +6575,7 @@ export const Modules = {
       ],
       production: [
          {
-            time: 920,
+            time: 598,
             amount: 1,
             method: 'default',
             name: 'Split',
@@ -6352,6 +6591,7 @@ export const Modules = {
       id: 'module_spl_stor_container_l_01',
       version: 1,
       name: 'Split L Container Storage',
+      macro: 'storage_spl_l_container_01_macro',
       description: 'No information available',
       type: ModuleTypes.storage,
       explosionDamage: 10000,
@@ -6363,9 +6603,37 @@ export const Modules = {
          Factions.freesplit,
          Factions.split,
       ],
+      shields: [
+         { group: 'top_left_01', size: Size.medium, hittable: true },
+         { group: 'top_right_01', size: Size.medium, hittable: true },
+         { group: 'bottom_right_01', size: Size.medium, hittable: true },
+         { group: 'bottom_left_01', size: Size.medium, hittable: true },
+         { group: 'front_01', size: Size.medium, hittable: true },
+         { group: 'back_01', size: Size.medium, hittable: true },
+         { group: 'top_01', size: Size.medium, hittable: true },
+         { group: 'front_02', size: Size.medium, hittable: true },
+      ],
+      turrets: [
+         { group: 'top_left_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'top_left_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'top_right_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'top_right_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'bottom_right_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'bottom_right_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'bottom_left_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'bottom_left_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'front_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'front_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'back_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'back_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'top_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'top_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'front_02', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'front_02', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+      ],
       production: [
          {
-            time: 1052,
+            time: 683,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -6381,6 +6649,7 @@ export const Modules = {
       id: 'module_spl_stor_container_m_01',
       version: 1,
       name: 'Split M Container Storage',
+      macro: 'storage_spl_m_container_01_macro',
       description: 'No information available',
       type: ModuleTypes.storage,
       explosionDamage: 8000,
@@ -6392,9 +6661,25 @@ export const Modules = {
          Factions.freesplit,
          Factions.split,
       ],
+      shields: [
+         { group: 'right_01', size: Size.medium, hittable: true },
+         { group: 'left_01', size: Size.medium, hittable: true },
+         { group: 'back_01', size: Size.medium, hittable: true },
+         { group: 'front_01', size: Size.medium, hittable: true },
+      ],
+      turrets: [
+         { group: 'right_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'right_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'left_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'left_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'back_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'back_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'front_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'front_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+      ],
       production: [
          {
-            time: 700,
+            time: 455,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -6410,6 +6695,7 @@ export const Modules = {
       id: 'module_spl_stor_container_s_01',
       version: 1,
       name: 'Split S Container Storage',
+      macro: 'storage_spl_s_container_01_macro',
       description: 'No information available',
       type: ModuleTypes.storage,
       explosionDamage: 5000,
@@ -6421,9 +6707,22 @@ export const Modules = {
          Factions.freesplit,
          Factions.split,
       ],
+      shields: [
+         { group: 'left_01', size: Size.medium, hittable: true },
+         { group: 'top_01', size: Size.medium, hittable: true },
+         { group: 'bottom_01', size: Size.medium, hittable: true },
+      ],
+      turrets: [
+         { group: 'left_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'left_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'top_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'top_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'bottom_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'bottom_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+      ],
       production: [
          {
-            time: 473,
+            time: 307,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -6439,6 +6738,7 @@ export const Modules = {
       id: 'module_spl_stor_liquid_l_01',
       version: 1,
       name: 'Split L Liquid Storage',
+      macro: 'storage_spl_l_liquid_01_macro',
       description: 'No information available',
       type: ModuleTypes.storage,
       explosionDamage: 10000,
@@ -6450,9 +6750,37 @@ export const Modules = {
          Factions.freesplit,
          Factions.split,
       ],
+      shields: [
+         { group: 'top_left_01', size: Size.medium, hittable: true },
+         { group: 'top_right_01', size: Size.medium, hittable: true },
+         { group: 'bottom_right_01', size: Size.medium, hittable: true },
+         { group: 'bottom_left_01', size: Size.medium, hittable: true },
+         { group: 'front_01', size: Size.medium, hittable: true },
+         { group: 'back_01', size: Size.medium, hittable: true },
+         { group: 'top_01', size: Size.medium, hittable: true },
+         { group: 'front_02', size: Size.medium, hittable: true },
+      ],
+      turrets: [
+         { group: 'top_left_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'top_left_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'top_right_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'top_right_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'bottom_right_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'bottom_right_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'bottom_left_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'bottom_left_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'front_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'front_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'back_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'back_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'top_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'top_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'front_02', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'front_02', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+      ],
       production: [
          {
-            time: 1052,
+            time: 683,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -6468,6 +6796,7 @@ export const Modules = {
       id: 'module_spl_stor_liquid_m_01',
       version: 1,
       name: 'Split M Liquid Storage',
+      macro: 'storage_spl_m_liquid_01_macro',
       description: 'No information available',
       type: ModuleTypes.storage,
       explosionDamage: 8000,
@@ -6479,9 +6808,25 @@ export const Modules = {
          Factions.freesplit,
          Factions.split,
       ],
+      shields: [
+         { group: 'right_01', size: Size.medium, hittable: true },
+         { group: 'left_01', size: Size.medium, hittable: true },
+         { group: 'back_01', size: Size.medium, hittable: true },
+         { group: 'front_01', size: Size.medium, hittable: true },
+      ],
+      turrets: [
+         { group: 'right_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'right_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'left_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'left_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'back_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'back_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'front_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'front_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+      ],
       production: [
          {
-            time: 700,
+            time: 455,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -6497,6 +6842,7 @@ export const Modules = {
       id: 'module_spl_stor_liquid_s_01',
       version: 1,
       name: 'Split S Liquid Storage',
+      macro: 'storage_spl_s_liquid_01_macro',
       description: 'No information available',
       type: ModuleTypes.storage,
       explosionDamage: 5000,
@@ -6508,9 +6854,22 @@ export const Modules = {
          Factions.freesplit,
          Factions.split,
       ],
+      shields: [
+         { group: 'left_01', size: Size.medium, hittable: true },
+         { group: 'top_01', size: Size.medium, hittable: true },
+         { group: 'bottom_01', size: Size.medium, hittable: true },
+      ],
+      turrets: [
+         { group: 'left_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'left_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'top_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'top_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'bottom_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'bottom_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+      ],
       production: [
          {
-            time: 473,
+            time: 307,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -6526,6 +6885,7 @@ export const Modules = {
       id: 'module_spl_stor_solid_l_01',
       version: 1,
       name: 'Split L Solid Storage',
+      macro: 'storage_spl_l_solid_01_macro',
       description: 'No information available',
       type: ModuleTypes.storage,
       explosionDamage: 10000,
@@ -6537,9 +6897,37 @@ export const Modules = {
          Factions.freesplit,
          Factions.split,
       ],
+      shields: [
+         { group: 'top_left_01', size: Size.medium, hittable: true },
+         { group: 'top_right_01', size: Size.medium, hittable: true },
+         { group: 'bottom_right_01', size: Size.medium, hittable: true },
+         { group: 'bottom_left_01', size: Size.medium, hittable: true },
+         { group: 'front_01', size: Size.medium, hittable: true },
+         { group: 'back_01', size: Size.medium, hittable: true },
+         { group: 'top_01', size: Size.medium, hittable: true },
+         { group: 'front_02', size: Size.medium, hittable: true },
+      ],
+      turrets: [
+         { group: 'top_left_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'top_left_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'top_right_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'top_right_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'bottom_right_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'bottom_right_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'bottom_left_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'bottom_left_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'front_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'front_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'back_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'back_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'top_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'top_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'front_02', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'front_02', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+      ],
       production: [
          {
-            time: 1052,
+            time: 683,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -6555,6 +6943,7 @@ export const Modules = {
       id: 'module_spl_stor_solid_m_01',
       version: 1,
       name: 'Split M Solid Storage',
+      macro: 'storage_spl_m_solid_01_macro',
       description: 'No information available',
       type: ModuleTypes.storage,
       explosionDamage: 8000,
@@ -6566,9 +6955,25 @@ export const Modules = {
          Factions.freesplit,
          Factions.split,
       ],
+      shields: [
+         { group: 'right_01', size: Size.medium, hittable: true },
+         { group: 'left_01', size: Size.medium, hittable: true },
+         { group: 'back_01', size: Size.medium, hittable: true },
+         { group: 'front_01', size: Size.medium, hittable: true },
+      ],
+      turrets: [
+         { group: 'right_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'right_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'left_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'left_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'back_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'back_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'front_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'front_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+      ],
       production: [
          {
-            time: 700,
+            time: 455,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -6584,6 +6989,7 @@ export const Modules = {
       id: 'module_spl_stor_solid_s_01',
       version: 1,
       name: 'Split S Solid Storage',
+      macro: 'storage_spl_s_solid_01_macro',
       description: 'No information available',
       type: ModuleTypes.storage,
       explosionDamage: 5000,
@@ -6595,9 +7001,22 @@ export const Modules = {
          Factions.freesplit,
          Factions.split,
       ],
+      shields: [
+         { group: 'left_01', size: Size.medium, hittable: true },
+         { group: 'top_01', size: Size.medium, hittable: true },
+         { group: 'bottom_01', size: Size.medium, hittable: true },
+      ],
+      turrets: [
+         { group: 'left_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'left_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'top_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'top_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'bottom_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'bottom_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+      ],
       production: [
          {
-            time: 473,
+            time: 307,
             amount: 1,
             method: 'default',
             name: 'Universal',
@@ -6605,6 +7024,1619 @@ export const Modules = {
                { ware: 'claytronics', amount: 61 },
                { ware: 'energycells', amount: 121 },
                { ware: 'hullparts', amount: 222 },
+            ],
+         },
+      ]
+   },
+   module_ter_build_dockarea_m_01: {
+      id: 'module_ter_build_dockarea_m_01',
+      version: 2,
+      name: 'S/M Ship Fabrication Bay',
+      macro: 'buildmodule_ter_ships_m_dockarea_01_macro',
+      description: 'No information available',
+      type: ModuleTypes.buildmodule,
+      explosionDamage: 100000,
+      hull: 1020000,
+      makerRace: Races.terran,
+      workForce: {
+         max: 800
+      },
+      price: { min: 92680858, max: 125391749, avg: 109036303 },
+      owners: [
+         Factions.pioneers,
+         Factions.terran,
+      ],
+      docks: [
+         { capacity: 30, size: Size.medium },
+         { capacity: 100, size: Size.small },
+         { capacity: 10, size: Size.extrasmall },
+      ],
+      production: [
+         {
+            time: 1298,
+            amount: 1,
+            method: 'default',
+            name: 'Terran',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 895 },
+               { ware: 'energycells', amount: 6620 },
+               { ware: 'siliconcarbide', amount: 1843 },
+            ],
+         },
+      ]
+   },
+   module_ter_build_l_01: {
+      id: 'module_ter_build_l_01',
+      version: 2,
+      name: 'L Ship Fabrication Bay',
+      macro: 'buildmodule_ter_ships_l_macro',
+      description: 'No information available',
+      type: ModuleTypes.buildmodule,
+      explosionDamage: 100000,
+      hull: 324000,
+      makerRace: Races.terran,
+      workForce: {
+         max: 500
+      },
+      price: { min: 194349109, max: 228646010, avg: 262942912 },
+      owners: [
+         Factions.pioneers,
+         Factions.terran,
+      ],
+      production: [
+         {
+            time: 731,
+            amount: 1,
+            method: 'default',
+            name: 'Terran',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 505 },
+               { ware: 'energycells', amount: 3731 },
+               { ware: 'siliconcarbide', amount: 1039 },
+            ],
+         },
+      ]
+   },
+   module_ter_build_xl_01: {
+      id: 'module_ter_build_xl_01',
+      version: 2,
+      name: 'XL Ship Fabrication Bay',
+      macro: 'buildmodule_ter_ships_xl_macro',
+      description: 'No information available',
+      type: ModuleTypes.buildmodule,
+      explosionDamage: 100000,
+      hull: 551000,
+      makerRace: Races.terran,
+      workForce: {
+         max: 700
+      },
+      price: { min: 197485714, max: 232336133, avg: 267186553 },
+      owners: [
+         Factions.pioneers,
+         Factions.terran,
+      ],
+      production: [
+         {
+            time: 954,
+            amount: 1,
+            method: 'default',
+            name: 'Terran',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 658 },
+               { ware: 'energycells', amount: 4866 },
+               { ware: 'siliconcarbide', amount: 1354 },
+            ],
+         },
+      ]
+   },
+   module_ter_conn_base_01: {
+      id: 'module_ter_conn_base_01',
+      version: 2,
+      name: 'Terran Base Connection Structure 01',
+      macro: 'struct_ter_base_01_macro',
+      description: 'No information available',
+      type: ModuleTypes.connectionmodule,
+      hull: 75000,
+      makerRace: Races.terran,
+      price: { min: 61609, max: 83354, avg: 72482 },
+      owners: [
+         Factions.pioneers,
+         Factions.terran,
+      ],
+      production: [
+         {
+            time: 37,
+            amount: 1,
+            method: 'default',
+            name: 'Terran',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 3 },
+               { ware: 'energycells', amount: 19 },
+               { ware: 'siliconcarbide', amount: 5 },
+            ],
+         },
+      ]
+   },
+   module_ter_conn_base_02: {
+      id: 'module_ter_conn_base_02',
+      version: 2,
+      name: 'Terran Base Connection Structure 02',
+      macro: 'struct_ter_base_02_macro',
+      description: 'No information available',
+      type: ModuleTypes.connectionmodule,
+      hull: 150000,
+      makerRace: Races.terran,
+      price: { min: 85802, max: 116086, avg: 100944 },
+      owners: [
+         Factions.pioneers,
+         Factions.terran,
+      ],
+      production: [
+         {
+            time: 53,
+            amount: 1,
+            method: 'default',
+            name: 'Terran',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 4 },
+               { ware: 'energycells', amount: 27 },
+               { ware: 'siliconcarbide', amount: 8 },
+            ],
+         },
+      ]
+   },
+   module_ter_conn_base_03: {
+      id: 'module_ter_conn_base_03',
+      version: 2,
+      name: 'Terran Base Connection Structure 03',
+      macro: 'struct_ter_base_03_macro',
+      description: 'No information available',
+      type: ModuleTypes.connectionmodule,
+      hull: 300000,
+      makerRace: Races.terran,
+      price: { min: 110087, max: 148942, avg: 129515 },
+      owners: [
+         Factions.pioneers,
+         Factions.terran,
+      ],
+      production: [
+         {
+            time: 74,
+            amount: 1,
+            method: 'default',
+            name: 'Terran',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 5 },
+               { ware: 'energycells', amount: 38 },
+               { ware: 'siliconcarbide', amount: 11 },
+            ],
+         },
+      ]
+   },
+   module_ter_conn_cross_01: {
+      id: 'module_ter_conn_cross_01',
+      version: 2,
+      name: 'Terran Cross Connection Structure 01',
+      macro: 'struct_ter_cross_01_macro',
+      description: 'No information available',
+      type: ModuleTypes.connectionmodule,
+      hull: 300000,
+      makerRace: Races.terran,
+      price: { min: 110087, max: 148942, avg: 129515 },
+      owners: [
+         Factions.pioneers,
+         Factions.terran,
+      ],
+      production: [
+         {
+            time: 74,
+            amount: 1,
+            method: 'default',
+            name: 'Terran',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 5 },
+               { ware: 'energycells', amount: 38 },
+               { ware: 'siliconcarbide', amount: 11 },
+            ],
+         },
+      ]
+   },
+   module_ter_conn_vertical_01: {
+      id: 'module_ter_conn_vertical_01',
+      version: 2,
+      name: 'Terran Vertical Connection Structure 01',
+      macro: 'struct_ter_vertical_01_macro',
+      description: 'No information available',
+      type: ModuleTypes.connectionmodule,
+      hull: 75000,
+      makerRace: Races.terran,
+      price: { min: 61609, max: 83354, avg: 72482 },
+      owners: [
+         Factions.pioneers,
+         Factions.terran,
+      ],
+      production: [
+         {
+            time: 37,
+            amount: 1,
+            method: 'default',
+            name: 'Terran',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 3 },
+               { ware: 'energycells', amount: 19 },
+               { ware: 'siliconcarbide', amount: 5 },
+            ],
+         },
+      ]
+   },
+   module_ter_conn_vertical_02: {
+      id: 'module_ter_conn_vertical_02',
+      version: 2,
+      name: 'Terran Vertical Connection Structure 02',
+      macro: 'struct_ter_vertical_02_macro',
+      description: 'No information available',
+      type: ModuleTypes.connectionmodule,
+      hull: 150000,
+      makerRace: Races.terran,
+      price: { min: 85802, max: 116086, avg: 100944 },
+      owners: [
+         Factions.pioneers,
+         Factions.terran,
+      ],
+      production: [
+         {
+            time: 53,
+            amount: 1,
+            method: 'default',
+            name: 'Terran',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 4 },
+               { ware: 'energycells', amount: 27 },
+               { ware: 'siliconcarbide', amount: 8 },
+            ],
+         },
+      ]
+   },
+   module_ter_def_claim_01: {
+      id: 'module_ter_def_claim_01',
+      version: 2,
+      name: 'Terran Administrative Centre',
+      macro: 'defence_ter_claim_01_macro',
+      description: 'No information available',
+      type: ModuleTypes.defencemodule,
+      hull: 600000,
+      makerRace: Races.terran,
+      price: { min: 1731191, max: 2342200, avg: 2036696 },
+      owners: [
+         Factions.pioneers,
+         Factions.terran,
+      ],
+      production: [
+         {
+            time: 1162,
+            amount: 1,
+            method: 'default',
+            name: 'Terran',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 80 },
+               { ware: 'energycells', amount: 593 },
+               { ware: 'siliconcarbide', amount: 165 },
+            ],
+         },
+      ]
+   },
+   module_ter_def_disc_01: {
+      id: 'module_ter_def_disc_01',
+      version: 2,
+      name: 'Terran Disc Defence Platform',
+      macro: 'defence_ter_disc_01_macro',
+      description: 'No information available',
+      type: ModuleTypes.defencemodule,
+      hull: 300000,
+      makerRace: Races.terran,
+      price: { min: 1231845, max: 1666614, avg: 1449230 },
+      owners: [
+         Factions.pioneers,
+         Factions.terran,
+      ],
+      shields: [
+         { group: 'group01', size: Size.medium, hittable: true },
+         { group: 'group02', size: Size.medium, hittable: true },
+         { group: 'group04', size: Size.medium, hittable: true },
+         { group: 'group03', size: Size.medium, hittable: true },
+         { group: 'group05', size: Size.large, hittable: false },
+         { group: 'group06', size: Size.large, hittable: false },
+         { group: 'group07', size: Size.large, hittable: false },
+         { group: 'group08', size: Size.large, hittable: false },
+         { group: 'group09', size: Size.medium, hittable: true },
+         { group: 'group10', size: Size.medium, hittable: true },
+         { group: 'group11', size: Size.medium, hittable: true },
+         { group: 'group12', size: Size.medium, hittable: true },
+      ],
+      turrets: [
+         { group: 'group05', size: Size.large, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group05', size: Size.large, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group06', size: Size.large, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group06', size: Size.large, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group02', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group02', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group03', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group03', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group04', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group04', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group07', size: Size.large, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group07', size: Size.large, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group08', size: Size.large, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group08', size: Size.large, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group09', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group09', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group10', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group10', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group11', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group11', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group12', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group12', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+      ],
+      production: [
+         {
+            time: 822,
+            amount: 1,
+            method: 'default',
+            name: 'Terran',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 57 },
+               { ware: 'energycells', amount: 419 },
+               { ware: 'siliconcarbide', amount: 117 },
+            ],
+         },
+      ]
+   },
+   module_ter_def_tube_01: {
+      id: 'module_ter_def_tube_01',
+      version: 2,
+      name: 'Terran Bridge Defence Platform',
+      macro: 'defence_ter_tube_01_macro',
+      description: 'No information available',
+      type: ModuleTypes.defencemodule,
+      hull: 150000,
+      makerRace: Races.terran,
+      price: { min: 866932, max: 1172909, avg: 1019921 },
+      owners: [
+         Factions.pioneers,
+         Factions.terran,
+      ],
+      shields: [
+         { group: 'group01', size: Size.medium, hittable: true },
+         { group: 'group02', size: Size.medium, hittable: true },
+         { group: 'group04', size: Size.medium, hittable: true },
+         { group: 'group03', size: Size.medium, hittable: true },
+         { group: 'group05', size: Size.large, hittable: false },
+         { group: 'group06', size: Size.large, hittable: false },
+         { group: 'group07', size: Size.large, hittable: false },
+         { group: 'group08', size: Size.large, hittable: false },
+         { group: 'group09', size: Size.medium, hittable: true },
+         { group: 'group10', size: Size.medium, hittable: true },
+         { group: 'group11', size: Size.medium, hittable: true },
+         { group: 'group12', size: Size.medium, hittable: true },
+      ],
+      turrets: [
+         { group: 'group05', size: Size.large, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group05', size: Size.large, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group06', size: Size.large, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group06', size: Size.large, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group02', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group02', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group03', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group03', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group04', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group04', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group07', size: Size.large, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group07', size: Size.large, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group08', size: Size.large, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group08', size: Size.large, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group09', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group09', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group10', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group10', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group11', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group11', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group12', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group12', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+      ],
+      production: [
+         {
+            time: 581,
+            amount: 1,
+            method: 'default',
+            name: 'Terran',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 40 },
+               { ware: 'energycells', amount: 296 },
+               { ware: 'siliconcarbide', amount: 83 },
+            ],
+         },
+      ]
+   },
+   module_ter_dock_m_01_hightech: {
+      id: 'module_ter_dock_m_01_hightech',
+      version: 2,
+      name: '4M10S Luxury Dock Area',
+      macro: 'dockarea_ter_m_station_01_hightech_macro',
+      description: 'No information available',
+      type: ModuleTypes.dockarea,
+      explosionDamage: 20000,
+      hull: 135000,
+      makerRace: Races.terran,
+      price: { min: 238867, max: 323174, avg: 281021 },
+      owners: [
+         Factions.pioneers,
+         Factions.terran,
+      ],
+      docks: [
+         { capacity: 10, size: Size.medium },
+         { capacity: 40, size: Size.small },
+         { capacity: 10, size: Size.extrasmall },
+      ],
+      production: [
+         {
+            time: 318,
+            amount: 1,
+            method: 'default',
+            name: 'Terran',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 11 },
+               { ware: 'energycells', amount: 81 },
+               { ware: 'siliconcarbide', amount: 23 },
+            ],
+         },
+      ]
+   },
+   module_ter_equip_dockarea_m_01: {
+      id: 'module_ter_equip_dockarea_m_01',
+      version: 2,
+      name: 'S/M Ship Maintenance Bay',
+      macro: 'buildmodule_ter_equip_m_dockarea_01_macro',
+      description: 'No information available',
+      type: ModuleTypes.buildmodule,
+      explosionDamage: 100000,
+      hull: 1020000,
+      makerRace: Races.terran,
+      workForce: {
+         max: 400
+      },
+      price: { min: 27977818, max: 32915079, avg: 37852341 },
+      owners: [
+         Factions.pioneers,
+         Factions.terran,
+      ],
+      docks: [
+         { capacity: 30, size: Size.medium },
+         { capacity: 100, size: Size.small },
+         { capacity: 10, size: Size.extrasmall },
+      ],
+      production: [
+         {
+            time: 650,
+            amount: 1,
+            method: 'default',
+            name: 'Terran',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 447 },
+               { ware: 'energycells', amount: 3312 },
+               { ware: 'siliconcarbide', amount: 921 },
+            ],
+         },
+      ]
+   },
+   module_ter_equip_l_01: {
+      id: 'module_ter_equip_l_01',
+      version: 2,
+      name: 'L Ship Maintenance Bay',
+      macro: 'buildmodule_ter_equip_l_macro',
+      description: 'No information available',
+      type: ModuleTypes.buildmodule,
+      explosionDamage: 100000,
+      hull: 324000,
+      makerRace: Races.terran,
+      workForce: {
+         max: 500
+      },
+      price: { min: 50195751, max: 59053824, avg: 67911898 },
+      owners: [
+         Factions.pioneers,
+         Factions.terran,
+      ],
+      production: [
+         {
+            time: 364,
+            amount: 1,
+            method: 'default',
+            name: 'Terran',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 252 },
+               { ware: 'energycells', amount: 1866 },
+               { ware: 'siliconcarbide', amount: 519 },
+            ],
+         },
+      ]
+   },
+   module_ter_equip_xl_01: {
+      id: 'module_ter_equip_xl_01',
+      version: 2,
+      name: 'XL Ship Maintenance Bay',
+      macro: 'buildmodule_ter_equip_xl_macro',
+      description: 'No information available',
+      type: ModuleTypes.buildmodule,
+      explosionDamage: 100000,
+      hull: 551000,
+      makerRace: Races.terran,
+      workForce: {
+         max: 700
+      },
+      price: { min: 51961123, max: 61130732, avg: 70300342 },
+      owners: [
+         Factions.pioneers,
+         Factions.terran,
+      ],
+      production: [
+         {
+            time: 477,
+            amount: 1,
+            method: 'default',
+            name: 'Terran',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 329 },
+               { ware: 'energycells', amount: 2434 },
+               { ware: 'siliconcarbide', amount: 677 },
+            ],
+         },
+      ]
+   },
+   module_ter_hab_l_01: {
+      id: 'module_ter_hab_l_01',
+      version: 2,
+      name: 'Terran L Living Quarters',
+      macro: 'hab_ter_l_01_macro',
+      description: 'No information available',
+      type: ModuleTypes.habitation,
+      explosionDamage: 100000,
+      hull: 1200000,
+      makerRace: Races.terran,
+      workForce: {
+         capacity: 500,
+         race: Races.terran
+      },
+      price: { min: 12310693, max: 16655643, avg: 14483168 },
+      owners: [
+         Factions.pioneers,
+         Factions.terran,
+      ],
+      production: [
+         {
+            time: 1162,
+            amount: 1,
+            method: 'default',
+            name: 'Terran',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 80 },
+               { ware: 'energycells', amount: 593 },
+               { ware: 'siliconcarbide', amount: 165 },
+            ],
+         },
+      ]
+   },
+   module_ter_hab_m_01: {
+      id: 'module_ter_hab_m_01',
+      version: 2,
+      name: 'Terran M Living Quarters',
+      macro: 'hab_ter_m_01_macro',
+      description: 'No information available',
+      type: ModuleTypes.habitation,
+      explosionDamage: 100000,
+      hull: 600000,
+      makerRace: Races.terran,
+      workForce: {
+         capacity: 250,
+         race: Races.terran
+      },
+      price: { min: 8759787, max: 11851477, avg: 10305632 },
+      owners: [
+         Factions.pioneers,
+         Factions.terran,
+      ],
+      production: [
+         {
+            time: 822,
+            amount: 1,
+            method: 'default',
+            name: 'Terran',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 57 },
+               { ware: 'energycells', amount: 419 },
+               { ware: 'siliconcarbide', amount: 117 },
+            ],
+         },
+      ]
+   },
+   module_ter_hab_s_01: {
+      id: 'module_ter_hab_s_01',
+      version: 2,
+      name: 'Terran S Living Quarters',
+      macro: 'hab_ter_s_01_macro',
+      description: 'No information available',
+      type: ModuleTypes.habitation,
+      explosionDamage: 100000,
+      hull: 300000,
+      makerRace: Races.terran,
+      workForce: {
+         capacity: 100,
+         race: Races.terran
+      },
+      price: { min: 6164853, max: 8340683, avg: 7252768 },
+      owners: [
+         Factions.pioneers,
+         Factions.terran,
+      ],
+      production: [
+         {
+            time: 581,
+            amount: 1,
+            method: 'default',
+            name: 'Terran',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 40 },
+               { ware: 'energycells', amount: 296 },
+               { ware: 'siliconcarbide', amount: 83 },
+            ],
+         },
+      ]
+   },
+   module_ter_pier_01: {
+      id: 'module_ter_pier_01',
+      version: 2,
+      name: 'Terran 3-Dock T Pier',
+      macro: 'pier_ter_harbor_01_macro',
+      description: 'No information available',
+      type: ModuleTypes.pier,
+      hull: 750000,
+      makerRace: Races.terran,
+      price: { min: 3159110, max: 4274089, avg: 3716600 },
+      owners: [
+         Factions.pioneers,
+         Factions.terran,
+      ],
+      production: [
+         {
+            time: 750,
+            amount: 1,
+            method: 'default',
+            name: 'Terran',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 146 },
+               { ware: 'energycells', amount: 1083 },
+               { ware: 'siliconcarbide', amount: 301 },
+            ],
+         },
+      ]
+   },
+   module_ter_pier_02: {
+      id: 'module_ter_pier_02',
+      version: 2,
+      name: 'Terran 1-Dock Pier',
+      macro: 'pier_ter_harbor_02_macro',
+      description: 'No information available',
+      type: ModuleTypes.pier,
+      hull: 250000,
+      makerRace: Races.terran,
+      price: { min: 1835686, max: 2483576, avg: 2159631 },
+      owners: [
+         Factions.pioneers,
+         Factions.terran,
+      ],
+      production: [
+         {
+            time: 433,
+            amount: 1,
+            method: 'default',
+            name: 'Terran',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 85 },
+               { ware: 'energycells', amount: 625 },
+               { ware: 'siliconcarbide', amount: 174 },
+            ],
+         },
+      ]
+   },
+   module_ter_pier_03: {
+      id: 'module_ter_pier_03',
+      version: 2,
+      name: 'Terran 3-Dock E Pier',
+      macro: 'pier_ter_harbor_03_macro',
+      description: 'No information available',
+      type: ModuleTypes.pier,
+      hull: 1000000,
+      makerRace: Races.terran,
+      price: { min: 3655537, max: 4945727, avg: 4300632 },
+      owners: [
+         Factions.pioneers,
+         Factions.terran,
+      ],
+      production: [
+         {
+            time: 866,
+            amount: 1,
+            method: 'default',
+            name: 'Terran',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 169 },
+               { ware: 'energycells', amount: 1250 },
+               { ware: 'siliconcarbide', amount: 348 },
+            ],
+         },
+      ]
+   },
+   module_ter_pier_04: {
+      id: 'module_ter_pier_04',
+      version: 2,
+      name: 'Terran 4-Dock T Pier',
+      macro: 'pier_ter_harbor_04_macro',
+      description: 'No information available',
+      type: ModuleTypes.pier,
+      hull: 250000,
+      makerRace: Races.terran,
+      price: { min: 1835686, max: 2483576, avg: 2159631 },
+      owners: [
+         Factions.pioneers,
+         Factions.terran,
+      ],
+      production: [
+         {
+            time: 433,
+            amount: 1,
+            method: 'default',
+            name: 'Terran',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 85 },
+               { ware: 'energycells', amount: 625 },
+               { ware: 'siliconcarbide', amount: 174 },
+            ],
+         },
+      ]
+   },
+   module_ter_pier_tradestation_01: {
+      id: 'module_ter_pier_tradestation_01',
+      version: 2,
+      name: 'Terran Trading Station Hexa-Dock Pier',
+      macro: 'pier_ter_tradestation_01_macro',
+      description: 'No information available',
+      type: ModuleTypes.pier,
+      explosionDamage: 100000,
+      hull: 2000000,
+      makerRace: Races.terran,
+      price: { min: 2297462, max: 3108330, avg: 2702896 },
+      owners: [
+         Factions.pioneers,
+         Factions.terran,
+      ],
+      production: [
+         {
+            time: 1225,
+            amount: 1,
+            method: 'default',
+            name: 'Terran',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 239 },
+               { ware: 'energycells', amount: 1768 },
+               { ware: 'siliconcarbide', amount: 492 },
+            ],
+         },
+      ]
+   },
+   module_ter_prod_computronicsubstrate_01: {
+      id: 'module_ter_prod_computronicsubstrate_01',
+      version: 2,
+      name: 'Computronic Substrate Production',
+      macro: 'prod_ter_computronicsubstrate_macro',
+      description: 'No information available',
+      type: ModuleTypes.production,
+      product: Wares.computronicsubstrate,
+      explosionDamage: 20000,
+      hull: 400000,
+      makerRace: Races.terran,
+      workForce: {
+         max: 1500
+      },
+      price: { min: 4220074, max: 5709512, avg: 4964793 },
+      owners: [
+         Factions.pioneers,
+         Factions.terran,
+      ],
+      shields: [
+         { group: 'down_01', size: Size.medium, hittable: true },
+         { group: 'left_01', size: Size.medium, hittable: true },
+         { group: 'front_01', size: Size.medium, hittable: true },
+         { group: 'back_01', size: Size.medium, hittable: true },
+      ],
+      turrets: [
+         { group: 'down_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'down_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'left_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'left_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'front_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'front_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'back_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'back_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+      ],
+      production: [
+         {
+            time: 800,
+            amount: 1,
+            method: 'default',
+            name: 'Terran',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 238 },
+               { ware: 'energycells', amount: 688 },
+               { ware: 'siliconcarbide', amount: 155 },
+            ],
+         },
+      ]
+   },
+   module_ter_prod_energycells_01: {
+      id: 'module_ter_prod_energycells_01',
+      version: 2,
+      name: 'Terran Energy Cell Production',
+      macro: 'prod_ter_energycells_macro',
+      description: 'No information available',
+      type: ModuleTypes.production,
+      product: Wares.energycells,
+      explosionDamage: 20000,
+      hull: 200000,
+      makerRace: Races.terran,
+      workForce: {
+         max: 45
+      },
+      price: { min: 409886, max: 542074, avg: 471369 },
+      owners: [
+         Factions.pioneers,
+         Factions.terran,
+      ],
+      production: [
+         {
+            time: 175,
+            amount: 1,
+            method: 'default',
+            name: 'Terran',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 79 },
+               { ware: 'energycells', amount: 230 },
+               { ware: 'siliconcarbide', amount: 52 },
+            ],
+         },
+      ]
+   },
+   module_ter_prod_medicalsupplies_01: {
+      id: 'module_ter_prod_medicalsupplies_01',
+      version: 2,
+      name: 'Terran Medical Supply Production',
+      macro: 'prod_ter_medicalsupplies_macro',
+      description: 'No information available',
+      type: ModuleTypes.production,
+      product: Wares.medicalsupplies,
+      explosionDamage: 20000,
+      hull: 240000,
+      makerRace: Races.terran,
+      workForce: {
+         max: 90
+      },
+      price: { min: 301266, max: 407596, avg: 354431 },
+      owners: [
+         Factions.pioneers,
+         Factions.terran,
+      ],
+      shields: [
+         { group: 'right_02', size: Size.medium, hittable: true },
+         { group: 'right_01', size: Size.medium, hittable: true },
+         { group: 'left_01', size: Size.medium, hittable: true },
+         { group: 'left_02', size: Size.medium, hittable: true },
+      ],
+      turrets: [
+         { group: 'right_02', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'right_02', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'right_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'right_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'left_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'left_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'left_02', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'left_02', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+      ],
+      production: [
+         {
+            time: 336,
+            amount: 1,
+            method: 'default',
+            name: 'Terran',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 17 },
+               { ware: 'energycells', amount: 50 },
+               { ware: 'siliconcarbide', amount: 11 },
+            ],
+         },
+      ]
+   },
+   module_ter_prod_metallicmicrolattice_01: {
+      id: 'module_ter_prod_metallicmicrolattice_01',
+      version: 2,
+      name: 'Metallic Microlattice Production',
+      macro: 'prod_ter_metallicmicrolattice_macro',
+      description: 'No information available',
+      type: ModuleTypes.production,
+      product: Wares.metallicmicrolattice,
+      explosionDamage: 20000,
+      hull: 280000,
+      makerRace: Races.terran,
+      workForce: {
+         max: 120
+      },
+      price: { min: 106659, max: 144303, avg: 125481 },
+      owners: [
+         Factions.pioneers,
+         Factions.terran,
+      ],
+      shields: [
+         { group: 'left_01', size: Size.medium, hittable: true },
+         { group: 'left_02', size: Size.medium, hittable: true },
+         { group: 'right_01', size: Size.medium, hittable: true },
+         { group: 'right_02', size: Size.medium, hittable: true },
+      ],
+      turrets: [
+         { group: 'left_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'left_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'left_02', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'left_02', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'right_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'right_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'right_02', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'right_02', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+      ],
+      production: [
+         {
+            time: 152,
+            amount: 1,
+            method: 'default',
+            name: 'Terran',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 6 },
+               { ware: 'energycells', amount: 18 },
+               { ware: 'siliconcarbide', amount: 4 },
+            ],
+         },
+      ]
+   },
+   module_ter_prod_proteinpaste_01: {
+      id: 'module_ter_prod_proteinpaste_01',
+      version: 2,
+      name: 'Protein Paste Production',
+      macro: 'prod_ter_proteinpaste_macro',
+      description: 'No information available',
+      type: ModuleTypes.production,
+      product: Wares.proteinpaste,
+      explosionDamage: 20000,
+      hull: 260000,
+      makerRace: Races.terran,
+      workForce: {
+         max: 180
+      },
+      price: { min: 1292921, max: 1749247, avg: 1521084 },
+      owners: [
+         Factions.pioneers,
+         Factions.terran,
+      ],
+      shields: [
+         { group: 'left_01', size: Size.medium, hittable: true },
+         { group: 'left_02', size: Size.medium, hittable: true },
+         { group: 'right_01', size: Size.medium, hittable: true },
+         { group: 'right_02', size: Size.medium, hittable: true },
+      ],
+      turrets: [
+         { group: 'left_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'left_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'left_02', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'left_02', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'right_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'right_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'right_02', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'right_02', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+      ],
+      production: [
+         {
+            time: 592,
+            amount: 1,
+            method: 'default',
+            name: 'Terran',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 73 },
+               { ware: 'energycells', amount: 211 },
+               { ware: 'siliconcarbide', amount: 47 },
+            ],
+         },
+      ]
+   },
+   module_ter_prod_siliconcarbide_01: {
+      id: 'module_ter_prod_siliconcarbide_01',
+      version: 2,
+      name: 'Silicon Carbide Production',
+      macro: 'prod_ter_siliconcarbide_macro',
+      description: 'No information available',
+      type: ModuleTypes.production,
+      product: Wares.siliconcarbide,
+      explosionDamage: 20000,
+      hull: 350000,
+      makerRace: Races.terran,
+      workForce: {
+         max: 750
+      },
+      price: { min: 709162, max: 959454, avg: 834308 },
+      owners: [
+         Factions.pioneers,
+         Factions.terran,
+      ],
+      shields: [
+         { group: 'left_01', size: Size.medium, hittable: true },
+         { group: 'left_02', size: Size.medium, hittable: true },
+         { group: 'right_01', size: Size.medium, hittable: true },
+         { group: 'right_02', size: Size.medium, hittable: true },
+      ],
+      turrets: [
+         { group: 'left_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'left_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'left_02', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'left_02', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'right_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'right_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'right_02', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'right_02', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+      ],
+      production: [
+         {
+            time: 486,
+            amount: 1,
+            method: 'default',
+            name: 'Terran',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 40 },
+               { ware: 'energycells', amount: 117 },
+               { ware: 'siliconcarbide', amount: 26 },
+            ],
+         },
+      ]
+   },
+   module_ter_prod_stimulants_01: {
+      id: 'module_ter_prod_stimulants_01',
+      version: 2,
+      name: 'Stimulant Production',
+      macro: 'prod_ter_stimulants_macro',
+      description: 'No information available',
+      type: ModuleTypes.production,
+      product: Wares.stimulants,
+      explosionDamage: 20000,
+      hull: 300000,
+      makerRace: Races.terran,
+      workForce: {
+         max: 300
+      },
+      price: { min: 2484701, max: 3361653, avg: 2923177 },
+      owners: [
+         Factions.pioneers,
+         Factions.terran,
+      ],
+      shields: [
+         { group: 'left_01', size: Size.medium, hittable: true },
+         { group: 'left_02', size: Size.medium, hittable: true },
+         { group: 'right_01', size: Size.medium, hittable: true },
+         { group: 'right_02', size: Size.medium, hittable: true },
+      ],
+      turrets: [
+         { group: 'left_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'left_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'left_02', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'left_02', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'right_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'right_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'right_02', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'right_02', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+      ],
+      production: [
+         {
+            time: 707,
+            amount: 1,
+            method: 'default',
+            name: 'Terran',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 140 },
+               { ware: 'energycells', amount: 407 },
+               { ware: 'siliconcarbide', amount: 92 },
+            ],
+         },
+      ]
+   },
+   module_ter_prod_terranmre_01: {
+      id: 'module_ter_prod_terranmre_01',
+      version: 2,
+      name: 'Terran MRE Production',
+      macro: 'prod_ter_mre_macro',
+      description: 'No information available',
+      type: ModuleTypes.production,
+      product: Wares.terranmre,
+      explosionDamage: 20000,
+      hull: 270000,
+      makerRace: Races.terran,
+      workForce: {
+         max: 135
+      },
+      price: { min: 533265, max: 721477, avg: 627371 },
+      owners: [
+         Factions.pioneers,
+         Factions.terran,
+      ],
+      shields: [
+         { group: 'left_01', size: Size.medium, hittable: true },
+         { group: 'left_02', size: Size.medium, hittable: true },
+         { group: 'right_01', size: Size.medium, hittable: true },
+         { group: 'right_02', size: Size.medium, hittable: true },
+      ],
+      turrets: [
+         { group: 'left_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'left_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'left_02', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'left_02', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'right_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'right_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'right_02', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'right_02', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+      ],
+      production: [
+         {
+            time: 436,
+            amount: 1,
+            method: 'default',
+            name: 'Terran',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 30 },
+               { ware: 'energycells', amount: 89 },
+               { ware: 'siliconcarbide', amount: 20 },
+            ],
+         },
+      ]
+   },
+   module_ter_stor_container_l_01: {
+      id: 'module_ter_stor_container_l_01',
+      version: 2,
+      name: 'Terran L Container Storage',
+      macro: 'storage_ter_l_container_01_macro',
+      description: 'No information available',
+      type: ModuleTypes.storage,
+      hull: 1000000,
+      makerRace: Races.terran,
+      cargo: { max: 1000000, type: CargoTypes.container },
+      price: { min: 778303, max: 1052999, avg: 915651 },
+      owners: [
+         Factions.pioneers,
+         Factions.terran,
+      ],
+      shields: [
+         { group: 'left_01', size: Size.medium, hittable: true },
+         { group: 'back_02', size: Size.medium, hittable: true },
+         { group: 'right_01', size: Size.medium, hittable: true },
+         { group: 'front_01', size: Size.medium, hittable: true },
+         { group: 'back_01', size: Size.medium, hittable: true },
+         { group: 'right_02', size: Size.medium, hittable: true },
+         { group: 'left_02', size: Size.medium, hittable: true },
+         { group: 'front_02', size: Size.medium, hittable: true },
+      ],
+      turrets: [
+         { group: 'left_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'left_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'back_02', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'back_02', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'right_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'right_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'front_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'front_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'back_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'back_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'right_02', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'right_02', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'left_02', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'left_02', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'front_02', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'front_02', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+      ],
+      production: [
+         {
+            time: 671,
+            amount: 1,
+            method: 'default',
+            name: 'Terran',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 36 },
+               { ware: 'energycells', amount: 265 },
+               { ware: 'siliconcarbide', amount: 74 },
+            ],
+         },
+      ]
+   },
+   module_ter_stor_container_m_01: {
+      id: 'module_ter_stor_container_m_01',
+      version: 2,
+      name: 'Terran M Container Storage',
+      macro: 'storage_ter_m_container_01_macro',
+      description: 'No information available',
+      type: ModuleTypes.storage,
+      hull: 450000,
+      makerRace: Races.terran,
+      cargo: { max: 500000, type: CargoTypes.container },
+      price: { min: 520713, max: 704493, avg: 612603 },
+      owners: [
+         Factions.pioneers,
+         Factions.terran,
+      ],
+      shields: [
+         { group: 'left_01', size: Size.medium, hittable: true },
+         { group: 'left_02', size: Size.medium, hittable: true },
+         { group: 'right_01', size: Size.medium, hittable: true },
+         { group: 'right_02', size: Size.medium, hittable: true },
+      ],
+      turrets: [
+         { group: 'left_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'left_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'left_02', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'left_02', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'right_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'right_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'right_02', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'right_02', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+      ],
+      production: [
+         {
+            time: 450,
+            amount: 1,
+            method: 'default',
+            name: 'Terran',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 24 },
+               { ware: 'energycells', amount: 178 },
+               { ware: 'siliconcarbide', amount: 50 },
+            ],
+         },
+      ]
+   },
+   module_ter_stor_container_s_01: {
+      id: 'module_ter_stor_container_s_01',
+      version: 2,
+      name: 'Terran S Container Storage',
+      macro: 'storage_ter_s_container_01_macro',
+      description: 'No information available',
+      type: ModuleTypes.storage,
+      hull: 150000,
+      makerRace: Races.terran,
+      cargo: { max: 100000, type: CargoTypes.container },
+      price: { min: 303273, max: 410310, avg: 356792 },
+      owners: [
+         Factions.pioneers,
+         Factions.terran,
+      ],
+      shields: [
+         { group: 'left_01', size: Size.medium, hittable: true },
+         { group: 'left_02', size: Size.medium, hittable: true },
+         { group: 'right_01', size: Size.medium, hittable: true },
+         { group: 'right_02', size: Size.medium, hittable: true },
+      ],
+      turrets: [
+         { group: 'left_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'left_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'left_02', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'left_02', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'right_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'right_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'right_02', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'right_02', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+      ],
+      production: [
+         {
+            time: 260,
+            amount: 1,
+            method: 'default',
+            name: 'Terran',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 14 },
+               { ware: 'energycells', amount: 103 },
+               { ware: 'siliconcarbide', amount: 29 },
+            ],
+         },
+      ]
+   },
+   module_ter_stor_liquid_l_01: {
+      id: 'module_ter_stor_liquid_l_01',
+      version: 2,
+      name: 'Terran L Liquid Storage',
+      macro: 'storage_ter_l_liquid_01_macro',
+      description: 'No information available',
+      type: ModuleTypes.storage,
+      hull: 1000000,
+      makerRace: Races.terran,
+      cargo: { max: 1000000, type: CargoTypes.liquid },
+      price: { min: 778303, max: 1052999, avg: 915651 },
+      owners: [
+         Factions.pioneers,
+         Factions.terran,
+      ],
+      shields: [
+         { group: 'left_01', size: Size.medium, hittable: true },
+         { group: 'left_02', size: Size.medium, hittable: true },
+         { group: 'right_01', size: Size.medium, hittable: true },
+         { group: 'right_02', size: Size.medium, hittable: true },
+      ],
+      turrets: [
+         { group: 'left_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'left_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'left_02', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'left_02', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'right_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'right_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'right_02', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'right_02', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+      ],
+      production: [
+         {
+            time: 671,
+            amount: 1,
+            method: 'default',
+            name: 'Terran',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 36 },
+               { ware: 'energycells', amount: 265 },
+               { ware: 'siliconcarbide', amount: 74 },
+            ],
+         },
+      ]
+   },
+   module_ter_stor_liquid_m_01: {
+      id: 'module_ter_stor_liquid_m_01',
+      version: 2,
+      name: 'Terran M Liquid Storage',
+      macro: 'storage_ter_m_liquid_01_macro',
+      description: 'No information available',
+      type: ModuleTypes.storage,
+      hull: 450000,
+      makerRace: Races.terran,
+      cargo: { max: 500000, type: CargoTypes.liquid },
+      price: { min: 520713, max: 704493, avg: 612603 },
+      owners: [
+         Factions.pioneers,
+         Factions.terran,
+      ],
+      shields: [
+         { group: 'left_01', size: Size.medium, hittable: true },
+         { group: 'left_02', size: Size.medium, hittable: true },
+         { group: 'right_01', size: Size.medium, hittable: true },
+         { group: 'right_02', size: Size.medium, hittable: true },
+      ],
+      turrets: [
+         { group: 'left_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'left_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'left_02', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'left_02', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'right_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'right_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'right_02', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'right_02', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+      ],
+      production: [
+         {
+            time: 450,
+            amount: 1,
+            method: 'default',
+            name: 'Terran',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 24 },
+               { ware: 'energycells', amount: 178 },
+               { ware: 'siliconcarbide', amount: 50 },
+            ],
+         },
+      ]
+   },
+   module_ter_stor_liquid_s_01: {
+      id: 'module_ter_stor_liquid_s_01',
+      version: 2,
+      name: 'Terran S Liquid Storage',
+      macro: 'storage_ter_s_liquid_01_macro',
+      description: 'No information available',
+      type: ModuleTypes.storage,
+      hull: 150000,
+      makerRace: Races.terran,
+      cargo: { max: 100000, type: CargoTypes.liquid },
+      price: { min: 303273, max: 410310, avg: 356792 },
+      owners: [
+         Factions.pioneers,
+         Factions.terran,
+      ],
+      shields: [
+         { group: 'left_01', size: Size.medium, hittable: true },
+         { group: 'left_02', size: Size.medium, hittable: true },
+         { group: 'right_01', size: Size.medium, hittable: true },
+         { group: 'right_02', size: Size.medium, hittable: true },
+      ],
+      turrets: [
+         { group: 'left_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'left_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'left_02', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'left_02', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'right_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'right_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'right_02', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'right_02', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+      ],
+      production: [
+         {
+            time: 260,
+            amount: 1,
+            method: 'default',
+            name: 'Terran',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 14 },
+               { ware: 'energycells', amount: 103 },
+               { ware: 'siliconcarbide', amount: 29 },
+            ],
+         },
+      ]
+   },
+   module_ter_stor_solid_l_01: {
+      id: 'module_ter_stor_solid_l_01',
+      version: 2,
+      name: 'Terran L Solid Storage',
+      macro: 'storage_ter_l_solid_01_macro',
+      description: 'No information available',
+      type: ModuleTypes.storage,
+      hull: 1000000,
+      makerRace: Races.terran,
+      cargo: { max: 1000000, type: CargoTypes.solid },
+      price: { min: 778303, max: 1052999, avg: 915651 },
+      owners: [
+         Factions.pioneers,
+         Factions.terran,
+      ],
+      shields: [
+         { group: 'left_01', size: Size.medium, hittable: true },
+         { group: 'back_02', size: Size.medium, hittable: true },
+         { group: 'right_01', size: Size.medium, hittable: true },
+         { group: 'front_01', size: Size.medium, hittable: true },
+         { group: 'back_01', size: Size.medium, hittable: true },
+         { group: 'right_02', size: Size.medium, hittable: true },
+         { group: 'left_02', size: Size.medium, hittable: true },
+         { group: 'front_02', size: Size.medium, hittable: true },
+      ],
+      turrets: [
+         { group: 'left_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'left_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'back_02', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'back_02', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'right_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'right_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'front_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'front_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'back_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'back_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'right_02', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'right_02', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'left_02', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'left_02', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'front_02', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'front_02', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+      ],
+      production: [
+         {
+            time: 671,
+            amount: 1,
+            method: 'default',
+            name: 'Terran',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 36 },
+               { ware: 'energycells', amount: 265 },
+               { ware: 'siliconcarbide', amount: 74 },
+            ],
+         },
+      ]
+   },
+   module_ter_stor_solid_m_01: {
+      id: 'module_ter_stor_solid_m_01',
+      version: 2,
+      name: 'Terran M Solid Storage',
+      macro: 'storage_ter_m_solid_01_macro',
+      description: 'No information available',
+      type: ModuleTypes.storage,
+      hull: 450000,
+      makerRace: Races.terran,
+      cargo: { max: 500000, type: CargoTypes.solid },
+      price: { min: 520713, max: 704493, avg: 612603 },
+      owners: [
+         Factions.pioneers,
+         Factions.terran,
+      ],
+      shields: [
+         { group: 'left_01', size: Size.medium, hittable: true },
+         { group: 'left_02', size: Size.medium, hittable: true },
+         { group: 'right_01', size: Size.medium, hittable: true },
+         { group: 'right_02', size: Size.medium, hittable: true },
+      ],
+      turrets: [
+         { group: 'left_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'left_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'left_02', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'left_02', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'right_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'right_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'right_02', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'right_02', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+      ],
+      production: [
+         {
+            time: 450,
+            amount: 1,
+            method: 'default',
+            name: 'Terran',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 24 },
+               { ware: 'energycells', amount: 178 },
+               { ware: 'siliconcarbide', amount: 50 },
+            ],
+         },
+      ]
+   },
+   module_ter_stor_solid_s_01: {
+      id: 'module_ter_stor_solid_s_01',
+      version: 2,
+      name: 'Terran S Solid Storage',
+      macro: 'storage_ter_s_solid_01_macro',
+      description: 'No information available',
+      type: ModuleTypes.storage,
+      hull: 150000,
+      makerRace: Races.terran,
+      cargo: { max: 100000, type: CargoTypes.solid },
+      price: { min: 303273, max: 410310, avg: 356792 },
+      owners: [
+         Factions.pioneers,
+         Factions.terran,
+      ],
+      shields: [
+         { group: 'left_01', size: Size.medium, hittable: true },
+         { group: 'left_02', size: Size.medium, hittable: true },
+         { group: 'right_01', size: Size.medium, hittable: true },
+         { group: 'right_02', size: Size.medium, hittable: true },
+      ],
+      turrets: [
+         { group: 'left_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'left_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'left_02', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'left_02', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'right_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'right_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'right_02', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'right_02', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+      ],
+      production: [
+         {
+            time: 260,
+            amount: 1,
+            method: 'default',
+            name: 'Terran',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 14 },
+               { ware: 'energycells', amount: 103 },
+               { ware: 'siliconcarbide', amount: 29 },
             ],
          },
       ]
@@ -6771,4 +8803,45 @@ export const AllModules = [
    Modules.module_spl_stor_solid_l_01,
    Modules.module_spl_stor_solid_m_01,
    Modules.module_spl_stor_solid_s_01,
+   Modules.module_ter_build_dockarea_m_01,
+   Modules.module_ter_build_l_01,
+   Modules.module_ter_build_xl_01,
+   Modules.module_ter_conn_base_01,
+   Modules.module_ter_conn_base_02,
+   Modules.module_ter_conn_base_03,
+   Modules.module_ter_conn_cross_01,
+   Modules.module_ter_conn_vertical_01,
+   Modules.module_ter_conn_vertical_02,
+   Modules.module_ter_def_claim_01,
+   Modules.module_ter_def_disc_01,
+   Modules.module_ter_def_tube_01,
+   Modules.module_ter_dock_m_01_hightech,
+   Modules.module_ter_equip_dockarea_m_01,
+   Modules.module_ter_equip_l_01,
+   Modules.module_ter_equip_xl_01,
+   Modules.module_ter_hab_l_01,
+   Modules.module_ter_hab_m_01,
+   Modules.module_ter_hab_s_01,
+   Modules.module_ter_pier_01,
+   Modules.module_ter_pier_02,
+   Modules.module_ter_pier_03,
+   Modules.module_ter_pier_04,
+   Modules.module_ter_pier_tradestation_01,
+   Modules.module_ter_prod_computronicsubstrate_01,
+   Modules.module_ter_prod_energycells_01,
+   Modules.module_ter_prod_medicalsupplies_01,
+   Modules.module_ter_prod_metallicmicrolattice_01,
+   Modules.module_ter_prod_proteinpaste_01,
+   Modules.module_ter_prod_siliconcarbide_01,
+   Modules.module_ter_prod_stimulants_01,
+   Modules.module_ter_prod_terranmre_01,
+   Modules.module_ter_stor_container_l_01,
+   Modules.module_ter_stor_container_m_01,
+   Modules.module_ter_stor_container_s_01,
+   Modules.module_ter_stor_liquid_l_01,
+   Modules.module_ter_stor_liquid_m_01,
+   Modules.module_ter_stor_liquid_s_01,
+   Modules.module_ter_stor_solid_l_01,
+   Modules.module_ter_stor_solid_m_01,
+   Modules.module_ter_stor_solid_s_01,
 ];

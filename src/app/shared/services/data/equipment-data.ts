@@ -49,7 +49,7 @@ export const Equipments = [
       size: Size.large,
       hull: 4033,
       price: { min: 321518, max: 392966, avg: 357242 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.hatikvah ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers, Factions.hatikvah ],
       thrust: { forward: 4206, reverse: 4627 },
       travel: { thrust: 31, attack: 75, charge: 20, release: 0 },
       production: [
@@ -77,7 +77,7 @@ export const Equipments = [
       size: Size.large,
       hull: 4033,
       price: { min: 337593, max: 412614, avg: 375104 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers ],
       thrust: { forward: 4006, reverse: 3605 },
       travel: { thrust: 33, attack: 85, charge: 20, release: 0 },
       production: [
@@ -104,7 +104,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.medium,
       price: { min: 11767, max: 14382, avg: 13074 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.hatikvah ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers, Factions.hatikvah ],
       thrust: { forward: 1002, reverse: 952 },
       travel: { thrust: 9, attack: 30, charge: 1, release: 0 },
       production: [
@@ -131,7 +131,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.medium,
       price: { min: 58166, max: 71092, avg: 64629 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers ],
       thrust: { forward: 1212, reverse: 1228 },
       travel: { thrust: 9, attack: 30, charge: 1, release: 0 },
       production: [
@@ -158,7 +158,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.medium,
       price: { min: 287722, max: 351660, avg: 319691 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers ],
       thrust: { forward: 1353, reverse: 1413 },
       travel: { thrust: 9, attack: 30, charge: 1, release: 0 },
       production: [
@@ -185,7 +185,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.medium,
       price: { min: 14357, max: 17547, avg: 15952 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.hatikvah ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers, Factions.hatikvah ],
       thrust: { forward: 1052, reverse: 1105 },
       travel: { thrust: 8, attack: 15, charge: 0, release: 0 },
       production: [
@@ -212,7 +212,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.medium,
       price: { min: 69711, max: 85202, avg: 77457 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers ],
       thrust: { forward: 1273, reverse: 1471 },
       travel: { thrust: 8, attack: 15, charge: 0, release: 0 },
       production: [
@@ -239,7 +239,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.medium,
       price: { min: 345444, max: 422209, avg: 383827 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers ],
       thrust: { forward: 1420, reverse: 1715 },
       travel: { thrust: 8, attack: 15, charge: 0, release: 0 },
       production: [
@@ -266,7 +266,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.medium,
       price: { min: 13062, max: 15964, avg: 14513 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.hatikvah ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers, Factions.hatikvah ],
       thrust: { forward: 1002, reverse: 902 },
       travel: { thrust: 12, attack: 45, charge: 3, release: 0 },
       production: [
@@ -293,7 +293,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.medium,
       price: { min: 65234, max: 79730, avg: 72482 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers ],
       thrust: { forward: 1212, reverse: 1091 },
       travel: { thrust: 12, attack: 45, charge: 3, release: 0 },
       production: [
@@ -320,7 +320,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.medium,
       price: { min: 331013, max: 404572, avg: 367793 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers ],
       thrust: { forward: 1353, reverse: 1217 },
       travel: { thrust: 12, attack: 45, charge: 3, release: 0 },
       production: [
@@ -347,7 +347,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.small,
       price: { min: 5526, max: 6754, avg: 6140 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.hatikvah ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers, Factions.hatikvah ],
       thrust: { forward: 396, reverse: 416 },
       travel: { thrust: 14, attack: 30, charge: 1, release: 0 },
       production: [
@@ -373,7 +373,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.small,
       price: { min: 26370, max: 32230, avg: 29300 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers ],
       thrust: { forward: 479, reverse: 574 },
       travel: { thrust: 14, attack: 30, charge: 1, release: 0 },
       production: [
@@ -400,7 +400,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.small,
       price: { min: 123301, max: 150701, avg: 137001 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers ],
       thrust: { forward: 535, reverse: 679 },
       travel: { thrust: 14, attack: 30, charge: 1, release: 0 },
       production: [
@@ -427,7 +427,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.small,
       price: { min: 8116, max: 9919, avg: 9017 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.hatikvah ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers, Factions.hatikvah ],
       thrust: { forward: 416, reverse: 499 },
       travel: { thrust: 12, attack: 15, charge: 0, release: 0 },
       production: [
@@ -453,7 +453,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.small,
       price: { min: 40504, max: 49505, avg: 45005 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers ],
       thrust: { forward: 503, reverse: 710 },
       travel: { thrust: 12, attack: 15, charge: 0, release: 0 },
       production: [
@@ -480,7 +480,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.small,
       price: { min: 181023, max: 221250, avg: 201137 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers ],
       thrust: { forward: 561, reverse: 850 },
       travel: { thrust: 12, attack: 15, charge: 0, release: 0 },
       production: [
@@ -507,7 +507,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.small,
       price: { min: 6821, max: 8336, avg: 7579 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.hatikvah ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers, Factions.hatikvah ],
       thrust: { forward: 396, reverse: 396 },
       travel: { thrust: 18, attack: 45, charge: 3, release: 0 },
       production: [
@@ -533,7 +533,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.small,
       price: { min: 34732, max: 42450, avg: 38591 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers ],
       thrust: { forward: 479, reverse: 499 },
       travel: { thrust: 18, attack: 45, charge: 3, release: 0 },
       production: [
@@ -560,7 +560,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.small,
       price: { min: 166592, max: 203613, avg: 185103 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers ],
       thrust: { forward: 535, reverse: 568 },
       travel: { thrust: 18, attack: 45, charge: 3, release: 0 },
       production: [
@@ -588,7 +588,7 @@ export const Equipments = [
       size: Size.extralarge,
       hull: 12193,
       price: { min: 424061, max: 518297, avg: 471179 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers ],
       thrust: { forward: 11076, reverse: 12184 },
       travel: { thrust: 31, attack: 75, charge: 30, release: 0 },
       production: [
@@ -616,7 +616,7 @@ export const Equipments = [
       size: Size.extralarge,
       hull: 9955,
       price: { min: 445263, max: 544210, avg: 494737 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers ],
       thrust: { forward: 10549, reverse: 9494 },
       travel: { thrust: 33, attack: 85, charge: 30, release: 0 },
       production: [
@@ -642,7 +642,7 @@ export const Equipments = [
       type: EquipmentType.engines,
       equipmentClass: EquipmentClass.engine,
       size: Size.medium,
-      price: { min: 1, max: 1, avg: 1 },
+      price: { min: 0, max: 0, avg: 0 },
       owners: [ Factions.khaak ],
       thrust: { forward: 1400, reverse: 1600 },
       travel: { thrust: 7, attack: 10, charge: 3, release: 0 },
@@ -658,7 +658,7 @@ export const Equipments = [
       type: EquipmentType.engines,
       equipmentClass: EquipmentClass.engine,
       size: Size.medium,
-      price: { min: 1, max: 1, avg: 1 },
+      price: { min: 0, max: 0, avg: 0 },
       owners: [ Factions.khaak ],
       thrust: { forward: 1400, reverse: 1662 },
       travel: { thrust: 7, attack: 10, charge: 3, release: 0 },
@@ -674,7 +674,7 @@ export const Equipments = [
       type: EquipmentType.engines,
       equipmentClass: EquipmentClass.engine,
       size: Size.small,
-      price: { min: 1, max: 1, avg: 1 },
+      price: { min: 0, max: 0, avg: 0 },
       owners: [ Factions.khaak ],
       thrust: { forward: 500, reverse: 770 },
       travel: { thrust: 7, attack: 10, charge: 2, release: 0 },
@@ -692,7 +692,7 @@ export const Equipments = [
       size: Size.large,
       hull: 4018,
       price: { min: 324732, max: 396895, avg: 360814 },
-      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.buccaneers, Factions.holyorder, Factions.paranid, Factions.trinity ],
       thrust: { forward: 4332, reverse: 4766 },
       travel: { thrust: 29, attack: 75, charge: 20, release: 0 },
       production: [
@@ -720,7 +720,7 @@ export const Equipments = [
       size: Size.large,
       hull: 4018,
       price: { min: 340969, max: 416740, avg: 378855 },
-      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.buccaneers, Factions.holyorder, Factions.paranid, Factions.trinity ],
       thrust: { forward: 4126, reverse: 3713 },
       travel: { thrust: 31, attack: 85, charge: 20, release: 0 },
       production: [
@@ -747,7 +747,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.medium,
       price: { min: 11767, max: 14382, avg: 13074 },
-      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.buccaneers, Factions.holyorder, Factions.paranid, Factions.trinity ],
       thrust: { forward: 1032, reverse: 980 },
       travel: { thrust: 8, attack: 30, charge: 1, release: 0 },
       production: [
@@ -774,7 +774,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.medium,
       price: { min: 58166, max: 71092, avg: 64629 },
-      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.buccaneers, Factions.holyorder, Factions.paranid, Factions.trinity ],
       thrust: { forward: 1249, reverse: 1265 },
       travel: { thrust: 8, attack: 30, charge: 1, release: 0 },
       production: [
@@ -801,7 +801,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.medium,
       price: { min: 287722, max: 351660, avg: 319691 },
-      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.buccaneers, Factions.holyorder, Factions.paranid, Factions.trinity ],
       thrust: { forward: 1393, reverse: 1455 },
       travel: { thrust: 8, attack: 30, charge: 1, release: 0 },
       production: [
@@ -828,7 +828,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.medium,
       price: { min: 14357, max: 17547, avg: 15952 },
-      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.buccaneers, Factions.holyorder, Factions.paranid, Factions.trinity ],
       thrust: { forward: 1084, reverse: 1138 },
       travel: { thrust: 7, attack: 15, charge: 0, release: 0 },
       production: [
@@ -855,7 +855,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.medium,
       price: { min: 69711, max: 85202, avg: 77457 },
-      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.buccaneers, Factions.holyorder, Factions.paranid, Factions.trinity ],
       thrust: { forward: 1311, reverse: 1515 },
       travel: { thrust: 7, attack: 15, charge: 0, release: 0 },
       production: [
@@ -882,7 +882,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.medium,
       price: { min: 345444, max: 422209, avg: 383827 },
-      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.buccaneers, Factions.holyorder, Factions.paranid, Factions.trinity ],
       thrust: { forward: 1463, reverse: 1766 },
       travel: { thrust: 7, attack: 15, charge: 0, release: 0 },
       production: [
@@ -909,7 +909,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.medium,
       price: { min: 13062, max: 15964, avg: 14513 },
-      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.buccaneers, Factions.holyorder, Factions.paranid, Factions.trinity ],
       thrust: { forward: 1032, reverse: 929 },
       travel: { thrust: 11, attack: 45, charge: 3, release: 0 },
       production: [
@@ -936,7 +936,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.medium,
       price: { min: 65234, max: 79730, avg: 72482 },
-      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.buccaneers, Factions.holyorder, Factions.paranid, Factions.trinity ],
       thrust: { forward: 1249, reverse: 1124 },
       travel: { thrust: 11, attack: 45, charge: 3, release: 0 },
       production: [
@@ -963,7 +963,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.medium,
       price: { min: 331013, max: 404572, avg: 367793 },
-      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.buccaneers, Factions.holyorder, Factions.paranid, Factions.trinity ],
       thrust: { forward: 1393, reverse: 1254 },
       travel: { thrust: 11, attack: 45, charge: 3, release: 0 },
       production: [
@@ -990,7 +990,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.small,
       price: { min: 5526, max: 6754, avg: 6140 },
-      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.buccaneers, Factions.holyorder, Factions.paranid, Factions.trinity ],
       thrust: { forward: 408, reverse: 428 },
       travel: { thrust: 13, attack: 30, charge: 1, release: 0 },
       production: [
@@ -1016,7 +1016,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.small,
       price: { min: 26370, max: 32230, avg: 29300 },
-      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.buccaneers, Factions.holyorder, Factions.paranid, Factions.trinity ],
       thrust: { forward: 494, reverse: 591 },
       travel: { thrust: 13, attack: 30, charge: 1, release: 0 },
       production: [
@@ -1043,7 +1043,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.small,
       price: { min: 123301, max: 150701, avg: 137001 },
-      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.buccaneers, Factions.holyorder, Factions.paranid, Factions.trinity ],
       thrust: { forward: 551, reverse: 700 },
       travel: { thrust: 13, attack: 30, charge: 1, release: 0 },
       production: [
@@ -1070,7 +1070,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.small,
       price: { min: 8116, max: 9919, avg: 9017 },
-      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.buccaneers, Factions.holyorder, Factions.paranid, Factions.trinity ],
       thrust: { forward: 428, reverse: 514 },
       travel: { thrust: 11, attack: 15, charge: 0, release: 0 },
       production: [
@@ -1096,7 +1096,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.small,
       price: { min: 40504, max: 49505, avg: 45005 },
-      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.buccaneers, Factions.holyorder, Factions.paranid, Factions.trinity ],
       thrust: { forward: 518, reverse: 731 },
       travel: { thrust: 11, attack: 15, charge: 0, release: 0 },
       production: [
@@ -1123,7 +1123,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.small,
       price: { min: 181023, max: 221250, avg: 201137 },
-      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.buccaneers, Factions.holyorder, Factions.paranid, Factions.trinity ],
       thrust: { forward: 578, reverse: 876 },
       travel: { thrust: 11, attack: 15, charge: 0, release: 0 },
       production: [
@@ -1150,7 +1150,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.small,
       price: { min: 6821, max: 8336, avg: 7579 },
-      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.buccaneers, Factions.holyorder, Factions.paranid, Factions.trinity ],
       thrust: { forward: 408, reverse: 408 },
       travel: { thrust: 17, attack: 45, charge: 3, release: 0 },
       production: [
@@ -1176,7 +1176,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.small,
       price: { min: 34732, max: 42450, avg: 38591 },
-      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.buccaneers, Factions.holyorder, Factions.paranid, Factions.trinity ],
       thrust: { forward: 494, reverse: 514 },
       travel: { thrust: 17, attack: 45, charge: 3, release: 0 },
       production: [
@@ -1203,7 +1203,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.engine,
       size: Size.small,
       price: { min: 166592, max: 203613, avg: 185103 },
-      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.buccaneers, Factions.holyorder, Factions.paranid, Factions.trinity ],
       thrust: { forward: 551, reverse: 585 },
       travel: { thrust: 17, attack: 45, charge: 3, release: 0 },
       production: [
@@ -1231,7 +1231,7 @@ export const Equipments = [
       size: Size.extralarge,
       hull: 9899,
       price: { min: 428301, max: 523479, avg: 475890 },
-      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.buccaneers, Factions.holyorder, Factions.paranid, Factions.trinity ],
       thrust: { forward: 11408, reverse: 12549 },
       travel: { thrust: 29, attack: 75, charge: 30, release: 0 },
       production: [
@@ -1259,7 +1259,7 @@ export const Equipments = [
       size: Size.extralarge,
       hull: 9955,
       price: { min: 449716, max: 549653, avg: 499685 },
-      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.buccaneers, Factions.holyorder, Factions.paranid, Factions.trinity ],
       thrust: { forward: 10865, reverse: 9779 },
       travel: { thrust: 31, attack: 85, charge: 30, release: 0 },
       production: [
@@ -2608,7 +2608,7 @@ export const Equipments = [
       hull: 2000,
       recharge: { max: 38844, rate: 173, delay: 0 },
       price: { min: 42166, max: 51536, avg: 46851 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.hatikvah ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers, Factions.hatikvah ],
       production: [
          {
             time: 20,
@@ -2635,7 +2635,7 @@ export const Equipments = [
       hull: 2000,
       recharge: { max: 46282, rate: 268, delay: 0 },
       price: { min: 205644, max: 251343, avg: 228494 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers ],
       production: [
          {
             time: 20,
@@ -2662,7 +2662,7 @@ export const Equipments = [
       hull: 500,
       recharge: { max: 5147, rate: 26, delay: 0.5 },
       price: { min: 12838, max: 15691, avg: 14264 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.hatikvah ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers, Factions.hatikvah ],
       production: [
          {
             time: 10,
@@ -2689,7 +2689,7 @@ export const Equipments = [
       hull: 500,
       recharge: { max: 6133, rate: 41, delay: 0.5 },
       price: { min: 62115, max: 75918, avg: 69017 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers ],
       production: [
          {
             time: 10,
@@ -2716,7 +2716,7 @@ export const Equipments = [
       hull: 500,
       recharge: { max: 5147, rate: 26, delay: 0.5 },
       price: { min: 12838, max: 15691, avg: 14264 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.hatikvah ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers, Factions.hatikvah ],
       production: [
          {
             time: 20,
@@ -2743,7 +2743,7 @@ export const Equipments = [
       hull: 500,
       recharge: { max: 6133, rate: 41, delay: 0.5 },
       price: { min: 61597, max: 75285, avg: 68441 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers ],
       production: [
          {
             time: 20,
@@ -2751,7 +2751,7 @@ export const Equipments = [
             method: 'default',
             name: 'Universal',
             wares: [
-               { ware: 'energycells', amount: 25 },
+               { ware: 'energycells', amount: 40 },
                { ware: 'fieldcoils', amount: 15 },
                { ware: 'shieldcomponents', amount: 25 },
             ],
@@ -2769,7 +2769,7 @@ export const Equipments = [
       size: Size.small,
       recharge: { max: 827, rate: 82, delay: 12.1 },
       price: { min: 1218, max: 1489, avg: 1354 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.hatikvah ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers, Factions.hatikvah ],
       production: [
          {
             time: 10,
@@ -2794,7 +2794,7 @@ export const Equipments = [
       size: Size.small,
       recharge: { max: 988, rate: 128, delay: 12.1 },
       price: { min: 10186, max: 12449, avg: 11318 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers ],
       production: [
          {
             time: 10,
@@ -2820,7 +2820,7 @@ export const Equipments = [
       size: Size.small,
       recharge: { max: 1411, rate: 219, delay: 12.1 },
       price: { min: 49892, max: 60979, avg: 55436 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers ],
       production: [
          {
             time: 10,
@@ -2847,7 +2847,7 @@ export const Equipments = [
       hull: 6000,
       recharge: { max: 129481, rate: 492, delay: 0 },
       price: { min: 225671, max: 275820, avg: 250745 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers ],
       production: [
          {
             time: 20,
@@ -2865,14 +2865,29 @@ export const Equipments = [
    {
       id: 'shield_kha_m_standard_01_mk1',
       version: 0,
-      name: 'KHA S Shield Generator Mk1',
+      name: 'KHA M Shield Generator Mk1',
       description: 'No information available',
       race: Races.khaak,
       type: EquipmentType.shields,
       equipmentClass: EquipmentClass.shieldgenerator,
-      size: Size.small,
+      size: Size.medium,
       recharge: { max: 4632, rate: 25, delay: 0.57 },
-      price: { min: 1, max: 1, avg: 1 },
+      price: { min: 0, max: 0, avg: 0 },
+      owners: [ Factions.khaak ],
+      production: [
+      ]
+   },
+   {
+      id: 'shield_kha_m_standard_02_mk1',
+      version: 0,
+      name: 'KHA M Shield Generator Mk1',
+      description: 'No information available',
+      race: Races.khaak,
+      type: EquipmentType.shields,
+      equipmentClass: EquipmentClass.shieldgenerator,
+      size: Size.medium,
+      recharge: { max: 4632, rate: 25, delay: 0.57 },
+      price: { min: 0, max: 0, avg: 0 },
       owners: [ Factions.khaak ],
       production: [
       ]
@@ -2880,14 +2895,14 @@ export const Equipments = [
    {
       id: 'shield_kha_s_standard_01_mk1',
       version: 0,
-      name: 'KHA M Shield Generator Mk1',
+      name: 'KHA S Shield Generator Mk1',
       description: 'No information available',
       race: Races.khaak,
       type: EquipmentType.shields,
       equipmentClass: EquipmentClass.shieldgenerator,
       size: Size.small,
       recharge: { max: 745, rate: 79, delay: 13.9 },
-      price: { min: 1, max: 1, avg: 1 },
+      price: { min: 0, max: 0, avg: 0 },
       owners: [ Factions.khaak ],
       production: [
       ]
@@ -2904,7 +2919,7 @@ export const Equipments = [
       hull: 2000,
       recharge: { max: 34960, rate: 184, delay: 0 },
       price: { min: 42166, max: 51536, avg: 46851 },
-      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.buccaneers, Factions.holyorder, Factions.paranid, Factions.trinity ],
       production: [
          {
             time: 20,
@@ -2931,7 +2946,7 @@ export const Equipments = [
       hull: 2000,
       recharge: { max: 41654, rate: 284, delay: 0 },
       price: { min: 205644, max: 251343, avg: 228494 },
-      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.buccaneers, Factions.holyorder, Factions.paranid, Factions.trinity ],
       production: [
          {
             time: 20,
@@ -2958,7 +2973,7 @@ export const Equipments = [
       hull: 500,
       recharge: { max: 4632, rate: 28, delay: 0.42 },
       price: { min: 12838, max: 15691, avg: 14264 },
-      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.buccaneers, Factions.holyorder, Factions.paranid, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -2985,7 +3000,7 @@ export const Equipments = [
       hull: 500,
       recharge: { max: 5520, rate: 43, delay: 0.42 },
       price: { min: 62115, max: 75918, avg: 69017 },
-      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.buccaneers, Factions.holyorder, Factions.paranid, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -3012,7 +3027,7 @@ export const Equipments = [
       hull: 500,
       recharge: { max: 4632, rate: 28, delay: 0.42 },
       price: { min: 12015, max: 14685, avg: 13350 },
-      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.buccaneers, Factions.holyorder, Factions.paranid, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -3039,7 +3054,7 @@ export const Equipments = [
       hull: 500,
       recharge: { max: 5520, rate: 43, delay: 0.42 },
       price: { min: 26058, max: 31849, avg: 28954 },
-      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.buccaneers, Factions.holyorder, Factions.paranid, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -3047,9 +3062,9 @@ export const Equipments = [
             method: 'default',
             name: 'Universal',
             wares: [
-               { ware: 'energycells', amount: 25 },
-               { ware: 'fieldcoils', amount: 9 },
-               { ware: 'shieldcomponents', amount: 6 },
+               { ware: 'energycells', amount: 40 },
+               { ware: 'fieldcoils', amount: 15 },
+               { ware: 'shieldcomponents', amount: 25 },
             ],
          },
       ]
@@ -3065,7 +3080,7 @@ export const Equipments = [
       size: Size.small,
       recharge: { max: 745, rate: 87, delay: 10.2 },
       price: { min: 1218, max: 1489, avg: 1354 },
-      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.buccaneers, Factions.holyorder, Factions.paranid, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -3090,7 +3105,7 @@ export const Equipments = [
       size: Size.small,
       recharge: { max: 889, rate: 135, delay: 10.2 },
       price: { min: 10186, max: 12449, avg: 11318 },
-      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.buccaneers, Factions.holyorder, Factions.paranid, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -3116,7 +3131,7 @@ export const Equipments = [
       size: Size.small,
       recharge: { max: 1270, rate: 232, delay: 10.2 },
       price: { min: 49892, max: 60979, avg: 55436 },
-      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.buccaneers, Factions.holyorder, Factions.paranid, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -3143,7 +3158,7 @@ export const Equipments = [
       hull: 6000,
       recharge: { max: 116532, rate: 521, delay: 0 },
       price: { min: 225671, max: 275820, avg: 250745 },
-      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.buccaneers, Factions.holyorder, Factions.paranid, Factions.trinity ],
       production: [
          {
             time: 20,
@@ -3313,9 +3328,9 @@ export const Equipments = [
             method: 'default',
             name: 'Universal',
             wares: [
-               { ware: 'energycells', amount: 25 },
-               { ware: 'fieldcoils', amount: 9 },
-               { ware: 'shieldcomponents', amount: 6 },
+               { ware: 'energycells', amount: 40 },
+               { ware: 'fieldcoils', amount: 15 },
+               { ware: 'shieldcomponents', amount: 25 },
             ],
          },
       ]
@@ -3674,7 +3689,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.ship_xs,
       hull: 281,
       price: { min: 9707, max: 13133, avg: 11420 },
-      owners: [ Factions.antigone, Factions.argon ],
+      owners: [ Factions.antigone, Factions.argon, Factions.buccaneers ],
       production: [
          {
             time: 60,
@@ -3902,7 +3917,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.ship_xs,
       hull: 281,
       price: { min: 9707, max: 13133, avg: 11420 },
-      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.buccaneers, Factions.holyorder, Factions.paranid, Factions.trinity ],
       production: [
          {
             time: 60,
@@ -4795,7 +4810,7 @@ export const Equipments = [
       size: Size.large,
       hull: 2300,
       price: { min: 135464, max: 165567, avg: 150515 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers ],
       production: [
          {
             time: 10,
@@ -4821,7 +4836,7 @@ export const Equipments = [
       size: Size.large,
       hull: 5000,
       price: { min: 67905, max: 82995, avg: 75450 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers ],
       production: [
          {
             time: 10,
@@ -4847,7 +4862,7 @@ export const Equipments = [
       size: Size.large,
       hull: 5000,
       price: { min: 78261, max: 95652, avg: 86957 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers ],
       production: [
          {
             time: 10,
@@ -4873,7 +4888,7 @@ export const Equipments = [
       size: Size.large,
       hull: 2300,
       price: { min: 52289, max: 63909, avg: 58099 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.hatikvah ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers, Factions.hatikvah ],
       production: [
          {
             time: 10,
@@ -4899,7 +4914,7 @@ export const Equipments = [
       size: Size.large,
       hull: 2300,
       price: { min: 49166, max: 60092, avg: 54629 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.hatikvah ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers, Factions.hatikvah ],
       production: [
          {
             time: 10,
@@ -4925,7 +4940,7 @@ export const Equipments = [
       size: Size.large,
       hull: 2300,
       price: { min: 93055, max: 113734, avg: 103395 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers ],
       production: [
          {
             time: 10,
@@ -4950,7 +4965,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.turret,
       size: Size.medium,
       price: { min: 45385, max: 55471, avg: 50428 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers ],
       production: [
          {
             time: 10,
@@ -4976,7 +4991,7 @@ export const Equipments = [
       size: Size.medium,
       hull: 500,
       price: { min: 45385, max: 55471, avg: 50428 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers ],
       production: [
          {
             time: 10,
@@ -5002,7 +5017,7 @@ export const Equipments = [
       size: Size.medium,
       hull: 1100,
       price: { min: 22865, max: 27946, avg: 25406 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers ],
       production: [
          {
             time: 10,
@@ -5027,7 +5042,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.turret,
       size: Size.medium,
       price: { min: 41730, max: 87581, avg: 64655 },
-      owners: [ Factions.alliance, Factions.argon ],
+      owners: [ Factions.alliance, Factions.argon, Factions.buccaneers ],
       production: [
          {
             time: 10,
@@ -5053,7 +5068,7 @@ export const Equipments = [
       size: Size.medium,
       hull: 500,
       price: { min: 41730, max: 87581, avg: 64655 },
-      owners: [ Factions.alliance, Factions.argon ],
+      owners: [ Factions.alliance, Factions.argon, Factions.buccaneers ],
       production: [
          {
             time: 10,
@@ -5078,7 +5093,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.turret,
       size: Size.medium,
       price: { min: 24665, max: 30147, avg: 27406 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers ],
       production: [
          {
             time: 10,
@@ -5104,7 +5119,7 @@ export const Equipments = [
       size: Size.medium,
       hull: 500,
       price: { min: 22857, max: 27936, avg: 25397 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers ],
       production: [
          {
             time: 10,
@@ -5130,7 +5145,7 @@ export const Equipments = [
       size: Size.medium,
       hull: 1100,
       price: { min: 26317, max: 32166, avg: 29242 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers ],
       production: [
          {
             time: 10,
@@ -5155,7 +5170,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.turret,
       size: Size.medium,
       price: { min: 21378, max: 26128, avg: 23753 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.hatikvah ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers, Factions.hatikvah ],
       production: [
          {
             time: 10,
@@ -5181,7 +5196,7 @@ export const Equipments = [
       size: Size.medium,
       hull: 500,
       price: { min: 21378, max: 26128, avg: 23753 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.hatikvah ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers, Factions.hatikvah ],
       production: [
          {
             time: 10,
@@ -5206,7 +5221,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.turret,
       size: Size.medium,
       price: { min: 16446, max: 20101, avg: 18274 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.hatikvah ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers, Factions.hatikvah ],
       production: [
          {
             time: 10,
@@ -5232,7 +5247,7 @@ export const Equipments = [
       size: Size.medium,
       hull: 500,
       price: { min: 16446, max: 20101, avg: 18274 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.hatikvah ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers, Factions.hatikvah ],
       production: [
          {
             time: 10,
@@ -5257,7 +5272,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.turret,
       size: Size.medium,
       price: { min: 31249, max: 38193, avg: 34721 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers ],
       production: [
          {
             time: 10,
@@ -5283,7 +5298,7 @@ export const Equipments = [
       size: Size.medium,
       hull: 500,
       price: { min: 31249, max: 38193, avg: 34721 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers ],
       production: [
          {
             time: 10,
@@ -5308,7 +5323,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.turret,
       size: Size.medium,
       price: { min: 22857, max: 27936, avg: 25397 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers ],
       production: [
          {
             time: 10,
@@ -5334,7 +5349,7 @@ export const Equipments = [
       size: Size.medium,
       hull: 500,
       price: { min: 24665, max: 30147, avg: 27406 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers ],
       production: [
          {
             time: 10,
@@ -5359,7 +5374,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.turret,
       size: Size.medium,
       hull: 500,
-      price: { min: 1, max: 1, avg: 1 },
+      price: { min: 0, max: 0, avg: 0 },
       owners: [ Factions.khaak ],
       production: [
       ]
@@ -5375,7 +5390,7 @@ export const Equipments = [
       size: Size.large,
       hull: 3450,
       price: { min: 135464, max: 165567, avg: 150515 },
-      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.buccaneers, Factions.holyorder, Factions.paranid, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -5401,7 +5416,7 @@ export const Equipments = [
       size: Size.large,
       hull: 7500,
       price: { min: 67905, max: 82995, avg: 75450 },
-      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.buccaneers, Factions.holyorder, Factions.paranid, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -5427,7 +5442,7 @@ export const Equipments = [
       size: Size.large,
       hull: 7500,
       price: { min: 78261, max: 95652, avg: 86957 },
-      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.buccaneers, Factions.holyorder, Factions.paranid, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -5453,7 +5468,7 @@ export const Equipments = [
       size: Size.large,
       hull: 3450,
       price: { min: 52289, max: 63909, avg: 58099 },
-      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.buccaneers, Factions.holyorder, Factions.paranid, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -5479,7 +5494,7 @@ export const Equipments = [
       size: Size.large,
       hull: 3450,
       price: { min: 49166, max: 60092, avg: 54629 },
-      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.buccaneers, Factions.holyorder, Factions.paranid, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -5505,7 +5520,7 @@ export const Equipments = [
       size: Size.large,
       hull: 3450,
       price: { min: 93055, max: 113734, avg: 103395 },
-      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.buccaneers, Factions.holyorder, Factions.paranid, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -5530,7 +5545,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.turret,
       size: Size.medium,
       price: { min: 45385, max: 55471, avg: 50428 },
-      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.buccaneers, Factions.holyorder, Factions.paranid, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -5556,7 +5571,7 @@ export const Equipments = [
       size: Size.medium,
       hull: 750,
       price: { min: 24665, max: 30147, avg: 27406 },
-      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.buccaneers, Factions.holyorder, Factions.paranid, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -5582,7 +5597,7 @@ export const Equipments = [
       size: Size.medium,
       hull: 1650,
       price: { min: 31249, max: 38193, avg: 34721 },
-      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.buccaneers, Factions.holyorder, Factions.paranid, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -5607,7 +5622,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.turret,
       size: Size.medium,
       price: { min: 24665, max: 30147, avg: 27406 },
-      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.buccaneers, Factions.holyorder, Factions.paranid, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -5633,7 +5648,7 @@ export const Equipments = [
       size: Size.medium,
       hull: 750,
       price: { min: 26317, max: 32166, avg: 29242 },
-      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.buccaneers, Factions.holyorder, Factions.paranid, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -5659,7 +5674,7 @@ export const Equipments = [
       size: Size.medium,
       hull: 1650,
       price: { min: 45385, max: 55471, avg: 50428 },
-      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.buccaneers, Factions.holyorder, Factions.paranid, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -5684,7 +5699,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.turret,
       size: Size.medium,
       price: { min: 21378, max: 26128, avg: 23753 },
-      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.buccaneers, Factions.holyorder, Factions.paranid, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -5710,7 +5725,7 @@ export const Equipments = [
       size: Size.medium,
       hull: 750,
       price: { min: 16446, max: 20101, avg: 18274 },
-      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.buccaneers, Factions.holyorder, Factions.paranid, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -5735,7 +5750,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.turret,
       size: Size.medium,
       price: { min: 16446, max: 20101, avg: 18274 },
-      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.buccaneers, Factions.holyorder, Factions.paranid, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -5761,7 +5776,7 @@ export const Equipments = [
       size: Size.medium,
       hull: 750,
       price: { min: 22857, max: 27936, avg: 25397 },
-      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.buccaneers, Factions.holyorder, Factions.paranid, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -5786,7 +5801,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.turret,
       size: Size.medium,
       price: { min: 31249, max: 38193, avg: 34721 },
-      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.buccaneers, Factions.holyorder, Factions.paranid, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -5812,7 +5827,7 @@ export const Equipments = [
       size: Size.medium,
       hull: 750,
       price: { min: 21378, max: 26128, avg: 23753 },
-      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.buccaneers, Factions.holyorder, Factions.paranid, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -5837,7 +5852,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.turret,
       size: Size.medium,
       price: { min: 22857, max: 27936, avg: 25397 },
-      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.buccaneers, Factions.holyorder, Factions.paranid, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -5863,7 +5878,7 @@ export const Equipments = [
       size: Size.medium,
       hull: 750,
       price: { min: 22865, max: 27946, avg: 25406 },
-      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.buccaneers, Factions.holyorder, Factions.paranid, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -6428,7 +6443,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.turret,
       size: Size.medium,
       hull: 800,
-      price: { min: 23242, max: 28406, avg: 25824 },
+      price: { min: 23243, max: 28407, avg: 25825 },
       owners: [ Factions.xenon ],
       production: [
          {
@@ -6500,12 +6515,13 @@ export const Equipments = [
       version: 0,
       name: 'Behemoth Main Battery',
       description: 'No information available',
+      race: Races.argon,
       type: EquipmentType.weapons,
       equipmentClass: EquipmentClass.weapon,
       size: Size.large,
       hull: 8000,
       price: { min: 936709, max: 1144866, avg: 1040788 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers ],
       production: [
          {
             time: 10,
@@ -6523,14 +6539,15 @@ export const Equipments = [
    {
       id: 'weapon_arg_m_ion_01_mk1',
       version: 0,
-      name: 'M Ion Blaster Mk1',
+      name: 'ARG M Ion Blaster Mk1',
       description: 'No information available',
+      race: Races.argon,
       type: EquipmentType.weapons,
       equipmentClass: EquipmentClass.weapon,
       size: Size.medium,
       hull: 1001,
       price: { min: 302254, max: 597081, avg: 449667 },
-      owners: [ Factions.alliance, Factions.argon ],
+      owners: [ Factions.alliance, Factions.argon, Factions.buccaneers ],
       production: [
          {
             time: 10,
@@ -6548,14 +6565,15 @@ export const Equipments = [
    {
       id: 'weapon_arg_m_ion_01_mk2',
       version: 0,
-      name: 'M Ion Blaster Mk2',
+      name: 'ARG M Ion Blaster Mk2',
       description: 'No information available',
+      race: Races.argon,
       type: EquipmentType.weapons,
       equipmentClass: EquipmentClass.weapon,
       size: Size.medium,
       hull: 1001,
       price: { min: 931956, max: 1819218, avg: 1375587 },
-      owners: [ Factions.alliance, Factions.argon ],
+      owners: [ Factions.alliance, Factions.argon, Factions.buccaneers ],
       production: [
          {
             time: 10,
@@ -6573,14 +6591,15 @@ export const Equipments = [
    {
       id: 'weapon_arg_s_ion_01_mk1',
       version: 0,
-      name: 'S Ion Blaster Mk1',
+      name: 'ARG S Ion Blaster Mk1',
       description: 'No information available',
+      race: Races.argon,
       type: EquipmentType.weapons,
       equipmentClass: EquipmentClass.weapon,
       size: Size.small,
       hull: 500,
       price: { min: 160820, max: 319189, avg: 240004 },
-      owners: [ Factions.alliance, Factions.argon ],
+      owners: [ Factions.alliance, Factions.argon, Factions.buccaneers ],
       production: [
          {
             time: 10,
@@ -6598,14 +6617,15 @@ export const Equipments = [
    {
       id: 'weapon_arg_s_ion_01_mk2',
       version: 0,
-      name: 'S Ion Blaster Mk2',
+      name: 'ARG S Ion Blaster Mk2',
       description: 'No information available',
+      race: Races.argon,
       type: EquipmentType.weapons,
       equipmentClass: EquipmentClass.weapon,
       size: Size.small,
       hull: 500,
       price: { min: 777281, max: 1543247, avg: 1160264 },
-      owners: [ Factions.alliance, Factions.argon ],
+      owners: [ Factions.alliance, Factions.argon, Factions.buccaneers ],
       production: [
          {
             time: 10,
@@ -6732,7 +6752,7 @@ export const Equipments = [
       size: Size.medium,
       hull: 1001,
       price: { min: 25530, max: 31203, avg: 28367 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -6757,7 +6777,7 @@ export const Equipments = [
       size: Size.medium,
       hull: 1001,
       price: { min: 127132, max: 155383, avg: 141257 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -6782,7 +6802,7 @@ export const Equipments = [
       size: Size.medium,
       hull: 1001,
       price: { min: 22558, max: 27571, avg: 25064 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.hatikvah, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.scaleplate, Factions.teladi, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers, Factions.hatikvah, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.scaleplate, Factions.teladi, Factions.trinity ],
       production: [
          {
             time: 5,
@@ -6807,7 +6827,7 @@ export const Equipments = [
       size: Size.medium,
       hull: 1001,
       price: { min: 111753, max: 136587, avg: 124170 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
       production: [
          {
             time: 5,
@@ -6832,7 +6852,7 @@ export const Equipments = [
       size: Size.medium,
       hull: 1001,
       price: { min: 23928, max: 29245, avg: 26586 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -6857,7 +6877,7 @@ export const Equipments = [
       size: Size.medium,
       hull: 1001,
       price: { min: 119121, max: 145592, avg: 132356 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -6882,7 +6902,7 @@ export const Equipments = [
       size: Size.medium,
       hull: 1001,
       price: { min: 44770, max: 54719, avg: 49745 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
       production: [
          {
             time: 5,
@@ -6907,7 +6927,7 @@ export const Equipments = [
       size: Size.medium,
       hull: 1001,
       price: { min: 222815, max: 272330, avg: 247572 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
       production: [
          {
             time: 5,
@@ -6932,7 +6952,7 @@ export const Equipments = [
       size: Size.medium,
       hull: 1001,
       price: { min: 20763, max: 25377, avg: 23070 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.hatikvah, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.scaleplate, Factions.teladi, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers, Factions.hatikvah, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.scaleplate, Factions.teladi, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -6957,7 +6977,7 @@ export const Equipments = [
       size: Size.medium,
       hull: 1001,
       price: { min: 103297, max: 126252, avg: 114775 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -6982,7 +7002,7 @@ export const Equipments = [
       size: Size.medium,
       hull: 1001,
       price: { min: 16016, max: 19575, avg: 17796 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.hatikvah, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.scaleplate, Factions.teladi, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers, Factions.hatikvah, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.scaleplate, Factions.teladi, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -7007,7 +7027,7 @@ export const Equipments = [
       size: Size.medium,
       hull: 1001,
       price: { min: 79562, max: 97243, avg: 88402 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -7032,7 +7052,7 @@ export const Equipments = [
       size: Size.medium,
       hull: 1001,
       price: { min: 30277, max: 37005, avg: 33641 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -7057,7 +7077,7 @@ export const Equipments = [
       size: Size.medium,
       hull: 1001,
       price: { min: 150867, max: 184393, avg: 167630 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -7082,7 +7102,7 @@ export const Equipments = [
       size: Size.medium,
       hull: 1001,
       price: { min: 22365, max: 27335, avg: 24850 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -7107,7 +7127,7 @@ export const Equipments = [
       size: Size.medium,
       hull: 1001,
       price: { min: 111308, max: 136043, avg: 123676 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -7132,7 +7152,7 @@ export const Equipments = [
       size: Size.medium,
       hull: 1001,
       price: { min: 78039, max: 95381, avg: 86710 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
       production: [
          {
             time: 5,
@@ -7157,7 +7177,7 @@ export const Equipments = [
       size: Size.medium,
       hull: 1001,
       price: { min: 389160, max: 475640, avg: 432400 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
       production: [
          {
             time: 5,
@@ -7182,7 +7202,7 @@ export const Equipments = [
       size: Size.small,
       hull: 500,
       price: { min: 23948, max: 29269, avg: 26609 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -7207,7 +7227,7 @@ export const Equipments = [
       size: Size.small,
       hull: 500,
       price: { min: 104979, max: 128308, avg: 116643 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -7232,7 +7252,7 @@ export const Equipments = [
       size: Size.small,
       hull: 500,
       price: { min: 18582, max: 39398, avg: 28990 },
-      owners: [ Factions.alliance, Factions.paranid, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.buccaneers, Factions.paranid, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -7257,7 +7277,7 @@ export const Equipments = [
       size: Size.small,
       hull: 500,
       price: { min: 56299, max: 108078, avg: 82188 },
-      owners: [ Factions.alliance, Factions.paranid, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.buccaneers, Factions.paranid, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -7281,7 +7301,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.weapon,
       size: Size.small,
       price: { min: 40538, max: 81008, avg: 60773 },
-      owners: [ Factions.holyorder, Factions.ministry, Factions.trinity ],
+      owners: [ Factions.buccaneers, Factions.holyorder, Factions.ministry, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -7305,7 +7325,7 @@ export const Equipments = [
       equipmentClass: EquipmentClass.weapon,
       size: Size.small,
       price: { min: 57963, max: 111999, avg: 84981 },
-      owners: [ Factions.holyorder, Factions.ministry, Factions.trinity ],
+      owners: [ Factions.buccaneers, Factions.holyorder, Factions.ministry, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -7330,7 +7350,7 @@ export const Equipments = [
       size: Size.small,
       hull: 500,
       price: { min: 6695, max: 8183, avg: 7439 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.hatikvah, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.scaleplate, Factions.teladi, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers, Factions.hatikvah, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.scaleplate, Factions.teladi, Factions.trinity ],
       production: [
          {
             time: 5,
@@ -7355,7 +7375,7 @@ export const Equipments = [
       size: Size.small,
       hull: 500,
       price: { min: 13370, max: 16341, avg: 14855 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
       production: [
          {
             time: 5,
@@ -7380,7 +7400,7 @@ export const Equipments = [
       size: Size.small,
       hull: 500,
       price: { min: 43055, max: 52623, avg: 47839 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -7405,7 +7425,7 @@ export const Equipments = [
       size: Size.small,
       hull: 500,
       price: { min: 214756, max: 262480, avg: 238618 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -7430,7 +7450,7 @@ export const Equipments = [
       size: Size.small,
       hull: 500,
       price: { min: 8277, max: 10117, avg: 9197 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
       production: [
          {
             time: 5,
@@ -7455,7 +7475,7 @@ export const Equipments = [
       size: Size.small,
       hull: 500,
       price: { min: 40349, max: 49316, avg: 44832 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
       production: [
          {
             time: 5,
@@ -7480,7 +7500,7 @@ export const Equipments = [
       size: Size.small,
       hull: 500,
       price: { min: 16056, max: 19624, avg: 17840 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.hatikvah, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.scaleplate, Factions.teladi, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers, Factions.hatikvah, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.scaleplate, Factions.teladi, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -7505,7 +7525,7 @@ export const Equipments = [
       size: Size.small,
       hull: 500,
       price: { min: 79761, max: 97485, avg: 88623 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -7530,7 +7550,7 @@ export const Equipments = [
       size: Size.small,
       hull: 500,
       price: { min: 6522, max: 7971, avg: 7247 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -7555,7 +7575,7 @@ export const Equipments = [
       size: Size.small,
       hull: 500,
       price: { min: 32092, max: 39223, avg: 35658 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -7580,7 +7600,7 @@ export const Equipments = [
       size: Size.small,
       hull: 500,
       price: { min: 12851, max: 15707, avg: 14279 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -7605,7 +7625,7 @@ export const Equipments = [
       size: Size.small,
       hull: 500,
       price: { min: 55827, max: 68233, avg: 62030 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -7630,7 +7650,7 @@ export const Equipments = [
       size: Size.small,
       hull: 500,
       price: { min: 27152, max: 33186, avg: 30169 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -7655,7 +7675,7 @@ export const Equipments = [
       size: Size.small,
       hull: 500,
       price: { min: 135242, max: 165296, avg: 150269 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -7680,7 +7700,7 @@ export const Equipments = [
       size: Size.small,
       hull: 500,
       price: { min: 22558, max: 27571, avg: 25064 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
       production: [
          {
             time: 5,
@@ -7705,7 +7725,7 @@ export const Equipments = [
       size: Size.small,
       hull: 500,
       price: { min: 111753, max: 136587, avg: 124170 },
-      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.antigone, Factions.argon, Factions.buccaneers, Factions.holyorder, Factions.ministry, Factions.paranid, Factions.teladi, Factions.trinity ],
       production: [
          {
             time: 5,
@@ -7723,14 +7743,14 @@ export const Equipments = [
    {
       id: 'weapon_kha_m_laser_01_mk1',
       version: 0,
-      name: 'M Kyon Emitter Mk1',
+      name: 'KHA M Kyon Emitter Mk1',
       description: 'No information available',
       race: Races.khaak,
       type: EquipmentType.weapons,
       equipmentClass: EquipmentClass.weapon,
       size: Size.medium,
       hull: 1000,
-      price: { min: 1, max: 1, avg: 1 },
+      price: { min: 0, max: 0, avg: 0 },
       owners: [ Factions.khaak ],
       production: [
       ]
@@ -7738,14 +7758,14 @@ export const Equipments = [
    {
       id: 'weapon_kha_s_laser_01_mk1',
       version: 0,
-      name: 'S Kyon Emitter Mk1',
+      name: 'KHA S Kyon Emitter Mk1',
       description: 'No information available',
       race: Races.khaak,
       type: EquipmentType.weapons,
       equipmentClass: EquipmentClass.weapon,
       size: Size.small,
       hull: 500,
-      price: { min: 1, max: 1, avg: 1 },
+      price: { min: 0, max: 0, avg: 0 },
       owners: [ Factions.khaak ],
       production: [
       ]
@@ -7755,12 +7775,13 @@ export const Equipments = [
       version: 0,
       name: 'Odysseus Main Battery',
       description: 'No information available',
+      race: Races.paranid,
       type: EquipmentType.weapons,
       equipmentClass: EquipmentClass.weapon,
       size: Size.large,
       hull: 8000,
       price: { min: 1000201, max: 1222468, avg: 1111335 },
-      owners: [ Factions.alliance, Factions.holyorder, Factions.paranid, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.buccaneers, Factions.holyorder, Factions.paranid, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -7778,14 +7799,15 @@ export const Equipments = [
    {
       id: 'weapon_par_m_railgun_01_mk1',
       version: 0,
-      name: 'M Mass Driver Mk1',
+      name: 'PAR M Mass Driver Mk1',
       description: 'No information available',
+      race: Races.paranid,
       type: EquipmentType.weapons,
       equipmentClass: EquipmentClass.weapon,
       size: Size.medium,
       hull: 1001,
       price: { min: 304352, max: 600045, avg: 452198 },
-      owners: [ Factions.alliance, Factions.paranid, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.buccaneers, Factions.paranid, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -7803,14 +7825,15 @@ export const Equipments = [
    {
       id: 'weapon_par_m_railgun_01_mk2',
       version: 0,
-      name: 'M Mass Driver Mk2',
+      name: 'PAR M Mass Driver Mk2',
       description: 'No information available',
+      race: Races.paranid,
       type: EquipmentType.weapons,
       equipmentClass: EquipmentClass.weapon,
       size: Size.medium,
       hull: 1001,
       price: { min: 1188194, max: 2380428, avg: 1784311 },
-      owners: [ Factions.alliance, Factions.paranid, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.buccaneers, Factions.paranid, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -7828,14 +7851,15 @@ export const Equipments = [
    {
       id: 'weapon_par_s_railgun_01_mk1',
       version: 0,
-      name: 'S Mass Driver Mk1',
+      name: 'PAR S Mass Driver Mk1',
       description: 'No information available',
+      race: Races.paranid,
       type: EquipmentType.weapons,
       equipmentClass: EquipmentClass.weapon,
       size: Size.small,
       hull: 500,
       price: { min: 163448, max: 329181, avg: 246314 },
-      owners: [ Factions.alliance, Factions.paranid, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.buccaneers, Factions.paranid, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -7853,14 +7877,15 @@ export const Equipments = [
    {
       id: 'weapon_par_s_railgun_01_mk2',
       version: 0,
-      name: 'S Mass Driver Mk2',
+      name: 'PAR S Mass Driver Mk2',
       description: 'No information available',
+      race: Races.paranid,
       type: EquipmentType.weapons,
       equipmentClass: EquipmentClass.weapon,
       size: Size.small,
       hull: 500,
       price: { min: 860045, max: 1724780, avg: 1292412 },
-      owners: [ Factions.alliance, Factions.paranid, Factions.trinity ],
+      owners: [ Factions.alliance, Factions.buccaneers, Factions.paranid, Factions.trinity ],
       production: [
          {
             time: 10,
@@ -7880,6 +7905,7 @@ export const Equipments = [
       version: 0,
       name: 'Phoenix Main Battery',
       description: 'No information available',
+      race: Races.teladi,
       type: EquipmentType.weapons,
       equipmentClass: EquipmentClass.weapon,
       size: Size.large,
@@ -7903,8 +7929,9 @@ export const Equipments = [
    {
       id: 'weapon_tel_m_charge_01_mk1',
       version: 0,
-      name: 'M Muon Charger Mk1',
+      name: 'TEL M Muon Charger Mk1',
       description: 'No information available',
+      race: Races.teladi,
       type: EquipmentType.weapons,
       equipmentClass: EquipmentClass.weapon,
       size: Size.medium,
@@ -7928,8 +7955,9 @@ export const Equipments = [
    {
       id: 'weapon_tel_m_charge_01_mk2',
       version: 0,
-      name: 'M Muon Charger Mk2',
+      name: 'TEL M Muon Charger Mk2',
       description: 'No information available',
+      race: Races.teladi,
       type: EquipmentType.weapons,
       equipmentClass: EquipmentClass.weapon,
       size: Size.medium,
@@ -7953,8 +7981,9 @@ export const Equipments = [
    {
       id: 'weapon_tel_s_charge_01_mk1',
       version: 0,
-      name: 'S Muon Charger Mk1',
+      name: 'TEL S Muon Charger Mk1',
       description: 'No information available',
+      race: Races.teladi,
       type: EquipmentType.weapons,
       equipmentClass: EquipmentClass.weapon,
       size: Size.small,
@@ -7978,8 +8007,9 @@ export const Equipments = [
    {
       id: 'weapon_tel_s_charge_01_mk2',
       version: 0,
-      name: 'S Muon Charger Mk2',
+      name: 'TEL S Muon Charger Mk2',
       description: 'No information available',
+      race: Races.teladi,
       type: EquipmentType.weapons,
       equipmentClass: EquipmentClass.weapon,
       size: Size.small,
@@ -9670,6 +9700,7 @@ export const Equipments = [
       version: 1,
       name: 'Rattlesnake Main Battery',
       description: 'No information available',
+      race: Races.split,
       type: EquipmentType.weapons,
       equipmentClass: EquipmentClass.weapon,
       size: Size.large,
@@ -9686,6 +9717,1246 @@ export const Equipments = [
                { ware: 'advancedelectronics', amount: 131 },
                { ware: 'energycells', amount: 29 },
                { ware: 'weaponcomponents', amount: 201 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'shield_ter_l_standard_01_mk1',
+      version: 2,
+      name: 'TER L Shield Generator Mk1',
+      description: 'No information available',
+      race: Races.terran,
+      type: EquipmentType.shields,
+      equipmentClass: EquipmentClass.shieldgenerator,
+      size: Size.large,
+      hull: 2000,
+      recharge: { max: 40786, rate: 173, delay: 0 },
+      price: { min: 101270, max: 123775, avg: 112523 },
+      owners: [ Factions.pioneers, Factions.terran ],
+      production: [
+         {
+            time: 20,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 3 },
+               { ware: 'energycells', amount: 500 },
+               { ware: 'metallicmicrolattice', amount: 55 },
+               { ware: 'siliconcarbide', amount: 8 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'shield_ter_l_standard_01_mk2',
+      version: 2,
+      name: 'TER L Shield Generator Mk2',
+      description: 'No information available',
+      race: Races.terran,
+      type: EquipmentType.shields,
+      equipmentClass: EquipmentClass.shieldgenerator,
+      size: Size.large,
+      hull: 2000,
+      recharge: { max: 48597, rate: 247, delay: 0 },
+      price: { min: 493645, max: 603344, avg: 548494 },
+      owners: [ Factions.pioneers, Factions.terran ],
+      production: [
+         {
+            time: 20,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 21 },
+               { ware: 'energycells', amount: 1000 },
+               { ware: 'metallicmicrolattice', amount: 152 },
+               { ware: 'siliconcarbide', amount: 22 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'shield_ter_l_standard_01_mk3',
+      version: 2,
+      name: 'TER L Shield Generator Mk3',
+      description: 'No information available',
+      race: Races.terran,
+      type: EquipmentType.shields,
+      equipmentClass: EquipmentClass.shieldgenerator,
+      size: Size.large,
+      hull: 2000,
+      recharge: { max: 69424, rate: 424, delay: 0 },
+      price: { min: 1295367, max: 1752556, avg: 1523962 },
+      owners: [ Factions.pioneers, Factions.terran ],
+      production: [
+         {
+            time: 20,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 61 },
+               { ware: 'energycells', amount: 1500 },
+               { ware: 'metallicmicrolattice', amount: 393 },
+               { ware: 'siliconcarbide', amount: 61 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'shield_ter_m_standard_01_mk1',
+      version: 2,
+      name: 'TER M Shield Generator Mk1',
+      description: 'No information available',
+      race: Races.terran,
+      type: EquipmentType.shields,
+      equipmentClass: EquipmentClass.shieldgenerator,
+      size: Size.medium,
+      hull: 500,
+      recharge: { max: 5405, rate: 29, delay: 0.47 },
+      price: { min: 30852, max: 37709, avg: 34281 },
+      owners: [ Factions.pioneers, Factions.terran ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 1 },
+               { ware: 'energycells', amount: 200 },
+               { ware: 'metallicmicrolattice', amount: 28 },
+               { ware: 'siliconcarbide', amount: 1 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'shield_ter_m_standard_01_mk2',
+      version: 2,
+      name: 'TER M Shield Generator Mk2',
+      description: 'No information available',
+      race: Races.terran,
+      type: EquipmentType.shields,
+      equipmentClass: EquipmentClass.shieldgenerator,
+      size: Size.medium,
+      hull: 500,
+      recharge: { max: 6439, rate: 45, delay: 0.47 },
+      price: { min: 149164, max: 182311, avg: 165737 },
+      owners: [ Factions.pioneers, Factions.terran ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 6 },
+               { ware: 'energycells', amount: 400 },
+               { ware: 'metallicmicrolattice', amount: 62 },
+               { ware: 'siliconcarbide', amount: 7 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'shield_ter_m_standard_01_mk3',
+      version: 2,
+      name: 'TER M Shield Generator Mk3',
+      description: 'No information available',
+      race: Races.terran,
+      type: EquipmentType.shields,
+      equipmentClass: EquipmentClass.shieldgenerator,
+      size: Size.medium,
+      hull: 500,
+      recharge: { max: 9199, rate: 77, delay: 0.47 },
+      price: { min: 673420, max: 911098, avg: 792259 },
+      owners: [ Factions.pioneers, Factions.terran ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 32 },
+               { ware: 'energycells', amount: 600 },
+               { ware: 'metallicmicrolattice', amount: 206 },
+               { ware: 'siliconcarbide', amount: 32 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'shield_ter_m_standard_02_mk1',
+      version: 2,
+      name: 'TER M Shield Generator Mk1',
+      description: 'No information available',
+      race: Races.terran,
+      type: EquipmentType.shields,
+      equipmentClass: EquipmentClass.shieldgenerator,
+      size: Size.medium,
+      hull: 500,
+      recharge: { max: 5405, rate: 29, delay: 0.47 },
+      price: { min: 30852, max: 37709, avg: 34281 },
+      owners: [ Factions.pioneers, Factions.terran ],
+      production: [
+         {
+            time: 20,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 1 },
+               { ware: 'energycells', amount: 200 },
+               { ware: 'metallicmicrolattice', amount: 28 },
+               { ware: 'siliconcarbide', amount: 1 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'shield_ter_m_standard_02_mk2',
+      version: 2,
+      name: 'TER M Shield Generator Mk2',
+      description: 'No information available',
+      race: Races.terran,
+      type: EquipmentType.shields,
+      equipmentClass: EquipmentClass.shieldgenerator,
+      size: Size.medium,
+      hull: 500,
+      recharge: { max: 6439, rate: 45, delay: 0.47 },
+      price: { min: 147892, max: 180757, avg: 164325 },
+      owners: [ Factions.pioneers, Factions.terran ],
+      production: [
+         {
+            time: 20,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 6 },
+               { ware: 'energycells', amount: 250 },
+               { ware: 'metallicmicrolattice', amount: 70 },
+               { ware: 'siliconcarbide', amount: 8 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'shield_ter_m_standard_02_mk3',
+      version: 2,
+      name: 'TER M Shield Generator Mk3',
+      description: 'No information available',
+      race: Races.terran,
+      type: EquipmentType.shields,
+      equipmentClass: EquipmentClass.shieldgenerator,
+      size: Size.medium,
+      hull: 500,
+      recharge: { max: 9199, rate: 77, delay: 0.47 },
+      price: { min: 673420, max: 911098, avg: 792259 },
+      owners: [ Factions.pioneers, Factions.terran ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 32 },
+               { ware: 'energycells', amount: 600 },
+               { ware: 'metallicmicrolattice', amount: 206 },
+               { ware: 'siliconcarbide', amount: 32 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'shield_ter_s_standard_01_mk1',
+      version: 2,
+      name: 'TER S Shield Generator Mk1',
+      description: 'No information available',
+      race: Races.terran,
+      type: EquipmentType.shields,
+      equipmentClass: EquipmentClass.shieldgenerator,
+      size: Size.small,
+      recharge: { max: 869, rate: 91, delay: 11.5 },
+      price: { min: 3014, max: 3684, avg: 3349 },
+      owners: [ Factions.pioneers, Factions.terran ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'energycells', amount: 50 },
+               { ware: 'metallicmicrolattice', amount: 12 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'shield_ter_s_standard_01_mk2',
+      version: 2,
+      name: 'TER S Shield Generator Mk2',
+      description: 'No information available',
+      race: Races.terran,
+      type: EquipmentType.shields,
+      equipmentClass: EquipmentClass.shieldgenerator,
+      size: Size.small,
+      recharge: { max: 1037, rate: 141, delay: 11.5 },
+      price: { min: 24519, max: 29968, avg: 27243 },
+      owners: [ Factions.pioneers, Factions.terran ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'energycells', amount: 100 },
+               { ware: 'metallicmicrolattice', amount: 54 },
+               { ware: 'siliconcarbide', amount: 5 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'shield_ter_s_standard_01_mk3',
+      version: 2,
+      name: 'TER S Shield Generator Mk3',
+      description: 'No information available',
+      race: Races.terran,
+      type: EquipmentType.shields,
+      equipmentClass: EquipmentClass.shieldgenerator,
+      size: Size.small,
+      recharge: { max: 1482, rate: 242, delay: 11.5 },
+      price: { min: 119811, max: 146436, avg: 133124 },
+      owners: [ Factions.pioneers, Factions.terran ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 5 },
+               { ware: 'energycells', amount: 200 },
+               { ware: 'metallicmicrolattice', amount: 48 },
+               { ware: 'siliconcarbide', amount: 6 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'shield_ter_xl_standard_01_mk1',
+      version: 2,
+      name: 'TER XL Shield Generator Mk1',
+      description: 'No information available',
+      race: Races.terran,
+      type: EquipmentType.shields,
+      equipmentClass: EquipmentClass.shieldgenerator,
+      size: Size.extralarge,
+      hull: 6000,
+      recharge: { max: 135955, rate: 544, delay: 0 },
+      price: { min: 541710, max: 662091, avg: 601900 },
+      owners: [ Factions.pioneers, Factions.terran ],
+      production: [
+         {
+            time: 20,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 23 },
+               { ware: 'energycells', amount: 1500 },
+               { ware: 'metallicmicrolattice', amount: 134 },
+               { ware: 'siliconcarbide', amount: 21 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'shield_ter_xl_standard_01_mk2',
+      version: 2,
+      name: 'TER XL Shield Generator Mk2',
+      description: 'No information available',
+      race: Races.terran,
+      type: EquipmentType.shields,
+      equipmentClass: EquipmentClass.shieldgenerator,
+      size: Size.extralarge,
+      hull: 8000,
+      recharge: { max: 161988, rate: 842, delay: 0 },
+      price: { min: 3060534, max: 4140723, avg: 3600629 },
+      owners: [ Factions.pioneers, Factions.terran ],
+      production: [
+         {
+            time: 20,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 150 },
+               { ware: 'energycells', amount: 2000 },
+               { ware: 'metallicmicrolattice', amount: 764 },
+               { ware: 'siliconcarbide', amount: 133 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'ship_ter_xs_police_01_a',
+      version: 2,
+      name: 'Terran Station Security Vessel',
+      description: 'No information available',
+      type: EquipmentType.drones,
+      equipmentClass: EquipmentClass.ship_xs,
+      hull: 300,
+      price: { min: 24676, max: 30160, avg: 27418 },
+      owners: [ Factions.pioneers, Factions.terran ],
+      production: [
+         {
+            time: 60,
+            amount: 1,
+            method: 'default',
+            name: 'Terran',
+            wares: [
+               { ware: 'energycells', amount: 50 },
+               { ware: 'metallicmicrolattice', amount: 2 },
+               { ware: 'siliconcarbide', amount: 2 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'turret_ter_l_beam_01_mk1',
+      version: 2,
+      name: 'TER L Beam Turret Mk1',
+      description: 'No information available',
+      race: Races.terran,
+      type: EquipmentType.turrets,
+      equipmentClass: EquipmentClass.turret,
+      size: Size.large,
+      hull: 3600,
+      price: { min: 325218, max: 397488, avg: 361353 },
+      owners: [ Factions.pioneers, Factions.terran ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 15 },
+               { ware: 'energycells', amount: 100 },
+               { ware: 'metallicmicrolattice', amount: 100 },
+               { ware: 'siliconcarbide', amount: 14 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'turret_ter_l_dumbfire_01_mk1',
+      version: 2,
+      name: 'TER L Dumbfire Turret Mk1',
+      description: 'No information available',
+      race: Races.terran,
+      type: EquipmentType.turrets,
+      equipmentClass: EquipmentClass.missileturret,
+      size: Size.large,
+      hull: 7800,
+      price: { min: 163005, max: 199229, avg: 181117 },
+      owners: [ Factions.pioneers, Factions.terran ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 7 },
+               { ware: 'energycells', amount: 100 },
+               { ware: 'metallicmicrolattice', amount: 64 },
+               { ware: 'siliconcarbide', amount: 9 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'turret_ter_l_gatling_01_mk1',
+      version: 2,
+      name: 'TER L Bolt Turret Mk1',
+      description: 'No information available',
+      race: Races.terran,
+      type: EquipmentType.turrets,
+      equipmentClass: EquipmentClass.turret,
+      size: Size.large,
+      hull: 3600,
+      price: { min: 157080, max: 212520, avg: 184800 },
+      owners: [ Factions.pioneers, Factions.terran ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 7 },
+               { ware: 'energycells', amount: 100 },
+               { ware: 'metallicmicrolattice', amount: 66 },
+               { ware: 'siliconcarbide', amount: 10 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'turret_ter_l_guided_01_mk1',
+      version: 2,
+      name: 'TER L Tracking Turret Mk1',
+      description: 'No information available',
+      race: Races.terran,
+      type: EquipmentType.turrets,
+      equipmentClass: EquipmentClass.missileturret,
+      size: Size.large,
+      hull: 7800,
+      price: { min: 187858, max: 229604, avg: 208731 },
+      owners: [ Factions.pioneers, Factions.terran ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 8 },
+               { ware: 'energycells', amount: 100 },
+               { ware: 'metallicmicrolattice', amount: 72 },
+               { ware: 'siliconcarbide', amount: 11 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'turret_ter_l_laser_01_mk1',
+      version: 2,
+      name: 'TER L Pulse Turret Mk1',
+      description: 'No information available',
+      race: Races.terran,
+      type: EquipmentType.turrets,
+      equipmentClass: EquipmentClass.turret,
+      size: Size.large,
+      hull: 3600,
+      price: { min: 125573, max: 153479, avg: 139526 },
+      owners: [ Factions.pioneers, Factions.terran ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 5 },
+               { ware: 'energycells', amount: 100 },
+               { ware: 'metallicmicrolattice', amount: 77 },
+               { ware: 'siliconcarbide', amount: 8 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'turret_ter_l_mining_01_mk1',
+      version: 2,
+      name: 'TER L Mining Turret Mk1',
+      description: 'No information available',
+      race: Races.terran,
+      type: EquipmentType.turrets,
+      equipmentClass: EquipmentClass.turret,
+      size: Size.large,
+      hull: 3600,
+      price: { min: 118070, max: 144308, avg: 131189 },
+      owners: [ Factions.pioneers, Factions.terran ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 5 },
+               { ware: 'energycells', amount: 100 },
+               { ware: 'metallicmicrolattice', amount: 64 },
+               { ware: 'siliconcarbide', amount: 6 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'turret_ter_m_beam_01_mk1',
+      version: 2,
+      name: 'TER M Beam Turret Mk1',
+      description: 'No information available',
+      race: Races.terran,
+      type: EquipmentType.turrets,
+      equipmentClass: EquipmentClass.turret,
+      size: Size.medium,
+      price: { min: 108959, max: 133172, avg: 121065 },
+      owners: [ Factions.terran ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 5 },
+               { ware: 'energycells', amount: 100 },
+               { ware: 'metallicmicrolattice', amount: 36 },
+               { ware: 'siliconcarbide', amount: 4 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'turret_ter_m_beam_02_mk1',
+      version: 2,
+      name: 'TER M Beam Turret Mk1',
+      description: 'No information available',
+      race: Races.terran,
+      type: EquipmentType.turrets,
+      equipmentClass: EquipmentClass.turret,
+      size: Size.medium,
+      hull: 800,
+      price: { min: 108959, max: 133172, avg: 121065 },
+      owners: [ Factions.terran ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 5 },
+               { ware: 'energycells', amount: 100 },
+               { ware: 'metallicmicrolattice', amount: 36 },
+               { ware: 'siliconcarbide', amount: 4 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'turret_ter_m_dumbfire_02_mk1',
+      version: 2,
+      name: 'TER M Dumbfire Turret Mk1',
+      description: 'No information available',
+      race: Races.terran,
+      type: EquipmentType.turrets,
+      equipmentClass: EquipmentClass.missileturret,
+      size: Size.medium,
+      hull: 1700,
+      price: { min: 54983, max: 67201, avg: 61092 },
+      owners: [ Factions.pioneers, Factions.terran ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 2 },
+               { ware: 'energycells', amount: 100 },
+               { ware: 'metallicmicrolattice', amount: 33 },
+               { ware: 'siliconcarbide', amount: 4 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'turret_ter_m_gatling_01_mk1',
+      version: 2,
+      name: 'TER M Bolt Turret Mk1',
+      description: 'No information available',
+      race: Races.terran,
+      type: EquipmentType.turrets,
+      equipmentClass: EquipmentClass.turret,
+      size: Size.medium,
+      price: { min: 59203, max: 72360, avg: 65782 },
+      owners: [ Factions.terran ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 2 },
+               { ware: 'energycells', amount: 50 },
+               { ware: 'metallicmicrolattice', amount: 60 },
+               { ware: 'siliconcarbide', amount: 5 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'turret_ter_m_gatling_02_mk1',
+      version: 2,
+      name: 'TER M Bolt Turret Mk1',
+      description: 'No information available',
+      race: Races.terran,
+      type: EquipmentType.turrets,
+      equipmentClass: EquipmentClass.turret,
+      size: Size.medium,
+      hull: 800,
+      price: { min: 54862, max: 67054, avg: 60958 },
+      owners: [ Factions.terran ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 2 },
+               { ware: 'energycells', amount: 50 },
+               { ware: 'metallicmicrolattice', amount: 48 },
+               { ware: 'siliconcarbide', amount: 4 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'turret_ter_m_guided_02_mk1',
+      version: 2,
+      name: 'TER M Tracking Turret Mk1',
+      description: 'No information available',
+      race: Races.terran,
+      type: EquipmentType.turrets,
+      equipmentClass: EquipmentClass.missileturret,
+      size: Size.medium,
+      hull: 1700,
+      price: { min: 63237, max: 77289, avg: 70263 },
+      owners: [ Factions.pioneers, Factions.terran ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 2 },
+               { ware: 'energycells', amount: 100 },
+               { ware: 'metallicmicrolattice', amount: 53 },
+               { ware: 'siliconcarbide', amount: 6 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'turret_ter_m_laser_01_mk1',
+      version: 2,
+      name: 'TER M Pulse Turret Mk1',
+      description: 'No information available',
+      race: Races.terran,
+      type: EquipmentType.turrets,
+      equipmentClass: EquipmentClass.turret,
+      size: Size.medium,
+      price: { min: 51378, max: 62796, avg: 57087 },
+      owners: [ Factions.pioneers, Factions.terran ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 2 },
+               { ware: 'energycells', amount: 50 },
+               { ware: 'metallicmicrolattice', amount: 44 },
+               { ware: 'siliconcarbide', amount: 3 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'turret_ter_m_laser_02_mk1',
+      version: 2,
+      name: 'TER M Pulse Turret Mk1',
+      description: 'No information available',
+      race: Races.terran,
+      type: EquipmentType.turrets,
+      equipmentClass: EquipmentClass.turret,
+      size: Size.medium,
+      hull: 800,
+      price: { min: 51378, max: 62796, avg: 57087 },
+      owners: [ Factions.pioneers, Factions.terran ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 2 },
+               { ware: 'energycells', amount: 50 },
+               { ware: 'metallicmicrolattice', amount: 44 },
+               { ware: 'siliconcarbide', amount: 3 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'turret_ter_m_mining_01_mk1',
+      version: 2,
+      name: 'TER M Mining Turret Mk1',
+      description: 'No information available',
+      race: Races.terran,
+      type: EquipmentType.turrets,
+      equipmentClass: EquipmentClass.turret,
+      size: Size.medium,
+      price: { min: 39497, max: 48274, avg: 43886 },
+      owners: [ Factions.pioneers, Factions.terran ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 1 },
+               { ware: 'energycells', amount: 50 },
+               { ware: 'metallicmicrolattice', amount: 43 },
+               { ware: 'siliconcarbide', amount: 5 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'turret_ter_m_mining_02_mk1',
+      version: 2,
+      name: 'TER M Mining Turret Mk1',
+      description: 'No information available',
+      race: Races.terran,
+      type: EquipmentType.turrets,
+      equipmentClass: EquipmentClass.turret,
+      size: Size.medium,
+      hull: 800,
+      price: { min: 39497, max: 48274, avg: 43886 },
+      owners: [ Factions.pioneers, Factions.terran ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 1 },
+               { ware: 'energycells', amount: 50 },
+               { ware: 'metallicmicrolattice', amount: 43 },
+               { ware: 'siliconcarbide', amount: 5 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'weapon_atf_xl_battleship_01_mk1',
+      version: 2,
+      name: 'ATF XL Main Battery',
+      description: 'No information available',
+      race: Races.terran,
+      type: EquipmentType.weapons,
+      equipmentClass: EquipmentClass.weapon,
+      size: Size.extralarge,
+      hull: 10000,
+      price: { min: 7888918, max: 9642011, avg: 8765465 },
+      owners: [ Factions.terran ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 373 },
+               { ware: 'energycells', amount: 1000 },
+               { ware: 'metallicmicrolattice', amount: 1862 },
+               { ware: 'siliconcarbide', amount: 322 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'weapon_clustermine_01',
+      version: 2,
+      name: 'Cluster Mine',
+      description: 'Cluster Mines are much like Friend/Foe Mines, but are used for area coverage. Instead of a single explosive device, deployment of a cluster package results in an array of such devices, each equipped with its own target detection and detonation mechanisms. The result is a deadly carpet of mines, which is hard to navigate through and even harder to disarm without the correct security codes.',
+      type: EquipmentType.weapons,
+      equipmentClass: EquipmentClass.mine,
+      explosionDamage: 200,
+      hull: 100,
+      price: { min: 5812, max: 7862, avg: 6838 },
+      owners: [ Factions.yaki ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'energycells', amount: 6 },
+               { ware: 'weaponcomponents', amount: 4 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'weapon_ter_l_destroyer_01_mk1',
+      version: 2,
+      name: 'Terran Main Battery',
+      description: 'No information available',
+      race: Races.terran,
+      type: EquipmentType.weapons,
+      equipmentClass: EquipmentClass.weapon,
+      size: Size.large,
+      hull: 8000,
+      price: { min: 2423602, max: 3278990, avg: 2851296 },
+      owners: [ Factions.pioneers, Factions.terran ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 123 },
+               { ware: 'energycells', amount: 200 },
+               { ware: 'metallicmicrolattice', amount: 500 },
+               { ware: 'siliconcarbide', amount: 100 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'weapon_ter_m_beam_01_mk1',
+      version: 2,
+      name: 'TER M Meson Stream Mk1',
+      description: 'No information available',
+      race: Races.terran,
+      type: EquipmentType.weapons,
+      equipmentClass: EquipmentClass.weapon,
+      size: Size.medium,
+      hull: 1000,
+      price: { min: 917470, max: 1241282, avg: 1079376 },
+      owners: [ Factions.terran ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 46 },
+               { ware: 'energycells', amount: 50 },
+               { ware: 'metallicmicrolattice', amount: 230 },
+               { ware: 'siliconcarbide', amount: 40 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'weapon_ter_m_beam_01_mk2',
+      version: 2,
+      name: 'TER M Meson Stream Mk2',
+      description: 'No information available',
+      race: Races.terran,
+      type: EquipmentType.weapons,
+      equipmentClass: EquipmentClass.weapon,
+      size: Size.medium,
+      hull: 1000,
+      price: { min: 2806681, max: 3797274, avg: 3301978 },
+      owners: [ Factions.terran ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 141 },
+               { ware: 'energycells', amount: 100 },
+               { ware: 'metallicmicrolattice', amount: 713 },
+               { ware: 'siliconcarbide', amount: 121 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'weapon_ter_m_gatling_01_mk1',
+      version: 2,
+      name: 'TER M Proton Barrage Mk1',
+      description: 'No information available',
+      race: Races.terran,
+      type: EquipmentType.weapons,
+      equipmentClass: EquipmentClass.weapon,
+      size: Size.medium,
+      hull: 1000,
+      price: { min: 54325, max: 73499, avg: 63912 },
+      owners: [ Factions.pioneers, Factions.terran ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 2 },
+               { ware: 'energycells', amount: 50 },
+               { ware: 'metallicmicrolattice', amount: 44 },
+               { ware: 'siliconcarbide', amount: 5 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'weapon_ter_m_gatling_01_mk2',
+      version: 2,
+      name: 'TER M Proton Barrage Mk2',
+      description: 'No information available',
+      race: Races.terran,
+      type: EquipmentType.weapons,
+      equipmentClass: EquipmentClass.weapon,
+      size: Size.medium,
+      hull: 1000,
+      price: { min: 270141, max: 365485, avg: 317813 },
+      owners: [ Factions.terran ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 13 },
+               { ware: 'energycells', amount: 100 },
+               { ware: 'metallicmicrolattice', amount: 96 },
+               { ware: 'siliconcarbide', amount: 13 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'weapon_ter_m_laser_01_mk1',
+      version: 2,
+      name: 'M Pulse Laser Mk1',
+      description: 'No information available',
+      race: Races.terran,
+      type: EquipmentType.weapons,
+      equipmentClass: EquipmentClass.weapon,
+      size: Size.medium,
+      hull: 1000,
+      price: { min: 47128, max: 63762, avg: 55445 },
+      owners: [ Factions.pioneers, Factions.terran ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 2 },
+               { ware: 'energycells', amount: 50 },
+               { ware: 'metallicmicrolattice', amount: 30 },
+               { ware: 'siliconcarbide', amount: 3 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'weapon_ter_m_laser_01_mk2',
+      version: 2,
+      name: 'M Pulse Laser Mk2',
+      description: 'No information available',
+      race: Races.terran,
+      type: EquipmentType.weapons,
+      equipmentClass: EquipmentClass.weapon,
+      size: Size.medium,
+      hull: 1000,
+      price: { min: 234216, max: 316881, avg: 275549 },
+      owners: [ Factions.pioneers, Factions.terran ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 11 },
+               { ware: 'energycells', amount: 100 },
+               { ware: 'metallicmicrolattice', amount: 75 },
+               { ware: 'siliconcarbide', amount: 13 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'weapon_ter_s_beam_01_mk1',
+      version: 2,
+      name: 'TER S Meson Stream Mk1',
+      description: 'No information available',
+      race: Races.terran,
+      type: EquipmentType.weapons,
+      equipmentClass: EquipmentClass.weapon,
+      size: Size.small,
+      hull: 500,
+      price: { min: 489788, max: 662654, avg: 576221 },
+      owners: [ Factions.terran ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 24 },
+               { ware: 'energycells', amount: 50 },
+               { ware: 'metallicmicrolattice', amount: 161 },
+               { ware: 'siliconcarbide', amount: 23 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'weapon_ter_s_beam_01_mk2',
+      version: 2,
+      name: 'TER S Meson Stream Mk2',
+      description: 'No information available',
+      race: Races.terran,
+      type: EquipmentType.weapons,
+      equipmentClass: EquipmentClass.weapon,
+      size: Size.small,
+      hull: 500,
+      price: { min: 2367396, max: 3202947, avg: 2785171 },
+      owners: [ Factions.terran ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 118 },
+               { ware: 'energycells', amount: 100 },
+               { ware: 'metallicmicrolattice', amount: 611 },
+               { ware: 'siliconcarbide', amount: 107 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'weapon_ter_s_gatling_01_mk1',
+      version: 2,
+      name: 'TER S Proton Barrage Mk1',
+      description: 'No information available',
+      race: Races.terran,
+      type: EquipmentType.weapons,
+      equipmentClass: EquipmentClass.weapon,
+      size: Size.small,
+      hull: 500,
+      price: { min: 97679, max: 132154, avg: 114917 },
+      owners: [ Factions.pioneers, Factions.terran ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 4 },
+               { ware: 'energycells', amount: 50 },
+               { ware: 'metallicmicrolattice', amount: 53 },
+               { ware: 'siliconcarbide', amount: 8 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'weapon_ter_s_gatling_01_mk2',
+      version: 2,
+      name: 'TER S Proton Barrage Mk2',
+      description: 'No information available',
+      race: Races.terran,
+      type: EquipmentType.weapons,
+      equipmentClass: EquipmentClass.weapon,
+      size: Size.small,
+      hull: 500,
+      price: { min: 486903, max: 658751, avg: 572827 },
+      owners: [ Factions.terran ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 24 },
+               { ware: 'energycells', amount: 100 },
+               { ware: 'metallicmicrolattice', amount: 145 },
+               { ware: 'siliconcarbide', amount: 22 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'weapon_ter_s_laser_01_mk1',
+      version: 2,
+      name: 'S Pulse Laser Mk1',
+      description: 'No information available',
+      race: Races.terran,
+      type: EquipmentType.weapons,
+      equipmentClass: EquipmentClass.weapon,
+      size: Size.small,
+      hull: 500,
+      price: { min: 36516, max: 49404, avg: 42960 },
+      owners: [ Factions.pioneers, Factions.terran ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 1 },
+               { ware: 'energycells', amount: 50 },
+               { ware: 'metallicmicrolattice', amount: 35 },
+               { ware: 'siliconcarbide', amount: 5 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'weapon_ter_s_laser_01_mk2',
+      version: 2,
+      name: 'S Pulse Laser Mk2',
+      description: 'No information available',
+      race: Races.terran,
+      type: EquipmentType.weapons,
+      equipmentClass: EquipmentClass.weapon,
+      size: Size.small,
+      hull: 500,
+      price: { min: 180862, max: 244696, avg: 212779 },
+      owners: [ Factions.pioneers, Factions.terran ],
+      production: [
+         {
+            time: 10,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 8 },
+               { ware: 'energycells', amount: 100 },
+               { ware: 'metallicmicrolattice', amount: 77 },
+               { ware: 'siliconcarbide', amount: 12 },
             ],
          },
       ]

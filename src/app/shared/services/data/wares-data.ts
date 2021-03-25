@@ -2,6 +2,7 @@
 import { WareGroups } from './ware-groups-data';
 import { TransportType } from './transport-data';
 import { Effects } from './effects-data';
+import { Factions } from './factions-data';
 
 export const Wares = {
    advancedcomposites: {
@@ -18,7 +19,7 @@ export const Wares = {
       production: [
          {
             time: 300,
-            amount: 60,
+            amount: 54,
             method: 'default',
             name: 'Universal',
             wares: [
@@ -27,12 +28,12 @@ export const Wares = {
                { ware: 'refinedmetals', amount: 80 },
             ],
             effects: [
-               { type: Effects.work, product: 0.2 },
+               { type: Effects.work, product: 0.34 },
             ],
          },
          {
             time: 300,
-            amount: 60,
+            amount: 54,
             method: 'teladi',
             name: 'Teladi',
             wares: [
@@ -41,7 +42,7 @@ export const Wares = {
                { ware: 'teladianium', amount: 58 },
             ],
             effects: [
-               { type: Effects.work, product: 0.2 },
+               { type: Effects.work, product: 0.34 },
             ],
          },
       ]
@@ -60,7 +61,7 @@ export const Wares = {
       production: [
          {
             time: 720,
-            amount: 60,
+            amount: 54,
             method: 'default',
             name: 'Universal',
             wares: [
@@ -69,7 +70,7 @@ export const Wares = {
                { ware: 'quantumtubes', amount: 20 },
             ],
             effects: [
-               { type: Effects.work, product: 0.22 },
+               { type: Effects.work, product: 0.36 },
             ],
          },
       ]
@@ -88,7 +89,7 @@ export const Wares = {
       production: [
          {
             time: 120,
-            amount: 110,
+            amount: 99,
             method: 'default',
             name: 'Universal',
             wares: [
@@ -96,7 +97,7 @@ export const Wares = {
                { ware: 'hydrogen', amount: 320 },
             ],
             effects: [
-               { type: Effects.work, product: 0.21 },
+               { type: Effects.work, product: 0.35 },
             ],
          },
       ]
@@ -115,7 +116,7 @@ export const Wares = {
       production: [
          {
             time: 300,
-            amount: 150,
+            amount: 133,
             method: 'default',
             name: 'Universal',
             wares: [
@@ -124,7 +125,7 @@ export const Wares = {
                { ware: 'microchips', amount: 30 },
             ],
             effects: [
-               { type: Effects.work, product: 0.23 },
+               { type: Effects.work, product: 0.39 },
             ],
          },
       ]
@@ -143,7 +144,7 @@ export const Wares = {
       production: [
          {
             time: 900,
-            amount: 120,
+            amount: 108,
             method: 'default',
             name: 'Universal',
             wares: [
@@ -153,7 +154,7 @@ export const Wares = {
                { ware: 'quantumtubes', amount: 100 },
             ],
             effects: [
-               { type: Effects.work, product: 0.2 },
+               { type: Effects.work, product: 0.34 },
             ],
          },
       ]
@@ -172,7 +173,7 @@ export const Wares = {
       production: [
          {
             time: 1200,
-            amount: 120,
+            amount: 105,
             method: 'default',
             name: 'Universal',
             wares: [
@@ -183,7 +184,7 @@ export const Wares = {
                { ware: 'scanningarrays', amount: 40 },
             ],
             effects: [
-               { type: Effects.work, product: 0.25 },
+               { type: Effects.work, product: 0.43 },
             ],
          },
       ]
@@ -202,13 +203,26 @@ export const Wares = {
       production: [
          {
             time: 60,
-            amount: 200,
+            amount: 175,
             method: 'default',
             name: 'Universal',
             wares: [
             ],
             effects: [
-               { type: Effects.work, product: 0.25 },
+               { type: Effects.sunlight, product: 1 },
+               { type: Effects.work, product: 0.43 },
+            ],
+         },
+         {
+            time: 60,
+            amount: 50,
+            method: 'terran',
+            name: 'Terran',
+            wares: [
+            ],
+            effects: [
+               { type: Effects.sunlight, product: 1 },
+               { type: Effects.work, product: 0.43 },
             ],
          },
       ]
@@ -227,7 +241,7 @@ export const Wares = {
       production: [
          {
             time: 900,
-            amount: 240,
+            amount: 208,
             method: 'default',
             name: 'Universal',
             wares: [
@@ -236,12 +250,12 @@ export const Wares = {
                { ware: 'refinedmetals', amount: 96 },
             ],
             effects: [
-               { type: Effects.work, product: 0.27 },
+               { type: Effects.work, product: 0.47 },
             ],
          },
          {
             time: 900,
-            amount: 240,
+            amount: 208,
             method: 'teladi',
             name: 'Teladi',
             wares: [
@@ -250,7 +264,7 @@ export const Wares = {
                { ware: 'teladianium', amount: 70 },
             ],
             effects: [
-               { type: Effects.work, product: 0.27 },
+               { type: Effects.work, product: 0.47 },
             ],
          },
       ]
@@ -269,7 +283,7 @@ export const Wares = {
       production: [
          {
             time: 600,
-            amount: 200,
+            amount: 175,
             method: 'default',
             name: 'Universal',
             wares: [
@@ -278,7 +292,7 @@ export const Wares = {
                { ware: 'quantumtubes', amount: 43 },
             ],
             effects: [
-               { type: Effects.work, product: 0.25 },
+               { type: Effects.work, product: 0.43 },
             ],
          },
       ]
@@ -297,17 +311,17 @@ export const Wares = {
       production: [
          {
             time: 240,
-            amount: 328,
+            amount: 460,
             method: 'default',
             name: 'Argon',
             wares: [
-               { ware: 'energycells', amount: 40 },
+               { ware: 'energycells', amount: 100 },
                { ware: 'meat', amount: 40 },
-               { ware: 'spices', amount: 20 },
+               { ware: 'spices', amount: 40 },
                { ware: 'wheat', amount: 40 },
             ],
             effects: [
-               { type: Effects.work, product: 0.25 },
+               { type: Effects.work, product: 0.35 },
             ],
          },
       ]
@@ -326,7 +340,7 @@ export const Wares = {
       production: [
          {
             time: 240,
-            amount: 110,
+            amount: 96,
             method: 'default',
             name: 'Universal',
             wares: [
@@ -334,7 +348,7 @@ export const Wares = {
                { ware: 'methane', amount: 320 },
             ],
             effects: [
-               { type: Effects.work, product: 0.27 },
+               { type: Effects.work, product: 0.46 },
             ],
          },
       ]
@@ -367,7 +381,7 @@ export const Wares = {
       production: [
          {
             time: 900,
-            amount: 330,
+            amount: 294,
             method: 'default',
             name: 'Universal',
             wares: [
@@ -376,12 +390,12 @@ export const Wares = {
                { ware: 'refinedmetals', amount: 280 },
             ],
             effects: [
-               { type: Effects.work, product: 0.22 },
+               { type: Effects.work, product: 0.37 },
             ],
          },
          {
             time: 900,
-            amount: 330,
+            amount: 294,
             method: 'teladi',
             name: 'Teladi',
             wares: [
@@ -390,7 +404,7 @@ export const Wares = {
                { ware: 'teladianium', amount: 204 },
             ],
             effects: [
-               { type: Effects.work, product: 0.22 },
+               { type: Effects.work, product: 0.37 },
             ],
          },
       ]
@@ -432,12 +446,13 @@ export const Wares = {
       icon: 'ware_majadust',
       volume: 6,
       transport: TransportType.container,
+      illegal: [ Factions.holyorder, Factions.paranid ],
       price: { min: 94, max: 323, avg: 208 },
       group: WareGroups.pharmaceutical,
       production: [
          {
             time: 600,
-            amount: 80,
+            amount: 64,
             method: 'default',
             name: 'Paranid',
             wares: [
@@ -446,7 +461,7 @@ export const Wares = {
                { ware: 'spices', amount: 60 },
             ],
             effects: [
-               { type: Effects.work, product: 0.4 },
+               { type: Effects.work, product: 0.75 },
             ],
          },
       ]
@@ -465,7 +480,7 @@ export const Wares = {
       production: [
          {
             time: 450,
-            amount: 174,
+            amount: 146,
             method: 'default',
             name: 'Paranid',
             wares: [
@@ -473,7 +488,7 @@ export const Wares = {
                { ware: 'water', amount: 100 },
             ],
             effects: [
-               { type: Effects.work, product: 0.33 },
+               { type: Effects.work, product: 0.59 },
             ],
          },
       ]
@@ -492,11 +507,11 @@ export const Wares = {
       production: [
          {
             time: 450,
-            amount: 220,
+            amount: 290,
             method: 'default',
             name: 'Argon',
             wares: [
-               { ware: 'energycells', amount: 40 },
+               { ware: 'energycells', amount: 80 },
                { ware: 'water', amount: 100 },
             ],
             effects: [
@@ -519,14 +534,14 @@ export const Wares = {
       production: [
          {
             time: 300,
-            amount: 120,
+            amount: 208,
             method: 'default',
             name: 'Argon',
             wares: [
-               { ware: 'energycells', amount: 40 },
-               { ware: 'spices', amount: 30 },
+               { ware: 'energycells', amount: 100 },
+               { ware: 'spices', amount: 40 },
                { ware: 'water', amount: 60 },
-               { ware: 'wheat', amount: 22 },
+               { ware: 'wheat', amount: 30 },
             ],
             effects: [
                { type: Effects.work, product: 0.28 },
@@ -534,13 +549,13 @@ export const Wares = {
          },
          {
             time: 300,
-            amount: 120,
+            amount: 208,
             method: 'paranid',
             name: 'Paranid',
             wares: [
-               { ware: 'energycells', amount: 40 },
+               { ware: 'energycells', amount: 100 },
                { ware: 'sojabeans', amount: 10 },
-               { ware: 'spices', amount: 30 },
+               { ware: 'spices', amount: 40 },
                { ware: 'water', amount: 60 },
             ],
             effects: [
@@ -549,13 +564,13 @@ export const Wares = {
          },
          {
             time: 300,
-            amount: 120,
+            amount: 208,
             method: 'teladi',
             name: 'Teladi',
             wares: [
-               { ware: 'energycells', amount: 40 },
-               { ware: 'spices', amount: 30 },
-               { ware: 'sunriseflowers', amount: 8 },
+               { ware: 'energycells', amount: 100 },
+               { ware: 'spices', amount: 40 },
+               { ware: 'sunriseflowers', amount: 12 },
                { ware: 'water', amount: 60 },
             ],
             effects: [
@@ -564,17 +579,31 @@ export const Wares = {
          },
          {
             time: 300,
-            amount: 120,
+            amount: 208,
             method: 'split',
             name: 'Split',
             wares: [
-               { ware: 'energycells', amount: 40 },
-               { ware: 'scruffinfruits', amount: 21 },
-               { ware: 'spices', amount: 30 },
+               { ware: 'energycells', amount: 100 },
+               { ware: 'scruffinfruits', amount: 30 },
+               { ware: 'spices', amount: 60 },
                { ware: 'water', amount: 60 },
             ],
             effects: [
                { type: Effects.work, product: 0.28 },
+            ],
+         },
+         {
+            time: 300,
+            amount: 140,
+            method: 'terran',
+            name: 'Terran',
+            wares: [
+               { ware: 'energycells', amount: 100 },
+               { ware: 'ice', amount: 50 },
+               { ware: 'proteinpaste', amount: 24 },
+            ],
+            effects: [
+               { type: Effects.work, product: 0.59 },
             ],
          },
       ]
@@ -607,7 +636,7 @@ export const Wares = {
       production: [
          {
             time: 600,
-            amount: 80,
+            amount: 72,
             method: 'default',
             name: 'Universal',
             wares: [
@@ -615,7 +644,7 @@ export const Wares = {
                { ware: 'siliconwafers', amount: 200 },
             ],
             effects: [
-               { type: Effects.work, product: 0.22 },
+               { type: Effects.work, product: 0.36 },
             ],
          },
       ]
@@ -634,7 +663,7 @@ export const Wares = {
       production: [
          {
             time: 900,
-            amount: 330,
+            amount: 281,
             method: 'default',
             name: 'Universal',
             wares: [
@@ -643,7 +672,7 @@ export const Wares = {
                { ware: 'hullparts', amount: 2 },
             ],
             effects: [
-               { type: Effects.work, product: 0.3 },
+               { type: Effects.work, product: 0.53 },
             ],
          },
       ]
@@ -676,14 +705,14 @@ export const Wares = {
       production: [
          {
             time: 300,
-            amount: 320,
+            amount: 500,
             method: 'default',
             name: 'Teladi',
             wares: [
-               { ware: 'energycells', amount: 40 },
-               { ware: 'spices', amount: 20 },
+               { ware: 'energycells', amount: 100 },
+               { ware: 'spices', amount: 40 },
                { ware: 'sunriseflowers', amount: 40 },
-               { ware: 'water', amount: 40 },
+               { ware: 'water', amount: 60 },
             ],
             effects: [
                { type: Effects.work, product: 0.2 },
@@ -719,7 +748,7 @@ export const Wares = {
       production: [
          {
             time: 900,
-            amount: 50,
+            amount: 44,
             method: 'default',
             name: 'Universal',
             wares: [
@@ -728,21 +757,7 @@ export const Wares = {
                { ware: 'superfluidcoolant', amount: 140 },
             ],
             effects: [
-               { type: Effects.work, product: 0.25 },
-            ],
-         },
-         {
-            time: 900,
-            amount: 50,
-            method: 'teladi',
-            name: 'Teladi',
-            wares: [
-               { ware: 'energycells', amount: 60 },
-               { ware: 'graphene', amount: 96 },
-               { ware: 'superfluidcoolant', amount: 140 },
-            ],
-            effects: [
-               { type: Effects.work, product: 0.25 },
+               { type: Effects.work, product: 0.43 },
             ],
          },
       ]
@@ -761,7 +776,7 @@ export const Wares = {
       production: [
          {
             time: 720,
-            amount: 110,
+            amount: 94,
             method: 'default',
             name: 'Universal',
             wares: [
@@ -770,21 +785,7 @@ export const Wares = {
                { ware: 'superfluidcoolant', amount: 30 },
             ],
             effects: [
-               { type: Effects.work, product: 0.3 },
-            ],
-         },
-         {
-            time: 720,
-            amount: 110,
-            method: 'teladi',
-            name: 'Teladi',
-            wares: [
-               { ware: 'energycells', amount: 40 },
-               { ware: 'graphene', amount: 116 },
-               { ware: 'superfluidcoolant', amount: 30 },
-            ],
-            effects: [
-               { type: Effects.work, product: 0.3 },
+               { type: Effects.work, product: 0.53 },
             ],
          },
       ]
@@ -803,7 +804,7 @@ export const Wares = {
       production: [
          {
             time: 150,
-            amount: 100,
+            amount: 88,
             method: 'default',
             name: 'Universal',
             wares: [
@@ -811,7 +812,7 @@ export const Wares = {
                { ware: 'ore', amount: 240 },
             ],
             effects: [
-               { type: Effects.work, product: 0.25 },
+               { type: Effects.work, product: 0.43 },
             ],
          },
       ]
@@ -830,7 +831,7 @@ export const Wares = {
       production: [
          {
             time: 600,
-            amount: 40,
+            amount: 36,
             method: 'default',
             name: 'Universal',
             wares: [
@@ -839,12 +840,12 @@ export const Wares = {
                { ware: 'siliconwafers', amount: 60 },
             ],
             effects: [
-               { type: Effects.work, product: 0.24 },
+               { type: Effects.work, product: 0.38 },
             ],
          },
          {
             time: 600,
-            amount: 40,
+            amount: 36,
             method: 'teladi',
             name: 'Teladi',
             wares: [
@@ -853,7 +854,7 @@ export const Wares = {
                { ware: 'teladianium', amount: 73 },
             ],
             effects: [
-               { type: Effects.work, product: 0.24 },
+               { type: Effects.work, product: 0.38 },
             ],
          },
       ]
@@ -872,7 +873,7 @@ export const Wares = {
       production: [
          {
             time: 1200,
-            amount: 220,
+            amount: 193,
             method: 'default',
             name: 'Universal',
             wares: [
@@ -881,7 +882,7 @@ export const Wares = {
                { ware: 'quantumtubes', amount: 20 },
             ],
             effects: [
-               { type: Effects.work, product: 0.25 },
+               { type: Effects.work, product: 0.43 },
             ],
          },
       ]
@@ -914,7 +915,7 @@ export const Wares = {
       production: [
          {
             time: 180,
-            amount: 120,
+            amount: 107,
             method: 'default',
             name: 'Universal',
             wares: [
@@ -922,7 +923,7 @@ export const Wares = {
                { ware: 'silicon', amount: 240 },
             ],
             effects: [
-               { type: Effects.work, product: 0.22 },
+               { type: Effects.work, product: 0.37 },
             ],
          },
       ]
@@ -941,7 +942,7 @@ export const Wares = {
       production: [
          {
             time: 600,
-            amount: 160,
+            amount: 143,
             method: 'default',
             name: 'Universal',
             wares: [
@@ -949,7 +950,7 @@ export const Wares = {
                { ware: 'siliconwafers', amount: 20 },
             ],
             effects: [
-               { type: Effects.work, product: 0.22 },
+               { type: Effects.work, product: 0.37 },
             ],
          },
       ]
@@ -968,7 +969,7 @@ export const Wares = {
       production: [
          {
             time: 300,
-            amount: 120,
+            amount: 104,
             method: 'default',
             name: 'Paranid',
             wares: [
@@ -976,7 +977,7 @@ export const Wares = {
                { ware: 'water', amount: 80 },
             ],
             effects: [
-               { type: Effects.work, product: 0.28 },
+               { type: Effects.work, product: 0.48 },
             ],
          },
       ]
@@ -995,17 +996,17 @@ export const Wares = {
       production: [
          {
             time: 300,
-            amount: 320,
+            amount: 350,
             method: 'default',
             name: 'Paranid',
             wares: [
-               { ware: 'energycells', amount: 40 },
-               { ware: 'majasnails', amount: 40 },
+               { ware: 'energycells', amount: 80 },
+               { ware: 'majasnails', amount: 50 },
                { ware: 'sojabeans', amount: 40 },
                { ware: 'spices', amount: 20 },
             ],
             effects: [
-               { type: Effects.work, product: 0.22 },
+               { type: Effects.work, product: 0.37 },
             ],
          },
       ]
@@ -1019,12 +1020,13 @@ export const Wares = {
       icon: 'ware_spacefuel',
       volume: 2,
       transport: TransportType.container,
+      illegal: [ Factions.antigone, Factions.argon, Factions.pioneers, Factions.terran ],
       price: { min: 60, max: 207, avg: 133 },
       group: WareGroups.pharmaceutical,
       production: [
          {
             time: 480,
-            amount: 120,
+            amount: 98,
             method: 'default',
             name: 'Argon',
             wares: [
@@ -1033,7 +1035,7 @@ export const Wares = {
                { ware: 'wheat', amount: 80 },
             ],
             effects: [
-               { type: Effects.work, product: 0.38 },
+               { type: Effects.work, product: 0.69 },
             ],
          },
       ]
@@ -1047,12 +1049,13 @@ export const Wares = {
       icon: 'ware_spaceweed',
       volume: 3,
       transport: TransportType.container,
+      illegal: [ Factions.antigone, Factions.argon, Factions.holyorder, Factions.paranid, Factions.terran ],
       price: { min: 75, max: 257, avg: 166 },
       group: WareGroups.pharmaceutical,
       production: [
          {
             time: 600,
-            amount: 225,
+            amount: 183,
             method: 'default',
             name: 'Teladi',
             wares: [
@@ -1061,7 +1064,7 @@ export const Wares = {
                { ware: 'swampplant', amount: 120 },
             ],
             effects: [
-               { type: Effects.work, product: 0.38 },
+               { type: Effects.work, product: 0.7 },
             ],
          },
       ]
@@ -1080,7 +1083,7 @@ export const Wares = {
       production: [
          {
             time: 600,
-            amount: 480,
+            amount: 500,
             method: 'default',
             name: 'Universal',
             wares: [
@@ -1134,7 +1137,7 @@ export const Wares = {
       production: [
          {
             time: 240,
-            amount: 110,
+            amount: 95,
             method: 'default',
             name: 'Universal',
             wares: [
@@ -1142,7 +1145,7 @@ export const Wares = {
                { ware: 'helium', amount: 320 },
             ],
             effects: [
-               { type: Effects.work, product: 0.28 },
+               { type: Effects.work, product: 0.49 },
             ],
          },
       ]
@@ -1169,7 +1172,7 @@ export const Wares = {
                { ware: 'water', amount: 100 },
             ],
             effects: [
-               { type: Effects.work, product: 0.33 },
+               { type: Effects.work, product: 0.59 },
             ],
          },
       ]
@@ -1188,7 +1191,7 @@ export const Wares = {
       production: [
          {
             time: 120,
-            amount: 80,
+            amount: 70,
             method: 'default',
             name: 'Teladi',
             wares: [
@@ -1196,7 +1199,7 @@ export const Wares = {
                { ware: 'ore', amount: 280 },
             ],
             effects: [
-               { type: Effects.work, product: 0.25 },
+               { type: Effects.work, product: 0.43 },
             ],
          },
       ]
@@ -1215,7 +1218,7 @@ export const Wares = {
       production: [
          {
             time: 1800,
-            amount: 200,
+            amount: 170,
             method: 'default',
             name: 'Universal',
             wares: [
@@ -1225,7 +1228,7 @@ export const Wares = {
                { ware: 'scanningarrays', amount: 10 },
             ],
             effects: [
-               { type: Effects.work, product: 0.3 },
+               { type: Effects.work, product: 0.53 },
             ],
          },
       ]
@@ -1244,7 +1247,7 @@ export const Wares = {
       production: [
          {
             time: 120,
-            amount: 220,
+            amount: 193,
             method: 'default',
             name: 'Universal',
             wares: [
@@ -1252,7 +1255,7 @@ export const Wares = {
                { ware: 'ice', amount: 320 },
             ],
             effects: [
-               { type: Effects.work, product: 0.25 },
+               { type: Effects.work, product: 0.43 },
             ],
          },
       ]
@@ -1271,7 +1274,7 @@ export const Wares = {
       production: [
          {
             time: 1800,
-            amount: 200,
+            amount: 170,
             method: 'default',
             name: 'Universal',
             wares: [
@@ -1280,7 +1283,7 @@ export const Wares = {
                { ware: 'plasmaconductors', amount: 30 },
             ],
             effects: [
-               { type: Effects.work, product: 0.3 },
+               { type: Effects.work, product: 0.53 },
             ],
          },
       ]
@@ -1299,11 +1302,11 @@ export const Wares = {
       production: [
          {
             time: 300,
-            amount: 270,
+            amount: 310,
             method: 'default',
             name: 'Argon',
             wares: [
-               { ware: 'energycells', amount: 30 },
+               { ware: 'energycells', amount: 60 },
                { ware: 'water', amount: 80 },
             ],
             effects: [
@@ -1326,7 +1329,7 @@ export const Wares = {
       production: [
          {
             time: 450,
-            amount: 250,
+            amount: 209,
             method: 'default',
             name: 'Split',
             wares: [
@@ -1334,7 +1337,7 @@ export const Wares = {
                { ware: 'water', amount: 120 },
             ],
             effects: [
-               { type: Effects.work, product: 0.33 },
+               { type: Effects.work, product: 0.6 },
             ],
          },
       ]
@@ -1343,7 +1346,7 @@ export const Wares = {
       id: 'scruffinfruits',
       version: 1,
       name: 'Scruffin Fruit',
-      description: 'Scruffin are fruit similar to sweet potatoes. They are grown by Split farmers in large, open fields on a number of planets, as well as in space aboard large installations known as Scruffin Farms. Scruffin flesh is  a versatile foodstuff that, when processed, provides the basis of  a number of Split food types. Although Scruffin are traded both inside and outside Split territory, they are mainly in demand in areas where Split workers are in abundance.',
+      description: 'Scruffin are fruit similar to sweet potatoes. They are grown by Split farmers in large, open fields on a number of planets, as well as in space aboard large installations known as Scruffin Farms. Scruffin flesh is  a versatile foodstuff that, when processed, provides the basis of a number of Split food types. Although Scruffin are traded both inside and outside Split territory, they are mainly in demand in areas where Split workers are in abundance.',
       factoryName: 'Scruffin Farm',
       icon: 'ware_scruffinfruit',
       volume: 6,
@@ -1353,7 +1356,7 @@ export const Wares = {
       production: [
          {
             time: 300,
-            amount: 300,
+            amount: 255,
             method: 'default',
             name: 'Split',
             wares: [
@@ -1361,7 +1364,177 @@ export const Wares = {
                { ware: 'water', amount: 80 },
             ],
             effects: [
+               { type: Effects.work, product: 0.53 },
+            ],
+         },
+      ]
+   },
+   computronicsubstrate: {
+      id: 'computronicsubstrate',
+      version: 2,
+      name: 'Computronic Substrate',
+      description: 'Computronic Substrate is the advanced Terran version of programmable matter. The "atoms" forming the Substrate can mimic virtually all other elements and particles, natural or artificial. This incredible feat, and its wide-spread application, is what makes modern Terran station and ship designs possible.',
+      factoryName: 'Computronic Substrate Fab',
+      icon: 'ware_computronicsubstrate',
+      volume: 50,
+      transport: TransportType.container,
+      price: { min: 7452, max: 9108, avg: 8280 },
+      group: WareGroups.hightech,
+      production: [
+         {
+            time: 600,
+            amount: 98,
+            method: 'default',
+            name: 'Terran',
+            wares: [
+               { ware: 'energycells', amount: 4000 },
+               { ware: 'hydrogen', amount: 2000 },
+               { ware: 'ore', amount: 3000 },
+               { ware: 'silicon', amount: 3000 },
+            ],
+            effects: [
+               { type: Effects.work, product: 0.1 },
+            ],
+         },
+      ]
+   },
+   metallicmicrolattice: {
+      id: 'metallicmicrolattice',
+      version: 2,
+      name: 'Metallic Microlattice',
+      description: 'A metallic microlattice is a synthetic porous metallic material consisting of an ultra-light metal foam. One of the many uses of microlattices is in the production of extremely lightweight and efficient structures for structural reinforcement and heat transfer in high-performance vehicles.',
+      factoryName: 'Microlattice Factory',
+      icon: 'ware_metallicmicrolattice',
+      volume: 1,
+      transport: TransportType.container,
+      price: { min: 42, max: 57, avg: 50 },
+      group: WareGroups.hightech,
+      production: [
+         {
+            time: 180,
+            amount: 190,
+            method: 'default',
+            name: 'Terran',
+            wares: [
+               { ware: 'energycells', amount: 50 },
+               { ware: 'helium', amount: 130 },
+               { ware: 'ore', amount: 50 },
+            ],
+            effects: [
+               { type: Effects.work, product: 0.2 },
+            ],
+         },
+      ]
+   },
+   proteinpaste: {
+      id: 'proteinpaste',
+      version: 2,
+      name: 'Protein Paste',
+      description: 'Protein Paste is a concentrated blend of meat and vegetable proteins used to produce specialised food products.',
+      factoryName: 'Protein Processing Plant',
+      icon: 'ware_proteinpaste',
+      volume: 4,
+      transport: TransportType.container,
+      price: { min: 57, max: 134, avg: 96 },
+      group: WareGroups.agricultural,
+      production: [
+         {
+            time: 300,
+            amount: 219,
+            method: 'default',
+            name: 'Terran',
+            wares: [
+               { ware: 'energycells', amount: 80 },
+               { ware: 'ice', amount: 80 },
+               { ware: 'methane', amount: 200 },
+            ],
+            effects: [
                { type: Effects.work, product: 0.3 },
+            ],
+         },
+      ]
+   },
+   siliconcarbide: {
+      id: 'siliconcarbide',
+      version: 2,
+      name: 'Silicon Carbide',
+      description: 'Silicon Carbide is a semiconductor containing silicon and carbon. It can be used to form very hard ceramics that are widely used in applications requiring high endurance. Its electrical properties make the material suitable for dealing with high temperatures and voltages. Consequently Silicon Carbide is a key component in the manufacture of equipment such as ship engines or weapons.',
+      factoryName: 'Silicon Carbide Mill',
+      icon: 'ware_siliconcarbide',
+      volume: 20,
+      transport: TransportType.container,
+      price: { min: 1202, max: 1627, avg: 1414 },
+      group: WareGroups.hightech,
+      production: [
+         {
+            time: 300,
+            amount: 48,
+            method: 'default',
+            name: 'Terran',
+            wares: [
+               { ware: 'energycells', amount: 200 },
+               { ware: 'metallicmicrolattice', amount: 2 },
+               { ware: 'methane', amount: 400 },
+               { ware: 'silicon', amount: 300 },
+            ],
+            effects: [
+               { type: Effects.work, product: 0.2 },
+            ],
+         },
+      ]
+   },
+   stimulants: {
+      id: 'stimulants',
+      version: 2,
+      name: 'Stimulants',
+      description: 'The term Stimulants has evolved to refer to the type of drugs that increase activity of the central nervous system and the body. The manufacture, distribution and use of Stimulants is considered illegal by the Terran government. However, there are persistent rumours that they are regularly used for specific military purposes, such as enhancing the combat performance of pilots.',
+      factoryName: 'Stimulants Lab',
+      icon: 'ware_stimulants',
+      volume: 12,
+      transport: TransportType.container,
+      illegal: [ Factions.terran ],
+      price: { min: 153, max: 527, avg: 340 },
+      group: WareGroups.pharmaceutical,
+      production: [
+         {
+            time: 300,
+            amount: 98,
+            method: 'default',
+            name: 'Terran',
+            wares: [
+               { ware: 'energycells', amount: 80 },
+               { ware: 'helium', amount: 400 },
+               { ware: 'silicon', amount: 20 },
+            ],
+            effects: [
+               { type: Effects.work, product: 0.65 },
+            ],
+         },
+      ]
+   },
+   terranmre: {
+      id: 'terranmre',
+      version: 2,
+      name: 'Terran MRE',
+      description: 'The MRE, Meal-Ready-to-Eat, was first invented on Earth in the 20th Century. Since that time the food that comprises it has developed and is more nutritious. These prehydrated meals require no preparation and are self-heating as required.',
+      factoryName: 'MRE Packing Facility',
+      icon: 'ware_terranmre',
+      volume: 2,
+      transport: TransportType.container,
+      price: { min: 32, max: 75, avg: 54 },
+      group: WareGroups.food,
+      production: [
+         {
+            time: 240,
+            amount: 175,
+            method: 'default',
+            name: 'Terran',
+            wares: [
+               { ware: 'energycells', amount: 60 },
+               { ware: 'proteinpaste', amount: 60 },
+            ],
+            effects: [
+               { type: Effects.work, product: 0.42 },
             ],
          },
       ]
@@ -1417,4 +1590,10 @@ export const AllWares = [
    Wares.wheat,
    Wares.cheltmeat,
    Wares.scruffinfruits,
+   Wares.computronicsubstrate,
+   Wares.metallicmicrolattice,
+   Wares.proteinpaste,
+   Wares.siliconcarbide,
+   Wares.stimulants,
+   Wares.terranmre,
 ];

@@ -69,6 +69,7 @@ export const Ships = [
       ],
       owners: [
          Factions.argon,
+         Factions.buccaneers,
          Factions.hatikvah,
          Factions.scaleplate,
       ],
@@ -147,6 +148,7 @@ export const Ships = [
       ],
       owners: [
          Factions.antigone,
+         Factions.buccaneers,
       ],
       price: { min: 4795063, max: 6487438, avg: 5641250 },
       production: [
@@ -211,6 +213,7 @@ export const Ships = [
       ],
       owners: [
          Factions.argon,
+         Factions.buccaneers,
          Factions.hatikvah,
       ],
       price: { min: 1111460, max: 1503740, avg: 1307600 },
@@ -276,6 +279,7 @@ export const Ships = [
       ],
       owners: [
          Factions.antigone,
+         Factions.buccaneers,
          Factions.hatikvah,
       ],
       price: { min: 1350914, max: 1827707, avg: 1589310 },
@@ -344,6 +348,7 @@ export const Ships = [
       ],
       owners: [
          Factions.argon,
+         Factions.buccaneers,
          Factions.hatikvah,
       ],
       price: { min: 1108727, max: 1500043, avg: 1304385 },
@@ -412,6 +417,7 @@ export const Ships = [
       ],
       owners: [
          Factions.antigone,
+         Factions.buccaneers,
          Factions.hatikvah,
       ],
       price: { min: 1348181, max: 1824009, avg: 1586095 },
@@ -476,6 +482,7 @@ export const Ships = [
       ],
       owners: [
          Factions.argon,
+         Factions.buccaneers,
       ],
       price: { min: 2605841, max: 3525549, avg: 3065695 },
       production: [
@@ -539,6 +546,7 @@ export const Ships = [
       ],
       owners: [
          Factions.antigone,
+         Factions.buccaneers,
       ],
       price: { min: 3140563, max: 4248997, avg: 3694780 },
       production: [
@@ -602,6 +610,7 @@ export const Ships = [
       ],
       owners: [
          Factions.argon,
+         Factions.buccaneers,
       ],
       price: { min: 2705448, max: 3660312, avg: 3182880 },
       production: [
@@ -665,6 +674,7 @@ export const Ships = [
       ],
       owners: [
          Factions.antigone,
+         Factions.buccaneers,
       ],
       price: { min: 3251101, max: 4398549, avg: 3824825 },
       production: [
@@ -728,6 +738,7 @@ export const Ships = [
       ],
       owners: [
          Factions.argon,
+         Factions.buccaneers,
       ],
       price: { min: 2632348, max: 3561412, avg: 3096880 },
       production: [
@@ -791,6 +802,7 @@ export const Ships = [
       ],
       owners: [
          Factions.antigone,
+         Factions.buccaneers,
       ],
       price: { min: 4249222, max: 5748948, avg: 4999085 },
       production: [
@@ -860,6 +872,7 @@ export const Ships = [
       ],
       owners: [
          Factions.argon,
+         Factions.buccaneers,
       ],
       price: { min: 3842459, max: 5198621, avg: 4520540 },
       production: [
@@ -929,6 +942,7 @@ export const Ships = [
       ],
       owners: [
          Factions.antigone,
+         Factions.buccaneers,
       ],
       price: { min: 4614858, max: 6243632, avg: 5429245 },
       production: [
@@ -998,6 +1012,7 @@ export const Ships = [
       ],
       owners: [
          Factions.argon,
+         Factions.buccaneers,
       ],
       price: { min: 3049154, max: 4125326, avg: 3587240 },
       production: [
@@ -1067,6 +1082,7 @@ export const Ships = [
       ],
       owners: [
          Factions.antigone,
+         Factions.buccaneers,
       ],
       price: { min: 3650555, max: 4938986, avg: 4294770 },
       production: [
@@ -1124,6 +1140,7 @@ export const Ships = [
       ],
       owners: [
          Factions.argon,
+         Factions.buccaneers,
       ],
       price: { min: 637993, max: 863167, avg: 750580 },
       production: [
@@ -1181,6 +1198,7 @@ export const Ships = [
       ],
       owners: [
          Factions.antigone,
+         Factions.buccaneers,
       ],
       price: { min: 755166, max: 1021695, avg: 888430 },
       production: [
@@ -1279,8 +1297,8 @@ export const Ships = [
          { size: Size.medium, hittable: false },
       ],
       weapons: [
-         { size: Size.medium, hittable: false, types: [ TurretType.standard, TurretType.missile, TurretType.mining ] },
-         { size: Size.medium, hittable: false, types: [ TurretType.standard, TurretType.missile, TurretType.mining ] },
+         { size: Size.medium, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+         { size: Size.medium, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
       ],
       turrets: [
          { size: Size.medium, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
@@ -1297,6 +1315,7 @@ export const Ships = [
       ],
       owners: [
          Factions.argon,
+         Factions.buccaneers,
       ],
       price: { min: 819115, max: 1108215, avg: 963665 },
       production: [
@@ -1339,8 +1358,8 @@ export const Ships = [
          { size: Size.medium, hittable: false },
       ],
       weapons: [
-         { size: Size.medium, hittable: false, types: [ TurretType.standard, TurretType.missile, TurretType.mining ] },
-         { size: Size.medium, hittable: false, types: [ TurretType.standard, TurretType.missile, TurretType.mining ] },
+         { size: Size.medium, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+         { size: Size.medium, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
       ],
       turrets: [
          { size: Size.medium, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
@@ -1357,6 +1376,7 @@ export const Ships = [
       ],
       owners: [
          Factions.antigone,
+         Factions.buccaneers,
       ],
       price: { min: 973250, max: 1316750, avg: 1145000 },
       production: [
@@ -1407,6 +1427,7 @@ export const Ships = [
       ],
       owners: [
          Factions.argon,
+         Factions.buccaneers,
          Factions.hatikvah,
       ],
       price: { min: 108413, max: 146677, avg: 127545 },
@@ -1458,6 +1479,7 @@ export const Ships = [
       ],
       owners: [
          Factions.antigone,
+         Factions.buccaneers,
          Factions.hatikvah,
       ],
       price: { min: 137173, max: 185587, avg: 161380 },
@@ -1512,6 +1534,7 @@ export const Ships = [
       ],
       owners: [
          Factions.argon,
+         Factions.buccaneers,
          Factions.hatikvah,
       ],
       price: { min: 112170, max: 151760, avg: 131965 },
@@ -1566,6 +1589,7 @@ export const Ships = [
       ],
       owners: [
          Factions.antigone,
+         Factions.buccaneers,
          Factions.hatikvah,
       ],
       price: { min: 132528, max: 179302, avg: 155915 },
@@ -1618,6 +1642,7 @@ export const Ships = [
       owners: [
          Factions.alliance,
          Factions.argon,
+         Factions.buccaneers,
       ],
       price: { min: 147352, max: 199358, avg: 173355 },
       production: [
@@ -1668,6 +1693,7 @@ export const Ships = [
       ],
       owners: [
          Factions.antigone,
+         Factions.buccaneers,
       ],
       price: { min: 177000, max: 239470, avg: 208235 },
       production: [
@@ -1719,6 +1745,7 @@ export const Ships = [
       owners: [
          Factions.alliance,
          Factions.argon,
+         Factions.buccaneers,
       ],
       price: { min: 147352, max: 199358, avg: 173355 },
       production: [
@@ -1769,6 +1796,7 @@ export const Ships = [
       ],
       owners: [
          Factions.antigone,
+         Factions.buccaneers,
       ],
       price: { min: 177000, max: 239470, avg: 208235 },
       production: [
@@ -1819,6 +1847,7 @@ export const Ships = [
       ],
       owners: [
          Factions.argon,
+         Factions.buccaneers,
       ],
       price: { min: 112175, max: 151766, avg: 131970 },
       production: [
@@ -1869,6 +1898,7 @@ export const Ships = [
       ],
       owners: [
          Factions.antigone,
+         Factions.buccaneers,
       ],
       price: { min: 136085, max: 184115, avg: 160100 },
       production: [
@@ -1896,7 +1926,7 @@ export const Ships = [
       people: 2,
       purpose: ShipPurpose.fight,
       thruster: Size.small,
-      type: ShipType.interceptor,
+      type: ShipType.fighter,
       mass: 3.772,
       inertia: { pitch: 0.451, yaw: 0.451, roll: 0.361 },
       drag: { forward: 2.193, reverse: 8.772, horizontal: 3.381, vertical: 3.381, pitch: 2.585, yaw: 2.585, roll: 2.585 },
@@ -1918,6 +1948,7 @@ export const Ships = [
       owners: [
          Factions.alliance,
          Factions.argon,
+         Factions.buccaneers,
       ],
       price: { min: 65242, max: 88268, avg: 76755 },
       production: [
@@ -1945,7 +1976,7 @@ export const Ships = [
       people: 1,
       purpose: ShipPurpose.fight,
       thruster: Size.small,
-      type: ShipType.interceptor,
+      type: ShipType.fighter,
       mass: 4.526,
       inertia: { pitch: 0.492, yaw: 0.492, roll: 0.393 },
       drag: { forward: 2.382, reverse: 9.526, horizontal: 4.057, vertical: 4.057, pitch: 2.821, yaw: 2.821, roll: 2.821 },
@@ -1966,6 +1997,7 @@ export const Ships = [
       ],
       owners: [
          Factions.antigone,
+         Factions.buccaneers,
       ],
       price: { min: 79042, max: 106939, avg: 92990 },
       production: [
@@ -2021,6 +2053,7 @@ export const Ships = [
       ],
       owners: [
          Factions.antigone,
+         Factions.buccaneers,
       ],
       price: { min: 96530, max: 130600, avg: 113565 },
       production: [
@@ -2073,6 +2106,7 @@ export const Ships = [
       ],
       owners: [
          Factions.argon,
+         Factions.buccaneers,
       ],
       price: { min: 85463, max: 115627, avg: 100545 },
       production: [
@@ -2126,6 +2160,7 @@ export const Ships = [
       ],
       owners: [
          Factions.argon,
+         Factions.buccaneers,
       ],
       price: { min: 144283, max: 195207, avg: 169745 },
       production: [
@@ -2177,6 +2212,7 @@ export const Ships = [
       owners: [
          Factions.antigone,
          Factions.argon,
+         Factions.buccaneers,
          Factions.hatikvah,
       ],
       price: { min: 70775, max: 95755, avg: 83265 },
@@ -2229,6 +2265,7 @@ export const Ships = [
       owners: [
          Factions.alliance,
          Factions.argon,
+         Factions.buccaneers,
          Factions.hatikvah,
          Factions.scaleplate,
       ],
@@ -2281,6 +2318,7 @@ export const Ships = [
       ],
       owners: [
          Factions.antigone,
+         Factions.buccaneers,
          Factions.hatikvah,
          Factions.scaleplate,
       ],
@@ -2334,6 +2372,7 @@ export const Ships = [
       owners: [
          Factions.alliance,
          Factions.argon,
+         Factions.buccaneers,
          Factions.scaleplate,
       ],
       price: { min: 132396, max: 179124, avg: 155760 },
@@ -2385,6 +2424,7 @@ export const Ships = [
       ],
       owners: [
          Factions.antigone,
+         Factions.buccaneers,
          Factions.scaleplate,
       ],
       price: { min: 158083, max: 213877, avg: 185980 },
@@ -2437,6 +2477,7 @@ export const Ships = [
       owners: [
          Factions.alliance,
          Factions.argon,
+         Factions.buccaneers,
          Factions.scaleplate,
       ],
       price: { min: 68043, max: 92058, avg: 80050 },
@@ -2488,6 +2529,7 @@ export const Ships = [
       ],
       owners: [
          Factions.antigone,
+         Factions.buccaneers,
          Factions.scaleplate,
       ],
       price: { min: 83687, max: 113223, avg: 98455 },
@@ -2554,6 +2596,7 @@ export const Ships = [
       ],
       owners: [
          Factions.argon,
+         Factions.buccaneers,
       ],
       price: { min: 7755200, max: 10492330, avg: 9123765 },
       production: [
@@ -2619,6 +2662,7 @@ export const Ships = [
       ],
       owners: [
          Factions.antigone,
+         Factions.buccaneers,
       ],
       price: { min: 9306200, max: 12590741, avg: 10948470 },
       production: [
@@ -2701,6 +2745,7 @@ export const Ships = [
       ],
       owners: [
          Factions.argon,
+         Factions.buccaneers,
       ],
       price: { min: 8576543, max: 11603558, avg: 10090050 },
       production: [
@@ -2783,6 +2828,7 @@ export const Ships = [
       ],
       owners: [
          Factions.antigone,
+         Factions.buccaneers,
       ],
       price: { min: 10287274, max: 13918076, avg: 12102675 },
       production: [
@@ -2848,6 +2894,7 @@ export const Ships = [
       ],
       owners: [
          Factions.argon,
+         Factions.buccaneers,
       ],
       price: { min: 7310438, max: 9890592, avg: 8600515 },
       production: [
@@ -2913,6 +2960,7 @@ export const Ships = [
       ],
       owners: [
          Factions.antigone,
+         Factions.buccaneers,
       ],
       price: { min: 8766199, max: 11860151, avg: 10313175 },
       production: [
@@ -2926,6 +2974,31 @@ export const Ships = [
                { ware: 'hullparts', amount: 9659 },
             ],
          },
+      ]
+   },
+   {
+      id: 'ship_gen_m_transdrone_container_01_a',
+      version: 0,
+      name: 'Medium Drop Drone',
+      description: 'No information available',
+      size: Size.medium,
+      explosionDamage: 5000,
+      hull: 10000,
+      storage: { missile: 0, unit: 0 },
+      purpose: ShipPurpose.trade,
+      thruster: Size.medium,
+      type: ShipType.transporter,
+      mass: 42,
+      inertia: { pitch: 6, yaw: 6, roll: 4 },
+      drag: { forward: 7, reverse: 29, horizontal: 26, vertical: 26, pitch: 13, yaw: 13, roll: 13 },
+      engines: [
+         { size: Size.medium, hittable: false },
+      ],
+      owners: [
+         Factions.player,
+      ],
+      price: { min: 39610, max: 53590, avg: 46600 },
+      production: [
       ]
    },
    {
@@ -3029,6 +3102,163 @@ export const Ships = [
       ]
    },
    {
+      id: 'ship_gen_s_transdrone_container_01_a',
+      version: 0,
+      name: 'Small Drop Drone',
+      description: 'No information available',
+      size: Size.small,
+      explosionDamage: 1000,
+      hull: 2200,
+      storage: { missile: 0, unit: 0 },
+      purpose: ShipPurpose.trade,
+      thruster: Size.small,
+      type: ShipType.courier,
+      mass: 1,
+      inertia: { pitch: 3, yaw: 17, roll: 4 },
+      drag: { forward: 5.5, reverse: 24, horizontal: 6, vertical: 6, pitch: 6, yaw: 4, roll: 6 },
+      engines: [
+         { size: Size.small, hittable: false },
+      ],
+      owners: [
+         Factions.player,
+      ],
+      price: { min: 19805, max: 26795, avg: 23300 },
+      production: [
+      ]
+   },
+   {
+      id: 'ship_kha_m_fighter_01_a',
+      version: 0,
+      name: 'Queen\'s Guard',
+      description: 'No information available',
+      size: Size.medium,
+      race: Races.khaak,
+      explosionDamage: 2000,
+      hull: 4000,
+      storage: { missile: 0, unit: 0 },
+      people: 0,
+      purpose: ShipPurpose.fight,
+      thruster: Size.medium,
+      type: ShipType.heavyfighter,
+      mass: 16,
+      inertia: { pitch: 2, yaw: 2, roll: 2 },
+      drag: { forward: 3.25, reverse: 35, horizontal: 3, vertical: 3, pitch: 7, yaw: 6, roll: 6 },
+      engines: [
+         { size: Size.medium, hittable: false },
+      ],
+      shields: [
+         { size: Size.medium, hittable: false },
+      ],
+      weapons: [
+         { size: Size.medium, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+         { size: Size.medium, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+      ],
+      owners: [
+         Factions.khaak,
+      ],
+      price: { min: 0, max: 0, avg: 0 },
+      production: [
+      ]
+   },
+   {
+      id: 'ship_kha_m_fighter_02_a',
+      version: 0,
+      name: 'Hive Guard',
+      description: 'No information available',
+      size: Size.medium,
+      race: Races.khaak,
+      explosionDamage: 2000,
+      hull: 3000,
+      storage: { missile: 0, unit: 0 },
+      people: 0,
+      purpose: ShipPurpose.fight,
+      thruster: Size.medium,
+      type: ShipType.heavyfighter,
+      mass: 12,
+      inertia: { pitch: 2, yaw: 2, roll: 2 },
+      drag: { forward: 2.5, reverse: 30, horizontal: 3, vertical: 3, pitch: 7, yaw: 6, roll: 6 },
+      engines: [
+         { size: Size.medium, hittable: false },
+      ],
+      shields: [
+         { size: Size.medium, hittable: false },
+      ],
+      weapons: [
+         { size: Size.medium, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+      ],
+      owners: [
+         Factions.khaak,
+      ],
+      price: { min: 0, max: 0, avg: 0 },
+      production: [
+      ]
+   },
+   {
+      id: 'ship_kha_s_fighter_01_a',
+      version: 0,
+      name: 'Protector',
+      description: 'No information available',
+      size: Size.small,
+      race: Races.khaak,
+      hull: 800,
+      storage: { missile: 0, unit: 0 },
+      people: 0,
+      purpose: ShipPurpose.fight,
+      thruster: Size.small,
+      type: ShipType.fighter,
+      mass: 3,
+      inertia: { pitch: 1, yaw: 1, roll: 1 },
+      drag: { forward: 1, reverse: 17, horizontal: 1, vertical: 3, pitch: 1, yaw: 2, roll: 2 },
+      engines: [
+         { size: Size.small, hittable: false },
+      ],
+      shields: [
+         { size: Size.small, hittable: false },
+      ],
+      weapons: [
+         { size: Size.small, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+         { size: Size.small, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+      ],
+      owners: [
+         Factions.khaak,
+      ],
+      price: { min: 0, max: 0, avg: 0 },
+      production: [
+      ]
+   },
+   {
+      id: 'ship_kha_s_fighter_02_a',
+      version: 0,
+      name: 'Forager',
+      description: 'No information available',
+      size: Size.small,
+      race: Races.khaak,
+      hull: 600,
+      storage: { missile: 0, unit: 0 },
+      people: 0,
+      purpose: ShipPurpose.fight,
+      thruster: Size.small,
+      type: ShipType.fighter,
+      mass: 2.5,
+      inertia: { pitch: 1, yaw: 1, roll: 1 },
+      drag: { forward: 1, reverse: 17, horizontal: 1, vertical: 3, pitch: 1, yaw: 2, roll: 2 },
+      engines: [
+         { size: Size.small, hittable: false },
+      ],
+      shields: [
+         { size: Size.small, hittable: false },
+      ],
+      weapons: [
+         { size: Size.small, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+      ],
+      owners: [
+         Factions.khaak,
+      ],
+      price: { min: 0, max: 0, avg: 0 },
+      production: [
+      ]
+   },
+   {
       id: 'ship_par_l_destroyer_01_a',
       version: 0,
       name: 'Odysseus Vanguard',
@@ -3100,6 +3330,7 @@ export const Ships = [
          { capacity: 10, size: Size.extrasmall },
       ],
       owners: [
+         Factions.buccaneers,
          Factions.paranid,
          Factions.trinity,
       ],
@@ -3189,6 +3420,7 @@ export const Ships = [
          { capacity: 10, size: Size.extrasmall },
       ],
       owners: [
+         Factions.buccaneers,
          Factions.holyorder,
          Factions.trinity,
       ],
@@ -3251,6 +3483,7 @@ export const Ships = [
          { capacity: 10, size: Size.extrasmall },
       ],
       owners: [
+         Factions.buccaneers,
          Factions.hatikvah,
          Factions.paranid,
          Factions.trinity,
@@ -3314,6 +3547,7 @@ export const Ships = [
          { capacity: 10, size: Size.extrasmall },
       ],
       owners: [
+         Factions.buccaneers,
          Factions.hatikvah,
          Factions.holyorder,
          Factions.trinity,
@@ -3380,6 +3614,7 @@ export const Ships = [
          { capacity: 10, size: Size.extrasmall },
       ],
       owners: [
+         Factions.buccaneers,
          Factions.hatikvah,
          Factions.paranid,
          Factions.trinity,
@@ -3446,6 +3681,7 @@ export const Ships = [
          { capacity: 10, size: Size.extrasmall },
       ],
       owners: [
+         Factions.buccaneers,
          Factions.hatikvah,
          Factions.holyorder,
          Factions.trinity,
@@ -3514,6 +3750,7 @@ export const Ships = [
          { capacity: 10, size: Size.extrasmall },
       ],
       owners: [
+         Factions.buccaneers,
          Factions.paranid,
          Factions.trinity,
       ],
@@ -3581,6 +3818,7 @@ export const Ships = [
          { capacity: 10, size: Size.extrasmall },
       ],
       owners: [
+         Factions.buccaneers,
          Factions.holyorder,
          Factions.trinity,
       ],
@@ -3647,6 +3885,7 @@ export const Ships = [
          { capacity: 10, size: Size.extrasmall },
       ],
       owners: [
+         Factions.buccaneers,
          Factions.paranid,
          Factions.trinity,
       ],
@@ -3713,6 +3952,7 @@ export const Ships = [
          { capacity: 10, size: Size.extrasmall },
       ],
       owners: [
+         Factions.buccaneers,
          Factions.holyorder,
          Factions.trinity,
       ],
@@ -3772,6 +4012,7 @@ export const Ships = [
          { capacity: 10, size: Size.extrasmall },
       ],
       owners: [
+         Factions.buccaneers,
          Factions.paranid,
          Factions.trinity,
       ],
@@ -3831,6 +4072,7 @@ export const Ships = [
          { capacity: 10, size: Size.extrasmall },
       ],
       owners: [
+         Factions.buccaneers,
          Factions.holyorder,
          Factions.trinity,
       ],
@@ -3893,6 +4135,7 @@ export const Ships = [
          { capacity: 10, size: Size.extrasmall },
       ],
       owners: [
+         Factions.buccaneers,
          Factions.paranid,
          Factions.trinity,
       ],
@@ -3955,6 +4198,7 @@ export const Ships = [
          { capacity: 10, size: Size.extrasmall },
       ],
       owners: [
+         Factions.buccaneers,
          Factions.holyorder,
          Factions.trinity,
       ],
@@ -4006,6 +4250,7 @@ export const Ships = [
          { capacity: 10, size: Size.extrasmall },
       ],
       owners: [
+         Factions.buccaneers,
          Factions.hatikvah,
          Factions.paranid,
          Factions.trinity,
@@ -4058,6 +4303,7 @@ export const Ships = [
          { capacity: 10, size: Size.extrasmall },
       ],
       owners: [
+         Factions.buccaneers,
          Factions.hatikvah,
          Factions.holyorder,
          Factions.trinity,
@@ -4113,6 +4359,7 @@ export const Ships = [
          { capacity: 10, size: Size.extrasmall },
       ],
       owners: [
+         Factions.buccaneers,
          Factions.hatikvah,
          Factions.paranid,
          Factions.trinity,
@@ -4168,6 +4415,7 @@ export const Ships = [
          { capacity: 10, size: Size.extrasmall },
       ],
       owners: [
+         Factions.buccaneers,
          Factions.hatikvah,
          Factions.holyorder,
          Factions.trinity,
@@ -4220,6 +4468,7 @@ export const Ships = [
       ],
       owners: [
          Factions.alliance,
+         Factions.buccaneers,
          Factions.paranid,
          Factions.trinity,
       ],
@@ -4270,6 +4519,7 @@ export const Ships = [
          { capacity: 10, size: Size.extrasmall },
       ],
       owners: [
+         Factions.buccaneers,
          Factions.holyorder,
          Factions.trinity,
       ],
@@ -4321,6 +4571,7 @@ export const Ships = [
       ],
       owners: [
          Factions.alliance,
+         Factions.buccaneers,
          Factions.paranid,
          Factions.trinity,
       ],
@@ -4371,6 +4622,7 @@ export const Ships = [
          { capacity: 10, size: Size.extrasmall },
       ],
       owners: [
+         Factions.buccaneers,
          Factions.holyorder,
          Factions.trinity,
       ],
@@ -4423,6 +4675,7 @@ export const Ships = [
          { capacity: 10, size: Size.extrasmall },
       ],
       owners: [
+         Factions.buccaneers,
          Factions.paranid,
          Factions.trinity,
       ],
@@ -4475,6 +4728,7 @@ export const Ships = [
          { capacity: 10, size: Size.extrasmall },
       ],
       owners: [
+         Factions.buccaneers,
          Factions.holyorder,
          Factions.trinity,
       ],
@@ -4516,9 +4770,9 @@ export const Ships = [
          { size: Size.small, hittable: false },
       ],
       weapons: [
-         { size: Size.small, hittable: false, types: [ TurretType.standard, TurretType.missile, TurretType.mining ] },
-         { size: Size.small, hittable: false, types: [ TurretType.standard, TurretType.missile, TurretType.mining ] },
-         { size: Size.small, hittable: false, types: [ TurretType.standard, TurretType.missile, TurretType.mining ] },
+         { size: Size.small, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+         { size: Size.small, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+         { size: Size.small, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
       ],
       cargo: [
          { max: 270, types: [ CargoTypes.container ] },
@@ -4527,6 +4781,7 @@ export const Ships = [
          { capacity: 10, size: Size.extrasmall },
       ],
       owners: [
+         Factions.buccaneers,
          Factions.paranid,
          Factions.trinity,
       ],
@@ -4568,9 +4823,9 @@ export const Ships = [
          { size: Size.small, hittable: false },
       ],
       weapons: [
-         { size: Size.small, hittable: false, types: [ TurretType.standard, TurretType.missile, TurretType.mining ] },
-         { size: Size.small, hittable: false, types: [ TurretType.standard, TurretType.missile, TurretType.mining ] },
-         { size: Size.small, hittable: false, types: [ TurretType.standard, TurretType.missile, TurretType.mining ] },
+         { size: Size.small, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+         { size: Size.small, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+         { size: Size.small, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
       ],
       cargo: [
          { max: 324, types: [ CargoTypes.container ] },
@@ -4579,6 +4834,7 @@ export const Ships = [
          { capacity: 10, size: Size.extrasmall },
       ],
       owners: [
+         Factions.buccaneers,
          Factions.holyorder,
          Factions.trinity,
       ],
@@ -4635,6 +4891,7 @@ export const Ships = [
          { capacity: 10, size: Size.extrasmall },
       ],
       owners: [
+         Factions.buccaneers,
          Factions.holyorder,
          Factions.trinity,
       ],
@@ -4687,6 +4944,7 @@ export const Ships = [
          { capacity: 10, size: Size.extrasmall },
       ],
       owners: [
+         Factions.buccaneers,
          Factions.hatikvah,
          Factions.holyorder,
          Factions.paranid,
@@ -4741,6 +4999,7 @@ export const Ships = [
       ],
       owners: [
          Factions.alliance,
+         Factions.buccaneers,
          Factions.paranid,
          Factions.trinity,
       ],
@@ -4792,6 +5051,7 @@ export const Ships = [
          { capacity: 10, size: Size.extrasmall },
       ],
       owners: [
+         Factions.buccaneers,
          Factions.holyorder,
          Factions.trinity,
       ],
@@ -4845,6 +5105,7 @@ export const Ships = [
       ],
       owners: [
          Factions.alliance,
+         Factions.buccaneers,
          Factions.paranid,
          Factions.scaleplate,
          Factions.trinity,
@@ -4898,6 +5159,7 @@ export const Ships = [
          { capacity: 10, size: Size.extrasmall },
       ],
       owners: [
+         Factions.buccaneers,
          Factions.holyorder,
          Factions.scaleplate,
          Factions.trinity,
@@ -4966,6 +5228,7 @@ export const Ships = [
       ],
       owners: [
          Factions.alliance,
+         Factions.buccaneers,
          Factions.paranid,
          Factions.trinity,
       ],
@@ -5032,6 +5295,7 @@ export const Ships = [
          { capacity: 10, size: Size.extrasmall },
       ],
       owners: [
+         Factions.buccaneers,
          Factions.holyorder,
          Factions.trinity,
       ],
@@ -5117,6 +5381,7 @@ export const Ships = [
          { capacity: 10, size: Size.extrasmall },
       ],
       owners: [
+         Factions.buccaneers,
          Factions.paranid,
          Factions.trinity,
       ],
@@ -5202,6 +5467,7 @@ export const Ships = [
          { capacity: 10, size: Size.extrasmall },
       ],
       owners: [
+         Factions.buccaneers,
          Factions.holyorder,
          Factions.trinity,
       ],
@@ -5268,6 +5534,7 @@ export const Ships = [
          { capacity: 10, size: Size.extrasmall },
       ],
       owners: [
+         Factions.buccaneers,
          Factions.paranid,
          Factions.trinity,
       ],
@@ -5334,6 +5601,7 @@ export const Ships = [
          { capacity: 10, size: Size.extrasmall },
       ],
       owners: [
+         Factions.buccaneers,
          Factions.holyorder,
          Factions.trinity,
       ],
@@ -7770,6 +8038,449 @@ export const Ships = [
       ]
    },
    {
+      id: 'ship_xen_m_fighter_01_a',
+      version: 0,
+      name: 'P',
+      description: 'No information available',
+      size: Size.medium,
+      race: Races.xenon,
+      hull: 10000,
+      people: 0,
+      purpose: ShipPurpose.fight,
+      thruster: Size.medium,
+      type: ShipType.corvette,
+      mass: 25.959,
+      inertia: { pitch: 4.561, yaw: 4.561, roll: 3.649 },
+      drag: { forward: 4.944, reverse: 19.777, horizontal: 14.641, vertical: 14.641, pitch: 8.99, yaw: 8.99, roll: 8.99 },
+      engines: [
+         { size: Size.medium, hittable: false },
+      ],
+      shields: [
+         { size: Size.medium, hittable: false },
+         { size: Size.medium, hittable: false },
+      ],
+      weapons: [
+         { size: Size.medium, hittable: false, types: [ TurretType.standard ] },
+         { size: Size.medium, hittable: false, types: [ TurretType.standard ] },
+      ],
+      turrets: [
+         { size: Size.medium, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+         { size: Size.medium, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+      ],
+      owners: [
+         Factions.xenon,
+      ],
+      price: { min: 66827, max: 90413, avg: 78620 },
+      production: [
+         {
+            time: 17,
+            amount: 1,
+            method: 'default',
+            name: 'Xenon',
+            wares: [
+               { ware: 'energycells', amount: 94 },
+               { ware: 'ore', amount: 79 },
+               { ware: 'silicon', amount: 79 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'ship_xen_m_miner_01_a',
+      version: 0,
+      name: 'S',
+      description: 'No information available',
+      size: Size.medium,
+      race: Races.xenon,
+      hull: 6000,
+      people: 0,
+      purpose: ShipPurpose.mine,
+      thruster: Size.medium,
+      type: ShipType.miner,
+      mass: 49.951,
+      inertia: { pitch: 8.129, yaw: 8.129, roll: 6.503 },
+      drag: { forward: 8.243, reverse: 32.973, horizontal: 25.807, vertical: 25.807, pitch: 14.988, yaw: 14.988, roll: 14.988 },
+      engines: [
+         { size: Size.medium, hittable: false },
+      ],
+      shields: [
+         { size: Size.medium, hittable: false },
+         { size: Size.medium, hittable: false },
+      ],
+      weapons: [
+         { size: Size.medium, hittable: false, types: [ TurretType.mining ] },
+      ],
+      turrets: [
+         { size: Size.medium, hittable: false, types: [ TurretType.standard ] },
+      ],
+      cargo: [
+         { max: 9500, types: [ CargoTypes.container, CargoTypes.liquid, CargoTypes.solid ] },
+      ],
+      owners: [
+         Factions.xenon,
+      ],
+      price: { min: 60648, max: 82053, avg: 71350 },
+      production: [
+         {
+            time: 15,
+            amount: 1,
+            method: 'default',
+            name: 'Xenon',
+            wares: [
+               { ware: 'energycells', amount: 85 },
+               { ware: 'ore', amount: 71 },
+               { ware: 'silicon', amount: 72 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'ship_xen_s_fighter_01_a',
+      version: 0,
+      name: 'N',
+      description: 'No information available',
+      size: Size.small,
+      race: Races.xenon,
+      hull: 2500,
+      storage: { missile: 20, unit: 0 },
+      people: 0,
+      purpose: ShipPurpose.fight,
+      thruster: Size.small,
+      type: ShipType.fighter,
+      mass: 6.508,
+      inertia: { pitch: 1.49, yaw: 1.49, roll: 1.192 },
+      drag: { forward: 4.578, reverse: 17.262, horizontal: 3.723, vertical: 3.723, pitch: 2.971, yaw: 2.971, roll: 2.971 },
+      engines: [
+         { size: Size.small, hittable: false },
+         { size: Size.small, hittable: false },
+      ],
+      shields: [
+         { size: Size.small, hittable: false },
+      ],
+      weapons: [
+         { size: Size.small, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+         { size: Size.small, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+      ],
+      owners: [
+         Factions.xenon,
+      ],
+      price: { min: 29351, max: 39710, avg: 34530 },
+      production: [
+         {
+            time: 7,
+            amount: 1,
+            method: 'default',
+            name: 'Xenon',
+            wares: [
+               { ware: 'energycells', amount: 41 },
+               { ware: 'ore', amount: 34 },
+               { ware: 'silicon', amount: 35 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'ship_xen_s_fighter_02_a',
+      version: 0,
+      name: 'M',
+      description: 'No information available',
+      size: Size.small,
+      race: Races.xenon,
+      hull: 2900,
+      storage: { missile: 20, unit: 0 },
+      people: 0,
+      purpose: ShipPurpose.fight,
+      thruster: Size.small,
+      type: ShipType.heavyfighter,
+      mass: 7.622,
+      inertia: { pitch: 1.949, yaw: 1.949, roll: 1.559 },
+      drag: { forward: 6.544, reverse: 31.556, horizontal: 3.476, vertical: 3.476, pitch: 3.32, yaw: 3.32, roll: 3.32 },
+      engines: [
+         { size: Size.small, hittable: false },
+         { size: Size.small, hittable: false },
+         { size: Size.small, hittable: false },
+         { size: Size.small, hittable: false },
+      ],
+      shields: [
+         { size: Size.small, hittable: false },
+      ],
+      weapons: [
+         { size: Size.small, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+         { size: Size.small, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+      ],
+      owners: [
+         Factions.xenon,
+      ],
+      price: { min: 33864, max: 45816, avg: 39840 },
+      production: [
+         {
+            time: 9,
+            amount: 1,
+            method: 'default',
+            name: 'Xenon',
+            wares: [
+               { ware: 'energycells', amount: 48 },
+               { ware: 'ore', amount: 40 },
+               { ware: 'silicon', amount: 40 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'ship_xen_s_scout_01_a',
+      version: 0,
+      name: 'T',
+      description: 'No information available',
+      size: Size.small,
+      race: Races.xenon,
+      hull: 1200,
+      storage: { missile: 0, unit: 0 },
+      people: 0,
+      purpose: ShipPurpose.fight,
+      thruster: Size.small,
+      type: ShipType.scout,
+      mass: 5.363,
+      inertia: { pitch: 0.849, yaw: 0.849, roll: 0.679 },
+      drag: { forward: 1.645, reverse: 6.582, horizontal: 3.708, vertical: 3.708, pitch: 3.082, yaw: 3.082, roll: 3.082 },
+      engines: [
+         { size: Size.small, hittable: false },
+         { size: Size.small, hittable: false },
+      ],
+      shields: [
+         { size: Size.small, hittable: false },
+      ],
+      weapons: [
+         { size: Size.small, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+      ],
+      owners: [
+         Factions.xenon,
+      ],
+      price: { min: 21998, max: 29762, avg: 25880 },
+      production: [
+         {
+            time: 6,
+            amount: 1,
+            method: 'default',
+            name: 'Xenon',
+            wares: [
+               { ware: 'energycells', amount: 31 },
+               { ware: 'ore', amount: 26 },
+               { ware: 'silicon', amount: 26 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'ship_xen_xl_carrier_01_a',
+      version: 0,
+      name: 'I',
+      description: 'No information available',
+      size: Size.extralarge,
+      race: Races.xenon,
+      hull: 340000,
+      people: 0,
+      purpose: ShipPurpose.fight,
+      thruster: Size.extralarge,
+      type: ShipType.battleship,
+      mass: 876.951,
+      inertia: { pitch: 958.525, yaw: 958.525, roll: 766.82 },
+      drag: { forward: 255.39, reverse: 1021.561, horizontal: 138.309, vertical: 138.309, pitch: 787.851, yaw: 787.851, roll: 787.851 },
+      engines: [
+         { group: 'group10', size: Size.extralarge, hittable: false },
+         { group: 'group11', size: Size.extralarge, hittable: false },
+      ],
+      shields: [
+         { group: 'group01', size: Size.medium, hittable: true },
+         { group: 'group03', size: Size.medium, hittable: true },
+         { group: 'group04', size: Size.medium, hittable: true },
+         { group: 'group02', size: Size.medium, hittable: true },
+         { group: 'group05', size: Size.medium, hittable: true },
+         { group: 'group06', size: Size.medium, hittable: true },
+         { group: 'group07', size: Size.medium, hittable: true },
+         { group: 'group07', size: Size.medium, hittable: true },
+         { group: 'group08', size: Size.medium, hittable: true },
+         { group: 'group10', size: Size.medium, hittable: true },
+         { group: 'group11', size: Size.medium, hittable: true },
+         { group: 'group09', size: Size.medium, hittable: true },
+         { group: 'group12', size: Size.medium, hittable: true },
+         { group: 'group12', size: Size.medium, hittable: true },
+         { group: 'group13', size: Size.medium, hittable: true },
+         { group: 'group13', size: Size.medium, hittable: true },
+         { group: 'group14', size: Size.medium, hittable: true },
+         { group: 'group15', size: Size.medium, hittable: true },
+         { group: 'group16', size: Size.medium, hittable: true },
+         { group: 'group14', size: Size.medium, hittable: true },
+         { group: 'group17', size: Size.medium, hittable: true },
+         { group: 'group17', size: Size.medium, hittable: true },
+         { size: Size.extralarge, hittable: false },
+         { size: Size.extralarge, hittable: false },
+         { size: Size.extralarge, hittable: false },
+         { size: Size.extralarge, hittable: false },
+         { size: Size.extralarge, hittable: false },
+         { group: 'group18', size: Size.medium, hittable: true },
+         { group: 'group19', size: Size.medium, hittable: true },
+         { group: 'group14', size: Size.medium, hittable: true },
+         { group: 'group14', size: Size.medium, hittable: true },
+         { group: 'group14', size: Size.medium, hittable: true },
+         { group: 'group14', size: Size.medium, hittable: true },
+         { group: 'group14', size: Size.medium, hittable: true },
+         { group: 'group14', size: Size.medium, hittable: true },
+         { group: 'group17', size: Size.medium, hittable: true },
+         { group: 'group17', size: Size.medium, hittable: true },
+         { group: 'group17', size: Size.medium, hittable: true },
+         { group: 'group17', size: Size.medium, hittable: true },
+         { group: 'group17', size: Size.medium, hittable: true },
+         { group: 'group17', size: Size.medium, hittable: true },
+         { group: 'group13', size: Size.medium, hittable: true },
+         { group: 'group13', size: Size.medium, hittable: true },
+         { group: 'group12', size: Size.medium, hittable: true },
+         { group: 'group12', size: Size.medium, hittable: true },
+         { group: 'group08', size: Size.medium, hittable: true },
+         { group: 'group08', size: Size.medium, hittable: true },
+         { group: 'group08', size: Size.medium, hittable: true },
+         { group: 'group09', size: Size.medium, hittable: true },
+         { group: 'group09', size: Size.medium, hittable: true },
+         { group: 'group09', size: Size.medium, hittable: true },
+         { group: 'group02', size: Size.medium, hittable: true },
+         { group: 'group01', size: Size.medium, hittable: true },
+         { group: 'group04', size: Size.medium, hittable: true },
+         { group: 'group03', size: Size.medium, hittable: true },
+      ],
+      turrets: [
+         { group: 'group01', size: Size.large, hittable: false, types: [ TurretType.standard ] },
+         { group: 'group02', size: Size.large, hittable: false, types: [ TurretType.standard ] },
+         { group: 'group03', size: Size.large, hittable: false, types: [ TurretType.standard ] },
+         { group: 'group04', size: Size.large, hittable: false, types: [ TurretType.standard ] },
+         { group: 'group05', size: Size.medium, hittable: true, types: [ TurretType.standard ] },
+         { group: 'group06', size: Size.medium, hittable: true, types: [ TurretType.standard ] },
+         { group: 'group07', size: Size.medium, hittable: true, types: [ TurretType.standard ] },
+         { group: 'group07', size: Size.medium, hittable: true, types: [ TurretType.standard ] },
+         { group: 'group07', size: Size.medium, hittable: true, types: [ TurretType.standard ] },
+         { group: 'group07', size: Size.medium, hittable: true, types: [ TurretType.standard ] },
+         { group: 'group08', size: Size.large, hittable: false, types: [ TurretType.standard ] },
+         { group: 'group08', size: Size.large, hittable: false, types: [ TurretType.standard ] },
+         { group: 'group18', size: Size.medium, hittable: true, types: [ TurretType.standard ] },
+         { group: 'group18', size: Size.medium, hittable: true, types: [ TurretType.standard ] },
+         { group: 'group18', size: Size.medium, hittable: true, types: [ TurretType.standard ] },
+         { group: 'group19', size: Size.medium, hittable: true, types: [ TurretType.standard ] },
+         { group: 'group19', size: Size.medium, hittable: true, types: [ TurretType.standard ] },
+         { group: 'group19', size: Size.medium, hittable: true, types: [ TurretType.standard ] },
+         { group: 'group09', size: Size.large, hittable: false, types: [ TurretType.standard ] },
+         { group: 'group09', size: Size.large, hittable: false, types: [ TurretType.standard ] },
+         { group: 'group12', size: Size.large, hittable: false, types: [ TurretType.standard ] },
+         { group: 'group12', size: Size.large, hittable: false, types: [ TurretType.standard ] },
+         { group: 'group13', size: Size.large, hittable: false, types: [ TurretType.standard ] },
+         { group: 'group13', size: Size.large, hittable: false, types: [ TurretType.standard ] },
+         { group: 'group14', size: Size.large, hittable: false, types: [ TurretType.standard ] },
+         { group: 'group14', size: Size.large, hittable: false, types: [ TurretType.standard ] },
+         { group: 'group15', size: Size.medium, hittable: true, types: [ TurretType.standard ] },
+         { group: 'group15', size: Size.medium, hittable: true, types: [ TurretType.standard ] },
+         { group: 'group15', size: Size.medium, hittable: true, types: [ TurretType.standard ] },
+         { group: 'group15', size: Size.medium, hittable: true, types: [ TurretType.standard ] },
+         { group: 'group16', size: Size.medium, hittable: true, types: [ TurretType.standard ] },
+         { group: 'group16', size: Size.medium, hittable: true, types: [ TurretType.standard ] },
+         { group: 'group16', size: Size.medium, hittable: true, types: [ TurretType.standard ] },
+         { group: 'group16', size: Size.medium, hittable: true, types: [ TurretType.standard ] },
+         { group: 'group14', size: Size.large, hittable: false, types: [ TurretType.standard ] },
+         { group: 'group14', size: Size.large, hittable: false, types: [ TurretType.standard ] },
+         { group: 'group17', size: Size.large, hittable: false, types: [ TurretType.standard ] },
+         { group: 'group17', size: Size.large, hittable: false, types: [ TurretType.standard ] },
+         { group: 'group17', size: Size.large, hittable: false, types: [ TurretType.standard ] },
+         { group: 'group17', size: Size.large, hittable: false, types: [ TurretType.standard ] },
+      ],
+      owners: [
+         Factions.xenon,
+      ],
+      price: { min: 4300932, max: 5818908, avg: 5059920 },
+      production: [
+         {
+            time: 1094,
+            amount: 1,
+            method: 'default',
+            name: 'Xenon',
+            wares: [
+               { ware: 'energycells', amount: 6049 },
+               { ware: 'ore', amount: 5070 },
+               { ware: 'silicon', amount: 5090 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'ship_xen_xl_destroyer_01_a',
+      version: 0,
+      name: 'K',
+      description: 'No information available',
+      size: Size.large,
+      race: Races.xenon,
+      hull: 165000,
+      people: 0,
+      purpose: ShipPurpose.fight,
+      thruster: Size.large,
+      type: ShipType.destroyer,
+      mass: 421.625,
+      inertia: { pitch: 412.904, yaw: 412.904, roll: 330.323 },
+      drag: { forward: 164.325, reverse: 657.3, horizontal: 250.885, vertical: 250.885, pitch: 705.892, yaw: 705.892, roll: 705.892 },
+      engines: [
+         { group: 'group03', size: Size.extralarge, hittable: false },
+         { group: 'group03', size: Size.extralarge, hittable: false },
+      ],
+      shields: [
+         { group: 'group01', size: Size.medium, hittable: true },
+         { group: 'group02', size: Size.medium, hittable: true },
+         { group: 'group03', size: Size.medium, hittable: true },
+         { group: 'group03', size: Size.medium, hittable: true },
+         { group: 'group04', size: Size.medium, hittable: true },
+         { group: 'group05', size: Size.medium, hittable: true },
+         { group: 'group06', size: Size.medium, hittable: true },
+         { group: 'group07', size: Size.medium, hittable: true },
+         { group: 'group08', size: Size.medium, hittable: true },
+         { size: Size.extralarge, hittable: false },
+         { size: Size.extralarge, hittable: false },
+         { group: 'group09', size: Size.medium, hittable: true },
+         { group: 'group02', size: Size.medium, hittable: true },
+         { group: 'group02', size: Size.medium, hittable: true },
+         { group: 'group02', size: Size.medium, hittable: true },
+         { group: 'group09', size: Size.medium, hittable: true },
+         { group: 'group09', size: Size.medium, hittable: true },
+         { group: 'group09', size: Size.medium, hittable: true },
+         { group: 'group06', size: Size.medium, hittable: true },
+         { group: 'group05', size: Size.medium, hittable: true },
+      ],
+      turrets: [
+         { group: 'group02', size: Size.large, hittable: false, types: [ TurretType.standard ] },
+         { group: 'group01', size: Size.medium, hittable: true, types: [ TurretType.standard ] },
+         { group: 'group01', size: Size.medium, hittable: true, types: [ TurretType.standard ] },
+         { group: 'group01', size: Size.medium, hittable: true, types: [ TurretType.standard ] },
+         { group: 'group02', size: Size.large, hittable: false, types: [ TurretType.standard ] },
+         { group: 'group09', size: Size.large, hittable: false, types: [ TurretType.standard ] },
+         { group: 'group09', size: Size.large, hittable: false, types: [ TurretType.standard ] },
+         { group: 'group04', size: Size.medium, hittable: true, types: [ TurretType.standard ] },
+         { group: 'group04', size: Size.medium, hittable: true, types: [ TurretType.standard ] },
+         { group: 'group05', size: Size.large, hittable: false, types: [ TurretType.standard ] },
+         { group: 'group06', size: Size.large, hittable: false, types: [ TurretType.standard ] },
+         { group: 'group07', size: Size.medium, hittable: true, types: [ TurretType.standard ] },
+         { group: 'group08', size: Size.medium, hittable: true, types: [ TurretType.standard ] },
+      ],
+      owners: [
+         Factions.xenon,
+      ],
+      price: { min: 2067574, max: 2797306, avg: 2432440 },
+      production: [
+         {
+            time: 526,
+            amount: 1,
+            method: 'default',
+            name: 'Xenon',
+            wares: [
+               { ware: 'energycells', amount: 2908 },
+               { ware: 'ore', amount: 2437 },
+               { ware: 'silicon', amount: 2447 },
+            ],
+         },
+      ]
+   },
+   {
       id: 'ship_spl_l_destroyer_01_a',
       version: 1,
       name: 'Rattlesnake',
@@ -7792,7 +8503,7 @@ export const Ships = [
          { group: 'group_back_up_mid', size: Size.large, hittable: false },
       ],
       shields: [
-         { group: 'group_back_up_mid', size: Size.medium, hittable: true },
+         { group: 'group_up_back_mid', size: Size.medium, hittable: true },
          { group: 'group_front_up_mid', size: Size.medium, hittable: true },
          { size: Size.large, hittable: false },
          { group: 'group_back_up_mid', size: Size.medium, hittable: true },
@@ -7890,8 +8601,8 @@ export const Ships = [
          { group: 'group_back_mid_right', size: Size.medium, hittable: true },
          { group: 'group_front_mid_left', size: Size.medium, hittable: true },
          { group: 'group_front_mid_right', size: Size.medium, hittable: true },
-         { group: 'group_front_mid_right_2', size: Size.medium, hittable: true },
-         { group: 'group_front_mid_left_2', size: Size.medium, hittable: true },
+         { group: 'group_front_mid_right', size: Size.medium, hittable: true },
+         { group: 'group_front_mid_left', size: Size.medium, hittable: true },
       ],
       turrets: [
          { group: 'group_back_mid_right', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
@@ -7904,7 +8615,7 @@ export const Ships = [
          { group: 'group_front_mid_right', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
       ],
       cargo: [
-         { max: 11000, types: [ CargoTypes.liquid ] },
+         { max: 22000, types: [ CargoTypes.liquid ] },
       ],
       docks: [
          { capacity: 40, size: Size.small },
@@ -7974,7 +8685,7 @@ export const Ships = [
          { group: 'group_front_mid_left_2', size: Size.large, hittable: false, types: [ TurretType.mining ] },
       ],
       cargo: [
-         { max: 10000, types: [ CargoTypes.solid ] },
+         { max: 20000, types: [ CargoTypes.solid ] },
       ],
       docks: [
          { capacity: 40, size: Size.small },
@@ -8277,7 +8988,7 @@ export const Ships = [
          { size: Size.medium, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
       ],
       cargo: [
-         { max: 3800, types: [ CargoTypes.liquid ] },
+         { max: 7600, types: [ CargoTypes.liquid ] },
       ],
       docks: [
          { capacity: 10, size: Size.extrasmall },
@@ -8334,7 +9045,7 @@ export const Ships = [
          { size: Size.medium, hittable: false, types: [ TurretType.standard, TurretType.missile, TurretType.mining ] },
       ],
       cargo: [
-         { max: 3500, types: [ CargoTypes.solid ] },
+         { max: 7000, types: [ CargoTypes.solid ] },
       ],
       docks: [
          { capacity: 10, size: Size.extrasmall },
@@ -8637,7 +9348,7 @@ export const Ships = [
       thruster: Size.small,
       type: ShipType.heavyfighter,
       mass: 6.473,
-      inertia: { pitch: 1.682, yaw: 1.682, roll: 13.45 },
+      inertia: { pitch: 1.682, yaw: 1.682, roll: 1.345 },
       drag: { forward: 4.784, reverse: 22.946, horizontal: 4.163, vertical: 4.163, pitch: 3.288, yaw: 3.288, roll: 3.288 },
       engines: [
          { size: Size.small, hittable: false },
@@ -8706,7 +9417,7 @@ export const Ships = [
          { size: Size.small, hittable: false, types: [ TurretType.standard, TurretType.missile, TurretType.mining ] },
       ],
       cargo: [
-         { max: 860, types: [ CargoTypes.solid ] },
+         { max: 1720, types: [ CargoTypes.solid ] },
       ],
       docks: [
          { capacity: 10, size: Size.extrasmall },
@@ -9056,14 +9767,14 @@ export const Ships = [
          { group: 'group_front_mid_top_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
          { group: 'group_front_mid_top_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
          { group: 'group_front_mid_top_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
-         { group: 'group_mid_left_top_l', size: Size.large, hittable: false, types: [ TurretType.standard ] },
-         { group: 'group_mid_left_top_l', size: Size.large, hittable: false, types: [ TurretType.standard ] },
-         { group: 'group_mid_left_bottom_l', size: Size.large, hittable: false, types: [ TurretType.standard ] },
-         { group: 'group_mid_left_bottom_l', size: Size.large, hittable: false, types: [ TurretType.standard ] },
-         { group: 'group_mid_right_bottom_l', size: Size.large, hittable: false, types: [ TurretType.standard ] },
-         { group: 'group_mid_right_bottom_l', size: Size.large, hittable: false, types: [ TurretType.standard ] },
-         { group: 'group_mid_right_top_l', size: Size.large, hittable: false, types: [ TurretType.standard ] },
-         { group: 'group_mid_right_top_l', size: Size.large, hittable: false, types: [ TurretType.standard ] },
+         { group: 'group_mid_left_top_l', size: Size.large, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_mid_left_top_l', size: Size.large, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_mid_left_bottom_l', size: Size.large, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_mid_left_bottom_l', size: Size.large, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_mid_right_bottom_l', size: Size.large, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_mid_right_bottom_l', size: Size.large, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_mid_right_top_l', size: Size.large, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_mid_right_top_l', size: Size.large, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
          { group: 'group_mid_left_mid', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
          { group: 'group_mid_left_mid', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
          { group: 'group_mid_right_mid', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
@@ -9170,6 +9881,1664 @@ export const Ships = [
             wares: [
                { ware: 'energycells', amount: 2941 },
                { ware: 'hullparts', amount: 16264 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'ship_atf_l_destroyer_01_a',
+      version: 2,
+      name: 'Syn',
+      description: 'The Syn-class destroyer is a remnant of the AGI Task Force fleet. With its three front-facing weapons, it was designed to take on large, slow targets. While most other ATF ships were systematically decommissioned and replaced by the Terran Protectorate, the Syn, due to its specialised nature, was absorbed into the Protectorate\'s military. While the Terran Protectorate developed their own destroyer-class ship, the Osaka, they saw sufficient military value in operating two distinct lines of destroyers side by side.',
+      size: Size.large,
+      race: Races.terran,
+      explosionDamage: 10000,
+      hull: 119000,
+      storage: { missile: 160, unit: 10 },
+      people: 187,
+      purpose: ShipPurpose.fight,
+      thruster: Size.large,
+      type: ShipType.destroyer,
+      mass: 124.088,
+      inertia: { pitch: 107.528, yaw: 107.528, roll: 86.022 },
+      drag: { forward: 48.613, reverse: 194.453, horizontal: 23.482, vertical: 23.482, pitch: 91.818, yaw: 91.818, roll: 91.818 },
+      engines: [
+         { group: 'group_back_mid_mid', size: Size.large, hittable: false },
+      ],
+      shields: [
+         { size: Size.large, hittable: false },
+         { group: 'group_back_mid_mid', size: Size.medium, hittable: true },
+         { size: Size.large, hittable: false },
+         { group: 'group_back_mid_mid', size: Size.medium, hittable: true },
+         { size: Size.large, hittable: false },
+         { group: 'group_back_up_mid', size: Size.medium, hittable: true },
+         { group: 'group_back_down_mid', size: Size.medium, hittable: true },
+         { group: 'group_mid_up_left_2', size: Size.medium, hittable: true },
+         { group: 'group_mid_up_left_2', size: Size.medium, hittable: true },
+         { group: 'group_mid_right_up_2', size: Size.medium, hittable: true },
+         { group: 'group_mid_right_up_2', size: Size.medium, hittable: true },
+         { group: 'group_mid_up_left_1', size: Size.medium, hittable: true },
+         { group: 'group_mid_up_left_1', size: Size.medium, hittable: true },
+         { group: 'group_mid_right_up_1', size: Size.medium, hittable: true },
+         { group: 'group_mid_right_up_1', size: Size.medium, hittable: true },
+         { group: 'group_mid_right_down_2', size: Size.medium, hittable: true },
+         { group: 'group_mid_right_down_2', size: Size.medium, hittable: true },
+         { group: 'group_mid_right_down_1', size: Size.medium, hittable: true },
+         { group: 'group_mid_right_down_1', size: Size.medium, hittable: true },
+         { group: 'group_mid_down_left_2', size: Size.medium, hittable: true },
+         { group: 'group_mid_down_left_2', size: Size.medium, hittable: true },
+         { group: 'group_mid_down_left_1', size: Size.medium, hittable: true },
+         { group: 'group_mid_down_left_1', size: Size.medium, hittable: true },
+         { group: 'group_back_up_mid', size: Size.medium, hittable: true },
+         { group: 'group_back_down_mid', size: Size.medium, hittable: true },
+      ],
+      weapons: [
+         { size: Size.large, hittable: false, types: [ TurretType.standard ] },
+         { size: Size.large, hittable: false, types: [ TurretType.standard ] },
+         { size: Size.large, hittable: false, types: [ TurretType.standard ] },
+      ],
+      turrets: [
+         { group: 'group_back_up_mid', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_mid_up_left_2', size: Size.large, hittable: false, types: [ TurretType.standard ] },
+         { group: 'group_mid_right_up_2', size: Size.large, hittable: false, types: [ TurretType.standard ] },
+         { group: 'group_back_up_mid', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_back_down_mid', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_back_down_mid', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_mid_up_left_1', size: Size.large, hittable: false, types: [ TurretType.standard ] },
+         { group: 'group_mid_right_up_1', size: Size.large, hittable: false, types: [ TurretType.standard ] },
+         { group: 'group_mid_right_down_2', size: Size.large, hittable: false, types: [ TurretType.standard ] },
+         { group: 'group_mid_right_down_1', size: Size.large, hittable: false, types: [ TurretType.standard ] },
+         { group: 'group_mid_down_left_2', size: Size.large, hittable: false, types: [ TurretType.standard ] },
+         { group: 'group_mid_down_left_1', size: Size.large, hittable: false, types: [ TurretType.standard ] },
+      ],
+      cargo: [
+         { max: 4100, types: [ CargoTypes.container ] },
+      ],
+      docks: [
+         { capacity: 10, size: Size.extrasmall },
+         { capacity: 40, size: Size.small },
+      ],
+      owners: [
+         Factions.terran,
+      ],
+      price: { min: 12600383, max: 17047577, avg: 14823980 },
+      production: [
+         {
+            time: 234,
+            amount: 1,
+            method: 'default',
+            name: 'Terran',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 352 },
+               { ware: 'energycells', amount: 1296 },
+               { ware: 'metallicmicrolattice', amount: 590 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'ship_atf_xl_battleship_01_a',
+      version: 2,
+      name: 'Asgard',
+      description: 'The Asgard-class battleship was designed by the ATF to be a moving fortress, capable of taking on even the most monumental Xenon strongholds and capital ships. It is very slow, but also very powerful, and is especially noteworthy because of its unique forward-facing XL Main Battery. This weapon makes use of some unique technology that was specifically designed for the ATF, and is no longer available elsewhere. In terms of raw single-shot damage, it is currently the most powerful gun in the known universe.nnThis was the last ship class designed and produced by the ATF before the organisation was dissolved and its resources absorbed by the Terran Protectorate. Despite the change in administration, the Asgard is still frequently used by the Terran Protectorate because its sheer firepower has yet to be surpassed.',
+      size: Size.extralarge,
+      race: Races.terran,
+      explosionDamage: 15000,
+      hull: 275000,
+      storage: { missile: 1160, unit: 10 },
+      people: 360,
+      purpose: ShipPurpose.fight,
+      thruster: Size.extralarge,
+      type: ShipType.battleship,
+      mass: 487.388,
+      inertia: { pitch: 485.311, yaw: 485.311, roll: 388.249 },
+      drag: { forward: 133.108, reverse: 532.433, horizontal: 259.232, vertical: 259.232, pitch: 717.73, yaw: 717.73, roll: 717.73 },
+      engines: [
+         { group: 'group_back_mid_down', size: Size.extralarge, hittable: false },
+      ],
+      shields: [
+         { group: 'group_mid_up_right', size: Size.medium, hittable: true },
+         { group: 'group_mid_down_mid', size: Size.medium, hittable: true },
+         { group: 'group_back_mid_down', size: Size.medium, hittable: true },
+         { size: Size.extralarge, hittable: false },
+         { group: 'group_back_mid_down', size: Size.medium, hittable: true },
+         { size: Size.extralarge, hittable: false },
+         { size: Size.extralarge, hittable: false },
+         { size: Size.extralarge, hittable: false },
+         { group: 'group_mid_up_right', size: Size.medium, hittable: true },
+         { group: 'group_mid_up_left', size: Size.medium, hittable: true },
+         { group: 'group_mid_up_left', size: Size.medium, hittable: true },
+         { group: 'group_mid_down_mid', size: Size.medium, hittable: true },
+         { group: 'group_front_up_left_1', size: Size.medium, hittable: true },
+         { group: 'group_front_up_left_1', size: Size.medium, hittable: true },
+         { group: 'group_front_up_left_1', size: Size.medium, hittable: true },
+         { group: 'group_front_up_left_1', size: Size.medium, hittable: true },
+         { group: 'group_front_up_left_2', size: Size.medium, hittable: true },
+         { group: 'group_front_up_left_2', size: Size.medium, hittable: true },
+         { group: 'group_front_up_left_2', size: Size.medium, hittable: true },
+         { group: 'group_front_up_left_2', size: Size.medium, hittable: true },
+         { group: 'group_front_up_right_2', size: Size.medium, hittable: true },
+         { group: 'group_front_up_right_2', size: Size.medium, hittable: true },
+         { group: 'group_front_up_right_2', size: Size.medium, hittable: true },
+         { group: 'group_front_up_right_2', size: Size.medium, hittable: true },
+         { group: 'group_front_up_right_1', size: Size.medium, hittable: true },
+         { group: 'group_front_up_right_1', size: Size.medium, hittable: true },
+         { group: 'group_front_up_right_1', size: Size.medium, hittable: true },
+         { group: 'group_front_up_right_1', size: Size.medium, hittable: true },
+         { group: 'group_front_down_left_2', size: Size.medium, hittable: true },
+         { group: 'group_front_down_left_2', size: Size.medium, hittable: true },
+         { group: 'group_front_down_left_2', size: Size.medium, hittable: true },
+         { group: 'group_front_down_left_2', size: Size.medium, hittable: true },
+         { group: 'group_front_down_left_1', size: Size.medium, hittable: true },
+         { group: 'group_front_down_left_1', size: Size.medium, hittable: true },
+         { group: 'group_front_down_left_1', size: Size.medium, hittable: true },
+         { group: 'group_front_down_left_1', size: Size.medium, hittable: true },
+         { group: 'group_front_down_right_2', size: Size.medium, hittable: true },
+         { group: 'group_front_down_right_2', size: Size.medium, hittable: true },
+         { group: 'group_front_down_right_2', size: Size.medium, hittable: true },
+         { group: 'group_front_down_right_2', size: Size.medium, hittable: true },
+         { group: 'group_front_down_right_1', size: Size.medium, hittable: true },
+         { group: 'group_front_down_right_1', size: Size.medium, hittable: true },
+         { group: 'group_front_down_right_1', size: Size.medium, hittable: true },
+         { group: 'group_front_down_right_1', size: Size.medium, hittable: true },
+         { group: 'group_back_mid_down', size: Size.medium, hittable: true },
+         { group: 'group_back_mid_down', size: Size.medium, hittable: true },
+      ],
+      weapons: [
+         { size: Size.large, hittable: false, types: [ TurretType.standard ] },
+         { size: Size.large, hittable: false, types: [ TurretType.standard ] },
+         { size: Size.extralarge, hittable: false, types: [ TurretType.standard ] },
+      ],
+      turrets: [
+         { group: 'group_mid_down_mid', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_mid_up_right', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_mid_up_right', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_mid_down_mid', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_mid_up_left', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_mid_up_left', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_front_up_left_1', size: Size.large, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_front_up_left_1', size: Size.large, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_front_up_left_2', size: Size.large, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_front_up_left_2', size: Size.large, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_front_up_right_2', size: Size.large, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_front_up_right_2', size: Size.large, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_front_up_right_1', size: Size.large, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_front_up_right_1', size: Size.large, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_front_down_left_2', size: Size.large, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_front_down_left_2', size: Size.large, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_front_down_left_1', size: Size.large, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_front_down_left_1', size: Size.large, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_front_down_right_2', size: Size.large, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_front_down_right_2', size: Size.large, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_front_down_right_1', size: Size.large, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_front_down_right_1', size: Size.large, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+      ],
+      cargo: [
+         { max: 9000, types: [ CargoTypes.container ] },
+      ],
+      docks: [
+         { capacity: 10, size: Size.extrasmall },
+         { capacity: 40, size: Size.small },
+      ],
+      owners: [
+         Factions.terran,
+      ],
+      price: { min: 22252932, max: 30106908, avg: 26179920 },
+      production: [
+         {
+            time: 516,
+            amount: 1,
+            method: 'default',
+            name: 'Terran',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 619 },
+               { ware: 'energycells', amount: 2854 },
+               { ware: 'metallicmicrolattice', amount: 1300 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'ship_gen_m_transdrone_container_02_a',
+      version: 2,
+      name: 'Medium Terraforming Drone',
+      description: 'No information available',
+      size: Size.medium,
+      explosionDamage: 5000,
+      hull: 10000,
+      storage: { missile: 0, unit: 0 },
+      purpose: ShipPurpose.trade,
+      thruster: Size.medium,
+      type: ShipType.transporter,
+      mass: 42,
+      inertia: { pitch: 6, yaw: 6, roll: 4 },
+      drag: { forward: 7, reverse: 29, horizontal: 26, vertical: 26, pitch: 13, yaw: 13, roll: 13 },
+      engines: [
+         { size: Size.medium, hittable: false },
+      ],
+      owners: [
+         Factions.player,
+      ],
+      price: { min: 39610, max: 53590, avg: 46600 },
+      production: [
+      ]
+   },
+   {
+      id: 'ship_gen_s_transdrone_container_02_a',
+      version: 2,
+      name: 'Small Terraforming Drone',
+      description: 'No information available',
+      size: Size.small,
+      explosionDamage: 1000,
+      hull: 2200,
+      storage: { missile: 0, unit: 0 },
+      purpose: ShipPurpose.trade,
+      thruster: Size.small,
+      type: ShipType.courier,
+      mass: 1,
+      inertia: { pitch: 3, yaw: 17, roll: 4 },
+      drag: { forward: 5.5, reverse: 24, horizontal: 6, vertical: 6, pitch: 6, yaw: 4, roll: 6 },
+      engines: [
+         { size: Size.small, hittable: false },
+      ],
+      owners: [
+         Factions.player,
+      ],
+      price: { min: 19805, max: 26795, avg: 23300 },
+      production: [
+      ]
+   },
+   {
+      id: 'ship_ter_l_destroyer_01_a',
+      version: 2,
+      name: 'Osaka',
+      description: 'This state of the art version of the Osaka-class destroyer is the result of meticulously redesigning and overhauling its predecessor model. The design retained the two-pronged front bow of the older ship, while adopting an elongated rear section more typical of contemporary Terran designs.nnDestroyer-class ships usually play an important role in engaging large enemy targets, while also serving as an anchor point for larger fleet movement. The Terran Protectorate\'s Osaka, however, specialises only in the first of these two roles, leaving coordination duties to the fleet\'s carriers and battleships.',
+      size: Size.large,
+      race: Races.terran,
+      explosionDamage: 10000,
+      hull: 95000,
+      storage: { missile: 160, unit: 10 },
+      people: 75,
+      purpose: ShipPurpose.fight,
+      thruster: Size.large,
+      type: ShipType.destroyer,
+      mass: 202.028,
+      inertia: { pitch: 100.346, yaw: 100.346, roll: 80.277 },
+      drag: { forward: 80.406, reverse: 321.623, horizontal: 71.355, vertical: 71.355, pitch: 107.406, yaw: 107.406, roll: 107.406 },
+      engines: [
+         { group: 'group_back_mid_mid', size: Size.large, hittable: false },
+         { group: 'group_back_mid_mid', size: Size.large, hittable: false },
+      ],
+      shields: [
+         { group: 'group_back_mid_up', size: Size.medium, hittable: true },
+         { group: 'group_down_mid_left', size: Size.medium, hittable: true },
+         { size: Size.large, hittable: false },
+         { group: 'group_back_mid_mid', size: Size.medium, hittable: true },
+         { size: Size.large, hittable: false },
+         { group: 'group_down_mid_right', size: Size.medium, hittable: true },
+         { group: 'group_back_mid_mid', size: Size.medium, hittable: true },
+         { group: 'group_back_down_mid', size: Size.medium, hittable: true },
+         { size: Size.large, hittable: false },
+         { group: 'group_front_down_mid', size: Size.medium, hittable: true },
+         { group: 'group_front_down_mid', size: Size.medium, hittable: true },
+         { group: 'group_mid_up_left', size: Size.medium, hittable: true },
+         { group: 'group_mid_right_up', size: Size.medium, hittable: true },
+         { group: 'group_back_mid_mid', size: Size.medium, hittable: true },
+         { group: 'group_back_mid_mid', size: Size.medium, hittable: true },
+         { group: 'group_mid_up_left_2', size: Size.medium, hittable: true },
+         { group: 'group_mid_up_left_2', size: Size.medium, hittable: true },
+         { group: 'group_mid_right_up_2', size: Size.medium, hittable: true },
+         { group: 'group_mid_right_up_2', size: Size.medium, hittable: true },
+      ],
+      weapons: [
+         { size: Size.large, hittable: false, types: [ TurretType.standard ] },
+         { size: Size.large, hittable: false, types: [ TurretType.standard ] },
+      ],
+      turrets: [
+         { group: 'group_back_mid_up', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_down_mid_left', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_mid_up_left', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_mid_up_left_2', size: Size.large, hittable: false, types: [ TurretType.standard ] },
+         { group: 'group_mid_right_up_2', size: Size.large, hittable: false, types: [ TurretType.standard ] },
+         { group: 'group_front_down_mid', size: Size.large, hittable: false, types: [ TurretType.standard ] },
+         { group: 'group_down_mid_right', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_back_down_mid', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_down_mid_right', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_down_mid_left', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_mid_up_left', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_mid_right_up', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_mid_right_up', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+      ],
+      cargo: [
+         { max: 2800, types: [ CargoTypes.container ] },
+      ],
+      docks: [
+         { capacity: 10, size: Size.extrasmall },
+         { capacity: 40, size: Size.small },
+      ],
+      owners: [
+         Factions.pioneers,
+         Factions.terran,
+      ],
+      price: { min: 10058790, max: 13608951, avg: 11833870 },
+      production: [
+         {
+            time: 187,
+            amount: 1,
+            method: 'default',
+            name: 'Terran',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 281 },
+               { ware: 'energycells', amount: 1034 },
+               { ware: 'metallicmicrolattice', amount: 471 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'ship_ter_l_miner_liquid_01_a',
+      version: 2,
+      name: 'Hokkaido (Gas)',
+      description: 'The L-sized Hokkaido mining ship comes in two variants, providing support for both natural gas collection and asteroid mineral mining. With the founding of the Pioneer Initiative, this design really came into its own, and has since been widely adopted by the Segaris Pioneers. On the back of the Pioneers\' expansion, this ship model has made its way deeper into the Jump Gate network, and has become a common sight in a variety of areas.',
+      size: Size.extralarge,
+      race: Races.terran,
+      explosionDamage: 8000,
+      hull: 24000,
+      storage: { missile: 30, unit: 10 },
+      people: 33,
+      purpose: ShipPurpose.mine,
+      thruster: Size.large,
+      type: ShipType.largeminer,
+      mass: 105.855,
+      inertia: { pitch: 85.708, yaw: 85.708, roll: 68.567 },
+      drag: { forward: 32.115, reverse: 183.513, horizontal: 76.276, vertical: 76.276, pitch: 102.991, yaw: 102.991, roll: 102.991 },
+      engines: [
+         { group: 'group_back_down_mid', size: Size.large, hittable: false },
+      ],
+      shields: [
+         { group: 'group_front_mid_left', size: Size.medium, hittable: true },
+         { group: 'group_back_down_mid', size: Size.medium, hittable: true },
+         { group: 'group_mid_mid_down', size: Size.medium, hittable: true },
+         { group: 'group_back_up_mid', size: Size.medium, hittable: true },
+         { size: Size.large, hittable: false },
+         { group: 'group_mid_mid_right', size: Size.medium, hittable: true },
+         { group: 'group_mid_mid_left', size: Size.medium, hittable: true },
+         { group: 'group_front_mid_left', size: Size.medium, hittable: true },
+      ],
+      turrets: [
+         { group: 'group_back_up_mid', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_mid_mid_right', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_mid_mid_left', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_front_mid_left', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_mid_mid_down', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_mid_mid_left', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_mid_mid_right', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_front_mid_left', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+      ],
+      cargo: [
+         { max: 38000, types: [ CargoTypes.liquid ] },
+      ],
+      docks: [
+         { capacity: 40, size: Size.small },
+         { capacity: 10, size: Size.extrasmall },
+      ],
+      owners: [
+         Factions.pioneers,
+         Factions.terran,
+      ],
+      price: { min: 2426113, max: 3282388, avg: 2854250 },
+      production: [
+         {
+            time: 75,
+            amount: 1,
+            method: 'default',
+            name: 'Terran',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 67 },
+               { ware: 'energycells', amount: 415 },
+               { ware: 'metallicmicrolattice', amount: 189 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'ship_ter_l_miner_solid_01_a',
+      version: 2,
+      name: 'Hokkaido (Mineral)',
+      description: 'The L-sized Hokkaido mining ship comes in two variants, providing support for both natural gas collection and asteroid mineral mining. With the founding of the Pioneer Initiative, this design really came into its own, and has since been widely adopted by the Segaris Pioneers. On the back of the Pioneers\' expansion, this ship model has made its way deeper into the Jump Gate network, and has become a common sight in a variety of areas.',
+      size: Size.large,
+      race: Races.terran,
+      explosionDamage: 8000,
+      hull: 24000,
+      storage: { missile: 30, unit: 10 },
+      people: 33,
+      purpose: ShipPurpose.mine,
+      thruster: Size.large,
+      type: ShipType.largeminer,
+      mass: 105.855,
+      inertia: { pitch: 85.708, yaw: 85.708, roll: 68.567 },
+      drag: { forward: 32.115, reverse: 183.513, horizontal: 76.276, vertical: 76.276, pitch: 102.991, yaw: 102.991, roll: 102.991 },
+      engines: [
+         { group: 'group_back_down_mid', size: Size.large, hittable: false },
+      ],
+      shields: [
+         { group: 'group_front_mid_left', size: Size.medium, hittable: true },
+         { group: 'group_back_down_mid', size: Size.medium, hittable: true },
+         { group: 'group_mid_mid_down', size: Size.medium, hittable: true },
+         { group: 'group_back_up_mid', size: Size.medium, hittable: true },
+         { size: Size.large, hittable: false },
+         { group: 'group_front_down_mid', size: Size.medium, hittable: true },
+         { group: 'group_mid_mid_right', size: Size.medium, hittable: true },
+         { group: 'group_mid_mid_left', size: Size.medium, hittable: true },
+         { group: 'group_front_mid_left', size: Size.medium, hittable: true },
+      ],
+      turrets: [
+         { group: 'group_front_down_mid', size: Size.large, hittable: false, types: [ TurretType.mining ] },
+         { group: 'group_back_up_mid', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_mid_mid_right', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_mid_mid_left', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_front_mid_left', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_mid_mid_down', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_mid_mid_left', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_mid_mid_right', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_front_mid_left', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+      ],
+      cargo: [
+         { max: 38000, types: [ CargoTypes.solid ] },
+      ],
+      docks: [
+         { capacity: 40, size: Size.small },
+         { capacity: 10, size: Size.extrasmall },
+      ],
+      owners: [
+         Factions.pioneers,
+         Factions.terran,
+      ],
+      price: { min: 2426113, max: 3282388, avg: 2854250 },
+      production: [
+         {
+            time: 75,
+            amount: 1,
+            method: 'default',
+            name: 'Terran',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 67 },
+               { ware: 'energycells', amount: 415 },
+               { ware: 'metallicmicrolattice', amount: 189 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'ship_ter_l_trans_container_01_a',
+      version: 2,
+      name: 'Okinawa',
+      description: 'This comparatively lightweight freighter became the de-facto standard option for trading among Sol\'s citizens during the Jump Gate shutdown. The time during which the model was initially developed was an unusually peaceful period in Terran history, so the first models did not include significant defensive capabilities or particularly impressive hull reinforcement. Newer iterations, however, have since added an array of turrets along its flanks to discourage the more belligerent inhabitants of the Gate network.',
+      size: Size.large,
+      race: Races.terran,
+      explosionDamage: 8000,
+      hull: 36000,
+      storage: { missile: 30, unit: 10 },
+      people: 57,
+      purpose: ShipPurpose.trade,
+      thruster: Size.large,
+      type: ShipType.freighter,
+      mass: 277.66,
+      inertia: { pitch: 87.408, yaw: 87.408, roll: 69.927 },
+      drag: { forward: 71.649, reverse: 286.596, horizontal: 140.535, vertical: 140.535, pitch: 122.532, yaw: 122.532, roll: 122.532 },
+      engines: [
+         { group: 'group_07', size: Size.large, hittable: false },
+      ],
+      shields: [
+         { group: 'group_07', size: Size.medium, hittable: true },
+         { group: 'group_02', size: Size.medium, hittable: true },
+         { group: 'group_01', size: Size.medium, hittable: true },
+         { size: Size.large, hittable: false },
+         { group: 'group_05', size: Size.medium, hittable: true },
+         { group: 'group_03', size: Size.medium, hittable: true },
+         { group: 'group_06', size: Size.medium, hittable: true },
+         { size: Size.large, hittable: false },
+      ],
+      turrets: [
+         { group: 'group_05', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_01', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_05', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_02', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_02', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_03', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_06', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_06', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+      ],
+      cargo: [
+         { max: 42000, types: [ CargoTypes.container ] },
+      ],
+      docks: [
+         { capacity: 40, size: Size.small },
+         { capacity: 10, size: Size.extrasmall },
+      ],
+      owners: [
+         Factions.pioneers,
+         Factions.terran,
+      ],
+      price: { min: 3801353, max: 5143007, avg: 4472180 },
+      production: [
+         {
+            time: 117,
+            amount: 1,
+            method: 'default',
+            name: 'Terran',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 105 },
+               { ware: 'energycells', amount: 646 },
+               { ware: 'metallicmicrolattice', amount: 294 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'ship_ter_m_corvette_01_a',
+      version: 2,
+      name: 'Katana',
+      description: 'A sleek Corvette-class ship, the Katana was engineered to be as compact as possible and minimise its surface area as a potential target. The front-facing weapons make it the Terran Protectorate\'s first choice for engaging individual targets, as they concentrate all of its available fire-power in one place.',
+      size: Size.medium,
+      race: Races.terran,
+      explosionDamage: 5000,
+      hull: 11000,
+      storage: { missile: 40, unit: 0 },
+      people: 6,
+      purpose: ShipPurpose.fight,
+      thruster: Size.medium,
+      type: ShipType.corvette,
+      mass: 29.28,
+      inertia: { pitch: 3.763, yaw: 3.763, roll: 3.01 },
+      drag: { forward: 4.051, reverse: 16.203, horizontal: 15.622, vertical: 15.622, pitch: 10.311, yaw: 10.311, roll: 10.311 },
+      engines: [
+         { size: Size.medium, hittable: false },
+         { size: Size.medium, hittable: false },
+      ],
+      shields: [
+         { size: Size.medium, hittable: false },
+         { size: Size.medium, hittable: false },
+      ],
+      weapons: [
+         { size: Size.medium, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+         { size: Size.medium, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+         { size: Size.medium, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+         { size: Size.medium, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+      ],
+      turrets: [
+         { size: Size.medium, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+         { size: Size.medium, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+      ],
+      cargo: [
+         { max: 560, types: [ CargoTypes.container ] },
+      ],
+      docks: [
+         { capacity: 10, size: Size.extrasmall },
+      ],
+      owners: [
+         Factions.pioneers,
+         Factions.terran,
+      ],
+      price: { min: 1499009, max: 2028071, avg: 1763540 },
+      production: [
+         {
+            time: 23,
+            amount: 1,
+            method: 'default',
+            name: 'Terran',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 42 },
+               { ware: 'energycells', amount: 128 },
+               { ware: 'metallicmicrolattice', amount: 58 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'ship_ter_m_frigate_01_a',
+      version: 2,
+      name: 'Falx',
+      description: 'In the years since the Jump Gates realigned, this Protectorate-made support ship has become a cornerstone of the Terran fleets. The Falx is heavily inspired by the Argon Cerberus frigate, although the Terran engineers would never admit to that. Because it can carry a small-sized ship on board, it is often used for patrols. Should it encounter hostile forces, it can hold its own in combat until Terran reinforcements arrive, and on the distant fronts of the war against the Xenon it often acts as a reliable support ship.',
+      size: Size.medium,
+      race: Races.terran,
+      explosionDamage: 5000,
+      hull: 20000,
+      storage: { missile: 100, unit: 12 },
+      people: 23,
+      purpose: ShipPurpose.fight,
+      thruster: Size.medium,
+      type: ShipType.frigate,
+      mass: 42.29,
+      inertia: { pitch: 4.412, yaw: 4.412, roll: 3.529 },
+      drag: { forward: 25.165, reverse: 70.461, horizontal: 13.477, vertical: 13.477, pitch: 9.151, yaw: 9.151, roll: 9.151 },
+      engines: [
+         { size: Size.medium, hittable: false },
+         { size: Size.medium, hittable: false },
+         { size: Size.medium, hittable: false },
+         { size: Size.medium, hittable: false },
+         { size: Size.medium, hittable: false },
+         { size: Size.medium, hittable: false },
+      ],
+      shields: [
+         { size: Size.medium, hittable: false },
+         { size: Size.medium, hittable: false },
+      ],
+      weapons: [
+         { size: Size.medium, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+         { size: Size.medium, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+         { size: Size.medium, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+         { size: Size.medium, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+      ],
+      turrets: [
+         { size: Size.medium, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+         { size: Size.medium, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+      ],
+      cargo: [
+         { max: 1500, types: [ CargoTypes.container ] },
+      ],
+      docks: [
+         { capacity: 1, size: Size.small },
+         { capacity: 10, size: Size.extrasmall },
+      ],
+      owners: [
+         Factions.terran,
+      ],
+      price: { min: 2391781, max: 3235939, avg: 2813860 },
+      production: [
+         {
+            time: 37,
+            amount: 1,
+            method: 'default',
+            name: 'Terran',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 67 },
+               { ware: 'energycells', amount: 207 },
+               { ware: 'metallicmicrolattice', amount: 94 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'ship_ter_m_gunboat_01_a',
+      version: 2,
+      name: 'Jian',
+      description: 'A successor to the Claymore, the Jian is immediately distinguishable from its predecessor by its numerous turrets. Designed during the Jump Gate shutdown, the Terran Protectorate sought to create a more heavily armed, yet still nimble, gunboat. With its turrets capable of applying pressure in several directions simultaneously, it is easy for the Jian to switch rapidly between targets, allowing it to keep enemy fighter groups at bay.',
+      size: Size.medium,
+      race: Races.terran,
+      explosionDamage: 5000,
+      hull: 13000,
+      storage: { missile: 40, unit: 0 },
+      people: 8,
+      purpose: ShipPurpose.fight,
+      thruster: Size.medium,
+      type: ShipType.gunboat,
+      mass: 34.134,
+      inertia: { pitch: 7.361, yaw: 7.361, roll: 5.889 },
+      drag: { forward: 9.103, reverse: 36.411, horizontal: 11.877, vertical: 11.877, pitch: 11.034, yaw: 11.034, roll: 11.034 },
+      engines: [
+         { size: Size.medium, hittable: false },
+         { size: Size.medium, hittable: false },
+      ],
+      shields: [
+         { size: Size.medium, hittable: false },
+         { size: Size.medium, hittable: false },
+      ],
+      weapons: [
+         { size: Size.medium, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+      ],
+      turrets: [
+         { size: Size.medium, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+         { size: Size.medium, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+         { size: Size.medium, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+         { size: Size.medium, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+         { size: Size.medium, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+         { size: Size.medium, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+      ],
+      cargo: [
+         { max: 950, types: [ CargoTypes.container ] },
+      ],
+      docks: [
+         { capacity: 10, size: Size.extrasmall },
+      ],
+      owners: [
+         Factions.terran,
+      ],
+      price: { min: 2366240, max: 1789217, avg: 2057600 },
+      production: [
+         {
+            time: 27,
+            amount: 1,
+            method: 'default',
+            name: 'Terran',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 49 },
+               { ware: 'energycells', amount: 150 },
+               { ware: 'metallicmicrolattice', amount: 68 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'ship_ter_m_miner_liquid_01_a',
+      version: 2,
+      name: 'Bolo (Gas)',
+      description: 'As is occasionally the case with emerging technology, the shift from station-based mining technology to the more efficient and adaptable approach of ship-based mining, came about in several disconnected regions of the Jump Gate network almost simultaneously. While the Argon-based Plutarch Mining Corporation developed their initial prototypes, several Sol-based corporations reached the same conclusion independently. When the Jump Gates realigned, both sides tried to sell their technological innovations to the other, only to realise that the market was already saturated.',
+      size: Size.medium,
+      race: Races.terran,
+      explosionDamage: 1000,
+      hull: 5000,
+      storage: { missile: 20, unit: 0 },
+      people: 7,
+      purpose: ShipPurpose.mine,
+      thruster: Size.medium,
+      type: ShipType.miner,
+      mass: 37.781,
+      inertia: { pitch: 7.35, yaw: 7.35, roll: 5.88 },
+      drag: { forward: 6.898, reverse: 39.419, horizontal: 15.792, vertical: 15.792, pitch: 11.945, yaw: 11.945, roll: 11.945 },
+      engines: [
+         { size: Size.medium, hittable: false },
+         { size: Size.medium, hittable: false },
+      ],
+      shields: [
+         { size: Size.medium, hittable: false },
+      ],
+      turrets: [
+         { size: Size.medium, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+         { size: Size.medium, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+      ],
+      cargo: [
+         { max: 10000, types: [ CargoTypes.liquid ] },
+      ],
+      docks: [
+         { capacity: 10, size: Size.extrasmall },
+      ],
+      owners: [
+         Factions.pioneers,
+         Factions.terran,
+      ],
+      price: { min: 330429, max: 447051, avg: 388740 },
+      production: [
+         {
+            time: 15,
+            amount: 1,
+            method: 'default',
+            name: 'Terran',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 9 },
+               { ware: 'energycells', amount: 83 },
+               { ware: 'metallicmicrolattice', amount: 38 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'ship_ter_m_miner_solid_01_a',
+      version: 2,
+      name: 'Bolo (Mineral)',
+      description: 'As is occasionally the case with emerging technology, the shift from station-based mining technology to the more efficient and adaptable approach of ship-based mining, came about in several disconnected regions of the Jump Gate network almost simultaneously. While the Argon-based Plutarch Mining Corporation developed their initial prototypes, several Sol-based corporations reached the same conclusion independently. When the Jump Gates realigned, both sides tried to sell their technological innovations to the other, only to realise that the market was already saturated.',
+      size: Size.medium,
+      race: Races.terran,
+      explosionDamage: 1000,
+      hull: 5000,
+      storage: { missile: 20, unit: 0 },
+      people: 7,
+      purpose: ShipPurpose.mine,
+      thruster: Size.medium,
+      type: ShipType.miner,
+      mass: 37.781,
+      inertia: { pitch: 7.35, yaw: 7.35, roll: 5.88 },
+      drag: { forward: 6.898, reverse: 39.419, horizontal: 15.792, vertical: 15.792, pitch: 11.945, yaw: 11.945, roll: 11.945 },
+      engines: [
+         { size: Size.medium, hittable: false },
+         { size: Size.medium, hittable: false },
+      ],
+      shields: [
+         { size: Size.medium, hittable: false },
+      ],
+      weapons: [
+         { size: Size.medium, hittable: false, types: [ TurretType.standard, TurretType.missile, TurretType.mining ] },
+      ],
+      turrets: [
+         { size: Size.medium, hittable: false, types: [ TurretType.standard, TurretType.missile, TurretType.mining ] },
+         { size: Size.medium, hittable: false, types: [ TurretType.standard, TurretType.missile, TurretType.mining ] },
+      ],
+      cargo: [
+         { max: 8800, types: [ CargoTypes.solid ] },
+      ],
+      docks: [
+         { capacity: 10, size: Size.extrasmall },
+      ],
+      owners: [
+         Factions.pioneers,
+         Factions.terran,
+      ],
+      price: { min: 330429, max: 447051, avg: 388740 },
+      production: [
+         {
+            time: 15,
+            amount: 1,
+            method: 'default',
+            name: 'Terran',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 9 },
+               { ware: 'energycells', amount: 83 },
+               { ware: 'metallicmicrolattice', amount: 38 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'ship_ter_m_trans_container_01_a',
+      version: 2,
+      name: 'Baldric',
+      description: 'The Baldric transporter has long been a staple of the Terran economy. The newest iteration allows for greater modularity and more extensive modification options, and adjusts the design to be more in-line with the Terran Protectorate\'s modern aesthetic. It also adds an extra turret to make it a less attractive target for pirate raids, and to ensure that no wares critical to the Terran war effort are lost in transit.',
+      size: Size.medium,
+      race: Races.terran,
+      explosionDamage: 4000,
+      hull: 9000,
+      storage: { missile: 20, unit: 0 },
+      people: 22,
+      purpose: ShipPurpose.trade,
+      thruster: Size.medium,
+      type: ShipType.transporter,
+      mass: 72.561,
+      inertia: { pitch: 13.551, yaw: 13.551, roll: 10.841 },
+      drag: { forward: 17.028, reverse: 68.112, horizontal: 26.286, vertical: 26.286, pitch: 20.64, yaw: 20.64, roll: 20.64 },
+      engines: [
+         { size: Size.medium, hittable: false },
+         { size: Size.medium, hittable: false },
+      ],
+      shields: [
+         { size: Size.medium, hittable: false },
+      ],
+      turrets: [
+         { size: Size.medium, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+         { size: Size.medium, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+      ],
+      cargo: [
+         { max: 10700, types: [ CargoTypes.container ] },
+      ],
+      docks: [
+         { capacity: 10, size: Size.extrasmall },
+      ],
+      owners: [
+         Factions.pioneers,
+         Factions.terran,
+      ],
+      price: { min: 624206, max: 844514, avg: 734360 },
+      production: [
+         {
+            time: 28,
+            amount: 1,
+            method: 'default',
+            name: 'Terran',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 17 },
+               { ware: 'energycells', amount: 157 },
+               { ware: 'metallicmicrolattice', amount: 72 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'ship_ter_s_fighter_01_a',
+      version: 2,
+      name: 'Kukri',
+      description: 'Initially used by the Terran Protectorate to hunt down the remnants of pirate organisations inside the Sol system, this Fighter-class model soon established itself as the small, nimble ship of choice for Terran military operations, both inside and outside their home system.nnThe asymmetric design neatly brings together firepower and manoeuvrability, and ensures that this ship excels in being adaptable to whatever opposition the pilot faces. The design also factored-in specialised weapon slots, which allow the ship to make use of powerful weapons, unique to the Terran arsenal.',
+      size: Size.small,
+      race: Races.terran,
+      hull: 3700,
+      storage: { missile: 20, unit: 0 },
+      people: 2,
+      purpose: ShipPurpose.fight,
+      thruster: Size.small,
+      type: ShipType.fighter,
+      mass: 7.843,
+      inertia: { pitch: 1.658, yaw: 1.658, roll: 1.824 },
+      drag: { forward: 2.273, reverse: 9.093, horizontal: 3.396, vertical: 3.396, pitch: 3.05, yaw: 3.05, roll: 3.05 },
+      engines: [
+         { size: Size.small, hittable: false },
+      ],
+      shields: [
+         { size: Size.small, hittable: false },
+      ],
+      weapons: [
+         { size: Size.small, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+         { size: Size.small, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+         { size: Size.small, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+      ],
+      cargo: [
+         { max: 140, types: [ CargoTypes.container ] },
+      ],
+      docks: [
+         { capacity: 10, size: Size.extrasmall },
+      ],
+      owners: [
+         Factions.pioneers,
+         Factions.terran,
+      ],
+      price: { min: 327573, max: 443187, avg: 385380 },
+      production: [
+         {
+            time: 12,
+            amount: 1,
+            method: 'default',
+            name: 'Terran',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 9 },
+               { ware: 'energycells', amount: 66 },
+               { ware: 'metallicmicrolattice', amount: 30 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'ship_ter_s_fighter_02_a',
+      version: 2,
+      name: 'Kalis',
+      description: 'When the Pioneer Initiative set out to claim systems beyond the confines of Sol, they were supplied with Kukri-class fighters by the Terran military. Many of these ships, however, came with faulty components, as they were production units that had failed rigorous Terran acceptance testing. The brilliant minds among the Pioneer Initiative worked hard to address these flaws with the limited means available to them and, over time, modified the ships so much that they became almost unrecognisable.nnNow much more standardised, the Kalis-class fighter serves as a sturdier and more reliable Pioneer alternative to its Terran forerunner. The hostile environments in which the Segaris Pioneers operate require a heavily protected ship, so this unconventional design bridges the gap between standard and heavy fighters. It provides handling similar to the latter, due to its heavy shielding, while still being cheaper to produce for the struggling fledgling faction.',
+      size: Size.small,
+      race: Races.terran,
+      hull: 3300,
+      storage: { missile: 20, unit: 0 },
+      people: 2,
+      purpose: ShipPurpose.fight,
+      thruster: Size.small,
+      type: ShipType.heavyfighter,
+      mass: 7.118,
+      inertia: { pitch: 1.561, yaw: 1.561, roll: 1.248 },
+      drag: { forward: 4.811, reverse: 18.178, horizontal: 4.148, vertical: 4.148, pitch: 3.162, yaw: 3.162, roll: 3.162 },
+      engines: [
+         { size: Size.small, hittable: false },
+         { size: Size.small, hittable: false },
+      ],
+      shields: [
+         { size: Size.small, hittable: false },
+         { size: Size.small, hittable: false },
+         { size: Size.small, hittable: false },
+         { size: Size.small, hittable: false },
+      ],
+      weapons: [
+         { size: Size.small, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+         { size: Size.small, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+      ],
+      cargo: [
+         { max: 180, types: [ CargoTypes.container ] },
+      ],
+      docks: [
+         { capacity: 10, size: Size.extrasmall },
+      ],
+      owners: [
+         Factions.pioneers,
+      ],
+      price: { min: 291338, max: 394163, avg: 342750 },
+      production: [
+         {
+            time: 11,
+            amount: 1,
+            method: 'default',
+            name: 'Terran',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 8 },
+               { ware: 'energycells', amount: 60 },
+               { ware: 'metallicmicrolattice', amount: 27 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'ship_ter_s_fighter_03_a',
+      version: 2,
+      name: 'Takoba',
+      description: 'Much like the Kalis, the Takoba came about as the result of Segaris Pioneers engineers\' modifications to military ships provided to them by the Terran Protectorate, though in this case the ships were mostly decommissioned examples, sold to the Pioneers at a reduced price. Sleek in design, and distinguished from other fighters primarily by its speed, ships of this class are often dispatched to explore unfamiliar territory in which some enemy presence is expected. While useful for small-scale military action, the Takoba is not as adept at engaging the enemy head-on, as its shielding is somewhat weaker than the Terran fighters on which it was based.',
+      size: Size.small,
+      race: Races.terran,
+      hull: 3400,
+      storage: { missile: 20, unit: 0 },
+      people: 2,
+      purpose: ShipPurpose.fight,
+      thruster: Size.small,
+      type: ShipType.fighter,
+      mass: 7.335,
+      inertia: { pitch: 1.478, yaw: 1.478, roll: 1.626 },
+      drag: { forward: 3.664, reverse: 9.835, horizontal: 3.564, vertical: 3.564, pitch: 2.907, yaw: 2.907, roll: 2.907 },
+      engines: [
+         { size: Size.small, hittable: false },
+         { size: Size.small, hittable: false },
+         { size: Size.small, hittable: false },
+      ],
+      shields: [
+         { size: Size.small, hittable: false },
+         { size: Size.small, hittable: false },
+      ],
+      weapons: [
+         { size: Size.small, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+         { size: Size.small, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+      ],
+      cargo: [
+         { max: 110, types: [ CargoTypes.container ] },
+      ],
+      docks: [
+         { capacity: 10, size: Size.extrasmall },
+      ],
+      owners: [
+         Factions.pioneers,
+      ],
+      price: { min: 291686, max: 394634, avg: 343160 },
+      production: [
+         {
+            time: 11,
+            amount: 1,
+            method: 'default',
+            name: 'Terran',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 8 },
+               { ware: 'energycells', amount: 62 },
+               { ware: 'metallicmicrolattice', amount: 28 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'ship_ter_s_heavyfighter_01_a',
+      version: 2,
+      name: 'Gladius',
+      description: 'With its distinctive sweeping wings, the Gladius was designed for medium to long distance travel, as well as engaging both small- and medium-sized ships in combat. These design criteria were carefully chosen, and the ship trades manoeuvrability for the ability to absorb more damage. The design focuses on allowing the ship to reach far-away pockets of the Jump Gate network, as part of the Terran Protectorate\'s new, more interventionist, policy in combating the Xenon.',
+      size: Size.small,
+      race: Races.terran,
+      hull: 4400,
+      storage: { missile: 20, unit: 0 },
+      people: 2,
+      purpose: ShipPurpose.fight,
+      thruster: Size.small,
+      type: ShipType.heavyfighter,
+      mass: 9.477,
+      inertia: { pitch: 2.562, yaw: 2.562, roll: 2.05 },
+      drag: { forward: 5.298, reverse: 21.715, horizontal: 3.426, vertical: 3.426, pitch: 3.899, yaw: 3.899, roll: 3.899 },
+      engines: [
+         { size: Size.small, hittable: false },
+         { size: Size.small, hittable: false },
+      ],
+      shields: [
+         { size: Size.small, hittable: false },
+         { size: Size.small, hittable: false },
+      ],
+      weapons: [
+         { size: Size.small, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+         { size: Size.small, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+         { size: Size.small, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+         { size: Size.small, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+      ],
+      cargo: [
+         { max: 360, types: [ CargoTypes.container ] },
+      ],
+      docks: [
+         { capacity: 10, size: Size.extrasmall },
+      ],
+      owners: [
+         Factions.terran,
+      ],
+      price: { min: 400180, max: 541420, avg: 470800 },
+      production: [
+         {
+            time: 14,
+            amount: 1,
+            method: 'default',
+            name: 'Terran',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 11 },
+               { ware: 'energycells', amount: 80 },
+               { ware: 'metallicmicrolattice', amount: 36 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'ship_ter_s_miner_solid_01_a',
+      version: 2,
+      name: 'Kopis (Mineral)',
+      description: 'The Kopis can feel quite claustrophobic when compared to mining ships from other manufacturers. Putting function over comfort, however, was a conscious design decision, since it allowed the engineers to maximise cargo space and thereby increase the profitability of each trip.',
+      size: Size.small,
+      race: Races.terran,
+      hull: 1000,
+      storage: { missile: 10, unit: 0 },
+      people: 2,
+      purpose: ShipPurpose.mine,
+      thruster: Size.small,
+      type: ShipType.miner,
+      mass: 7.475,
+      inertia: { pitch: 1.696, yaw: 1.696, roll: 1.357 },
+      drag: { forward: 3.821, reverse: 15.678, horizontal: 4.105, vertical: 4.105, pitch: 3.273, yaw: 3.273, roll: 3.273 },
+      engines: [
+         { size: Size.small, hittable: false },
+      ],
+      shields: [
+         { size: Size.small, hittable: false },
+      ],
+      weapons: [
+         { size: Size.small, hittable: false, types: [ TurretType.standard, TurretType.missile, TurretType.mining ] },
+      ],
+      cargo: [
+         { max: 5480, types: [ CargoTypes.solid ] },
+      ],
+      docks: [
+         { capacity: 10, size: Size.extrasmall },
+      ],
+      owners: [
+         Factions.pioneers,
+         Factions.terran,
+      ],
+      price: { min: 145427, max: 196754, avg: 171090 },
+      production: [
+         {
+            time: 5,
+            amount: 1,
+            method: 'default',
+            name: 'Terran',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 4 },
+               { ware: 'energycells', amount: 28 },
+               { ware: 'metallicmicrolattice', amount: 13 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'ship_ter_s_scout_01_a',
+      version: 2,
+      name: 'Rapier',
+      description: 'After the restructuring that saw the end of the USC, several changes were implemented by the Terran Protectorate to reform the way that the Sol system was policed. Along with these structural changes, several ship designs were drastically overhauled. The Rapier was redesigned to be lighter and faster, in order to cover more ground and improve the military\'s response time. These changes also resulted in the ship\'s somewhat unconventional, but still recognisable, new form.',
+      size: Size.small,
+      race: Races.terran,
+      hull: 1400,
+      storage: { missile: 20, unit: 0 },
+      people: 2,
+      purpose: ShipPurpose.fight,
+      thruster: Size.small,
+      type: ShipType.scout,
+      mass: 5.844,
+      inertia: { pitch: 1.213, yaw: 1.213, roll: 0.97 },
+      drag: { forward: 1.182, reverse: 4.729, horizontal: 2.858, vertical: 2.858, pitch: 3.232, yaw: 3.232, roll: 3.232 },
+      engines: [
+         { size: Size.small, hittable: false },
+      ],
+      shields: [
+         { size: Size.small, hittable: false },
+      ],
+      weapons: [
+         { size: Size.small, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+      ],
+      cargo: [
+         { max: 440, types: [ CargoTypes.container ] },
+      ],
+      docks: [
+         { capacity: 10, size: Size.extrasmall },
+      ],
+      owners: [
+         Factions.pioneers,
+         Factions.terran,
+      ],
+      price: { min: 181730, max: 245870, avg: 213800 },
+      production: [
+         {
+            time: 6,
+            amount: 1,
+            method: 'default',
+            name: 'Terran',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 5 },
+               { ware: 'energycells', amount: 35 },
+               { ware: 'metallicmicrolattice', amount: 16 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'ship_ter_s_scout_02_a',
+      version: 2,
+      name: 'Nimcha',
+      description: 'The Nimcha was developed as a light and fast scout, capable of holding its own even outside heavily patrolled Terran Protectorate territory. It differs from other scout ships of similar size by having a noticeably larger cargo capacity. This means that, in the rare instances when the Protectorate requires a limited load to be delivered to a distant front quickly, the Nimcha can conveniently double as a courier, able to operate even when the destination is behind enemy lines.',
+      size: Size.small,
+      race: Races.terran,
+      hull: 3000,
+      storage: { missile: 20, unit: 0 },
+      people: 2,
+      purpose: ShipPurpose.fight,
+      thruster: Size.small,
+      type: ShipType.scout,
+      mass: 7.872,
+      inertia: { pitch: 1.407, yaw: 1.407, roll: 1.125 },
+      drag: { forward: 3.136, reverse: 6.498, horizontal: 4.031, vertical: 4.031, pitch: 3.866, yaw: 3.866, roll: 3.866 },
+      engines: [
+         { size: Size.small, hittable: false },
+         { size: Size.small, hittable: false },
+      ],
+      shields: [
+         { size: Size.small, hittable: false },
+         { size: Size.small, hittable: false },
+      ],
+      weapons: [
+         { size: Size.small, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+      ],
+      cargo: [
+         { max: 670, types: [ CargoTypes.container ] },
+      ],
+      docks: [
+         { capacity: 10, size: Size.extrasmall },
+      ],
+      owners: [
+         Factions.terran,
+      ],
+      price: { min: 394163, max: 298043, avg: 342750 },
+      production: [
+         {
+            time: 11,
+            amount: 1,
+            method: 'default',
+            name: 'Terran',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 8 },
+               { ware: 'energycells', amount: 60 },
+               { ware: 'metallicmicrolattice', amount: 27 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'ship_ter_s_trans_container_01_a',
+      version: 2,
+      name: 'Frog',
+      description: 'The Frog has established itself as the Courier-class ship of choice for anyone who is looking to quickly traverse the Sol system, transporting a limited amount of cargo. The design does not include a defensive arsenal, but since pilots of this ship are not generally expected to leave the Terran Protectorate\'s sphere of security, it should not really be needed.',
+      size: Size.small,
+      race: Races.terran,
+      hull: 1700,
+      storage: { missile: 10, unit: 0 },
+      people: 3,
+      purpose: ShipPurpose.trade,
+      thruster: Size.small,
+      type: ShipType.courier,
+      mass: 13.454,
+      inertia: { pitch: 2.665, yaw: 2.665, roll: 2.132 },
+      drag: { forward: 4.643, reverse: 16.954, horizontal: 7.39, vertical: 7.39, pitch: 5.142, yaw: 5.142, roll: 5.142 },
+      engines: [
+         { size: Size.small, hittable: false },
+      ],
+      shields: [
+         { size: Size.small, hittable: false },
+      ],
+      cargo: [
+         { max: 4120, types: [ CargoTypes.container ] },
+      ],
+      docks: [
+         { capacity: 10, size: Size.extrasmall },
+      ],
+      owners: [
+         Factions.pioneers,
+         Factions.terran,
+      ],
+      price: { min: 254686, max: 344575, avg: 299630 },
+      production: [
+         {
+            time: 9,
+            amount: 1,
+            method: 'default',
+            name: 'Terran',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 7 },
+               { ware: 'energycells', amount: 51 },
+               { ware: 'metallicmicrolattice', amount: 23 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'ship_ter_xl_builder_01_a',
+      version: 2,
+      name: 'Kyushu',
+      description: 'Earlier versions of these Terran construction ships were outfitted with specialist disassembly systems that would allow them to dismantle and transport station debris in a highly efficient manner. This focus on tearing down existing structures came about as the result of the arduous task of clearing the space around Earth from the debris of those parts of the Torus Aeternal that did not drift far enough out of their original orbit. Since that clean-up work is now winding down, more recent examples of this ship model have been built without such capabilities, to save on production costs.',
+      size: Size.extralarge,
+      explosionDamage: 12000,
+      hull: 115000,
+      storage: { missile: 40, unit: 100 },
+      people: 219,
+      purpose: ShipPurpose.build,
+      thruster: Size.extralarge,
+      type: ShipType.builder,
+      mass: 885.723,
+      inertia: { pitch: 598.799, yaw: 598.799, roll: 479.039 },
+      drag: { forward: 257.145, reverse: 1028.579, horizontal: 467.116, vertical: 467.116, pitch: 877.145, yaw: 877.145, roll: 877.145 },
+      engines: [
+         { group: 'group_back_up_mid', size: Size.extralarge, hittable: false },
+         { group: 'group_back_up_mid', size: Size.extralarge, hittable: false },
+      ],
+      shields: [
+         { group: 'group_back_up_right', size: Size.medium, hittable: true },
+         { group: 'group_back_down_right', size: Size.medium, hittable: true },
+         { group: 'group_back_up_left', size: Size.medium, hittable: true },
+         { group: 'group_back_down_left', size: Size.medium, hittable: true },
+         { size: Size.extralarge, hittable: false },
+         { size: Size.extralarge, hittable: false },
+         { group: 'group_back_up_mid', size: Size.medium, hittable: true },
+      ],
+      turrets: [
+         { group: 'group_back_up_right', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_back_up_right', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_back_down_right', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_back_down_right', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_back_up_left', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_back_up_left', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_back_down_left', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_back_down_left', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+      ],
+      cargo: [
+         { max: 50, types: [ CargoTypes.container ] },
+      ],
+      docks: [
+         { capacity: 10, size: Size.medium },
+         { capacity: 40, size: Size.small },
+         { capacity: 10, size: Size.extrasmall },
+      ],
+      owners: [
+         Factions.pioneers,
+         Factions.terran,
+      ],
+      price: { min: 17974517, max: 24318464, avg: 21146490 },
+      production: [
+         {
+            time: 417,
+            amount: 1,
+            method: 'default',
+            name: 'Terran',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 500 },
+               { ware: 'energycells', amount: 2303 },
+               { ware: 'metallicmicrolattice', amount: 1049 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'ship_ter_xl_carrier_01_a',
+      version: 2,
+      name: 'Tokyo',
+      description: 'The Tokyo-class carrier has been revised and refined since its first production run, most recently during the period of the Jump Gate shutdown, but at its core it remains fundamentally the same.nnThe capacious front-facing hangar allows the carrier to quickly issue forth large waves of fighters to meet an enemy fleet head-on. In any fleet, a carrier is the central platform from which to coordinate large-scale fighter-based manoeuvres, and the Terran model does this with aplomb, whether the theatre of battle is on Sol\'s doorstep, or in a hostile system far removed from Terran domain.',
+      size: Size.extralarge,
+      race: Races.terran,
+      explosionDamage: 15000,
+      hull: 213000,
+      storage: { missile: 320, unit: 20 },
+      people: 201,
+      purpose: ShipPurpose.fight,
+      thruster: Size.extralarge,
+      type: ShipType.carrier,
+      mass: 542.639,
+      inertia: { pitch: 608.682, yaw: 608.682, roll: 486.945 },
+      drag: { forward: 141.396, reverse: 565.584, horizontal: 259.822, vertical: 259.822, pitch: 808.528, yaw: 808.528, roll: 808.528 },
+      engines: [
+         { group: 'group_back_mid_down', size: Size.extralarge, hittable: false },
+      ],
+      shields: [
+         { group: 'group_back_right_down', size: Size.medium, hittable: true },
+         { group: 'group_front_left_mid', size: Size.medium, hittable: true },
+         { size: Size.extralarge, hittable: false },
+         { group: 'group_front_mid_top', size: Size.medium, hittable: true },
+         { size: Size.extralarge, hittable: false },
+         { group: 'group_mid_left_mid', size: Size.medium, hittable: true },
+         { group: 'group_mid_left_mid', size: Size.medium, hittable: true },
+         { group: 'group_back_left_mid', size: Size.medium, hittable: true },
+         { group: 'group_back_left_mid', size: Size.medium, hittable: true },
+         { group: 'group_back_right_up', size: Size.medium, hittable: true },
+         { group: 'group_front_mid_top', size: Size.medium, hittable: true },
+         { group: 'group_front_cent_top', size: Size.medium, hittable: true },
+         { group: 'group_front_cent_top', size: Size.medium, hittable: true },
+         { group: 'group_front_mid_mid', size: Size.medium, hittable: true },
+         { group: 'group_front_mid_mid', size: Size.medium, hittable: true },
+         { group: 'group_front_mid_down', size: Size.medium, hittable: true },
+         { group: 'group_front_mid_down', size: Size.medium, hittable: true },
+         { group: 'group_mid_mid_right', size: Size.medium, hittable: true },
+         { group: 'group_mid_mid_right', size: Size.medium, hittable: true },
+         { size: Size.extralarge, hittable: false },
+         { group: 'group_back_mid_down', size: Size.medium, hittable: true },
+         { group: 'group_back_mid_down', size: Size.medium, hittable: true },
+         { group: 'group_back_mid_down', size: Size.medium, hittable: true },
+         { group: 'group_back_mid_down', size: Size.medium, hittable: true },
+      ],
+      turrets: [
+         { group: 'group_back_right_down', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_front_left_mid', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_front_left_mid', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_front_mid_top', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_front_mid_top', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_back_right_down', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_mid_left_mid', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_mid_left_mid', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_mid_left_mid', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_mid_left_mid', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_back_left_mid', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_back_left_mid', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_back_left_mid', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_back_left_mid', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_back_right_up', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_back_right_up', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_front_mid_top', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_front_mid_top', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_front_cent_top', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_front_cent_top', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_front_mid_mid', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_front_mid_mid', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_front_mid_down', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_front_mid_down', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_front_mid_down', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_front_mid_down', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_mid_mid_right', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_mid_mid_right', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+      ],
+      cargo: [
+         { max: 22000, types: [ CargoTypes.container ] },
+      ],
+      docks: [
+         { capacity: 10, size: Size.medium },
+         { capacity: 40, size: Size.small },
+         { capacity: 10, size: Size.extrasmall },
+      ],
+      owners: [
+         Factions.terran,
+      ],
+      price: { min: 20670938, max: 27966563, avg: 24318750 },
+      production: [
+         {
+            time: 479,
+            amount: 1,
+            method: 'default',
+            name: 'Terran',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 575 },
+               { ware: 'energycells', amount: 2650 },
+               { ware: 'metallicmicrolattice', amount: 1207 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'ship_ter_xl_resupplier_01_a',
+      version: 2,
+      name: 'Honshu',
+      description: 'This auxiliary ship, the Honshu, is noticeably slower than competitors\' supply ships. While other ships of this type are usually aimed at providing immediate, short-term support for a fleet, this ship is designed to take part in long-distance operations that often lead Terran Protectorate fleets far away from Sol, and far also from allied harbours. For this reason, the design sacrifices speed for an exceptionally large storage capacity. However, this is not the only part of the ship that is engineered for long-range travel. Its most distinctive visual feature is its solar sail, which generates additional energy that can be made available to the ship\'s systems during extended journeys into hostile space.',
+      size: Size.extralarge,
+      race: Races.terran,
+      explosionDamage: 12000,
+      hull: 157000,
+      storage: { missile: 40, unit: 100 },
+      people: 123,
+      purpose: ShipPurpose.auxiliary,
+      thruster: Size.extralarge,
+      type: ShipType.resupplier,
+      mass: 1199.838,
+      inertia: { pitch: 869.255, yaw: 869.255, roll: 695.404 },
+      drag: { forward: 239.976, reverse: 959.903, horizontal: 431.671, vertical: 431.671, pitch: 939.968, yaw: 939.968, roll: 939.968 },
+      engines: [
+         { group: 'group_back_mid_down', size: Size.extralarge, hittable: false },
+      ],
+      shields: [
+         { group: 'group_back_cent_up', size: Size.medium, hittable: true },
+         { group: 'group_cent_cent_down', size: Size.medium, hittable: true },
+         { group: 'group_back_right_down', size: Size.medium, hittable: true },
+         { group: 'group_cent_right_top', size: Size.medium, hittable: true },
+         { group: 'group_back_mid_down', size: Size.medium, hittable: true },
+         { group: 'group_back_left_down', size: Size.medium, hittable: true },
+         { size: Size.extralarge, hittable: false },
+         { group: 'group_front_cent_top', size: Size.medium, hittable: true },
+         { group: 'group_back_mid_down', size: Size.medium, hittable: true },
+         { group: 'group_front_mid_down', size: Size.medium, hittable: true },
+      ],
+      turrets: [
+         { group: 'group_cent_cent_down', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_back_cent_up', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_back_right_down', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_cent_right_top', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_back_left_down', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_back_cent_up', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_cent_right_top', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_front_cent_top', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_front_cent_top', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_cent_cent_down', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_back_left_down', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_back_right_down', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_front_mid_down', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+         { group: 'group_front_mid_down', size: Size.medium, hittable: true, types: [ TurretType.standard, TurretType.missile ] },
+      ],
+      cargo: [
+         { max: 43000, types: [ CargoTypes.container ] },
+      ],
+      docks: [
+         { capacity: 40, size: Size.small },
+         { capacity: 10, size: Size.extrasmall },
+         { capacity: 10, size: Size.medium },
+      ],
+      owners: [
+         Factions.pioneers,
+         Factions.terran,
+      ],
+      price: { min: 22324290, max: 30203451, avg: 26263870 },
+      production: [
+         {
+            time: 517,
+            amount: 1,
+            method: 'default',
+            name: 'Terran',
+            wares: [
+               { ware: 'computronicsubstrate', amount: 621 },
+               { ware: 'energycells', amount: 2859 },
+               { ware: 'metallicmicrolattice', amount: 1303 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'ship_yak_m_corvette_01_a',
+      version: 2,
+      name: 'Kuraokami',
+      description: 'When the Yaki established their base of operations close to the Paranid realms, it was only natural that they would pirate Paranid ships and poach their technology, before adapting them to their own purposes. The Kuraokami-class corvette was based on the Nemesis, but over time the Yaki modified the design to fit their own needs.nnTheir familiarity with experimental technology, especially their understanding, albeit imperfect, of Xenon machinery, allowed them to strip away some of the hull plating without significantly sacrificing hull integrity. Ultimately, this design\'s focus is almost entirely on speed and storage capacity, to enable the Yaki to raid their targets with terrifying efficiency.',
+      size: Size.medium,
+      explosionDamage: 5000,
+      hull: 10000,
+      storage: { missile: 40, unit: 0 },
+      people: 9,
+      purpose: ShipPurpose.fight,
+      thruster: Size.medium,
+      type: ShipType.corvette,
+      mass: 16.76,
+      inertia: { pitch: 3.751, yaw: 3.751, roll: 3.001 },
+      drag: { forward: 2.76, reverse: 11.039, horizontal: 12.702, vertical: 12.702, pitch: 9.032, yaw: 9.032, roll: 9.032 },
+      engines: [
+         { size: Size.medium, hittable: false },
+      ],
+      shields: [
+         { size: Size.medium, hittable: false },
+         { size: Size.medium, hittable: false },
+      ],
+      weapons: [
+         { size: Size.medium, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+         { size: Size.medium, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+         { size: Size.medium, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+         { size: Size.medium, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+         { size: Size.medium, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+      ],
+      turrets: [
+         { size: Size.medium, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+         { size: Size.medium, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+      ],
+      cargo: [
+         { max: 1100, types: [ CargoTypes.container, CargoTypes.solid, CargoTypes.liquid ] },
+      ],
+      docks: [
+         { capacity: 10, size: Size.extrasmall },
+      ],
+      owners: [
+         Factions.yaki,
+      ],
+      price: { min: 836421, max: 1131629, avg: 984025 },
+      production: [
+         {
+            time: 20,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'energycells', amount: 113 },
+               { ware: 'hullparts', amount: 933 },
+            ],
+         },
+      ]
+   },
+   {
+      id: 'ship_yak_s_fighter_01_a',
+      version: 2,
+      name: 'Moreya',
+      description: 'The Moreya-class fighter is a Yaki powerhouse. The initial design was based on hijacked Paranid Pegasus-class scouts, which were modified with temperamental Yaki technology to tailor it to their specific requirements. Frequently operating alone in enemy territory, and needing to withstand sustained enemy fire, they added reinforced hull plating for improved defence. Similarly, the Yaki made it possible for more weapons to be attached to the front of the ship, to ensure that they could execute their raids successfully.',
+      size: Size.small,
+      hull: 4000,
+      storage: { missile: 20, unit: 0 },
+      people: 3,
+      purpose: ShipPurpose.fight,
+      thruster: Size.small,
+      type: ShipType.fighter,
+      mass: 6.484,
+      inertia: { pitch: 0.987, yaw: 0.987, roll: 1.085 },
+      drag: { forward: 2.09, reverse: 8.359, horizontal: 3.726, vertical: 3.726, pitch: 3.292, yaw: 3.292, roll: 3.292 },
+      engines: [
+         { size: Size.small, hittable: false },
+         { size: Size.small, hittable: false },
+      ],
+      shields: [
+         { size: Size.small, hittable: false },
+      ],
+      weapons: [
+         { size: Size.small, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+         { size: Size.small, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+         { size: Size.small, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+         { size: Size.small, hittable: false, types: [ TurretType.standard, TurretType.missile ] },
+      ],
+      cargo: [
+         { max: 510, types: [ CargoTypes.container, CargoTypes.solid, CargoTypes.liquid ] },
+      ],
+      docks: [
+         { capacity: 10, size: Size.extrasmall },
+      ],
+      owners: [
+         Factions.yaki,
+      ],
+      price: { min: 228803, max: 309557, avg: 269180 },
+      production: [
+         {
+            time: 13,
+            amount: 1,
+            method: 'default',
+            name: 'Universal',
+            wares: [
+               { ware: 'energycells', amount: 73 },
+               { ware: 'hullparts', amount: 252 },
             ],
          },
       ]

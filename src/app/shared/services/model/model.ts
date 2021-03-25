@@ -17,6 +17,7 @@ export interface Ware {
   price: Price;
   group?: WareGroup;
   production?: Production[];
+  illegal?: Faction[];
 }
 
 export interface Price {
@@ -80,6 +81,7 @@ export interface CargoType {
 export interface StationModule {
   id: string;
   name: string;
+  macro: string;
   description: string;
   explosionDamage?: number;
   hull: number;
@@ -145,7 +147,7 @@ export interface Ship {
   drag: Drag;
   docks?: Dock[];
   engines: Slot[];
-  shields: Slot[];
+  shields?: Slot[];
   weapons?: TurretSlot[];
   turrets?: TurretSlot[];
 }
